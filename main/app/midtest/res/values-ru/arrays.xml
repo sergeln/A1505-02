@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keep_filename_list">
+        <item>Android</item>
+        <item>Books</item>
+        <item>Music</item>
+        <item>Pictures</item>
+        <item>Ringtones</item>
+        <item>System</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="wallpapers">
+        <item>wallpaper_01</item>
+        <item>wallpaper_02</item>
+        <item>wallpaper_03</item>
+        <item>wallpaper_04</item>
+        <item>wallpaper_05</item>
+        <item>wallpaper_06</item>
+        <item>wallpaper_07</item>
+    </string-array>
+</resources>

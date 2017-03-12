@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intent_info">
+        <item>.Разблокировать экран</item>
+        <item>.Выключение экрана</item>
+        <item>.Включение экрана</item>
+        <item>.Изменять время</item>
+        <item>.Изменять дату</item>
+        <item>.Изменять часовой пояс</item>
+        <item>.Изменять DNS</item>
+        <item>.Изменять будильник</item>
+        <item>.Загрузка завершена</item>
+        <item>.Скачать и установка АПК</item>
+        <item>.При установке APK</item>
+        <item>.APK обновления</item>
+        <item>.АПК при удалении</item>
+        <item>.Замена АПК</item>
+        <item>.АПК полностью удалена</item>
+        <item>.Обои для рабочего стола изменения</item>
+        <item>.При изменении языка</item>
+        <item>.Замены батареи</item>
+        <item>.Когда низкая батарея</item>
+        <item>.Батарея полностью</item>
+        <item>.Во время внешнего питания</item>
+        <item>.Когда внешний блок питания отключен</item>
+        <item>.При хранении полной</item>
+        <item>.Открытые машины</item>
+        <item>.Переключить режим полета</item>
+        <item>.Изменения сетевого подключения</item>
+        <item>.При подключении в ухо</item>
+        <item>.При изменении IME</item>
+        <item>.При вставке карты SD</item>
+        <item>.При удалении SD-карты</item>
+        <item>.Когда вы вставьте SD-карту и установить полный</item>
+        <item>.Извлеките SD-карту после удаления</item>
+        <item>.Изменения состояния вызова</item>
+        <item>.Новые исходящие звонки</item>
+        <item>.При сканировании каталог</item>
+        <item>.Проверка каталога завершена</item>
+        <item>.Когда модуль Bluetooth будет включен или выключен</item>
+    </string-array>
+    <string-array name="heatsource_convert_app">
+        <item>mm-qcamera-daemon=Обслуживание камеры</item>
+    </string-array>
+    <string-array name="security_question_items">
+        <item>Начальная школа</item>
+        <item>Высшая школа</item>
+        <item>Колледж</item>
+        <item>Любимый вид спорта</item>
+        <item>Произвольный вопрос</item>
+    </string-array>
+    <string-array name="security_relate_pass_find_items">
+        <item>Номер телефона родственника</item>
+        <item>Подсказка для пароля</item>
+    </string-array>
+    <string-array name="week_strings">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item>" "</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Thur</item>
+        <item>Пт</item>
+        <item>Вс</item>
+    </string-array>
+    <string-array name="fb_city">
+        <item>Пекин</item>
+        <item>Тяньцзинь</item>
+        <item>Хэбэй</item>
+        <item>Шаньси</item>
+        <item>Внутренняя Монголия</item>
+        <item>Ляонин</item>
+        <item>Цзилинь</item>
+        <item>Хэйлунцзян</item>
+        <item>Шанхай</item>
+        <item>Провинция Цзянсу</item>
+        <item>Чжэцзян</item>
+        <item>Аньхой</item>
+        <item>Фуцзянь</item>
+        <item>В провинции Цзянси</item>
+        <item>Шаньдун</item>
+        <item>Хэнань</item>
+        <item>Хубэй</item>
+        <item>Хунань</item>
+        <item>Гуандун</item>
+        <item>В Гуанси</item>
+        <item>Хайнань</item>
+        <item>Чунцин</item>
+        <item>Сычуань</item>
+        <item>В провинции Гуйчжоу</item>
+        <item>Юньнань</item>
+        <item>Тибет</item>
+        <item>Шэньси</item>
+        <item>В провинции Ганьсу</item>
+        <item>В провинции Цинхай</item>
+        <item>Нинся-Хуэйский автономный район</item>
+        <item>В Синьцзяне</item>
+        <item>Тайвань</item>
+        <item>Гонконг</item>
+        <item>Макао</item>
+        <item>За рубежом</item>
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/huangli_diwen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/cal_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/time_title_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" android:layout_marginBottom="2.0dip">
+                        <TextView android:textSize="16.0dip" android:textColor="#ff1a1a1a" android:layout_gravity="center" android:id="@id/now_calendar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="72.0dip" android:textColor="@color/almanac_title_color" android:layout_gravity="center" android:id="@id/now_calendar_day" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                            <TextView android:textSize="36.0dip" android:textColor="@color/almanac_purple_color" android:id="@id/lunar_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lunar calendar" android:fontFamily="sans-serif-light" />
+                            <TextView android:textSize="36.0dip" android:textColor="@color/almanac_purple_color" android:id="@id/lunar_year_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:fontFamily="sans-serif-light" />
+                            <TextView android:textSize="36.0dip" android:textColor="@color/almanac_purple_color" android:id="@id/lunar_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+                        </LinearLayout>
+                        <TextView android:textSize="16.0dip" android:textColor="#ff808080" android:layout_gravity="center" android:id="@id/heaven" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="55.0dip" />
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/calendar_container_yi" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip">
+                    <View android:id="@id/line1" android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+                    <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/almanac_yi" android:layout_toRightOf="@id/line1" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_purple_color" android:id="@id/yi_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/imageView1" android:layout_centerVertical="true" />
+                    <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/calendar_container_ji" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip">
+                    <View android:id="@id/line2" android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+                    <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/almanac_ji" android:layout_toRightOf="@id/line2" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_title_color" android:id="@id/ji_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/imageView2" android:layout_centerVertical="true" />
+                    <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/calendar_container_zhushenfangwei" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip">
+                    <View android:id="@id/line3" android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:id="@id/zhushen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/zhu_shen_fang_wei" android:layout_toRightOf="@id/line3" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:id="@id/tshzhf_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/zhushen_title" android:layout_centerVertical="true" />
+                    <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="14.0dip">
+                    <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="129.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip">
+                        <View android:id="@id/line4" android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_toRightOf="@id/line4" android:layout_centerVertical="true">
+                            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/calendar_container_jiuxing" android:layout_width="wrap_content" android:layout_height="64.0dip">
+                                    <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/jiu_xing" android:fontFamily="sans-serif-medium" />
+                                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:gravity="left" android:id="@id/jiuxing_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                                </LinearLayout>
+                                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/calendar_container_xingxiu" android:layout_width="wrap_content" android:layout_height="64.0dip">
+                                    <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/xing_xiu" android:fontFamily="sans-serif-medium" />
+                                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:id="@id/suiming_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/calendar_container_pengzubaiji" android:layout_width="0.0dip" android:layout_height="129.0dip" android:layout_weight="1.0">
+                                <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="@string/peng_zu_bai_ji" android:fontFamily="sans-serif-medium" />
+                                <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:id="@id/bogey_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+                            </LinearLayout>
+                            <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentTop="true">
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/calendar_container_yearold" android:layout_width="wrap_content" android:layout_height="64.0dip">
+                                    <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/chong" android:fontFamily="sans-serif-medium" />
+                                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:id="@id/year_old_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                                </LinearLayout>
+                                <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/calendar_container_wuxing" android:layout_width="wrap_content" android:layout_height="64.0dip">
+                                    <TextView android:textSize="16.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/wu_xing" android:fontFamily="sans-serif-medium" />
+                                    <TextView android:textSize="14.0dip" android:textColor="@color/almanac_text_color" android:layout_gravity="center_horizontal" android:id="@id/wuxing_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:background="@color/almanac_backline_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <View android:background="@color/almanac_backline_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="1.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

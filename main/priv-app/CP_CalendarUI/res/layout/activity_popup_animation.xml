@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mengban_pop" android:background="#7f000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/layout_timeset11_pop" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="360.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/font_time_tv_newplan" android:gravity="center" android:id="@id/mytext1_pop" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="Time setting" />
+        <TextView android:id="@id/dv6_pop" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/mytext1_pop" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lunar_allday_pop" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv6_pop">
+            <com.qiku.android.widget.QkCheckBox android:textSize="16.0dip" android:textColor="#ff0d0d0d" android:id="@id/isAllday_pop" android:layout_width="90.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox_bg_selector" android:text="All day" android:layout_alignParentRight="true" />
+            <com.qiku.android.widget.QkCheckBox android:textSize="16.0dip" android:textColor="#ff0d0d0d" android:id="@id/isLunar_pop" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox_bg_selector" android:text="Lunar calendar" android:layout_toLeftOf="@id/isAllday_pop" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/calendar_time_picker1_pop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lunar_allday_pop">
+            <com.coolpad.android.view.picker.LunarCalendarPicker android:id="@id/datePicker1_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="25.0dip" android:spinnersShown="true" android:calendarViewShown="true" />
+            <com.coolpad.android.view.picker.TimePicker android:id="@id/timePicker1_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:spinnersShown="true" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_below="@id/calendar_time_picker1_pop">
+            <Button android:textSize="14.0sp" android:textColor="@color/font_time_tv_newplan" android:id="@id/btn_time_cancel_pop" android:background="@drawable/selector_plan_morebtn" android:focusable="true" android:clickable="true" android:layout_width="150.0dip" android:layout_height="36.0dip" android:text="Cancel" android:layout_alignParentLeft="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/font_time_tv_newplan" android:id="@id/btn_time_ok_pop" android:background="@drawable/selector_plan_morebtn" android:focusable="true" android:clickable="true" android:layout_width="150.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:text="Determine" android:layout_toRightOf="@id/btn_time_cancel_pop" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

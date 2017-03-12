@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="view_display_items">
+        <item>Папки</item>
+        <item>По имени (А-Я)</item>
+        <item>По дате (нов.-стар.)</item>
+        <item>По размеру (больш.-мал.)</item>
+    </string-array>
+    <string-array name="albumlist_sort_items">
+        <item>По имени (А-Я)</item>
+        <item>По времени (нов.-стар.)</item>
+        <item>По размеру (больш.-мал.)</item>
+    </string-array>
+    <string-array name="list_display_items">
+        <item>Отображение представления</item>
+    </string-array>
+    <string-array name="player_setting_group">
+        <item>Настройки повтора</item>
+        <item>Цвет</item>
+        <item>Настройки субтитров</item>
+        <item>Размер изображения</item>
+    </string-array>
+    <string-array name="player_setting_play_set">
+        <item>Повторять файл</item>
+        <item>Повторять список</item>
+        <item>Не повторять</item>
+    </string-array>
+    <string-array name="player_subtitles_colors">
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Зеленый</item>
+        <item>Синий</item>
+    </string-array>
+    <string-array name="player_subtitles_size">
+        <item>Крупные</item>
+        <item>Средние</item>
+        <item>Малкие</item>
+    </string-array>
+    <string-array name="player_scale_size">
+        <item>Оригинал</item>
+        <item>Подогнать</item>
+        <item>Растянуть</item>
+    </string-array>
+</resources>

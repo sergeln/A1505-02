@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_title">
+        <item>FarFrr Test</item>
+        <item>MP Test</item>
+        <item>About Message</item>
+    </string-array>
+    <string-array name="mp_test_items">
+        <item>Spi Test</item>
+        <item>PixelTest</item>
+        <item>Reset pin Test</item>
+        <item>Defect detection Tset</item>
+        <item>Speed Test</item>
+        <item>Image Quality Test</item>
+        <item>Scene Test</item>
+    </string-array>
+</resources>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_labels_en">
+        <item>Остров Мидуэй</item>
+        <item>Гавайи</item>
+        <item>Аляска</item>
+        <item>Лос-Анджелес</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Горное время</item>
+        <item>Центральная Америка</item>
+        <item>Центральное время</item>
+        <item>Мехико</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Восточное время</item>
+        <item>Венесуэла</item>
+        <item>Атлантическое время</item>
+        <item>Манаус</item>
+        <item>Ньюфаундленд</item>
+        <item>Сантьяго</item>
+        <item>Буэнос-Айрес</item>
+        <item>Гренландия</item>
+        <item>Бразилиа</item>
+        <item>Монтевидео</item>
+        <item>Срединно-Атлантического</item>
+        <item>Азорские острова</item>
+        <item>Кабо-Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараево</item>
+        <item>Париж</item>
+        <item>Западная Африка время</item>
+        <item>Виндхук</item>
+        <item>Амман, Иордания</item>
+        <item>Афины, Стамбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Каир</item>
+        <item>Хельсинки</item>
+        <item>Иерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>«Озинки»</item>
+        <item>Екатеринбург</item>
+        <item>Калькутта</item>
+        <item>Шри-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Бангкок</item>
+        <item>Пекин</item>
+        <item>Гонконг</item>
+        <item>Иркутск</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбэй</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Дарвин</item>
+        <item>Брисбен</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Аделаида</item>
+        <item>Хобарт</item>
+        <item>Сидней, Канберра</item>
+        <item>Магадан</item>
+        <item>Фиджи</item>
+        <item>Маршалловы острова</item>
+        <item>Окленд</item>
+        <item>Тонга</item>
+    </string-array>
+    <string-array name="timezone_labels_zh">
+        <item>Остров Мидуэй</item>
+        <item>Гавайи</item>
+        <item>Аляска</item>
+        <item>Лос-Анджелес</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Горное время</item>
+        <item>Центральная Америка</item>
+        <item>Центральное время</item>
+        <item>Мехико</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Восточное время</item>
+        <item>Венесуэла</item>
+        <item>Атлантическое время</item>
+        <item>Манаус</item>
+        <item>Ньюфаундленд</item>
+        <item>Сантьяго</item>
+        <item>Буэнос-Айрес</item>
+        <item>Гренландия</item>
+        <item>Бразилиа</item>
+        <item>Монтевидео</item>
+        <item>Срединно-Атлантического</item>
+        <item>Азорские острова</item>
+        <item>Кабо-Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараево</item>
+        <item>Париж</item>
+        <item>Западная Африка время</item>
+        <item>Виндхук</item>
+        <item>Амман, Иордания</item>
+        <item>Афины, Стамбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Каир</item>
+        <item>Хельсинки</item>
+        <item>Иерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>«Озинки»</item>
+        <item>Екатеринбург</item>
+        <item>Калькутта</item>
+        <item>Шри-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Бангкок</item>
+        <item>Пекин</item>
+        <item>Гонконг</item>
+        <item>Иркутск</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбэй</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Дарвин</item>
+        <item>Брисбен</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Аделаида</item>
+        <item>Хобарт</item>
+        <item>Сидней, Канберра</item>
+        <item>Магадан</item>
+        <item>Фиджи</item>
+        <item>Маршалловы острова</item>
+        <item>Окленд</item>
+        <item>Тонга</item>
+    </string-array>
+    <string-array name="alertway_list_preference">
+        <item>Мелодия и вибрация</item>
+        <item>Мелодия</item>
+        <item>Вибрация</item>
+    </string-array>
+    <string-array name="startactivity_list_preference">
+        <item>Будильник</item>
+        <item>Мировое время</item>
+        <item>Секундомер</item>
+        <item>Таймер</item>
+    </string-array>
+    <string-array name="snooze_reminder_text">
+        <item>отложить на 5 мин.</item>
+        <item>отложить на 10 мин.</item>
+        <item>отложить на 15 мин.</item>
+        <item>отложить на 20 мин.</item>
+        <item>отложить на 25 мин.</item>
+        <item>отложить на 30 мин.</item>
+        <item>отложить на 1 час</item>
+    </string-array>
+    <string-array name="setalarm_repeat_days">
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+        <item>ВС</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Будильник зазвонит менее чем через минуту.</item>
+        <item>Будильник зазвонит через %1$s</item>
+        <item>Будильник зазвонит через %2$s</item>
+        <item>Будильник зазвонит через %1$s и %2$s</item>
+        <item>Будильник зазвонит через %3$s</item>
+        <item>Будильник зазвонит через %1$s и %3$s</item>
+        <item>Будильник зазвонит через %2$s и %3$s</item>
+        <item>Будильник зазвонит через %1$s, %2$s и %3$s</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>15 мин.</item>
+        <item>20 мин.</item>
+        <item>25 мин.</item>
+        <item>30 мин.</item>
+    </string-array>
+    <string-array name="diabolo_duration_entries">
+        <item>1 мин.</item>
+        <item>3 мин.</item>
+        <item>5 мин.</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Громкость</item>
+        <item>Отложить</item>
+        <item>Выключить</item>
+    </string-array>
+    <string-array name="sensor_button_setting_entries">
+        <item>Закрыть</item>
+        <item>Вкл</item>
+    </string-array>
+    <string-array name="autorestart_duration_entries">
+        <item>Не повторять</item>
+        <item>1 раз</item>
+        <item>2 раза</item>
+        <item>3 раза</item>
+        <item>5 раз</item>
+    </string-array>
+    <string-array name="week_strings">
+        <item>ВС</item>
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item> </item>
+        <item>ВС</item>
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+    </string-array>
+</resources>

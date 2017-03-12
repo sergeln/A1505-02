@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entry_log_limit_size">
+        <item>без ограничений</item>
+        <item>1 Гб</item>
+        <item>2 Гб</item>
+    </string-array>
+    <string-array name="entry_log_format">
+        <item>time</item>
+        <item>long</item>
+        <item>brief</item>
+        <item>threadtime</item>
+    </string-array>
+    <string-array name="entry_logout_dir">
+        <item>/mnt/sdcard/log</item>
+        <item>/data/log</item>
+        <item>/storage/sdcard1/log</item>
+        <item>/storage/external/log</item>
+    </string-array>
+    <string-array name="entryvalue_logout_dir">
+        <item>/mnt/sdcard/log</item>
+        <item>/data/log</item>
+        <item>/storage/sdcard1/log</item>
+        <item>/storage/external/log</item>
+    </string-array>
+    <string-array name="entry_log_type">
+        <item>Main Buffer</item>
+        <item>Radio Buffer</item>
+        <item>Events Buffer</item>
+        <item>System Buffer</item>
+        <item>Crash Buffer</item>
+    </string-array>
+    <string-array name="entry_log_priority">
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Ошибка</item>
+    </string-array>
+    <string-array name="entry_log_content">
+        <item>Нет</item>
+        <item>10 Мб</item>
+        <item>30 Мб</item>
+        <item>50 Мб</item>
+        <item>100 Мб</item>
+    </string-array>
+    <string-array name="select_trouble_time">
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>30 мин.</item>
+        <item>1 ч.</item>
+        <item>2 ч.</item>
+        <item>5 ч.</item>
+        <item>10 ч.</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+    </string-array>
+</resources>

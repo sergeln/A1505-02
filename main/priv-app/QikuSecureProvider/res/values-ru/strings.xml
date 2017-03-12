@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QikuSecureApplication</string>
+    <string name="query_btn">Запрос</string>
+    <string name="insert_btn">Вставить</string>
+    <string name="update_btn">Обновить</string>
+    <string name="delete_btn">Удалить</string>
+</resources>

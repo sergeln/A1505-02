@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_answer_scene_choices">
+        <item>Проводные наушники/Bluetooth</item>
+        <item>Проводные наушники</item>
+        <item>Bluetooth наушники</item>
+    </string-array>
+    <string-array name="auto_answer_delay_time_choices">
+        <item>3 сек</item>
+        <item>5 сек</item>
+        <item>10 сек</item>
+        <item>15 сек</item>
+    </string-array>
+    <string-array name="qk_unknown_number_info_context">
+        <item>С другой стороны открыла вызова скрытого сервиса</item>
+        <item>Сначала нужно включить АОН</item>
+        <item>Армия, правительство и другие спецслужбы</item>
+        <item>Мошенничества, угроз и других вредоносных звонков, остерегайтесь обмана</item>
+    </string-array>
+    <string-array name="qk_qiku_block_type">
+        <item>Подозреваемый в мошенничестве</item>
+        <item>Беспокоящие телефонные звонки</item>
+        <item>Реклама маркетинг</item>
+        <item>Исполнительный рекрутер</item>
+        <item>Финансы и страхование</item>
+        <item>Агенты по недвижимости</item>
+        <item>Экспресс</item>
+        <item>Такси</item>
+        <item>Номер сертификата</item>
+    </string-array>
+</resources>

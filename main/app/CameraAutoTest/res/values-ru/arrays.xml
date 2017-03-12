@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_camera_focusmode_entryvalues">
+        <item>авто</item>
+        <item>бесконечность</item>
+        <item>макро</item>
+    </string-array>
+    <string-array name="pref_camera_flashmode_entryvalues">
+        <item>авто</item>
+        <item>вкл.</item>
+        <item>выкл.</item>
+    </string-array>
+    <string-array name="pref_camera_video_flashmode_entryvalues">
+        <item>Вспышка</item>
+        <item>выкл.</item>
+    </string-array>
+    <string-array name="pref_camera_recordlocation_entryvalues">
+        <item>выкл.</item>
+        <item>вкл</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entryvalues">
+        <item>авто</item>
+        <item>лампа накаливания</item>
+        <item>дневной свет</item>
+        <item>Лампа дневного света</item>
+        <item>Облачно</item>
+    </string-array>
+    <string-array name="pref_camera_scenemode_entryvalues">
+        <item>авто</item>
+        <item>спорт</item>
+        <item>ночь</item>
+        <item>закат</item>
+        <item>вечеринка</item>
+    </string-array>
+    <string-array name="pref_camera_focusmode_default_array">
+        <item>Непрерывного изображения</item>
+        <item>авто</item>
+    </string-array>
+</resources>

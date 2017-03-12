@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qiku_framework_res_test">Тест QIKU!</string>
+    <string name="qiku_framework_res_hello">Привет QIKU!</string>
+    <string name="battery_mode_change_normal_title">Менеджер зарядки</string>
+    <string name="battery_mode_change_normal_message_fastmode">Режим быстрой зарядки</string>
+    <string name="battery_mode_change_normal_message_normalmode">Обычный режим</string>
+    <string name="battery_mode_change_abnormal_title">Информация</string>
+    <string name="battery_mode_change_work">Коснитесь чтобы изменить.</string>
+    <string name="battery_mode_change_abnormal_message">Произошло исключение возможно из-за нестабильного тока в зарядном устройстве. Переключите режим зарядки.</string>
+    <string name="battery_overheat_temperature">Высокая температура аккумулятора. Пожалуйста, держите ее в пределах нормы.</string>
+    <string name="battery_cold_temperature">Низка температура аккумулятора. Пожалуйста, держите ее в пределах нормы.</string>
+    <string name="battery_over_voltage">Высокое напряжение аккумулятора. Прекратите зарядку телефона.</string>
+    <string name="charger_over_voltage">Напряжение аккумулятора слишком высокое. Прекратите зарядку телефона.</string>
+    <string name="charger_low_voltage">Зарядное напряжение слишком низкое. Замените зарядное устройство для продолжения.</string>
+    <string name="internal_info">Менее %1$d Мб свободного места в вашем телефоне. Удалите ненужные файлы.</string>
+    <string name="external_info">Менее %1$d Мб свободного места на внешней SD-карте. Удалите ненужные файлы.</string>
+    <string name="internal_external_info">Менее %1$d Мб свободного места в телефоне и SD-карте. Удалите ненужные файлы.</string>
+    <string name="qk_remember_choice_text">Запомнить выбор, не напоминать снова</string>
+    <string name="message">Сообщение</string>
+    <string name="global_action_new_shutdown_title">Выключение</string>
+    <string name="global_action_new_reboot_title">Перезагрузка</string>
+    <string name="global_toggle_new_airplane_mode_title">Режим полёта</string>
+    <string name="global_toggle_new_mute_mode_title">Без звука</string>
+    <string name="global_toggle_new_standbypower_mode_log_button_text">Журнал</string>
+    <string name="reboot_title">Перезагрузка телефона</string>
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="reboot_confirm">Перезагрузить телефон?</string>
+    <string name="direct_restart_not_upgrade">Перезагрузить без обновления</string>
+    <string name="reboot_for_updata">Перезагрузить и обновить</string>
+    <string name="power_shortage">Низкий уровень заряда</string>
+    <string name="please_charge_and_try_again">Зарядите и повторите попытку</string>
+    <string name="insufficient_storage_space">Недостаточно места для хранения</string>
+    <string name="please_clean_up_the_space_and_try_again">Освободите память и повторите попытку</string>
+    <string name="qiku_usb_rndis_notification_title">Обмен через USB сети</string>
+    <string name="global_toggle_new_standbypower_mode_dialog_title1">"Осталось заряда "</string>
+    <string name="global_toggle_new_standbypower_mode_dialog_title2">"%, запустить режим энергосбережения?
+
+В режиме энергосбережения сетевое подключение отсутствует, если оно вам нужно, то восстановите сетевое подключение вручную.
+Открыть спомощью длительного нажатия на кнопку питания и выполните выключение/перезапуск функции.
+Полезные советы: Часто не включайте и выключайте экран в этом режиме."</string>
+    <string name="global_toggle_new_standbypower_mode_dialog_button_ok">Включить режим энергосбережения</string>
+    <string name="global_action_affirm_shutdown_title">Выключение</string>
+    <string name="global_action_affirm_reboot_title">Перезагрузка</string>
+    <string name="global_toggle_new_standby_power_saving_mode_title">Энергосбережение</string>
+    <string name="hint_text">При включении функции энергосбережения снижается энергопотребление за счёт отключения подключение к сети, уменьшения таймаута экрана, яркости экрана и т.д.. При выключении функции все ранее настроенные параметры восстанавливаются. Продолжить?</string>
+    <string name="sure_text">Ok</string>
+    <string name="cancel_text">Отмена</string>
+    <string name="dont_alertme_agin">Не напоминать больше</string>
+    <string name="lockscreen_carrier_default">Нет службы</string>
+    <string name="noApplications">Приложения могут выполнять это действие.</string>
+    <string name="permission_remember_choice">Запомнить</string>
+    <string name="permission">Разрешение</string>
+    <string name="allow">Разрешить</string>
+    <string name="deny">Запретить</string>
+    <string name="toast_system_alert_window_reject">Плавающее окно разрешения запрещено</string>
+    <string name="fingerprint_pay_alarm">Быстрый платеж с помощью отпечатка пальцев, пожалуйста, подключитесь к сети!</string>
+    <string name="qk_bgkill_desc">Блокировать #app# выполняющее несущественные операции в фоновом режиме.</string>
+    <string name="qk_trust_app">Доверять APP</string>
+    <string name="qk_deny_app">Разрешить OPT</string>
+    <string name="enable_virtual_key">Виртуальная кнопка включена</string>
+    <string name="disable_virtual_key">Виртуальная кнопка отключена</string>
+</resources>

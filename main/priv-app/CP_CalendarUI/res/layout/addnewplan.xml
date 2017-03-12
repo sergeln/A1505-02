@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_add_newplan" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <EditText android:textSize="16.0sp" android:textColorHint="@color/font_titlehint_tv_newplan" android:id="@id/edv1" android:background="@drawable/selector_edittext_disable" android:layout_width="fill_parent" android:layout_height="64.0dip" android:hint="@string/addplan_title" android:inputType="none" />
+        <TextView android:id="@id/dv1" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/edv1" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/layoutitem2" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv1">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_centerVertical="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/font_titlehint_tv_newplan" android:id="@id/time1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start time" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/font_day_tv_newplan" android:id="@id/day1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:id="@id/arrow1" android:background="@drawable/yl_addnewplan_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:scaleType="matrix" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_toRightOf="@id/arrow1" android:layout_centerVertical="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/font_titlehint_tv_newplan" android:id="@id/time2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End time" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/font_day_tv_newplan" android:id="@id/day2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/time2" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:id="@id/dv2" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/layoutitem2" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/layoutitem3" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv2">
+            <Button android:textSize="16.0sp" android:textColor="@color/font_time_tv_newplan" android:id="@id/moreitem" android:background="@drawable/selector_plan_morebtn" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="37.0dip" android:text="Add other options" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layoutitem4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dv2">
+            <com.yulong.android.calendar.view.MyTextImageItem android:id="@id/item_contact" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+            <TextView android:id="@id/dv31" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/item_contact" android:layout_centerHorizontal="true" />
+            <com.yulong.android.calendar.view.MyTextImageItem android:id="@id/item_remind" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv31" />
+            <TextView android:id="@id/dv4" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/item_remind" android:layout_centerHorizontal="true" />
+            <com.yulong.android.calendar.view.MyTextImageItem android:id="@id/item_repeat" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv4" />
+            <TextView android:id="@id/dv5" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/item_repeat" android:layout_centerHorizontal="true" />
+            <com.yulong.android.calendar.view.MyTextImageItem android:id="@id/item_position" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv5" />
+            <TextView android:id="@id/dv6" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/item_position" android:layout_centerHorizontal="true" />
+            <com.yulong.android.calendar.view.MyTextImageItem android:id="@id/item_tips" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/dv6" />
+            <TextView android:id="@id/dv7" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/item_tips" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/mengban1" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/layout_timeset" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="360.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/font_time_tv_newplan" android:gravity="center" android:id="@id/mytext1" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="Time setting" />
+        <TextView android:id="@id/dv8" android:background="@color/my_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/mytext1" android:layout_centerHorizontal="true" />
+        <com.qiku.android.widget.QkCheckBox android:textSize="16.0dip" android:textColor="#ff0d0d0d" android:id="@id/isAllday" android:paddingLeft="8.0dip" android:layout_width="@dimen/edit_event_set_time_radiobtn_width" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:button="@drawable/checkbox_bg_selector" android:text="@string/all_day" android:layout_below="@id/dv8" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/calendar_time_picker1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/isAllday">
+            <com.coolpad.android.view.picker.LunarCalendarPicker android:id="@id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="25.0dip" android:spinnersShown="true" android:calendarViewShown="true" />
+            <com.coolpad.android.view.picker.TimePicker android:id="@id/timePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:spinnersShown="true" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_below="@id/calendar_time_picker1">
+            <Button android:textSize="14.0sp" android:textColor="@color/font_time_tv_newplan" android:id="@id/btn_time_cancel" android:focusable="true" android:clickable="true" android:layout_width="160.0dip" android:layout_height="36.0dip" android:text="Cancel" android:layout_alignParentLeft="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/font_time_tv_newplan" android:id="@id/btn_time_ok" android:focusable="true" android:clickable="true" android:layout_width="160.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:text="Determine" android:layout_toRightOf="@id/btn_time_cancel" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

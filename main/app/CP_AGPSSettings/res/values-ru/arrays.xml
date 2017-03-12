@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
+    </string-array>
+    <string-array name="start_mode_entries">
+        <item>Авто режим</item>
+        <item>Горячий старт</item>
+        <item>Холодный старт</item>
+    </string-array>
+</resources>

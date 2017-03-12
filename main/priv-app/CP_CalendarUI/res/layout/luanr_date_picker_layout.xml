@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:app1="http://schemas.android.com/apk/res/com.android.settings">
+    <com.qiku.android.widget.QkCheckBox android:textSize="@dimen/BASIC_FONT_SIZE_C" android:textColor="@color/yl_list_item_summary_default_text_color" android:visibility="gone" android:gravity="center_vertical" android:id="@id/islunarToggle" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:text="@string/lunar_calendar_show" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="8.0dip">
+        <com.qiku.android.widget.picker.Wheel3DView android:id="@id/year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+        <com.qiku.android.widget.picker.Wheel3DView android:id="@id/month" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.qiku.android.widget.picker.Wheel3DView android:id="@id/day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0" />
+    </LinearLayout>
+</LinearLayout>

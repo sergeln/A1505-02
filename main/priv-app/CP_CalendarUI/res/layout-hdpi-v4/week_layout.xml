@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ffdffdfd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/week_item1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Вс" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Пн" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Вт" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Ср" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Чт" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Пт" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/week_item7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Сб" android:layout_weight="1.0" />
+</LinearLayout>
