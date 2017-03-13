@@ -242,7 +242,7 @@
     <string name="delete_using_theme_in_common_cmms">Невозможно удалить эту тему, так как она используется в данный момент, а так же в SMS и Контактах.</string>
     <string name="delete_using_theme_in_icon_cmms">Невозможно удалить эту тему, так как она используется в Desktop Icon, SMS и Контактах.</string>
     <string name="delete_using_theme_in_common_icon">Невозможно удалить эту тему, так как она используется в данный момент и Desktop Icon.</string>
-    <string name="yes_have_known">Понятно</string>
+    <string name="yes_have_known">ОК</string>
     <string name="exorder_hint_message">Для того, чтобы убедиться, что вы можете оплатить и операция загрузки завершена, пожалуйста, держите включёную сеть; Оплатить можно автоматически в процессе отправки SMS, пожалуйста, нажмите кнопку ОК или любого перехвате разрешено, спасибо!</string>
     <string name="restore_all_ing">Восстановление всех тем по умолчанию...</string>
     <string name="resume_default_settings_succecss">Настройки по умолчанию установлены</string>

@@ -68,7 +68,7 @@
     <string name="detail_title">"Сведения "</string>
     <string name="cancel">Отменить</string>
     <string name="mmmusic_sync">синхронизация</string>
-    <string name="mmmusic_i_know">Понятно</string>
+    <string name="mmmusic_i_know">ОК</string>
     <string name="mmmusic_sync_toast">После входа в аккаунт будет выполнена автоматическая синхронизация библиотеки и создан список композиций</string>
     <string name="mmmusic_setting_store_listenning_title">Слушать и загрузить</string>
     <string name="mmmusic_setting_shake_switch_title">Встряхните для переключения</string>

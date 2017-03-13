@@ -197,7 +197,7 @@
     <string name="find_password_tips_1">В «Настройки - экран блокировки и пароль» потяните вниз, появится логотип системы защиты конфиденциальности</string>
     <string name="find_password_tips_2">Появится список для восстановления пароля системы конфиденциальности, экран блокировки автоматически скроется</string>
     <string name="find_password_tips_title">Режим входа</string>
-    <string name="finger_dialog_know">Понятно</string>
+    <string name="finger_dialog_know">ОК</string>
     <string name="finger_first_use_reminder">"Нажмите на кнопку распознавания отпечатка пальца на рабочем столе, чтобы войти в систему конфиденциальности. 
 Если отпечаток пальца будет недействителен, перейдите в раздел Настройки > Система конфиденциальности > Восстановить пароль и восстановите пароль"</string>
     <string name="finger_hint_not_quit">Не выходить</string>

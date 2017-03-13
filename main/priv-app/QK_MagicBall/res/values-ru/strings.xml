@@ -37,7 +37,7 @@
     <string name="flashlight_tip_close_camera_first">Отключите камеру или стороннюю вспышку</string>
     <string name="float_icon_alpha">Прозрачность волшебного шара</string>
     <string name="float_icon_size">Размер волшебного шара</string>
-    <string name="gesture_tips_button">Понятно.</string>
+    <string name="gesture_tips_button">ОК</string>
     <string name="gesture_tips_content">Коснитесь и удерживайте значок для изменения</string>
     <string name="guess_your_like">Загадайте что угодно</string>
     <string name="home">Главный экран</string>

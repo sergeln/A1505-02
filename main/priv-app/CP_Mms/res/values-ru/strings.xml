@@ -960,7 +960,7 @@
     <string name="people_guide_location_text">Щелкните чтобы быстро найти контакты</string>
     <string name="people_guide_tab_slide_text">Влево/вправо переключить страницу</string>
     <string name="people_guide_calllog_records_text">Щелкните его для проверки записей и реестров</string>
-    <string name="people_guide_know">Понятно</string>
+    <string name="people_guide_know">ОК</string>
     <string name="people_call_docket_title">Вызовы</string>
     <string name="people_call_docket_detail_title">Подробнее</string>
     <string name="people_call_record_title">Аудио записи</string>

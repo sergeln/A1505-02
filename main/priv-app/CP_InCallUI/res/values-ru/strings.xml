@@ -404,7 +404,7 @@
     <string name="duplicate_and_no_number_contacts">Игнорировать добавление контактов с null или же номером телефона</string>
     <string name="progress_dialog_msg_add">Добавление, пожалуйста, подождите...</string>
     <string name="remark_prompt">Замечание</string>
-    <string name="manual_choose_net_ok">Понятно</string>
+    <string name="manual_choose_net_ok">ОК</string>
     <string name="hangup_remote_call">Отбой удаленного вызова</string>
     <string name="qk_word_secret">"Секрет "</string>
     <string name="qk_prepare_to_stop_record">Стоп</string>
