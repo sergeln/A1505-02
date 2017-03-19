@@ -391,6 +391,6 @@
     <string name="browser">Браузер</string>
     <string name="clear_history">Очистить записи</string>
     <string name="folder_adv_title">Рекомендуемые приложения</string>
-    <string name="settings_icon_arrangement_from_bottom_to_up_summary">Чтобы отключить — сверху вниз</string>
-    <string name="settings_icon_arrangement_from_bottom_to_up_title">Чтобы показать значки — снизу вверх</string>
+    <string name="settings_icon_arrangement_from_bottom_to_up_summary">Отображать значки внизу</string>
+    <string name="settings_icon_arrangement_from_bottom_to_up_title">Значки внизу</string>
 </resources>
