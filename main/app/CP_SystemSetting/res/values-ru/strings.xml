@@ -3095,12 +3095,12 @@
     <string name="build_type_nightly">UI Build ночная</string>
     <string name="build_type_stable">UI Build стабл</string>
     <string name="display_mira_vision">Параметры экрана</string>
-    <string name="add_finger_print_dlg_des">Нет палца, добавить?</string>
-    <string name="add_finger_print_toast_tips">Добавьте палец.</string>
+    <string name="add_finger_print_dlg_des">Нет отпечатка, добавить?</string>
+    <string name="add_finger_print_toast_tips">Добавьте опечаток.</string>
     <string name="add_finger_print_dlg_ok">Добавить</string>
     <string name="add_finger_print_dlg_soon">Добавить позже</string>
     <string name="define_finger_print_name">Имя отпечатков пальцев</string>
-    <string name="close_finger_print_button_tips">Вы действительно хотите отключить палец?</string>
+    <string name="close_finger_print_button_tips">Вы действительно хотите отключить отпечаток?</string>
     <string name="open_finger_print_button_tips">Переключатель блокировки экрана в безопасности, пароль будет включён.</string>
     <string name="cmiit_id">CMIIT ID</string>
     <string name="permission_management">Права приложений</string>
