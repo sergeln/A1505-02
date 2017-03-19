@@ -3066,7 +3066,7 @@
     <string name="resolution_title">Разрешение экрана</string>
     <string name="sim1_status_title">Статус SIM1</string>
     <string name="sim2_status_title">Статус SIM2</string>
-    <string name="simcard_status">Статус SIM-карт</string>
+    <string name="simcard_status">" статус SIM"</string>
     <string name="imei_status_title">IMEI</string>
     <string name="imei2_status_title">IMEI2</string>
     <string name="imei_sv__status_title">IMEI SV</string>
@@ -3077,7 +3077,7 @@
     <string name="no_block">Выкл.</string>
     <string name="location_settings_summary">Доступ к информации о вашем местонахождении</string>
     <string name="unlock_set_security_password_title">Пароль безопасности</string>
-    <string name="show_flow_notifications_title">Отображение информации о движении на панели уведомлений</string>
+    <string name="show_flow_notifications_title">Информация о трафике на панели уведомлений</string>
     <string name="qiku_account_title">Аккаунт 360</string>
     <string name="qiku_account">360</string>
     <string name="other_account_title">Другой аккаунт</string>

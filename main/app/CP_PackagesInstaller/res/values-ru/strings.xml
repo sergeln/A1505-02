@@ -364,7 +364,7 @@
     <string name="software_auto_start">Авто. запуск</string>
     <string name="software_float_window">Плавающее-окно</string>
     <string name="software_send_notification">Отправить уведомление</string>
-    <string name="suggest_forbidden">Предлогаю запретить</string>
+    <string name="suggest_forbidden">Предлагаю запретить</string>
     <string name="install_to_safety_user_space">Риск системы безопасности</string>
     <string name="install_to_normal_user_space">Установить на Рабочий стол</string>
     <string name="safety_content">Для безопасности, рекомендуем установить приложение оплаты рисковать пространства</string>
