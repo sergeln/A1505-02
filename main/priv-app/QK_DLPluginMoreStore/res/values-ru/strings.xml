@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CameraDLPlugin</string>
+    <string name="plugin_network_error">Ошибка сети, повторите попытку позже</string>
+    <string name="plugin_more">Еще</string>
+    <string name="plugin_loading">Загрузка данных…</string>
+    <string name="plugin_no_data">Извините, нет данных</string>
+    <string name="mode_more">Режимы</string>
+    <string name="photo_normal">Фото</string>
+    <string name="video_normal">Видео</string>
+    <string name="beauty_normal">Селфи</string>
+    <string name="plugin_install">УСТАНОВИТЬ</string>
+    <string name="plugin_uninstall">УДАЛИТЬ</string>
+    <string name="edit_cancel">Отмена</string>
+    <string name="edit_save">Сохранить</string>
+    <string name="mode_edit">Редактировать</string>
+    <string name="mode_recovery_text">Нажмите на иконку, чтобы восстановить удаленный режим</string>
+    <string name="mode_delete_text_one">"Перемещайте значки для сортировки "</string>
+    <string name="mode_delete_text_two">"-удалить"</string>
+    <string name="install_success">%1$s устанавлен</string>
+    <string name="uninstall_success">удален</string>
+    <string name="camera_plugin_install">установлен</string>
+    <string name="camera_plugin_uninstall">Удаление</string>
+    <string name="camera_plugin_update">Обновить</string>
+    <string name="camera_plugin_launch">Открыть</string>
+    <string name="bbs_freeze">Перейдите к [Заморозить] чтобы разморозить.</string>
+    <string name="bbs_uninstalled">Перейдите в [Настройки-Система-Копирование и сброс] чтобы восстановить клиента.</string>
+    <string name="camera_plugin_install_tip">Вы используете передачу данных, а размер подключаемого модуля %1$s. Вы хотите продолжить установку?</string>
+    <string name="camera_plugin_update_tip">Вы используете передачу данных, а размер подключаемого модуля %1$s. Вы хотите продолжить обновление?</string>
+    <string name="camera_plugin_download_warning">Выполняется загрузка %1$s, подтвердите выход?</string>
+    <string name="plugin_download_failed">Ошибка загрузки плагина %1$s</string>
+</resources>

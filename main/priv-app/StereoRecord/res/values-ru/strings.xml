@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StereoRecord</string>
+    <string name="three_dimentional_recorder">3D Video</string>
+    <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
+    <string name="title_activity_stereo_record">StereoRecord</string>
+    <string name="tips">Уверенно держите телефон и не двигайтесь слишком быстро</string>
+    <string name="camera_window_state_tips">Снимайте в ландшафтном режиме, пожалуйста</string>
+</resources>
