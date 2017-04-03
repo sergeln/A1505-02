@@ -528,7 +528,7 @@
     <string name="mosaic_message">Отменить изменения?</string>
     <string name="mosaic_title">Отмена</string>
     <string name="year">-</string>
-    <string name="month">-</string>
+    <string name="month">.</string>
     <string name="day"></string>
     <string name="today">Сегодня</string>
     <string name="yesterday">Вчера</string>
