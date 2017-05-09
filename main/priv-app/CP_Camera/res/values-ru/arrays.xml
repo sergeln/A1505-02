@@ -289,20 +289,20 @@
         <item>on</item>
     </string-array>
     <string-array name="sceneFilterNames">
-        <item>None</item>
-        <item>Times</item>
-        <item>Love</item>
-        <item>Raining</item>
-        <item>Moving</item>
-        <item>Fireworks</item>
-        <item>Newyear</item>
+        <item>Без эффектов</item>
+        <item>Старая пленка</item>
+        <item>Любовь</item>
+        <item>Дождь</item>
+        <item>Комикс</item>
+        <item>Фейерверк</item>
+        <item>Новый год</item>
     </string-array>
     <string-array name="abroadSceneFilterNames">
-        <item>None</item>
-        <item>Times</item>
-        <item>Love</item>
-        <item>Raining</item>
-        <item>Moving</item>
+        <item>Без эффектов</item>
+        <item>Старая пленка</item>
+        <item>Любовь</item>
+        <item>Дождь</item>
+        <item>Комикс</item>
     </string-array>
     <string-array name="camera_capture_mode_minientries_array">
         <item>Обычный</item>
