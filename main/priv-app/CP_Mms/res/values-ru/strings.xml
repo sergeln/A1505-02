@@ -5,7 +5,7 @@
     <string name="duoqu_forword_sms">Пересылка текстовых сообщений</string>
     <string name="duoqu_call_phone">Наберите номер</string>
     <string name="duoqu_open_text">Открыть оригинал</string>
-    <string name="duoqu_open_net">Посетите веб-сайт</string>
+    <string name="duoqu_open_net">Посетить веб-сайт</string>
     <string name="duoqu_reply_sms">Ответное сообщение</string>
     <string name="duoqu_send_email">Отправить сообщение</string>
     <string name="duoqu_open_map">Открыть карту</string>
@@ -23,13 +23,13 @@
     <string name="duoqu_pm">pm</string>
     <string name="duqou_seat_info_string">Автокресло</string>
     <string name="duqou_select_arrive_city">Выберите терминал</string>
-    <string name="duqou_view_the_orgmessage">(Больше карты нажмите для просмотра)</string>
-    <string name="duoqu_select_train_num">Выберите поезд информация</string>
+    <string name="duqou_view_the_orgmessage">(Больше карт нажмите для просмотра)</string>
+    <string name="duoqu_select_train_num">Выберите информацию о поезде</string>
     <string name="duqou_arrive_time_string">Расчетное время прибытия</string>
     <string name="duoqu_air_number">Рейс</string>
-    <string name="duoqu_train_num">Раз</string>
+    <string name="duoqu_train_num">Номер</string>
     <string name="duoqu_select_fight_num">Выберите информация о рейсе</string>
-    <string name="duoqu_verifycode_warnning">Совет: не утечки код проверки подлинности сообщения</string>
+    <string name="duoqu_verifycode_warnning">Совет: не теряйте код проверки подлинности сообщения</string>
     <string name="duoqu_train_nodata_warnning">Нет соответствующей информации, пожалуйста, повторите попытку позже</string>
     <string name="duoqu_train_nonet_warnning">Нет соответствующей информации, сети, пожалуйста, попробуйте еще раз</string>
     <string name="duoqu_chinese">[Один-Ю.]</string>
@@ -38,7 +38,7 @@
     <string name="duoqu_ui_confirm">ОК</string>
     <string name="duoqu_ui_dialog_select_trains">Выбрать поезд</string>
     <string name="duoqu_ui_dialog_select_flight">Выберите рейсы</string>
-    <string name="duoqu_ui_direction">Обязательность для</string>
+    <string name="duoqu_ui_direction">Обязательно для</string>
     <string name="duoqu_ui_filght">Полеты</string>
     <string name="duoqu_ui_air_departure_city">Поехали</string>
     <string name="duoqu_ui_fight">Рейс</string>
@@ -62,7 +62,7 @@
     <string name="duoqu_ui_part_select_destination">Выберите станцию прибытия</string>
     <string name="duoqu_ui_part_cancel">Отмена</string>
     <string name="duoqu_ui_part_confirm">ОК</string>
-    <string name="duoqu_direction">Обязательность для</string>
+    <string name="duoqu_direction">Обязательно для</string>
     <string name="duoqu_filght">Полеты</string>
     <string name="duoqu_ui_part_double_line" />
     <string name="duoqu_ui_part_double_line_en">- -</string>
@@ -89,18 +89,18 @@
     <string name="duoqu_double_line_dep_time">--</string>
     <string name="duoqu_air_flight_num">Номер рейса</string>
     <string name="duoqu_air_departure_city">Поехали</string>
-    <string name="duoqu_air_arriver_city">Регистрация заезда</string>
+    <string name="duoqu_air_arriver_city">Регистрация поездки</string>
     <string name="duoqu_air_departure_date">Время вылета</string>
     <string name="duoqu_air_arriver_date">Время прибытия</string>
     <string name="duoqu_train_number">Номер поезда</string>
     <string name="duoqu_depart_city">Поехали</string>
     <string name="duoqu_arrive_city">Регистрация заезда</string>
-    <string name="duoqu_depart_datetime">Время вылета</string>
+    <string name="duoqu_depart_datetime">Время поездки</string>
     <string name="duoqu_arrive_datetime">Время прибытия</string>
     <string name="duoqu_seat_info">Место</string>
     <string name="duoqu_train_date_one">Тот же день</string>
     <string name="duoqu_train_date_two">На следующий день</string>
-    <string name="duoqu_train_date_three">Третий день</string>
+    <string name="duoqu_train_date_three">Третьего дня</string>
     <string name="duoqu_train_date_format">dd.MM</string>
     <string name="duoqu_train_date_format_qiku">dd-MM</string>
     <string name="duoqu_train_select">Подбор поездов</string>
@@ -111,23 +111,23 @@
     <string name="duoqu_fight_state_departure">Взлет</string>
     <string name="duoqu_fight_state_alternate">Заместитель</string>
     <string name="duoqu_fight_state_return">Возвращение</string>
-    <string name="duoqu_train_date_arrival">Регистрация заезда</string>
+    <string name="duoqu_train_date_arrival">Регистрация поездки</string>
     <string name="duoqu_train_dupplement_date">Ожидается, что к</string>
-    <string name="duoqu_train_time">Раз</string>
+    <string name="duoqu_train_time">Номер</string>
     <string name="duoqu_bubble_money_split">；</string>
     <string name="duoqu_bubble_train_seat_split">，</string>
-    <string name="duoqu_bubble_more_info_show">Более</string>
+    <string name="duoqu_bubble_more_info_show">Больше</string>
     <string name="duoqu_bubble_more_info_show_extend">(Для получения дополнительной информации, пожалуйста, просмотрите исходный текст)</string>
     <string name="duoqu_bubble_more_info_hide">Убрать</string>
     <string name="duoqu_window_body_verification_code">Проверочный код</string>
-    <string name="duoqu_window_body_warning">Примечание: не утечки сообщения</string>
+    <string name="duoqu_window_body_warning">Примечание: не теряйте сообщение</string>
     <string name="duoqu_web_network_fail">Сбой в сети, открытая сеть</string>
     <string name="duoqu_web_network_setting">Параметры сети</string>
-    <string name="duoqu_web_not_find_page">Не удалось найти веб-страницы</string>
+    <string name="duoqu_web_not_find_page">Не удалось найти веб-страницу</string>
     <string name="duoqu_tip_nearby_point_loading">Загрузка близлежащих торговых точек...</string>
     <string name="duoqu_tip_nearby_point_not_find">Ничего не найдено!</string>
     <string name="duoqu_tip_nearby_point_network_lose">Извините, ошибка сети, коснитесь экрана, чтобы перезагрузить</string>
-    <string name="duoqu_tip_gps_closed_error">Неудача сбора данных, Вы не можете открыть расположение~</string>
+    <string name="duoqu_tip_gps_closed_error">Сбой сбора данных, Вы не можете открыть расположение~</string>
     <string name="duoqu_tip_nearby_point_refresh"><u>Попробуйте обновить</u></string>
     <string name="duoqu_tip_services_provide">Анализ предоставления услуг Bao</string>
     <string name="duoqu_errortext">Не могу найти интернет-страницу. Пожалуйста, проверьте, свободна ли текущая сеть!</string>
@@ -136,7 +136,7 @@
     <string name="duoqu_tip_load_more">Щелкните, чтобы загрузить больше данных</string>
     <string name="duoqu_tip_loading">Загрузка...</string>
     <string name="duoqu_tip_false">Отсутствует аргумент, чтобы открыть Google map</string>
-    <string name="duoqu_tip_duoqu_name">Более интересно</string>
+    <string name="duoqu_tip_duoqu_name">Больше интересного</string>
     <string name="duoqu_web_loading">Загрузка</string>
     <string name="duoqu_broswer_not_found">Браузер не установлен</string>
     <string name="people_today">Сегодня</string>
@@ -467,7 +467,7 @@
     <string name="people_popup_menu_sex">Пол</string>
     <string name="people_popup_menu_nick_name">Псевдоним</string>
     <string name="people_popup_menu_relationship">Относительная</string>
-    <string name="people_popup_menu_address">Адресс</string>
+    <string name="people_popup_menu_address">Адрес</string>
     <string name="people_popup_menu_birthday_anniversary">День рождения/юбилей</string>
     <string name="people_popup_menu_ringtone">Мелодия</string>
     <string name="people_popup_menu_groups">Группа</string>
@@ -627,7 +627,7 @@
     <string name="people_date_remind_text_day">дни</string>
     <string name="people_date_remind_text_half_month">0.5 месяц</string>
     <string name="people_date_remind_text_one_month">1 месяц</string>
-    <string name="people_date_remind_text_option_0">На надлежащей дате</string>
+    <string name="people_date_remind_text_option_0">На выбранной дате</string>
     <string name="people_date_remind_text_option_1">1 день вперед</string>
     <string name="people_date_remind_text_option_2">2 предстоящие дни</string>
     <string name="people_date_remind_text_option_3">3 предстоящие дни</string>
@@ -723,27 +723,27 @@
     <string name="people_import_from_sdcard">Импорт из хранилища</string>
     <string name="people_cancel_import_confirmation_message">Отменить импорт %s?</string>
     <string name="people_cancel_export_confirmation_message">Отменить экспорт %s?</string>
-    <string name="people_cancel_vcard_import_or_export_failed">"Не удалось отменить импорт/экспорт vCard"</string>
+    <string name="people_cancel_vcard_import_or_export_failed">Не удалось отменить импорт/экспорт vCard</string>
     <string name="people_fail_reason_unknown">Неизвестная ошибка.</string>
-    <string name="people_fail_reason_could_not_open_file" formatted="false">"Не удается открыть \"%s\": %s."</string>
-    <string name="people_fail_reason_could_not_initialize_exporter">"Не удалось запустить экспортера: \"%s\"."</string>
+    <string name="people_fail_reason_could_not_open_file" formatted="false">Не удается открыть \"%s\": %s.</string>
+    <string name="people_fail_reason_could_not_initialize_exporter">Не удалось запустить экспортера: \"%s\".</string>
     <string name="people_fail_reason_no_exportable_contact">Нет экспортируемого контакта.</string>
     <string name="people_fail_reason_error_occurred_during_export">Произошла ошибка при экспорте: \"%s\".</string>
     <string name="people_fail_reason_too_long_filename">Требуемое имя файла слишком длинное (\"%s\").</string>
     <string name="people_fail_reason_too_many_vcard">Слишком много файлов vCard находятся на SD-карте.</string>
     <string name="people_fail_reason_io_error">Ошибка I/O</string>
     <string name="people_fail_reason_low_memory_during_import">Недостаточно памяти. Файл может быть слишком велик.</string>
-    <string name="people_fail_reason_not_supported">"Формат не поддерживается."</string>
+    <string name="people_fail_reason_not_supported">Формат не поддерживается.</string>
     <string name="people_exporting_vcard_finished_title">Экспорт %s закончен.</string>
     <string name="people_exporting_vcard_canceled_title">Экспорт %s отменен.</string>
     <string name="people_exporting_contact_list_title">Экспорт данных контактов</string>
     <string name="people_exporting_contact_list_message">Ваши контактные данные экспортируется: %s.</string>
-    <string name="people_composer_failed_to_get_database_infomation">"Не удалось получить информацию базы данных."</string>
+    <string name="people_composer_failed_to_get_database_infomation">Не удалось получить информацию базы данных.</string>
     <string name="people_composer_has_no_exportable_contact">Есть не экспортируемые контакты. Если у вас есть контакты на вашем телефоне, некоторые поставщики данных не допускает контактов для экспорта из телефона.</string>
-    <string name="people_composer_not_initialized">"Композитор vCard не начать правильно."</string>
+    <string name="people_composer_not_initialized">"Композитор vCard не работает правильно."</string>
     <string name="people_no_sdcard_message">Карта SD не была найдена.</string>
     <string name="people_importing_vcard_description">Импорт %s</string>
-    <string name="people_reading_vcard_failed_title">"Не удалось прочитать данные vCard"</string>
+    <string name="people_reading_vcard_failed_title">Не удалось прочитать данные vCard</string>
     <string name="people_importing_vcard_finished_title">Импорт vCard завершен %s</string>
     <string name="people_importing_vcard_canceled_title">Импорт %s отменено</string>
     <string name="people_vcard_import_will_start_message">%s будут импортированы в ближайшее время.</string>
@@ -754,7 +754,7 @@
     <string name="people_vcard_unknown_filename">контакт</string>
     <string name="people_caching_vcard_message">Кэширование vCard(s) для локального временного хранения. Скоро начнется фактический импорт.</string>
     <string name="people_percentage">%s%%</string>
-    <string name="people_vcard_import_failed">"Не удалось импортировать vCard."</string>
+    <string name="people_vcard_import_failed">Не удалось импортировать vCard.</string>
     <string name="people_import_failure_no_vcard_file">Не найден файл vCard.</string>
     <string name="people_nfc_vcard_file_name">Контакт, полученные через NFC</string>
     <string name="people_select_vcard_title">Выберите файл vCard</string>
@@ -763,11 +763,11 @@
     <string name="people_import_all_vcard_string">Импортируйте все файлы vCard</string>
     <string name="people_searching_vcard_message">Поиск данных vCard...</string>
     <string name="people_caching_vcard_title">Кэширование</string>
-    <string name="people_scanning_sdcard_failed_message">"SD-карты не могут быть отсканированы. (Причина: \"%s\")"</string>
+    <string name="people_scanning_sdcard_failed_message">SD-карты не могут быть отсканированы. (Причина: \"%s\")</string>
     <string name="people_progress_notifier_message" formatted="false">Импорт %s/%s: %s</string>
     <string name="people_editor_list_item_title_phone">Телефон</string>
     <string name="people_editor_list_item_title_mail">Email</string>
-    <string name="people_editor_list_item_title_address">Адресс</string>
+    <string name="people_editor_list_item_title_address">Адрес</string>
     <string name="people_editor_list_item_title_im">IM</string>
     <string name="people_editor_list_item_title_date">Дата</string>
     <string name="people_editor_list_item_title_relation">Связь</string>
@@ -780,7 +780,7 @@
     <string name="people_recipient_filt_email_neutral">Отправить MMS</string>
     <string name="people_common_select_all">Выбор</string>
     <string name="people_common_unSelect_all">Отменить</string>
-    <string name="people_common_list_action_mode_selected">выбрано</string>
+    <string name="people_common_list_action_mode_selected">Выбрано</string>
     <string name="people_common_list_action_mode_item"> </string>
     <string name="people_common_list_action_mode_total">"Всего "</string>
     <string name="people_common_list_action_mode_items"> </string>
@@ -826,8 +826,8 @@
     <string name="people_detail_bottom_cancel_private_baomi">Отмена конфиденциальности</string>
     <string name="people_detail_bottom_cancel_private_message">После контакта, он будет выпущен из списка общих контактов?</string>
     <string name="people_detail_bottom_cancel_private_message_baomi">После контакта, он будет выпущен из списка общих контактов?</string>
-    <string name="people_detail_bottom_menu_collect">"+ Избр."</string>
-    <string name="people_detail_bottom_menu_collect_cancel">"- Избр."</string>
+    <string name="people_detail_bottom_menu_collect">+ Избр.</string>
+    <string name="people_detail_bottom_menu_collect_cancel">- Избр.</string>
     <string name="people_detail_bottom_menu_more">Ещё</string>
     <string name="people_detail_bottom_menu_send_vcard_to">Отправить визитную карточку, чтобы</string>
     <string name="people_detail_bottom_menu_send_vcard_to_unknown">Он</string>
@@ -859,7 +859,7 @@
     <string name="people_detail_recent_outgoing_across">Набранный полученные</string>
     <string name="people_detail_recent_sms_send">Отправить SMS</string>
     <string name="people_detail_recent_sms_receiver">Получение SMS</string>
-    <string name="people_contact_setup_merge_contacts">Объединить дубли кантактов</string>
+    <string name="people_contact_setup_merge_contacts">Объединить дубли контактов</string>
     <string name="people_contact_setup_copy_contacts">Копировать контакты</string>
     <string name="people_contact_setup_import_contacts">Импорт и экспорт контактов</string>
     <string name="people_contact_setup_show_contacts">Показывать группы контактов</string>
@@ -1095,11 +1095,11 @@
     <string name="smsmms_card1_pre_full_title">Карта SIM1 почти полная</string>
     <string name="smsmms_card2_pre_full_title">Карта SIM2 почти полная</string>
     <string name="smsmms_single_pre_full_title">Карта почти полная</string>
-    <string name="smsmms_sms_set_cdma_tone_success">Устанолен рингтон для SIM1</string>
-    <string name="smsmms_sms_set_gsm_tone_success">Устанолен рингтон для SIM2</string>
-    <string name="smsmms_sms_set_card1_tone_success">Устанолен рингтон для SIM1</string>
-    <string name="smsmms_sms_set_card2_tone_success">Устанолен рингтон для SIM2</string>
-    <string name="smsmms_sms_set_single_tone_success">Устанолен рингтон.</string>
+    <string name="smsmms_sms_set_cdma_tone_success">Установлен рингтон для SIM1</string>
+    <string name="smsmms_sms_set_gsm_tone_success">Установлен рингтон для SIM2</string>
+    <string name="smsmms_sms_set_card1_tone_success">Установлен рингтон для SIM1</string>
+    <string name="smsmms_sms_set_card2_tone_success">Установлен рингтон для SIM2</string>
+    <string name="smsmms_sms_set_single_tone_success">Установлен рингтон.</string>
     <string name="smsmms_sms_set_cdma_tone_failure">Не удалось установить рингтон для SIM1</string>
     <string name="smsmms_sms_set_gsm_tone_failure">Не удалось установить рингтон для SIM2</string>
     <string name="smsmms_sms_set_card1_tone_failure">Не удалось установить рингтон для SIM1</string>
@@ -1186,7 +1186,7 @@
     <string name="smsmms_prefDialogTitle_vibrateWhen">Вибрация</string>
     <string name="smsmms_confirm_clear_search_title">Очистить</string>
     <string name="smsmms_confirm_clear_search_text">История поиска будет очищена.</string>
-    <string name="smsmms_delivery_toast_body">Сообщение полученно от %s</string>
+    <string name="smsmms_delivery_toast_body">Сообщение получено от %s</string>
     <string name="smsmms_error_code_label">"Код ошибки: "</string>
     <string name="smsmms_error_state">Несогласованное состояние</string>
     <string name="smsmms_error_state_text">Состояние потоков и получателей несовместимо. Пожалуйста, отправьте сообщение об ошибке через http://go/droidanizer</string>
@@ -1307,8 +1307,8 @@
     <string name="smsmms_sms_pre_full_title">Память сообщений скоро будет переполнена.</string>
     <string name="smsmms_sms_full_body">Входящее сообщение отклонено из-за переполнения памяти. Удалите старые сообщения.</string>
     <string name="smsmms_mms_full_body">Не удается получить или редактировать сообщения MMS так как память для MMS почти заполнена. Удалите старые MMS сообщения.</string>
-    <string name="smsmms_storage_warning_title">"Память телефона заполнена"</string>
-    <string name="smsmms_storage_warning_content">"Вы не получите новые SMS/MMS-сообщения"</string>
+    <string name="smsmms_storage_warning_title">Память телефона заполнена</string>
+    <string name="smsmms_storage_warning_content">Вы не получите новые SMS/MMS-сообщения</string>
     <string name="smsmms_type_audio">Аудио</string>
     <string name="smsmms_type_video">Видео</string>
     <string name="smsmms_confirm">ОК</string>
@@ -1337,11 +1337,11 @@
     <string name="smsmms_forward_msg_tip">Информация о переадресации</string>
     <string name="smsmms_autoreply">Авто ответ</string>
     <string name="smsmms_autoreply_contents">Копировать содержимое</string>
-    <string name="smsmms_replynetwork">Сеть по умолчанию для ответа </string>
+    <string name="smsmms_replynetwork">Сеть по умолчанию для ответа</string>
     <string name="smsmms_autosave">Авто сохранение</string>
     <string name="smsmms_autosave_period">Период сохранения (с)</string>
     <string name="smsmms_autoforward">Автопересылка</string>
-    <string name="smsmms_autoforward_hint">Введите номер для автопересылки сообщений </string>
+    <string name="smsmms_autoforward_hint">Введите номер для автопересылки сообщений</string>
     <string name="smsmms_autoforward_warning">Устройство будет автоматически пересылать все новые сообщения на указанный номер</string>
     <string name="smsmms_pref_title_valid_deadline">Время действия</string>
     <string name="smsmms_pref_title_store_choose">выбор хранилища</string>
@@ -1398,7 +1398,7 @@
     <string name="smsmms_longest_time">Максимальный период</string>
     <string name="smsmms_normal">Общие</string>
     <string name="smsmms_optional">Интерактивные</string>
-    <string name="smsmms_prioritized">Приоритные</string>
+    <string name="smsmms_prioritized">Приоритетные</string>
     <string name="smsmms_urgent">Экстренные</string>
     <string name="smsmms_system_settings">Параметры системы</string>
     <string name="smsmms_send_settings">Параметры отправки</string>
@@ -1415,7 +1415,7 @@
     <string name="smsmms_nomal_prio">Средний</string>
     <string name="smsmms_high_prio">Высокий</string>
     <string name="smsmms_send_report">Запросить отчет о доставке</string>
-    <string name="smsmms_read_report">Запросить отчет о прочитении</string>
+    <string name="smsmms_read_report">Запросить отчет о прочтении</string>
     <string name="smsmms_allow_recieve">Разрешить получение</string>
     <string name="smsmms_download_immediately">Немедленное получение</string>
     <string name="smsmms_auto_sign">Автоматическая подпись</string>
@@ -1459,7 +1459,7 @@
     <string name="smsmms_batchLockisno">Заблокировать выбранное?</string>
     <string name="smsmms_batchUnLockisno">Разблокировать выбранное?</string>
     <string name="smsmms_batchImptisno">Установить выбранное как важное?</string>
-    <string name="smsmms_batchUnImptisno">Установите выбранное как общиее?</string>
+    <string name="smsmms_batchUnImptisno">Установите выбранное как общие?</string>
     <string name="smsmms_batchFwdisno">Переслать выбранное?</string>
     <string name="smsmms_batchPrivateisno">Установить выбранное как частное?</string>
     <string name="smsmms_batchSecretisno">Установить выбранное как секретное?</string>
@@ -1502,7 +1502,7 @@
     <string name="smsmms_mms_net_decision_c">Определяется сеть</string>
     <string name="smsmms_message_locked">Невозможно удалить заблокированное сообщение.</string>
     <string name="smsmms_mms_page_count_full">Невозможно добавить страницу, число страниц достигло 20.</string>
-    <string name="smsmms_info_sel_del_items">Нет выбраных записей.</string>
+    <string name="smsmms_info_sel_del_items">Нет выбранных записей.</string>
     <string name="smsmms_tip">Запрос</string>
     <string name="smsmms_string_mms_prompt">MMS запрос</string>
     <string name="smsmms_string_note_clear_history">Вы действительно хотите очистить?</string>
@@ -1526,13 +1526,13 @@
     <string name="smsmms_last_page">Последняя страница.</string>
     <string name="smsmms_phone">Phone set</string>
     <string name="smsmms_msg_deleteisno">Вы уверены в удалении?</string>
-    <string name="smsmms_clear_history_reciver">Очмстить историю</string>
+    <string name="smsmms_clear_history_reciver">Очистить историю</string>
     <string name="smsmms_insert_contact">Вставить контакт</string>
     <string name="smsmms_insert_message">Вставить SMS</string>
     <string name="smsmms_unknown_net">Не известная сеть</string>
     <string name="smsmms_string_wait_batch_oper">Обработка ... Пожалуйста, подождите.</string>
     <string name="smsmms_string_wait_batch_import">Импорт контактов ... Пожалуйста, подождите.</string>
-    <string name="smsmms_string_sms_storage_full">Хрпнилище сообщениний переполнено.</string>
+    <string name="smsmms_string_sms_storage_full">Хранилище сообщений переполнено.</string>
     <string name="smsmms_string_content_forward_from">От:</string>
     <string name="smsmms_string_content_forward_send">Я посылаю:</string>
     <string name="smsmms_string_content_forward_i">Мне</string>
@@ -1564,7 +1564,7 @@
     <string name="smsmms_folder_name_inbox">Входящие</string>
     <string name="smsmms_folder_name_card">SD карта</string>
     <string name="smsmms_folder_name_outbox">Исходящие</string>
-    <string name="smsmms_folder_name_sent">Отправленые</string>
+    <string name="smsmms_folder_name_sent">Отправленные</string>
     <string name="smsmms_folder_name_draftbox">Черновики</string>
     <string name="smsmms_folder_name_ashbin">Корзина</string>
     <string name="smsmms_folder_name_cell_broadcast">Рассылка</string>
@@ -1637,7 +1637,7 @@
     <string name="smsmms_compose_message_panel_record">Запись</string>
     <string name="smsmms_compose_message_panel_linkman">Контакт</string>
     <string name="smsmms_compose_message_panel_pharse">Фраза</string>
-    <string name="smsmms_compose_message_panel_card">Namecard</string>
+    <string name="smsmms_compose_message_panel_card">Имя карты</string>
     <string name="smsmms_compose_message_panel_affix">Вложение</string>
     <string name="smsmms_compose_message_panel_more">Ещё</string>
     <string name="smsmms_sure_to_clear_folder">Вы уверены, что хотите очистить?</string>
@@ -1736,7 +1736,7 @@
     <string name="smsmms_send_netwrok_gsm">Всегда отправлять сообщения c SIM 2</string>
     <string name="smsmms_netwrok_card_one">SIM 1</string>
     <string name="smsmms_netwrok_card_two">SIM 2</string>
-    <string name="smsmms_processing_can_not_delete"> Нельзя удалить сообщение в обработке</string>
+    <string name="smsmms_processing_can_not_delete">Нельзя удалить сообщение в обработке</string>
     <string name="smsmms_del_all">Удалить все</string>
     <string name="smsmms_sure_to_delete_all_unread_msg">Удалить все непрочитанные сообщения?</string>
     <string name="smsmms_slideshow_first_message">Первое сообщение</string>
@@ -1786,10 +1786,10 @@
     <string name="smsmms_more_text_show_end">сообщения</string>
     <string name="smsmms_mms_retrieval_during_roaming">Автоматически получать сообщения в роуминге</string>
     <string name="smsmms_mms_retrieval_during_roaming_tips">Не удается получить сообщения MMS в роуминге. Можно включить функцию в настройках MMS.</string>
-    <string name="smsmms_message_all_send_success">Все сообщения отправленны успешно.</string>
+    <string name="smsmms_message_all_send_success">Все сообщения отправлены успешно.</string>
     <string name="smsmms_message_send_fail_one" />
     <string name="smsmms_message_send_fail_two">сообщения не отправлены.</string>
-    <string name="smsmms_audio_path_invalid">Путь к аудио  недоступен.</string>
+    <string name="smsmms_audio_path_invalid">Путь к аудио недоступен.</string>
     <string name="smsmms_copy_to_1_card">Копировать на card 1</string>
     <string name="smsmms_move_to_1_card">Переместить на card 1</string>
     <string name="smsmms_copy_to_2_card">Копировать на card 2</string>
@@ -1876,7 +1876,7 @@
     <string name="smsmms_verification_code_sms">Всплывающее окно SMS с проверочным кодом</string>
     <string name="smsmms_panel_sms_roll_summary">Показывать уведомление о новых сообщениях</string>
     <string name="smsmms_default_enter_unread_list_summary">Показывать сначала непрочитанные сообщения</string>
-    <string name="smsmms_default_enable_float_noti_summary">Показывать тескт сообщений во всплывающем окне</string>
+    <string name="smsmms_default_enable_float_noti_summary">Показывать текст сообщений во всплывающем окне</string>
     <string name="smsmms_default_message_enable_lcd_summary">LED-уведомление при получении сообщения</string>
     <string name="smsmms_sent_report_summary">Отправить отчет отправителю, когда сообщение успешно отправлено</string>
     <string name="smsmms_rec_report_summary">Отправить отчет отправителю при получении сообщения</string>
@@ -1973,9 +1973,9 @@
     <string name="smsmms_check_email1">email</string>
     <string name="smsmms_check_email2">email</string>
     <string name="smsmms_check_password">пароль</string>
-    <string name="smsmms_check_account_password_tip">Пожалуйста, отнеситеть внимательно к случаям, когда вас попросят перейти по ссылке, ввесте пароль учетной записи, удостоверьтесь в безопасности другой стороны.</string>
-    <string name="smsmms_check_account_tip">Пожалуйста, отнеситеть внимательно к случаям, когда хотят получить ваш пароль и просят денег.</string>
-    <string name="smsmms_check_email_tip">Пожалуйста, отнеситеть внимательно к случаям, когда потребуется ввести пароль для учетной записи электронной почты, обязательно подтвердить личность с другой стороны.</string>
+    <string name="smsmms_check_account_password_tip">Пожалуйста, отнеситесь внимательно к случаям, когда вас попросят перейти по ссылке, ввести пароль учетной записи, удостоверьтесь в безопасности другой стороны.</string>
+    <string name="smsmms_check_account_tip">Пожалуйста, отнеситесь внимательно к случаям, когда хотят получить ваш пароль и просят денег.</string>
+    <string name="smsmms_check_email_tip">Пожалуйста, отнеситесь внимательно к случаям, когда потребуется ввести пароль для учетной записи электронной почты, обязательно подтвердить личность с другой стороны.</string>
     <string name="smsmms_check_uri_tip">Пожалуйста, будьте внимательны к просьбам перейти по ссылке, убедитесь в официальном статуса другой стороны и ссылка официального сайта </string>
     <string name="smsmms_check_HK_tip">Сообщение HK изменяет карту, цифры после нового номера SIM-карты, пожалуйста, не обманитесь!</string>
     <string name="smsmms_check_website_tip_withe">Сайт прошел проверки безопасности подлинности</string>
@@ -2003,9 +2003,9 @@
     <string name="smsmms_url_unsafe_tip">Сайт не прошел проверку подлинности безопасности!</string>
     <string name="smsmms_url_unsafe_content">Ссылка не присутствует в 360: высокий риск сертификата безопасности, проявите осторожность！</string>
     <string name="smsmms_url_safe_unknown_tip">Неизвестный URL</string>
-    <string name="smsmms_url_safety_unknown_content">"Неизвестна безопасность URL, пожалуйста, проявите осторожность!"</string>
+    <string name="smsmms_url_safety_unknown_content">Неизвестна безопасность URL, пожалуйста, проявите осторожность!</string>
     <string name="smsmms_url_safe_net_unavailable_tip">Сеть недоступен , выполните сброс настроек сети</string>
-    <string name="smsmms_url_safety_unavailable_content">"Сеть недоступна, неспособна обеспечить безопасность URL!"</string>
+    <string name="smsmms_url_safety_unavailable_content">Сеть недоступна, неспособна обеспечить безопасность URL!</string>
     <string name="smsmms_url_safety_validating">Проверка...</string>
     <string name="smsmms_url_tip">Предупреждение безопасности</string>
     <string name="smsmms_url_open_button">Продолжить</string>
@@ -2017,14 +2017,14 @@
     <string name="smsmms_notification_empty_subject_mms_message">Нажмите, чтобы просмотреть информацию о mms</string>
     <string name="smsmms_notification_prehead_count_info">"[%s] "</string>
     <string name="smsmms_notification_prehead_name_info">"[%s] "</string>
-    <string name="smsmms_embedded_storage">Встроенное хранелище</string>
+    <string name="smsmms_embedded_storage">Встроенное хранилище</string>
     <string name="smsmms_cloudmsg_new">Новые зашифрованные сообщения</string>
     <string name="smsmms_cloudcall_time">Длительность звонка %s</string>
     <string name="smsmms_cloudmsg_string_dial">[Телефон]</string>
     <string name="smsmms_burn_after_read_snippet">После прочтения сжечь</string>
     <string name="smsmms_thread_assistant_title">Ассистент</string>
     <string name="smsmms_thread_push_empty_content">Нажмите для подробностей</string>
-    <string name="smsmms_url_share_text">"Я смотрю на [%1$s] с 360 Телефон, поделиться с вами? Посмотрим на это вместе! %2$s"</string>
+    <string name="smsmms_url_share_text">Я смотрю на [%1$s] с 360 Телефон, поделиться с вами? Посмотрим на это вместе! %2$s</string>
     <string name="smsmms_url_text">Ссылка</string>
     <string name="smsmms_url_empty_tip">Ссылка пуста</string>
     <string name="smsmms_share_attachment_max_count_tips">Только %s вложения могут совместно во время</string>
@@ -2041,26 +2041,26 @@
     <string name="smsmms_cloudmsg_no_verify_code">Пожалуйста, введите проверочный код</string>
     <string name="smsmms_cloudmsg_verify_code_error">Проверка не удалась</string>
     <string name="smsmms_cloudmsg_guide_one_1">Бесплатный зашифрованный чат</string>
-    <string name="smsmms_cloudmsg_guide_one_2">"Чат Шифрование содержимого сообщения, показывает вкус зашифрованного текста
-    Вызов шифрования больше не боятся записи"</string>
+    <string name="smsmms_cloudmsg_guide_one_2">"Чат Шифрование содержимого сообщения, показывает возможность зашифрованного текста
+    Вызов шифрования - больше не бойтесь записи"</string>
     <string name="smsmms_cloudmsg_guide_two_1">После прочтения сжечь</string>
-    <string name="smsmms_cloudmsg_guide_two_2">"Важная информация, больше не необходимо беспокоиться о принятии изображений экрана
-                  Не оставили следы"</string>
-    <string name="smsmms_cloudmsg_encryption_tip">Зашифрованные разговор, отправить информацию и Телефон, шифрование end-to-end. По умолчанию редактирование информации и представление, которое требуется расшифровать.</string>
+    <string name="smsmms_cloudmsg_guide_two_2">"Важная информация, больше не нужно беспокоиться о принятии изображений экрана
+                  Не оставляет следов"</string>
+    <string name="smsmms_cloudmsg_encryption_tip">Зашифрованные разговор, отправить информацию в телефон, шифрование end-to-end. По умолчанию редактирование информации и представление, которое требуется расшифровать.</string>
     <string name="smsmms_cloudmsg_logout">Выход</string>
     <string name="smsmms_cloudmsg_no_record_tip">"Примечание: функция зашифрованной связи ограничена к контактам, используя 360 Телефон,
            И входа в систему шифрования связи функциональной связи между друзьями."</string>
     <string name="smsmms_cloudmsg_hint_input_read_burn_content">Пожалуйста, введите burn после прочтения</string>
     <string name="smsmms_cloudmsg_decryption_dialog">"Текущая информация в зашифрованном виде:
 1.Замаскированный под ред 300 Тан стихи.
-2.Зашифрованный чат интерфейс против скриншоты.
-3.Просмотр текстовый пароль для расшифровки."</string>
+2.Зашифрованный чат интерфейс против скриншотов.
+3.Просмотр текстового пароль для расшифровки."</string>
     <string name="smsmms_cloudmsg_chat_burn_tip">"Вы открываете запись после режима чтения, текущий режим:
-1.Автоматически уничтожать друг друга после прочтения информации;
+1.Автоматически уничтожать друг у друга после прочтения информации;
 2.Система автоматически на основе длины содержимого имеет значение уничтожить"</string>
     <string name="smsmms_cloudmsg_decryption">Расшифровка информации</string>
     <string name="smsmms_cloudmsg_click_decryption">Нажмите кнопку расшифровка</string>
-    <string name="smsmms_cloudmsg_burned">Был разрушен</string>
+    <string name="smsmms_cloudmsg_burned">Было удалено</string>
     <string name="smsmms_cloudmsg_sent">Отправлено</string>
     <string name="smsmms_cloudmsg_arrived">Было доставлено</string>
     <string name="smsmms_cloudmsg_delete_message">"Удаление информации
@@ -2071,10 +2071,10 @@
     <string name="smsmms_cloudmsg_retracting">Снято</string>
     <string name="smsmms_cloudmsg_retracted">Была снята</string>
     <string name="smsmms_cloudmsg_tab_contact">Зашифрованный Телефон</string>
-    <string name="smsmms_cloudmsg_call_tipline_title">В защиту зашифрованного вызова</string>
+    <string name="smsmms_cloudmsg_call_tipline_title">Под защиту зашифрованного вызова</string>
     <string name="smsmms_cloudmsg_call_tipline_sub">Вызов процесса шифрования данных и имеют следующие меры защиты</string>
     <string name="smsmms_cloudmsg_call_tipline_sound">Для предотвращения записи</string>
-    <string name="smsmms_cloudmsg_call_tipline_screenshot">Запрет скриншоты</string>
+    <string name="smsmms_cloudmsg_call_tipline_screenshot">Запрет скриншотов</string>
     <string name="smsmms_cloudmsg_call_tipline_ting">Чтобы предотвратить перехват информации</string>
     <string name="smsmms_cloudmsg_call_tipline_encryption">Шифрование голосовой связи</string>
     <string name="smsmms_cloudmsg_msg_tipline_title">Шифрование сообщений</string>
@@ -2101,10 +2101,10 @@
 2. Зашифрованного SMS
 
  1.Почему содержание является Тан?
-Отображение информации редакции по умолчанию 300 Тан стихи, просмотреть пароль, необходимый для расшифровки; блокировки экрана, сброс, выйдите из приложения или в фоновом режиме, шифрование интерфейс, автоматическое шифрование блокировок.
+Отображение информации по умолчанию как 300 Тан стихи, просмотреть пароль, необходимый для расшифровки; блокировки экрана, сброс, выйдите из приложения или в фоновом режиме, шифрование интерфейс, автоматическое шифрование блокировок.
 
  2.Как защитить данные сообщения является безопасным?
-Хранилище контента шифрования информации, шифруется, даже если перехватчик также удалось получить реальное содержание.
+Хранилище контента шифрования информации, шифруется, даже если перехватчику удалось получить реальное содержание.
 
  3. После прочтения сжечь
 
@@ -2112,23 +2112,23 @@
 Нажмите на кнопку «после прочтения сжечь» в записи после режима чтения, введите важное содержимое для отправки, нажмите кнопку Отправить."</string>
     <string name="smsmms_cloudmsg_msghelp_explain_two">"
 
- 2.Как просмотреть сведения и знают друг друга уже уничтожены?
+ 2.Как просмотреть сведения и узнать у друг друга уже уничтожены?
 Данные пользователя, отправляемые с помощью записи после прочтения с специальным логотипом, когда получатели Нажмите для просмотра информации сожгли обратный отсчет (по времени), время выезда за сжечь информацию исчез, не оставив никаких следов. Кроме того, отправитель получает приглашение было уничтожено."</string>
     <string name="smsmms_cloudmsg_msghelp_explain_three">"
 
-3. Что делать, если экран сохранения записи?
+3. Что делать, если экран сохранил записи?
 Процесс зашифрованного диалога, запрещение скриншотов.
 
 "</string>
     <string name="smsmms_cloudmsg_activity_help_title">Функция справки</string>
-    <string name="smsmms_cloudmsg_logout_tip">Выход, Вы не сможете использовать функцию зашифрованния звонков и шифрования SMS</string>
+    <string name="smsmms_cloudmsg_logout_tip">Выход, Вы не сможете использовать функцию зашифрованных звонков и шифрования SMS</string>
     <string name="smsmms_cloudmsg_msg_no_record">Нет зашифрованных разговоров</string>
     <string name="smsmms_cloudmsg_no_mark">Бесшовный фон</string>
     <string name="smsmms_string_aready_open">Вкл.</string>
     <string name="smsmms_string_aready_close">Выкл.</string>
     <string name="smsmms_cloudmsg_chat_nomark_tip">Вы открываете без режима трассировки, сообщения будут автоматически удалены после</string>
     <string name="smsmms_cloudmsg_no_mark_title">В бесшовные режиме защиты</string>
-    <string name="smsmms_cloudmsg_no_mark_call_sub_title">Оба зашифрованные звонки не будет производить записи</string>
+    <string name="smsmms_cloudmsg_no_mark_call_sub_title">Оба зашифрованных звонка не будут производить записи</string>
     <string name="smsmms_cloudmsg_no_mark_msg_sub_title">Отправка и получение информации для автоматического удаления после прочтения, не оставляют никаких следов</string>
     <string name="smsmms_cloudmsg_no_mark_call_log_tip">Режим трассировки включен, нет зашифрованных вызовов</string>
     <string name="smsmms_cloudmsg_msg">Зашифрованная информация</string>
