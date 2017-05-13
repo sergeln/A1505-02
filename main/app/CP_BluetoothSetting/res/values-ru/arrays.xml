@@ -202,108 +202,108 @@
         <item>Устройство</item>
     </string-array>
     <string-array name="app_ops_summaries">
-        <item>приблизительное местоположение</item>
-        <item>точное местоположение</item>
-        <item>GPS</item>
-        <item>вибросигнал</item>
-        <item>считывать данные контактов</item>
-        <item>изменение контактов</item>
-        <item>просмотр списка вызовов</item>
-        <item>изменение списка вызовов</item>
-        <item>считывать данные календаря</item>
-        <item>изменение календаря</item>
-        <item>поиск Wi‑Fi</item>
-        <item>уведомление</item>
-        <item>поиск мобильных сетей</item>
-        <item>позвонить</item>
-        <item>чтение SMS</item>
-        <item>создание SMS</item>
-        <item>Получение SMS</item>
-        <item>получение экстренных SMS</item>
-        <item>получение MMS</item>
-        <item>получение сообщений WAP PUSH</item>
-        <item>отправка SMS</item>
-        <item>чтение SMS со смарт-карты</item>
-        <item>запись SMS на смарт-карту</item>
-        <item>изменение настроек</item>
-        <item>отображать поверх других элементов</item>
-        <item>Доступ к уведомлениям</item>
-        <item>камера</item>
-        <item>записать аудио</item>
-        <item>воспроизвести аудио</item>
-        <item>считать из буфера обмена</item>
-        <item>изменить буфер обмена</item>
-        <item>кнопки мультимедиа</item>
-        <item>аудиофокус</item>
-        <item>общая громкость</item>
-        <item>громкость голоса</item>
-        <item>громкость звонка</item>
-        <item>громкость мультимедиа</item>
-        <item>громкость будильника</item>
-        <item>громкость уведомлений</item>
-        <item>громкость Bluetooth-устройств</item>
-        <item>не отключать</item>
-        <item>Отслеживать местоположение</item>
-        <item>контролировать использование энергии при определении местоположения</item>
-        <item>посмотреть статистику использования</item>
-        <item>включить/отключить микрофон</item>
-        <item>трансляция контента</item>
-        <item>активация VPN</item>
-        <item>сохранение обоев</item>
-        <item>вспомогательная структура</item>
-        <item>вспомогательный скриншот</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка использования вибрации</item>
+        <item>Попытка чтения контактов</item>
+        <item>Попытка изменения контактов</item>
+        <item>Попытка чтения журнала вызовов</item>
+        <item>Попытка изменения журнала вызовов</item>
+        <item>Попытка чтения календаря</item>
+        <item>Попытка изменения календаря</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка размещения уведомления</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка осуществления вызова</item>
+        <item>Попытка чтения SMS</item>
+        <item>Попытка создания/изменения SMS</item>
+        <item>Попытка получения SMS</item>
+        <item>Попытка получения экстренного SMS</item>
+        <item>Попытка получения MMS</item>
+        <item>Попытка получения служебного SMS</item>
+        <item>Попытка отправки SMS</item>
+        <item>Попытка чтения ICC SMS</item>
+        <item>Попытка создания/изменения ICC SMS</item>
+        <item>Попытка изменения настроек</item>
+        <item>Попытка размещения поверх других окон</item>
+        <item>Попытка доступа к уведомлениям</item>
+        <item>Попытка доступа к камере</item>
+        <item>Попытка записи звука</item>
+        <item>Попытка воспроизведения звука</item>
+        <item>Попытка чтения буфера обмена</item>
+        <item>Попытка изменения буфера обмена</item>
+        <item>Попытка использования медиакнопок</item>
+        <item>Попытка использования приоритета звука</item>
+        <item>Попытка использования общей громкости</item>
+        <item>Попытка использования громкости голоса</item>
+        <item>Попытка использования громкости звонка</item>
+        <item>Попытка использования громкости мультимедиа</item>
+        <item>Попытка использования громкости будильника</item>
+        <item>Попытка использования громкости уведомления</item>
+        <item>Попытка использования громкости Bluetooth</item>
+        <item>Попытка запрета спящего режима</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка доступа к местоположению</item>
+        <item>Попытка получения статистики использования</item>
+        <item>Попытка выключения микрофона</item>
+        <item>Попытка воспроизведения на удаленном экране</item>
+        <item>Попытка включения VPN</item>
+        <item>Попытка смены обоев</item>
+        <item>Попытка создания структуры</item>
+        <item>Попытка создания скриншота</item>
     </string-array>
     <string-array name="app_ops_labels">
-        <item>Местоположение</item>
-        <item>Местоположение</item>
-        <item>Местоположение</item>
-        <item>Вибросигнал</item>
-        <item>Считывать данные контактов</item>
+        <item>Доступ к местоположению</item>
+        <item>Доступ к местоположению</item>
+        <item>Доступ к местоположению</item>
+        <item>Использование вибрации</item>
+        <item>Чтение контактов</item>
         <item>Изменение контактов</item>
-        <item>Просмотр списка вызовов</item>
-        <item>Изменение списка вызовов</item>
-        <item>Считывать данные календаря</item>
+        <item>Чтение журнала вызовов</item>
+        <item>Изменение журнала вызовов</item>
+        <item>Чтение календаря</item>
         <item>Изменение календаря</item>
-        <item>Местоположение</item>
-        <item>Разместить уведомление</item>
-        <item>Местоположение</item>
-        <item>Позвонить</item>
-        <item>Чтение SMS/MMS</item>
-        <item>Запись SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Получение SMS/MMS</item>
-        <item>Отправка SMS/MMS</item>
-        <item>Чтение SMS/MMS</item>
-        <item>Запись SMS/MMS</item>
+        <item>Доступ к местоположению</item>
+        <item>Размещение уведомления</item>
+        <item>Доступ к местоположению</item>
+        <item>Осуществление вызова</item>
+        <item>Чтение SMS</item>
+        <item>Создание/изменение SMS</item>
+        <item>Получение SMS</item>
+        <item>Получение SMS</item>
+        <item>Получение MMS</item>
+        <item>Получение SMS</item>
+        <item>Отправка SMS</item>
+        <item>Чтение SMS</item>
+        <item>Создание/изменение SMS</item>
         <item>Изменение настроек</item>
-        <item>Отображать поверх других элементов</item>
+        <item>Размещение поверх других окон</item>
         <item>Доступ к уведомлениям</item>
-        <item>Камера</item>
-        <item>Записать аудио</item>
-        <item>Воспроизвести аудио</item>
-        <item>Считать из буфера обмена</item>
-        <item>Изменить буфер обмена</item>
-        <item>Кнопки мультимедиа</item>
-        <item>Аудиофокус</item>
-        <item>Общая громкость</item>
-        <item>Громкость голоса</item>
-        <item>Громкость звонка</item>
-        <item>Громкость мультимедиа</item>
-        <item>Громкость будильника</item>
-        <item>Громкость уведомлений</item>
-        <item>Громкость Bluetooth-устройств</item>
-        <item>Не отключать</item>
-        <item>Местоположение</item>
-        <item>Определение местоположения</item>
-        <item>Посмотреть статистику использования</item>
-        <item>Включить/отключить микрофон</item>
-        <item>Трансляция контента</item>
-        <item>Активация VPN</item>
-        <item>Сохранение обоев</item>
-        <item>Вспомогательная структура</item>
-        <item>Вспомогательный скриншот</item>
+        <item>Доступ к камере</item>
+        <item>Запись звука</item>
+        <item>Воспроизведение звука</item>
+        <item>Чтение буфера обмена</item>
+        <item>Изменение буфера обмена</item>
+        <item>Использование медиакнопок</item>
+        <item>Использование приоритета звука</item>
+        <item>Использование общей громкости</item>
+        <item>Использование громкости голоса</item>
+        <item>Использование громкости звонка</item>
+        <item>Использование громкости мультимедиа</item>
+        <item>Использование громкости будильника</item>
+        <item>Использование громкости уведомления</item>
+        <item>Использование громкости Bluetooth</item>
+        <item>Запрет спящего режима</item>
+        <item>Доступ к местоположению</item>
+        <item>Доступ к местоположению</item>
+        <item>Получение статистики использования</item>
+        <item>Выключение микрофона</item>
+        <item>Воспроизведение на удаленном экране</item>
+        <item>Включение VPN</item>
+        <item>Смена обоев</item>
+        <item>Создание структуры</item>
+        <item>Создание скриншота</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Небольшая</item>
@@ -324,9 +324,9 @@
     <string-array name="captioning_font_size_selector_titles">
         <item>Очень мелкий</item>
         <item>Мелкий</item>
-        <item>Средний</item>
+        <item>Обычный</item>
         <item>Крупный</item>
-        <item>Очень крупный</item>
+        <item>Огромный</item>
     </string-array>
     <string-array name="captioning_edge_type_selector_titles">
         <item>Нет</item>
@@ -335,11 +335,11 @@
     </string-array>
     <string-array name="captioning_preset_selector_titles">
         <item>По умолчанию</item>
-        <item>Белый на черном</item>
-        <item>Черный на белом</item>
-        <item>Желтый на черном</item>
-        <item>Желтый на синем</item>
-        <item>Пользовательский</item>
+        <item>Белое на черном</item>
+        <item>Черное на белом</item>
+        <item>Желтое на черном</item>
+        <item>Желтое на синем</item>
+        <item>Настроить</item>
     </string-array>
     <string-array name="select_runtime_titles">
         <item>Dalvik</item>
@@ -362,7 +362,7 @@
         <item>Всегда использовать проверку HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -371,7 +371,7 @@
         <item>Анимация (масштаб: 10x)</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -390,17 +390,17 @@
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Нет</item>
-        <item>720x480 mdpi</item>
-        <item>720x480 mdpi (безопасно)</item>
-        <item>1280x720 tvdpi</item>
-        <item>1280x720 tvdpi (безопасно)</item>
-        <item>1920x1080 xhdpi</item>
-        <item>1920x1080 xhdpi (безопасно)</item>
+        <item>480p</item>
+        <item>480p (защищено)</item>
+        <item>720p</item>
+        <item>720p (защищено)</item>
+        <item>1080p</item>
+        <item>1080p (защищено)</item>
         <item>4K</item>
-        <item>4K (защита)</item>
-        <item>4K (масштабирование)</item>
-        <item>4K (масштабирование, защита)</item>
-        <item>720p, 1080p (два экрана)</item>
+        <item>4K (защищено)</item>
+        <item>4K (увеличено)</item>
+        <item>4K (увеличено, защищено)</item>
+        <item>720p и 1080p (два экрана)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нет данных</item>
@@ -421,8 +421,8 @@
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Откл.</item>
-        <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
+        <item>Отображать области наложения</item>
+        <item>Отображать области дейтераномалии</item>
         <item>Show overdraw counter</item>
     </string-array>
     <string-array name="app_process_limit_entries">
@@ -442,16 +442,16 @@
         <item>VPN-подключение IPSec с использованием сертификатов и комбинированной аутентификации</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Отключена</item>
-        <item>Инициализация...</item>
-        <item>Подключение...</item>
-        <item>Подключена</item>
-        <item>Время ожидания истекло</item>
+        <item>Отключено</item>
+        <item>Инициализация…</item>
+        <item>Подключение…</item>
+        <item>Подключено</item>
+        <item>Время истекло</item>
         <item>Сбой</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Вознесенное существо</item>
-        <item>Человека</item>
+        <item>Высшее существо</item>
+        <item>Человек</item>
         <item>Неандерталец</item>
         <item>Шимпанзе</item>
         <item>Обезьяна</item>

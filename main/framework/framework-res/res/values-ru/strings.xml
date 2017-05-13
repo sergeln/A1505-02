@@ -59,7 +59,7 @@
     <string name="config_mms_user_agent">Android-Mms/2.0</string>
     <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
     <string name="config_isoImagePath" />
-    <string name="config_ntpServer">asia.pool.ntp.org</string>
+    <string name="config_ntpServer">2.android.pool.ntp.org</string>
     <string name="config_wimaxServiceJarLocation" />
     <string name="config_wimaxNativeLibLocation" />
     <string name="config_wimaxManagerClassname" />
@@ -363,7 +363,7 @@
     <string name="permlab_reorderTasks">Упорядочивание запущенных приложений</string>
     <string name="permdesc_reorderTasks">Приложение сможет переключать активный и фоновый режимы выполнения задач без вашего ведома.</string>
     <string name="permlab_enableCarMode">Включение режима громкой связи</string>
-    <string name="permdesc_enableCarMode">Приложение сможет включать режим \"Штурман\".</string>
+    <string name="permdesc_enableCarMode">Приложение сможет включать режим \"За рулем\".</string>
     <string name="permlab_killBackgroundProcesses">Закрытие других приложений</string>
     <string name="permdesc_killBackgroundProcesses">Приложение сможет завершать фоновые процессы других приложений. Из-за этого другие приложения могут прекратить работу.</string>
     <string name="permlab_systemAlertWindow">Показ элементов интерфейса поверх других окон</string>
@@ -1130,7 +1130,7 @@
     <string name="no_file_chosen">Не выбран файл</string>
     <string name="reset">Сбросить</string>
     <string name="submit">Отправить</string>
-    <string name="car_mode_disable_notification_title">Включен режим \"Штурман\"</string>
+    <string name="car_mode_disable_notification_title">Включен режим \"За рулем\"</string>
     <string name="car_mode_disable_notification_message">Чтобы выйти, нажмите здесь.</string>
     <string name="tethered_notification_title">Включен режим модема</string>
     <string name="tethered_notification_message">Нажмите для настройки.</string>
@@ -1496,8 +1496,8 @@
     <string name="battery_mode_change_abnormal_title">Информация</string>
     <string name="battery_mode_change_work">Нажмите, чтобы изменить.</string>
     <string name="battery_mode_change_abnormal_message">Произошла ошибка, возможно из-за нестабильности тока в зарядном устройстве. Переключите режим зарядки.</string>
-    <string name="battery_overheat_temperature">Слишком высокая температура батареи. Пожалуйста, держите её в пределах нормы.</string>
-    <string name="battery_cold_temperature">Температура батареи слишком низка. Пожалуйста держите её в пределах нормы.</string>
+    <string name="battery_overheat_temperature">Перегрев батареи. Соблюдайте температурный режим</string>
+    <string name="battery_cold_temperature">Переохлаждение батареи. Соблюдайте температурный режим</string>
     <string name="battery_over_voltage">Напряжение батареи слишком высока. Прекратите заряжать телефон.</string>
     <string name="internal_info">Менее %1$d Мб свободного места в телефоне. Удалите лишние файлы.</string>
     <string name="external_info">Менее %1$d Мб свободного места на карте памяти. Удалите лишние файлы.</string>
@@ -1508,7 +1508,7 @@
     <string name="global_action_new_reboot_title">Перезагрузка</string>
     <string name="global_toggle_new_airplane_mode_title">Режим полета</string>
     <string name="global_toggle_new_mute_mode_title">Без звука</string>
-    <string name="global_toggle_new_standbypower_mode_log_button_text">log</string>
+    <string name="global_toggle_new_standbypower_mode_log_button_text">Лог</string>
     <string name="direct_restart_not_upgrade">Перезагрузить без обновления</string>
     <string name="reboot_for_updata">Перезагрузить и обновить</string>
     <string name="power_shortage">Низкий уровень заряда</string>
@@ -1516,16 +1516,16 @@
     <string name="insufficient_storage_space">Недостаточно места</string>
     <string name="please_clean_up_the_space_and_try_again">Освободите память и повторите попытку</string>
     <string name="global_toggle_new_standbypower_mode_dialog_title1">"Осталось заряда "</string>
-    <string name="global_toggle_new_standbypower_mode_dialog_title2">"%, whether to open the standby super?
+    <string name="global_toggle_new_standbypower_mode_dialog_title2">"%, включить режим супер энергосбережения?
 
-After the screen will shut down the network connection, access to power saving mode, restore the network connection.
-Open after long press the power button on the shutdown restart the function of the page.
-Friendship tip: pro, use this feature as far as possible do not frequent the screen out screen oh."</string>
+После того, как экран потухнет, закроется сетевое соединение, доступ в режим энергосбережения восстановит сетевое соединение.
+Открывается после длительного нажатия на кнопку питания, отключение перезапускает функцию на этой странице.
+Совет: pro, используйте эту функцию, насколько это возможно, не часто экран стареет."</string>
     <string name="global_toggle_new_standbypower_mode_dialog_button_ok">Включить режим энергосбережения</string>
     <string name="global_action_affirm_shutdown_title">Выключение</string>
     <string name="global_action_affirm_reboot_title">Перезагрузка</string>
     <string name="global_toggle_new_standby_power_saving_mode_title">Энергосбережение</string>
-    <string name="hint_text">When open the standby power, standby will shut down the network connection, enter power saving mode, bright screen recovery network. Open the standby power, standby will shut down the network connection, when enter power saving mode, bright screen after restore the network connection.Whether open?</string>
+    <string name="hint_text">В режиме экономии при выключении экрана будут отключаться все сетевые подключения, при включении экрана они будут восстановлены. Включить режим экономии?</string>
     <string name="sure_text">ОК</string>
     <string name="cancel_text">Отмена</string>
     <string name="dont_alertme_agin">Не напоминать больше.</string>

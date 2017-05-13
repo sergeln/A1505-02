@@ -44,7 +44,7 @@
     <string name="pull_to_refresh_release_label">Release to refresh</string>
     <string name="pull_to_refresh_refreshing_label">Refreshing</string>
     <string name="system_default_set_font">sans-serif-light</string>
-    <string name="security_abs_action_menu_overflow_description">More options</string>
+    <string name="security_abs_action_menu_overflow_description">Больше вариантов</string>
     <string name="coolui_process_security_remote">:remote</string>
     <string name="device_storage_low">"Less than &lt;font color='#ff0000'>%1$s&lt;/font> of space left"</string>
     <string name="device_storage_clean">Clean</string>
@@ -85,7 +85,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_text_mem_clean_sugg_close">Предлагаем закрыть</string>
     <string name="security_password_manager">Безопасный пароль</string>
     <string name="security_way_choice">Выбор типа защиты</string>
-    <string name="security_pattern_verify">Повторите ричунок графического ключа</string>
+    <string name="security_pattern_verify">Повторите рисунок графического ключа</string>
     <string name="security_pattern_or_finger">Проверить графический ключ или отпечаток пальца</string>
     <string name="security_pls_make_pattern">Нарисуйте графический ключ</string>
     <string name="security_way_pattern">Графический ключ</string>
@@ -180,7 +180,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_nodisturb_mode">\"Не беспокоить\"</string>
     <string name="security_time_start">Запланированные</string>
     <string name="security_recall">Повторные вызовы</string>
-    <string name="security_recall_hit">Напоминать в течение 10 минут о пропущеных вызовах, если эта функция включена</string>
+    <string name="security_recall_hit">Напоминать в течение 10 минут о пропущенных вызовах, если эта функция включена</string>
     <string name="security_priority">Звонки и уведомления</string>
     <string name="security_interruptions_text">Звонки и уведомления без звука, экран не будет просыпаться, если эта функция включена</string>
     <string name="security_priority_text">Сигнал при получении вызова или сообщения от выбранного контакта</string>
@@ -266,7 +266,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_all_accept_mode">Разрешить все</string>
     <string name="security_all_accept_mode_detail">Не блокировать любые телефонные номера и информацию</string>
     <string name="security_only_intercept_blacklist">Только черный список</string>
-    <string name="security_only_intercept_blacklist_detail">Только черный список звонков и смс</string>
+    <string name="security_only_intercept_blacklist_detail">Только черный список звонков и SMS</string>
     <string name="security_only_accept_vip">Принимать только VIP(Белый список)</string>
     <string name="security_only_accept_vip_detail">>Принимать только VIP(Белый список) звонки и текстовые сообщения, блокировать черный список вызовов и текстовых сообщений</string>
     <string name="security_only_accept_contact">Принимать только контакты</string>
@@ -296,7 +296,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_jubao_failed">Отчет об отказах</string>
     <string name="security_jubao_succeed">Отчет об успехах</string>
     <string name="security_jubao_succeed_dialog_msg1">Успешно добавлен в черный список.</string>
-    <string name="security_jubao_succeed_dialog_msg2">Совет. Чтобы ваша семья, друзея и поклонники знали о назойливах номерах, вы можете опубликовать их в Twitter!</string>
+    <string name="security_jubao_succeed_dialog_msg2">Совет. Чтобы ваша семья, друзья и поклонники знали о назойливых номерах, вы можете опубликовать их в Twitter!</string>
     <string name="security_intercept_mode">Режим перехвата активен</string>
     <string name="security_sure_to_delete_intercept_record">Удалить запись блока?</string>
     <string name="security_unknow_number">Неизвестный номер</string>
@@ -321,7 +321,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_add_blacklist_member_succeed">Черный список успешно обновлен</string>
     <string name="security_add_vip_member_succeed">VIP(Белый список) успешно обновлен</string>
     <string name="security_add_from_call_and_sms_log">Выбрать из истории звонков и SMS</string>
-    <string name="security_add_from_call_log">Добавлено от истории звоноков</string>
+    <string name="security_add_from_call_log">Добавлено от истории звонков</string>
     <string name="security_add_from_call_log_title">История звонков</string>
     <string name="security_add_from_sms_log">Добавлено от истории SMS</string>
     <string name="security_add_from_sms_log_title">История SMS</string>
@@ -348,7 +348,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_edit_blacklist">Редактировать черный список</string>
     <string name="security_coop_adding_data">Работа с объединенными данными</string>
     <string name="security_solid_number_add_tips">При добавлении фиксированного телефонного номера, добавьте код города.</string>
-    <string name="security_edit_vip_member_succeed">Редактирование VIP списка операция выполнена успешн</string>
+    <string name="security_edit_vip_member_succeed">Редактирование VIP списка операция выполнена успешно</string>
     <string name="security_edit_vip_found_in_vip">Номер в VIP-списке уже существует, номер будет перезаписан, продолжить?</string>
     <string name="security_edit_vip_found_in_black">Этот номер уже существует в списке, добавлять этот номер в VIP-список?</string>
     <string name="security_after_add_vip_info">Добавление в VIP(Белый список) завершено, система будет находиться в соответствии с вашего предыдущего выбора режима захвата для перехвата!</string>
@@ -395,7 +395,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_start_time">Время начала</string>
     <string name="security_end_time">Время окончания</string>
     <string name="security_forbid_alarm">Отключить будильник</string>
-    <string name="security_forbid_notify">Отключить уведомления будльника и заметок</string>
+    <string name="security_forbid_notify">Отключить уведомления будильника и заметок</string>
     <string name="security_forbid_led">Отключить LED индикатор</string>
     <string name="security_open_no_disturb_toast">Включён режим \"Не беспокоить\" перехват работает в соответствии с вашим выбором</string>
     <string name="security_tray_no_vip_tips">VIP(Белый список) пуст, добавьте VIP(Белый список) затем включите режим \"Не беспокоить\".</string>
@@ -416,7 +416,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_record_setting">Параметры записи</string>
     <string name="security_current_mode">"Текущий режим: "</string>
     <string name="security_after_intercept_handle_way">Вызов после перехвата</string>
-    <string name="security_add_strange_incoming_call_number_to_blacklist">Входящие звонки из \"Чернного списка\"</string>
+    <string name="security_add_strange_incoming_call_number_to_blacklist">Входящие звонки из \"Черного списка\"</string>
     <string name="security_immediately_hang_up">Повесить трубку</string>
     <string name="security_no_vibrate_no_rings">Без вибрации и рингтона (включен экран)</string>
     <string name="security_no_vibrate_no_rings_screen_off">Без вибрации и рингтона (не горит экран)</string>
@@ -483,7 +483,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_storage_notexist">Устройство хранения данных не существует, не могу установить сообщение</string>
     <string name="security_talk_recording">Идет запись разговора</string>
     <string name="security_plase_waite">Пожалуйста, подождите</string>
-    <string name="security_save_error">Ошибка сохранения записи, проверте дисковое пространство</string>
+    <string name="security_save_error">Ошибка сохранения записи, проверьте дисковое пространство</string>
     <string name="security_record_0">Пожалуйста, оставьте сообщение после того, как услышите звуковой сигнал</string>
     <string name="security_record_1">Не может быть подключен</string>
     <string name="security_record_2">Занят</string>
@@ -533,7 +533,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_no_num_call_intercept_closed">Номер для вызова блокировки выключен</string>
     <string name="security_strange_num_call_intercept">Неизвестный номер заблокирован</string>
     <string name="security_strange_num_call_intercept_opened">Неизвестный номер вызова перехвата открыт</string>
-    <string name="security_strange_num_call_intercept_closed">Незвестный номер блокировки выключен</string>
+    <string name="security_strange_num_call_intercept_closed">Неизвестный номер блокировки выключен</string>
     <string name="security_contact_as_vip">Контакт, как VIP(Белый список)</string>
     <string name="security_contact_as_vip_opened">Контакт, как VIP(Белый список) был открыт</string>
     <string name="security_contact_as_vip_closed">Контакт, как VIP(Белый список) был закрыт</string>
@@ -590,7 +590,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_choose_city_tips">Неизвестный номер в отдельных районах будет заблокирован</string>
     <string name="security_kavass_on">Перехват домогательств включен</string>
     <string name="security_switch_mode_succeed">Режим автоматической переадресации успешно изменен!</string>
-    <string name="security_no_vip_close_kavass">VIP (белый список) пуст, перхват отлючен!</string>
+    <string name="security_no_vip_close_kavass">VIP (белый список) пуст, перехват отключен!</string>
     <string name="security_free_handle">Бесплатный способ перехвата</string>
     <string name="security_cost_handle">Набор возможных вызовов блокировок</string>
     <string name="security_self_item_0">Черный список</string>
@@ -611,7 +611,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_set_no_self_def_item">Не задано для перехвата всех звонков и SMS</string>
     <string name="security_time_switch_on">Включена блокировка по времени</string>
     <string name="security_time_switch_off">Выключена блокировка по времени</string>
-    <string name="security_you_have_chosen">Вфш выбор</string>
+    <string name="security_you_have_chosen">Ваш выбор</string>
     <string name="security_pls_choose_city">, выберите город</string>
     <string name="security_whole_province">Провинция</string>
     <string name="security_move_vip_area_to_black">Эта область уже существует в VIP(Белый список), при добавлении запись переедет в черный список, продолжить?</string>
@@ -674,7 +674,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_dialog_confirm_pass">Подтвердите пароль</string>
     <string name="security_next_step">Следующий шаг</string>
     <string name="security_passmanage_hint">Вы можете сбросить пароль с помощью альтернативного пароля или вопросов безопасности, если забыли пароль</string>
-    <string name="security_set_hint_question">Введите ворос</string>
+    <string name="security_set_hint_question">Введите вопрос</string>
     <string name="security_set_hint_answer">Введите ответ</string>
     <string name="security_complete_create_password">Пароль создан</string>
     <string name="security_password_look_for">Восстановление пароля</string>
@@ -704,7 +704,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_change_pass_successfully">Изменен успешно!</string>
     <string name="security_question_answer_hint_error">Ответ не верный</string>
     <string name="security_clear_pass_success">Успешно очищен пароль безопасности</string>
-    <string name="security_info_hit">>Сообщение сильная ассоциация номеронобирателя и контактами, для защиты вашей личной жизни будет заблокирована синхронизация номеронабирателя и контактов. Продолжать?</string>
+    <string name="security_info_hit">Сообщение: чрезмерная ассоциация номеро набирателя и контактов, для защиты вашей личной жизни будет заблокирована синхронизация номеронабирателя и контактов. Продолжать?</string>
     <string name="security_confirm_bind">Использовать безопасный пароль для блокировки приложений?</string>
     <string name="security_info">Обмен сообщениями</string>
     <string name="security_cancel_screenlock">Разблокировка по отпечатку будет бесполезна, продолжить?</string>
@@ -739,11 +739,11 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="lockpattern_need_to_unlock_complex_wrong">"Повторите попытку: "</string>
     <string name="security_relate_pass_find_items_by_phone">По относительным номерам телефона</string>
     <string name="security_relate_pass_find_items_by_question">Подсказка по вопросу о пароле</string>
-    <string name="security_no_card">Нет информации sim карты</string>
+    <string name="security_no_card">Нет информации SIM карты</string>
     <string name="security_app_mms">Сообщения</string>
     <string name="security_app_dialer">Телефон</string>
     <string name="security_app_contact">Контакты</string>
-    <string name="lockpassword_password_recently_used">Администротор устройства запрещает использовать предыдущий пароль.</string>
+    <string name="lockpassword_password_recently_used">Администратор устройства запрещает использовать предыдущий пароль.</string>
     <string name="lockpassword_pin_recently_used">Диспетчер устройств не позволяет вам использовать предыдущий PIN-код.</string>
     <string name="security_password_login">Логин</string>
     <string name="security_coolmanage_hint">Советы службы безопасности</string>
@@ -766,7 +766,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="lockpattern_pattern_confirmed_header">Сохраните новый ключ разблокировки</string>
     <string name="lockpattern_recording_inprogress">По завершении отпустите палец</string>
     <string name="lockpattern_confirm_button_text">ОК</string>
-    <string name="heat_text">Температура телефона высокая.\nРекомендуется охладить телефон запустив буструю очистку</string>
+    <string name="heat_text">Температура телефона высокая.\nРекомендуется охладить телефон запустив быструю очистку</string>
     <string name="cool_text">Температура телефона снижена до безопасного значения</string>
     <string name="clean_text">Связанные приложения были очищены.\nПожалуйста, подождите, пока телефон остынет</string>
     <string name="cleaning_text">Остывает, пожалуйста, подождите</string>
@@ -806,7 +806,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="heatsource_hightemp_resource">"Ресурс: "</string>
     <string name="heatsource_hightemp_interface">Остановите соответствующие приложения</string>
     <string name="heatsource_notify_detail">>приводит к высокой температуре, рекомендуется прекратить.</string>
-    <string name="heatsource_notify_nolist_detail">емпература телефона слишком высока, нажмите чтобы посмотреть детали.</string>
+    <string name="heatsource_notify_nolist_detail">Температура телефона слишком высока, нажмите чтобы посмотреть детали.</string>
     <string name="heatsource_nowtemp_notification">"Текущая температура: "</string>
     <string name="heatsource_temp_notification_deatil">Отслеживать в реальном времени температуру и источник нагрева</string>
     <string name="heatsource_notify_env_temp">Перегрев. Это может быть связано с температурой окружающего воздуха. Коснитесь, чтобы просмотреть детали</string>
@@ -863,7 +863,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="notify_more_message">Отключатся Wi-fi, данные, bluetooth, GPS, не влияет на телефон и sms, экран черно-белый</string>
     <string name="notify_install_forward">%, включить режим энергосбережения?</string>
     <string name="new_notify_message_nonet">Отключить Wi-fi, данные, bluetooth, GPS, не влияет на телефон и sms</string>
-    <string name="new_notify_message_net">Отключить bluetooth, GPS, не влияет на телефон и sm</string>
+    <string name="new_notify_message_net">Отключить bluetooth, GPS, не влияет на телефон и SMS</string>
     <string name="new_notify_message_blackshow">, экран в черно-белом режиме</string>
     <string name="charge_mode_default">Режим зарядки</string>
     <string name="charge_mode_normal">Нормальная</string>
@@ -883,13 +883,13 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="screen_time_minute">"  мин.  "</string>
     <string name="screen_time_hour">"  ч.  "</string>
     <string name="screen_time_other_application">Сторонние приложения</string>
-    <string name="new_savepower_setting">Настройкии ультра энергосбережения</string>
+    <string name="new_savepower_setting">Настройки ультра энергосбережения</string>
     <string name="new_savepower_black">Черно-белое изображение</string>
     <string name="new_savepower_connect_mode">Режим сети</string>
     <string name="new_savepower_connect_net">Не отключать</string>
     <string name="new_savepower_disconnect_net">Всегда отключать сеть</string>
     <string name="new_savepower_disconnect_screenoff">Отключать сеть при отключении экрана</string>
-    <string name="new_savepower_bytime">Энергосбережение по рассписанию</string>
+    <string name="new_savepower_bytime">Энергосбережение по расписанию</string>
     <string name="new_savepower_bytime_not">Выкл.</string>
     <string name="new_savepower_bytime_time_setting">Время начала и окончания</string>
     <string name="new_savepower_bytime_open_use">Вкл.</string>
@@ -981,7 +981,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
 
 \u0009\u00091． 360OS оптимизация аппаратного и программного обеспечения в глубину, продукта после разблокировки загрузчика, 360OS не может гарантировать, что ваше устройство в лучшем состоянии, нет никакой гарантии, что все функции будут работать корректно. 
 
-\u0009\u00092． Большинство сторонних прошивки не были полностью протестированы и совместимость с устройством 360OS плохо, это повлияет на стабильность оборудования, или даже причиной повреждения оборудования, таких как высокое энергопотребление потребления и батареи жизни короче, RF производительность вызывают поисковой сети или влияют на качество звонока и так далее. Некоторые прошивки вызовет устройство не запуститься и не может быть восстановлена, устройство может не использоваться. 
+\u0009\u00092． Большинство сторонних прошивок не были полностью протестированы и совместимость с устройством 360OS плохо, это повлияет на стабильность оборудования, или даже причиной повреждения оборудования, таких как высокое энергопотребление потребления и батареи жизни короче, RF производительность вызывают поисковой сети или влияют на качество звонока и так далее. Некоторые прошивки вызовет устройство не запуститься и не может быть восстановлена, устройство может не использоваться. 
 
 \u0009\u00093． Не может быть гарантирована безопасность, может быть, уязвимости программного обеспечения, уязвимость для атак вредоносных программ, тем самым раскрывая телефонные номера, текстовые сообщения, данные о местоположении и другие личные данные, также имеет возможность отправить заказной плату за услуги в фоновом режиме текста или звоните, тайно оплаты телефона или даже контролируется другими. 
 

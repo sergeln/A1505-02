@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Настройки A-GPS</string>
-    <string name="basic_title">Основной заголовок</string>
+    <string name="basic_title">Основные настройки</string>
     <string name="a_gps">A-GPS</string>
     <string name="sync_time">Время синхр.</string>
     <string name="mode">Режим A-GPS</string>

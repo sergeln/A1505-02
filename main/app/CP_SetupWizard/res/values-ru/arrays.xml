@@ -12,7 +12,7 @@
         <item>Отключено</item>
         <item>Сбой</item>
         <item>Заблокировано</item>
-        <item>Временно избегать плохго соединения</item>
+        <item>Временно избегать плохого соединения</item>
         <item>Подключено (Требуется проверка подлинности)</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
@@ -27,7 +27,7 @@
         <item>Отключено</item>
         <item>Сбой</item>
         <item>Заблокировано</item>
-        <item>Временно избегать плохго соединения</item>
+        <item>Временно избегать плохого соединения</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Плохой</item>

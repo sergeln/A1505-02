@@ -22,68 +22,68 @@
         <item>User-defined</item>
     </string-array>
     <string-array name="contact_birthday_remind_freq_list">
-        <item>Alert on the current day</item>
-        <item>One day in advance</item>
-        <item>Two days in advance</item>
-        <item>Three days in advance</item>
-        <item>Seven days in advance</item>
-        <item>Half a month in advance</item>
-        <item>One month in advance</item>
+        <item>Оповещение в текущий день</item>
+        <item>Один день перед событием</item>
+        <item>За два дня перед событием</item>
+        <item>За три дня перед событием</item>
+        <item>За семь дней перед событием</item>
+        <item>Пол месяца перед событием</item>
+        <item>Один месяц перед событием</item>
     </string-array>
     <string-array name="array_notice">
-        <item>Custom Sms</item>
-        <item>Custom Sms, bank Sms</item>
-        <item>Custom Sms, notification Sms</item>
+        <item>Обычное SMS</item>
+        <item>Обычное SMS, SMS в банк</item>
+        <item>Обычное SMS, оповещение по SMS</item>
     </string-array>
     <string-array name="coolcloud_cloud_crecord_menu_list">
-        <item>All Records</item>
-        <item>Missed call</item>
-        <item>Batch operation</item>
-        <item>Recycle bin</item>
+        <item>Все Записи</item>
+        <item>Пропущенный звонок</item>
+        <item>Операторский пакет</item>
+        <item>Корзина</item>
     </string-array>
     <string-array name="coolcloud_cloud_sms_menu_list">
-        <item>Batch operation</item>
-        <item>Recycle bin</item>
+        <item>Операторский пакет</item>
+        <item>Корзина</item>
     </string-array>
     <string-array name="coolcloud_cloud_contact_menu_list">
-        <item>Sort by Time</item>
-        <item>Sort in alphabetical order</item>
-        <item>Batch operation</item>
-        <item>Recycle bin</item>
+        <item>По времени</item>
+        <item>По имени</item>
+        <item>Операторский пакет</item>
+        <item>Корзина</item>
     </string-array>
     <string-array name="coolcloud_cloud_group_menu_list">
-        <item>Create group</item>
-        <item>Batch delete</item>
+        <item>Создать группу</item>
+        <item>Пакетное удаление</item>
     </string-array>
     <string-array name="coolcloud_netdisk_actionbar_navigation_menu_list">
         <item>Изображение</item>
         <item>Музыка</item>
         <item>Видео</item>
         <item>Документы</item>
-        <item>All files</item>
+        <item>Все файлы</item>
     </string-array>
     <string-array name="coolcloud_netdisk_actionbar_navigation_menu_more">
-        <item>View by category</item>
-        <item>Transmission list</item>
-        <item>Sort</item>
+        <item>Просмотр по категориям</item>
+        <item>Список передачи</item>
+        <item>Сортировать</item>
         <item>Установить</item>
     </string-array>
     <string-array name="coolcloud_netdisk_actionbar_navigation_menu_list_1">
-        <item>Download list</item>
-        <item>Upload list</item>
+        <item>Список загрузок</item>
+        <item>Список выгрузки</item>
     </string-array>
     <string-array name="coolcloud_netdisk_actionbar_more_menu_list">
         <item>Параметры сети</item>
-        <item>Thumbnail</item>
+        <item>Эскизы</item>
         <item>Поиск</item>
         <item>Обновить</item>
-        <item>New folder</item>
+        <item>Новая папка</item>
         <item>Установить</item>
     </string-array>
     <string-array name="cooperation_help_list">
-        <item>Introduction</item>
-        <item>Precautions</item>
-        <item>FAQs</item>
+        <item>Вступление</item>
+        <item>Меры предосторожности</item>
+        <item>FAQ</item>
     </string-array>
     <string-array name="coolyou_problem_array">
         <item>How do I view synchronized and backed up data on the 360 OS cloud service?</item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="menu_view_items">
-        <item>Local upgrade</item>
-        <item>System update settings</item>
+        <item>Локальное обновление</item>
+        <item>Настройки обновления системы</item>
     </string-array>
 </resources>

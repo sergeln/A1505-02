@@ -97,7 +97,7 @@
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>
         <item>Вручную</item>
-        <item>Автоначтройка</item>
+        <item>Автонастройка</item>
     </string-array>
     <string-array name="tether_channel_settings">
         <item>авто</item>
@@ -116,16 +116,16 @@
         <item>13</item>
     </string-array>
     <string-array name="wifi_network_standard_settings">
-        <item>b-только</item>
-        <item>b/g смешанный</item>
-        <item>b/g/n смешанный</item>
-        <item>g-только</item>
-        <item>n-только</item>
+        <item>Только b</item>
+        <item>Смешанный b/g</item>
+        <item>Смешанный b/g/n</item>
+        <item>Только g</item>
+        <item>Только n</item>
     </string-array>
     <string-array name="wifi_hotspot_power_save_entries">
-        <item>Отключение при простое в течение 10 мин</item>
-        <item>Отключение при простое в течение 30 мин</item>
-        <item>Никогда</item>
+        <item>Отключать после 10 мин. бездействия</item>
+        <item>Отключать после 30 мин. бездействия</item>
+        <item>Не отключать</item>
     </string-array>
     <string-array name="softap_max_connect_number_settings">
         <item>1 пользователь</item>
@@ -139,12 +139,12 @@
     </string-array>
     <string-array name="wifi_wapi_psk_mode">
         <item>WAPI PSK ASCII</item>
-        <item>WAPI PSK hexadecimal</item>
+        <item>WAPI PSK шестнадцатиричный</item>
     </string-array>
     <string-array name="wifi_auto_select_entries">
-        <item>По запросу</item>
-        <item>Ручное подключение WLAN</item>
-        <item>Автоподключегие к WLAN</item>
+        <item>Спрашивать</item>
+        <item>Подключать вручную</item>
+        <item>Подключать автоматически</item>
     </string-array>
     <string-array name="wifi_display_resolution">
         <item>Авто</item>

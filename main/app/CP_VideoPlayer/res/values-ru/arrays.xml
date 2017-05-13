@@ -12,12 +12,12 @@
         <item>По размеру (больш.-мал.)</item>
     </string-array>
     <string-array name="list_display_items">
-        <item>Отображение представления</item>
+        <item>Эскизы</item>
     </string-array>
     <string-array name="player_setting_group">
         <item>Настройки повтора</item>
-        <item>Цвет</item>
-        <item>Настройки субтитров</item>
+        <item>Цвет субтитров</item>
+        <item>Размер субтитров</item>
         <item>Размер изображения</item>
     </string-array>
     <string-array name="player_setting_play_set">

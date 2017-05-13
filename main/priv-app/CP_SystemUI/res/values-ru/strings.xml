@@ -21,7 +21,7 @@
     <string name="duoqu_calls_frequency">Количество звонков</string>
     <string name="duoqu_calls_calltime">Время звонка</string>
     <string name="duoqu_calls_last_calltime">Последний раз</string>
-    <string name="duoqu_calls_sideattribution">Другие атрибуции</string>
+    <string name="duoqu_calls_sideattribution">Другие атрибуты</string>
     <string name="duoqu_calls_ownstate">Статус звонка</string>
     <string name="duoqu_calls_sidestate">Другие состояния</string>
     <string name="duoqu_calls_callingtime">Время звонка</string>
@@ -82,8 +82,8 @@
     <string name="lable_in_progress">В прогрессе</string>
     <string name="lable_occurred">Произошло</string>
     <string name="notification_title">с</string>
-    <string name="notification_content_airplane" formatted="false">%s, от %s Вылетающие рейсы будут находиться в %s снять</string>
-    <string name="notification_content_train" formatted="false">%s, от %s Поезд будет оставить %s Начало.</string>
+    <string name="notification_content_airplane" formatted="false">%s, от %s вылетающего рейсы будут находиться в %s вылета</string>
+    <string name="notification_content_train" formatted="false">%s, от %s отправления поезда %s до начала отправления.</string>
     <string name="notification_content_hotel" formatted="false">%s, Забронировать гостиницу %s Время заезда.</string>
     <string name="notification_content_movies">Фильмы, которые вы забронировали вот-вот время заезда.</string>
     <string name="notification_content_common">Message box</string>
@@ -93,9 +93,9 @@
     <string name="action_settings">Настройки</string>
     <string name="system_setting_pull_up_tip">Потяните вверх, меню могут быть взяты из нижней части экрана.</string>
     <string name="system_setting_pull_up_menu">Потяните вверх, меню</string>
-    <string name="system_setting_pull_up_keyguard_access_control_title">Pull-Up available above keyguard</string>
-    <string name="system_setting_pull_up_application_access_control_title">Подтягивающий доступные выше приложения</string>
-    <string name="system_setting_pull_up_application_access_control_subtitle">Подтягивающий по-прежнему доступны выше запуска при выключении</string>
+    <string name="system_setting_pull_up_keyguard_access_control_title">Натягивание имеющихся в наличии над экраном блокировки</string>
+    <string name="system_setting_pull_up_application_access_control_title">Натягивание имеющихся в наличии над приложениями</string>
+    <string name="system_setting_pull_up_application_access_control_subtitle">Натягивание имеющихся в наличии над Launcher при выключении</string>
     <string name="lucky_money_setting_title">Lucky Money помощник</string>
     <string name="lucky_money_setting_tip_setting">Настройки</string>
     <string name="lucky_money_setting_remind_title">Новые Lucky Money оповещения</string>
@@ -284,7 +284,7 @@
     <string name="keyguard_weather_location_error_no_date_tips">Не удалось получить местоположение. Пожалуйста, проверьте, включена ли служба местоположения.</string>
     <string name="keyguard_weather_data_requesting">Получение данных</string>
     <string name="keyguard_weather_ad_open">Загрузить</string>
-    <string name="keyguard_accu_weather_more">Посмотреть больше＞</string>
+    <string name="keyguard_accu_weather_more">Посмотреть больше></string>
     <string name="keyguard_weather_ad_tag">Объявление</string>
     <string name="keyguard_weather_pm25">PM2.5:</string>
     <string name="keyguard_weather_centigrade_unit">℃</string>
@@ -601,7 +601,7 @@ Battery Saver автоматически выключается во время 
     <string name="wifi_status">Статус</string>
     <string name="wifi_speed">Скорость соединения</string>
     <string name="wifi_frequency">Частота</string>
-    <string name="wifi_ip_address">IP адресс</string>
+    <string name="wifi_ip_address">IP адрес</string>
     <string name="wifi_ip_address_hint">192.168.1.128</string>
     <string name="wifi_eap_method">EAP метод</string>
     <string name="please_select_phase2">Фаза 2 аутентификация</string>

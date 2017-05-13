@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="strings_feedback_type">
-        <item>Battery and Overheating</item>
-        <item>System Crash and Reboot</item>
-        <item>Calling and signaling</item>
-        <item>WiFi problem</item>
-        <item>Camera problem</item>
-        <item>Screen problem</item>
-        <item>Fingerprint problem</item>
-        <item>Application exception</item>
-        <item>Ещё</item>
+        <item>Батарея и перегрев</item>
+        <item>Системный сбой и перезагрузка</item>
+        <item>Вызов и сигналы</item>
+        <item>WiFi проблемы</item>
+        <item>Проблема камеры</item>
+        <item>Проблема экрана</item>
+        <item>Проблема отпечатка пальцев</item>
+        <item>Приложения особая ситуация</item>
+        <item>Более</item>
     </string-array>
     <string-array name="strings_more_type">
-        <item>Memory and unresponsive</item>
-        <item>Audio/video problem</item>
-        <item>Position and sensor problem</item>
-        <item>Bluetooth problem</item>
+        <item>Память и зависания</item>
+        <item>Аудио/видео проблемы</item>
+        <item>Позиционирование и проблемы сенсоров</item>
+        <item>Bluetooth проблема</item>
         <item>Other problems</item>
     </string-array>
     <string-array name="strings_prompt_hint_temp">
-        <item>Please provide details on the functions that you were using when the battery started to drain, leading to overheating.</item>
-        <item>Please provide details on the functions that you were using when the system crashed and you need to restart.</item>
-        <item>Please provide details on the functions that you were using when the voice calls and signaling operations failed.</item>
-        <item>Please provide details on the functions that you were using when the WiFi connection stopped working.</item>
-        <item>Please provide details on the functions that you were using when the camera stopped operating.</item>
-        <item>Please provide details on the functions that you were using when you encountered problems with the screen.</item>
-        <item>Please provide details on the functions that you were using when you encountered problems with the fingerprint.</item>
-        <item>Please provide details on the functions that you were using when you encountered an application exception.</item>
-        <item>Please provide details on the functions that you were using when you encountered the problems with the memory and the system becomes unresponsive.</item>
-        <item>Please provide details on the audio/video problem you encountered.</item>
-        <item>Please provide details on the positioning and sensor problem you encountered.</item>
-        <item>Please provide details on the Bluetooth problem you encountered.</item>
-        <item>Please provide details on the problems you have identified.</item>
-        <item>Please provide details on the problem you have detected.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда началась утечка батареи, что привело к перегреву.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда система зависла, и вам нужно было ее перезапустить.</item>
+        <item>Просьба представить подробную информацию о функциях, которые вы использовали, когда не выполнялись голосовые вызовы и операции сигнализации.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда соединение Wi-Fi перестало работать.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда камера перестала работать.</item>
+        <item>Предоставьте сведения о функциях, которые вы использовали при возникновении проблем с экраном..</item>
+        <item>Пожалуйста, предоставьте подробную информацию о функциях, которые вы использовали, когда вы столкнулись с проблемами отпечатка пальца.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда вы столкнулись с исключительной ситуацией в приложении.</item>
+        <item>Пожалуйста, предоставьте информацию о функциях, которые вы использовали, когда вы столкнулись с проблемами  памяти, и система перестает отвечать.</item>
+        <item>Просьба представить подробную информацию о проблеме аудио / видео, с которой вы столкнулись.</item>
+        <item>Пожалуйста, предоставьте информацию о проблеме позиционирования и датчика, с которой вы столкнулись.</item>
+        <item>Пожалуйста, предоставьте информацию о возникшей проблеме Bluetooth.</item>
+        <item>Просьба представить подробную информацию о выявленных проблемах.</item>
+        <item>Просьба представить подробную информацию о проблеме, которую вы обнаружили.</item>
     </string-array>
 </resources>

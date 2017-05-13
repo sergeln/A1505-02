@@ -379,7 +379,7 @@
         <item>Всегда использовать проверку HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -388,7 +388,7 @@
         <item>Анимация (масштаб: 10x)</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -408,12 +408,12 @@
     <string-array name="overlay_display_devices_entries">
         <item>Нет</item>
         <item>720x480 mdpi</item>
-        <item>720x480 mdpi (безопасно)</item>
+        <item>720x480 mdpi (защищено)</item>
         <item>1280x720 tvdpi</item>
-        <item>1280x720 tvdpi (безопасно)</item>
+        <item>1280x720 tvdpi (защищено)</item>
         <item>1920x1080 xhdpi</item>
-        <item>1920x1080 xhdpi (безопасно)</item>
-        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (защищено)</item>
+        <item>1280x720 tvdpi и 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="overlay_display_devices_values">
         <item></item>
@@ -471,16 +471,16 @@
         <item>Сбой</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
-        <item>Human</item>
-        <item>Neanderthal</item>
-        <item>Chimp</item>
-        <item>Monkey</item>
+        <item>Высшее существо</item>
+        <item>Человек</item>
+        <item>Неандерталец</item>
+        <item>Шимпанзе</item>
+        <item>Обезьяна</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Спрашивать</item>
-        <item>Не разрешать</item>
-        <item>Разрешать всегда</item>
+        <item>Всегда запрещать</item>
+        <item>Всегда разрешать</item>
     </string-array>
     <string-array name="ram_states">
         <item>Достаточно</item>
@@ -490,8 +490,8 @@
     </string-array>
     <string-array name="entries_zen_mode">
         <item>Выкл.</item>
-        <item>Limited interruptions</item>
-        <item>Zero interruptions</item>
+        <item>Ограниченное количество прерываний</item>
+        <item>Без прерываний</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Нормально</item>
@@ -531,7 +531,7 @@
     </string-array>
     <string-array name="entries_version_secret">
         <item>Обычная версия</item>
-        <item>Конфиденциальная версия</item>
+        <item>Защищенная версия</item>
     </string-array>
     <string-array name="system_property_main_storage_entries">
         <item>Автоматически</item>
@@ -604,12 +604,12 @@
         <item>Это просто тест?</item>
     </string-array>
     <string-array name="finger_print_unlock_shortcuts">
-        <item>Разблокировать экран</item>
-        <item>Быстрый захват</item>
-        <item>Открыть wechat</item>
-        <item>Один из ключей набора</item>
-        <item>Открыть другое app</item>
-        <item>Привязка пользователя</item>
+        <item>Разблокировка</item>
+        <item>Быстрая съемка</item>
+        <item>Открыть Wechat</item>
+        <item>Быстрый набор</item>
+        <item>Открыть приложение</item>
+        <item>Связать пользователя</item>
     </string-array>
     <string-array name="colorenhance_bhd_entries">
         <item>Естественный</item>
@@ -627,17 +627,17 @@
         <item>Холодный</item>
     </string-array>
     <string-array name="single_timeout_entries">
-        <item>0.5 ч.</item>
-        <item>1 ч.</item>
-        <item>1.5 ч.</item>
-        <item>2 ч.</item>
-        <item>2.5 ч.</item>
+        <item>30 мин.</item>
+        <item>1 час</item>
+        <item>1,5 часа</item>
+        <item>2 часа</item>
+        <item>2,5 часа</item>
     </string-array>
     <string-array name="vibrate_lever_entries">
-        <item>нет</item>
-        <item>слабо</item>
-        <item>средне</item>
-        <item>сильно</item>
+        <item>Выкл.</item>
+        <item>Слабо</item>
+        <item>Средне</item>
+        <item>Сильно</item>
     </string-array>
     <string-array name="lock_screen_entries">
         <item>Показывать</item>
@@ -653,17 +653,17 @@
     </string-array>
     <string-array name="home_key_entries">
         <item>Нет</item>
-        <item>Последние задачи</item>
-        <item>Экран выключен</item>
+        <item>Фоновые приложения</item>
+        <item>Выключить экран</item>
     </string-array>
     <string-array name="click_press_key_entries">
-        <item>Последние задачи</item>
+        <item>Фоновые приложения</item>
         <item>Меню</item>
         <item>Назад</item>
     </string-array>
     <string-array name="longclick_press_recent_task_entries">
         <item>Нет</item>
-        <item>Последние задачи</item>
+        <item>Фоновые приложения</item>
         <item>Меню</item>
     </string-array>
     <string-array name="toggle_install_applications_entries">
@@ -732,29 +732,29 @@
         <item>Любимая(ый)</item>
     </string-array>
     <string-array name="mode_choice">
-        <item>Глобальный</item>
+        <item>Все сети</item>
         <item>Только CDMA</item>
         <item>"GSM/UMTS only 
 Unavailable in Macao and mainland China"</item>
     </string-array>
     <string-array name="setting_network_data">
-        <item>Card 1#</item>
-        <item>Card 2#</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
     <string-array name="setting_default_dial">
-        <item>Ручной выбор</item>
-        <item>Card 1#</item>
-        <item>Card 2#</item>
+        <item>Выбирать вручную</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
     </string-array>
     <string-array name="setting_send_mms">
-        <item>Ручной выбор</item>
-        <item>Card 1#</item>
-        <item>Card 2#</item>
+        <item>Выбирать вручную</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
     </string-array>
     <string-array name="setting_let_network">
         <item>Запретить LTE</item>
-        <item>LTE of card 1#</item>
-        <item>LTE of card 2#</item>
+        <item>LTE SIM1</item>
+        <item>LTE SIM2</item>
     </string-array>
     <string-array name="preference_network_type">
         <item>4G/3G/2G</item>

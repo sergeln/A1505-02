@@ -18,8 +18,8 @@
     <string name="debug_dump_email_body">Во вложении находится база данных, содержащая всю информацию о моих контактах. Просьба соблюдать конфиденциальность.</string>
     <string name="pg_contacts_label">Contacts PermissionGroup</string>
     <string name="pg_contacts_desc">Contacts PermissionGroup</string>
-    <string name="private_label">private permission</string>
-    <string name="private_desc">get private contacts data</string>
+    <string name="private_label">приватные права доступа</string>
+    <string name="private_desc">получить личные данные контактов</string>
     <string name="friend">Друзья</string>
     <string name="family">Семья</string>
     <string name="confrere">Коллеги</string>

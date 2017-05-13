@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="av_autostart_bootcomplete">Автоматический запуск после загрузки</string>
-    <string name="av_autostart_bg">Автоматический запуск фона</string>
+    <string name="av_autostart_bg">Автоматический запуск в фоне</string>
     <string name="av_autostart_boot_bg">Автоматический запуск после загрузки и фона</string>
     <string name="av_autostart_confirm">Продолжить использование</string>
     <string name="av_autostart_allow">Согласится</string>
@@ -13,14 +13,14 @@
     <string name="av_autostart_alert_summary">Специальная оптимизация для этой модели</string>
     <string name="av_autostart_optimizing">Оптимизация</string>
     <string name="av_autostart_optimize_result">Оптимизировано %1$d из %2$s</string>
-    <string name="av_autostart_optimize_on_key">Smart оптимизация (%1$d)</string>
-    <string name="av_autostart_optimize_accept">Предлагаю принять</string>
-    <string name="av_autostart_optimize_reject">Предлагаю запретить</string>
-    <string name="av_autostart_optimize_onekey_string1">Пункт</string>
-    <string name="av_autostart_optimize_onekey_string2">Предложить запрещенные программное обеспечение</string>
-    <string name="av_autostart_optimize_best_status">Замечательный статус</string>
+    <string name="av_autostart_optimize_on_key">Умная оптимизация (%1$d)</string>
+    <string name="av_autostart_optimize_accept">Рекомендуется разрешить</string>
+    <string name="av_autostart_optimize_reject">Рекомендуется запретить</string>
+    <string name="av_autostart_optimize_onekey_string1">Элемент</string>
+    <string name="av_autostart_optimize_onekey_string2">Рекомендуется запретить</string>
+    <string name="av_autostart_optimize_best_status">Оптимизация не требуется</string>
     <string name="av_installmonitor_title_scan_time_out">Проверка завершена</string>
-    <string name="av_installmonitor_title_scan_fakeid">FakeID Пиратские приложения, предлагаем отменить установку</string>
+    <string name="av_installmonitor_title_scan_fakeid">Это пиратское ПО с поддельным ID. Рекомендуем отменить установку</string>
     <string name="av_installmonitor_title_scan_from">Источник: %s</string>
     <string name="av_installmonitor_title_describe_empty">Список разрешений пуст</string>
     <string name="av_installmonitor_title_describe_upgrade">( Обновление установки )</string>
@@ -32,8 +32,8 @@
     <string name="av_installmonitor_button_ok">Установить</string>
     <string name="av_installmonitor_button_cancel">Отмена</string>
     <string name="av_installmonitor_button_continue_install">Продолжить установку</string>
-    <string name="av_installmonitor_button_cancel_install">Не устанавливать</string>
-    <string name="av_installmonitor_button_finish">Завершено</string>
+    <string name="av_installmonitor_button_cancel_install">Отмена</string>
+    <string name="av_installmonitor_button_finish">Готово</string>
     <string name="av_installmonitor_button_open">Открыть</string>
     <string name="av_installmonitor_button_confirm">ОК</string>
     <string name="av_installmonitor_button_setting">Настройка</string>
@@ -46,7 +46,7 @@
     <string name="av_installmonitor_permission_item_state_accept">Принять</string>
     <string name="av_installmonitor_permission_item_state_promtp">Запрос</string>
     <string name="av_installmonitor_permission_item_state_reject">Запретить</string>
-    <string name="av_installmonitor_permission_item_name_null">z.unknow</string>
+    <string name="av_installmonitor_permission_item_name_null">Неизвестно</string>
     <string name="av_installmonitor_permission_item_label_null">Другое</string>
     <string name="av_installmonitor_permission_item_desp_null">Другое</string>
     <string name="av_installmonitor_permission_item_dialog_button">Известно</string>
@@ -60,7 +60,7 @@
     <string name="av_installmonitor_install_error_oldersdk">Версия Android устройства ниже</string>
     <string name="av_installmonitor_install_error_incompatible">Приложение не совместимо с устройством</string>
     <string name="av_installmonitor_install_error_unavailable">Место установки недоступно</string>
-    <string name="av_installmonitor_install_error_versiondowngrade">Нельзя ухудшать установленное приложение</string>
+    <string name="av_installmonitor_install_error_versiondowngrade">Невозможно понизить версию приложения</string>
     <string name="av_installmonitor_install_out_space">Не достаточно места</string>
     <string name="av_installmonitor_install_package_error">Пожалуйста, попробуйте заново установить</string>
     <string name="av_installmonitor_install_unkonw">Для безопасности телефон устанавливается блокировать установку приложений, полученных из неизвестных sources。 Можно задать «параметры — > ecurity — > неизвестный источник» 。</string>
@@ -71,13 +71,13 @@
     <string name="av_installmonitor_install_danger_title">@string/av_common_app_name_tip_title_short</string>
     <string name="av_installmonitor_install_danger_describe">\"%1$s\" Да %2$s, продолжить установку?</string>
     <string name="av_installmonitor_install_danger_delete">Удалить \"%s\"?</string>
-    <string name="av_installmonitor_install_danger_ok">Установить</string>
-    <string name="av_installmonitor_install_danger_no">Не устанавливать</string>
+    <string name="av_installmonitor_install_danger_ok">Продолжить</string>
+    <string name="av_installmonitor_install_danger_no">Отмена</string>
     <string name="av_installmonitor_install_danger_delete_ok">Удалить</string>
     <string name="av_installmonitor_install_danger_delete_no">Отмена</string>
-    <string name="av_installmonitor_install_auto_title">Уведомления</string>
+    <string name="av_installmonitor_install_auto_title">Уведомление</string>
     <string name="av_installmonitor_install_auto_cancel">Отмена</string>
-    <string name="av_installmonitor_install_auto_continue">Отмена</string>
+    <string name="av_installmonitor_install_auto_continue">Продолжить</string>
     <string name="av_installmonitor_scan_state_safe">Прошел проверку безопасности</string>
     <string name="av_installmonitor_scan_state_safe_for_appstore">Прошел проверку безопасности</string>
     <string name="av_installmonitor_scan_state_unknow">Прошел проверку безопасности</string>
@@ -93,33 +93,33 @@
     <string name="av_appinstall_subtitle_monitor">Монитор установок</string>
     <string name="av_appinstall_subtitle_auto_setting">Предотвращение автоматической установки</string>
     <string name="av_appinstall_use_360">Использование 360 установщика</string>
-    <string name="av_appinstall_app_recommendation">Отображение рекомендуемых приложений</string>
-    <string name="av_appinstall_auto_setting">Тихий инсталляционный монитор</string>
+    <string name="av_appinstall_app_recommendation">Отображать рекомендации</string>
+    <string name="av_appinstall_auto_setting">Контроль тихой установки</string>
     <string name="av_appinstall_allow_market">Интеллигентный запрос</string>
     <string name="av_appinstall_allow_market_des">Намек на подозрительную автоматическую установку</string>
     <string name="av_appinstall_notice">Запрашивать все</string>
     <string name="av_appinstall_notice_des">Отключить все запросы</string>
     <string name="av_appinstall_forbid">Запрещены все</string>
-    <string name="av_appinstall_forbid_des">Запрещены все тихие установки</string>
+    <string name="av_appinstall_forbid_des">Запретить все тихие установки</string>
     <string name="av_appinstall_log">Журнал</string>
     <string name="av_appinstall_log_comefrom_without_marks">Источник %s</string>
     <string name="av_appinstall_log_comefrom_with_marks">Источник “%s”</string>
     <string name="av_appinstall_window_notice">Предлагаем запретить кроме владельца установки</string>
     <string name="av_appinstall_window_refuse_time">Запрещено (%s)</string>
-    <string name="av_appinstall_window_refuse">Запретить</string>
-    <string name="av_appinstall_unknow">неизвестные приложение</string>
+    <string name="av_appinstall_window_refuse">Запрещено</string>
+    <string name="av_appinstall_unknow">Неизвестное приложение</string>
     <string name="av_appinstall_pc">PC tools</string>
-    <string name="av_appinstall_pc_360">“PC360”</string>
-    <string name="av_appinstall_quotation_mark">“%s”</string>
-    <string name="av_appinstall_from_end">"Пытаясь установить: "</string>
-    <string name="av_appinstall_refuse">Перехват</string>
-    <string name="av_appinstall_log_clear_notice">Вы уверены, что хотите очистить все записи журнала?</string>
+    <string name="av_appinstall_pc_360">\"PC360\"</string>
+    <string name="av_appinstall_quotation_mark">\"%s\"</string>
+    <string name="av_appinstall_from_end">"Попытка установки: "</string>
+    <string name="av_appinstall_refuse">Блокировать</string>
+    <string name="av_appinstall_log_clear_notice">Очистить журнал?</string>
     <string name="av_appinstall_today">Сегодня</string>
-    <string name="av_appinstall_forbid_notice">Эта функция будет запрещена с ПК стороны, мобильный терминал все поведение автоматической установки, может повлиять на использование помощника, тип рынка программного обеспечения</string>
-    <string name="av_appinstall_window_ignore_notice">Обработчик в 5 мин.</string>
-    <string name="av_appinstall_adb_window_ignore_notice">Это соединение сделать обработчик</string>
+    <string name="av_appinstall_forbid_notice">Эта функция будет запрещена со стороны ПК. Это повлияет на все тихие установки приложений в телефон</string>
+    <string name="av_appinstall_window_ignore_notice">Тот же обработчик через 5 мин.</string>
+    <string name="av_appinstall_adb_window_ignore_notice">Подключить с тем же обработчиком</string>
     <string name="av_installmonitor_install_download_total">Загружено: %s</string>
-    <string name="av_installmonitor_install_download_btn_text">Загрузок</string>
+    <string name="av_installmonitor_install_download_btn_text">Загрузить</string>
     <string name="av_installmonitor_install_download_unit_wan">Десять тысяч</string>
     <string name="av_installmonitor_install_download_unit_yi">Млрд.</string>
     <string name="av_installmonitor_sd_not_avail">Ошибка, SDcard не обнаружена</string>
@@ -133,9 +133,9 @@
     <string name="av_shield_action_del">Удалить запись</string>
     <string name="av_shield_action_config">Изменить разрешение</string>
     <string name="av_shield_alter_view_reject">Запретить</string>
-    <string name="av_shield_alter_view_reject_with_time_ticks">Запрещено (%sсек.)</string>
-    <string name="av_shield_alter_view_permit">Принять</string>
-    <string name="av_shield_alter_view_permit_with_time_ticks">Принято (%sсек.)</string>
+    <string name="av_shield_alter_view_reject_with_time_ticks">Запретить на %s сек.</string>
+    <string name="av_shield_alter_view_permit">Разрешить</string>
+    <string name="av_shield_alter_view_permit_with_time_ticks">Разрешить на %s сек.</string>
     <string name="av_shield_alert_view_remeber_choice">Сохранить мой выбор</string>
     <string name="av_shield_app_shield_count">Разрешений %s </string>
     <string name="av_shield_app_shield_safe_count">Содержит %s элементов данных системы</string>
@@ -180,41 +180,41 @@
     <string name="av_shield_item_detail_autostart_app">Автоматический запуск приложения</string>
     <string name="av_shield_item_detail_internet_app">Подключение к сети приложения</string>
     <string name="av_shield_shieldlevel_highrisk">Высокий риск конфиденциальность</string>
-    <string name="av_shield_shieldlevel_highest">Top Secret права на неприкосновенность частной жизни</string>
+    <string name="av_shield_shieldlevel_highest">Максимальные права конфиденциальности</string>
     <string name="av_shield_shieldlevel_important">Важное значение права на неприкосновенность частной жизни</string>
     <string name="av_shield_shieldlevel_normal">Общие права на неприкосновенность частной жизни</string>
-    <string name="av_shield_action_accept">Принять</string>
+    <string name="av_shield_action_accept">Разрешить</string>
     <string name="av_shield_action_reject">Запретить</string>
-    <string name="av_shield_action_prompt">Запрос</string>
+    <string name="av_shield_action_prompt">Спрашивать</string>
     <string name="av_shield_action_apply_permission">Quering разрешение</string>
     <string name="av_shield_title_change_turst_state">Изменение состояния доверия программного обеспечения</string>
     <string name="av_shield_title_change_action">Изменение разрешений на программное обеспечение</string>
-    <string name="av_shield_system_set_action_tip">“%s” это системное программное обеспечение, изменить параметры разрешений будут влиять на нормальное использование функции system。</string>
-    <string name="av_shield_log_clean">Пустая запись</string>
+    <string name="av_shield_system_set_action_tip">\"%s\" является системным приложением. Изменение его прав может повлиять на работу системных функций</string>
+    <string name="av_shield_log_clean">Очистить журнал</string>
     <string name="av_shield_trust_app">Программное обеспечение доверия</string>
     <string name="av_shield_btn_continue">Продолжить</string>
     <string name="av_shield_app_shield_sys">Система</string>
-    <string name="av_shield_apps_group">“%s” и т.д..</string>
+    <string name="av_shield_apps_group">\"%s\" и др.</string>
     <string name="av_shield_permission_detail">Необходимые права</string>
     <string name="av_shield_suggest_apps_summary">Программное обеспечение, рекомендуется оптимизация разрешения</string>
-    <string name="av_shield_suggest_action_accept">Suggect принять</string>
-    <string name="av_shield_suggest_action_reject">Suggect запрещено</string>
-    <string name="av_shield_suggest_action_prompt">Suggect запрос</string>
+    <string name="av_shield_suggest_action_accept">Рекомендуется разрешить</string>
+    <string name="av_shield_suggest_action_reject">Рекомендуется запретить</string>
+    <string name="av_shield_suggest_action_prompt">Рекомендуется спрашивать</string>
     <string name="av_shield_log_allow_restype_nofi_reject">"&lt;font color='#f95d5d'>Перехвачено&lt;/font>"</string>
     <string name="av_shield_log_allow_restype_auto">"&lt;font color='#559817'>Разрешено&lt;/font>"</string>
     <string name="av_shield_log_allow_restype_manual">"&lt;font color='#559817'>Разрешено&lt;/font>"</string>
     <string name="av_shield_log_reject_restype_manual">"&lt;font color='#f95d5d'>Запрещено&lt;/font>"</string>
-    <string name="av_shield_log_cleared">Запись была полна</string>
+    <string name="av_shield_log_cleared">Журнал очищен</string>
     <string name="av_shield_log_empty">Нет записей</string>
-    <string name="av_shield_setting">Параметры управления привилегиями</string>
-    <string name="av_shield_setting_switch">Открытого органа управления</string>
-    <string name="av_shield_setting_supermode_switch">Чтобы открыть супер режим</string>
-    <string name="av_shield_setting_sevice_tip">Остановите службы защиты конфиденциальности, могут быть вредоносные программы для кражи вашей личной жизни, продолжать ли?</string>
-    <string name="av_shield_setting_log_clear_msg">Подтвердить, чтобы очистить все данные мониторинга?</string>
-    <string name="av_shield_setting_header_log">Мониторинг записи</string>
+    <string name="av_shield_setting">Настройки управления правами</string>
+    <string name="av_shield_setting_switch">Включить управление правами</string>
+    <string name="av_shield_setting_supermode_switch">Разрешить включение супер-режима</string>
+    <string name="av_shield_setting_sevice_tip">Остановка функции защиты конфиденциальности может привести к краже личной информации вредоносными приложениями. Продолжить?</string>
+    <string name="av_shield_setting_log_clear_msg">Очистить журнал?</string>
+    <string name="av_shield_setting_header_log">Журнал контроля</string>
     <string name="av_shield_setting_header_service_setting">Параметры панели уведомлений</string>
     <string name="av_shield_item_detail_tip_disable_cannot_config">Функции защиты конфиденциальности корректируются, временное не может настраивать программное обеспечение полномочий, пожалуйста, подождите, для обновления версии</string>
-    <string name="av_shield_trust_set_action_tip">“%s” Это программное обеспечение доверия, необходимо изменить для мониторинга состояния, с тем чтобы приступить к следующему набору разрешений</string>
+    <string name="av_shield_trust_set_action_tip">\"%s\" является доверенным приложением. Измените настройки контроля, чтобы перейти к следующему шагу</string>
     <string name="av_shield_feedback_item0">Запрещенные недопустимое разрешение</string>
     <string name="av_shield_feedback_item1">Разрешение запрещено после применения исключения</string>
     <string name="av_shield_app_not_exist">Программное обеспечение был выгружен или не существует</string>
@@ -222,9 +222,9 @@
     <string name="av_shield_item_detail_summary">Принять %1$d, раз Запретный %2$d</string>
     <string name="av_shield_app_detail_tip_disable_cannot_config">Функции защиты конфиденциальности корректируются, временное не может настраивать программное обеспечение полномочий, пожалуйста, подождите, для обновления версии</string>
     <string name="av_shield_tip_trust_app_cannot_config">Программное обеспечение орган не может быть изменена в доверии</string>
-    <string name="av_shield_system_untrust_tip">" “%s” Это система построена программное обеспечение, если изменить доверие программного обеспечения, система может повлиять на нормальное использование системы function。
+    <string name="av_shield_system_untrust_tip">"\"%s\" является системным приложением. Изменение доверенного статуса приложения может повлиять на работу системных функций.
 Если вы не можете подтвердить влияние результатов, рекомендуется сохранить доверие системы software。"</string>
-    <string name="av_shield_nonsystem_trust_tip">Чтобы установить “%s” полное доверие программное обеспечение? Будущее программного обеспечения доступ ко всем разрешениям будет default。</string>
+    <string name="av_shield_nonsystem_trust_tip">Установить приложение \"%s\" доверенным и разрешить ему доступ ко всем разрешениям по умолчанию?</string>
     <string name="av_shield_app_detail_post_noti_state">Разрешить отображение уведомлений</string>
     <string name="av_shield_app_detail_autostart_state">Примите автоматический запуск</string>
     <string name="av_shield_app_detail_mobile_data_state">Прием использования данных мобильного подключения</string>
@@ -254,8 +254,8 @@
     <string name="av_shield_diagnosis_upload_err_unkown">Произошла неизвестная ошибка. Пожалуйста, повторите попытку позже.</string>
     <string name="av_shield_diagnosis_upload_err_no_src_file">Активная защита диагностический файл не найден, пожалуйста, откройте активную защиту каждого модуля и повторите попытку</string>
     <string name="av_shield_diagnosis_uploading">Загрузка журналов диагностики</string>
-    <string name="av_shield_diagnosis_switch_off">Откройте переключатель активной обороны и повторите попытку</string>
-    <string name="av_shield_diagnosis_collecting">Сбор журналов диагностики двигателя активной обороны, который обычно занимает несколько секунд</string>
+    <string name="av_shield_diagnosis_switch_off">Включите активную защиту и повторите попытку</string>
+    <string name="av_shield_diagnosis_collecting">Выполняется сбор данных журнала диагностики активной защиты</string>
     <string name="av_shielditemdetail_btn_tag_type" />
     <string name="av_shielditemdetail_btn_tag_pkgname" />
     <string name="av_shielditemdetail_btn_tag_1" />
@@ -313,8 +313,8 @@
     <string name="unknown_apps_admin_dlg_text">Ваш администратор запретил устанавливать приложения из неизвестных источников.</string>
     <string name="ok">ОК</string>
     <string name="settings">Параметры</string>
-    <string name="allow_source_dlg_title">Новый источник для приложений</string>
-    <string name="allow_source_dlg_text">"%1$s хочет установить другие приложения.
+    <string name="allow_source_dlg_title">Новый источник приложений</string>
+    <string name="allow_source_dlg_text">"%1$s хочет установить другое приложение.
 
 Разрешить и запомнить выбор?"</string>
     <string name="manage_applications">Управление приложениями</string>
@@ -361,7 +361,7 @@
             
 Вы можете загрузить и установить приложения с помощью безопасных приложений в пространстве пользователя безопасности"</string>
     <string name="unknown_apps_dlg_close">Отмена</string>
-    <string name="software_auto_start">Авто. запуск</string>
+    <string name="software_auto_start">Автозапуск</string>
     <string name="software_float_window">Плавающее-окно</string>
     <string name="software_send_notification">Отправить уведомление</string>
     <string name="suggest_forbidden">Предлагаю запретить</string>
@@ -391,7 +391,7 @@
     <string name="the_app_has_freezed">Приложение было заморожено</string>
     <string name="safe_prompt">Советы по безопасности</string>
     <string name="normal_title">Запрос</string>
-    <string name="go_to_recovery">Чтобы восстановить</string>
+    <string name="go_to_recovery">Восстановить</string>
     <string name="recovery_dialog_content">%s в настоящее время не установлено. Это приложение может быть восстановлено из системы настройки.</string>
     <string name="grant_dialog_button_allow">Разрешить</string>
     <string name="grant_dialog_button_deny">Отклонить</string>
@@ -417,9 +417,9 @@
     <string name="permission_summary_enforced_by_policy">В соответствии с политикой</string>
     <string name="loading">Загрузка…</string>
     <string name="all_permissions">Все разрешения</string>
-    <string name="other_permissions">Что ещё может приложение</string>
+    <string name="other_permissions">Другие разрешения</string>
     <string name="permission_request_title">Запрос разрешений</string>
-    <string name="screen_overlay_title">Обнаружены наложения</string>
+    <string name="screen_overlay_title">Обнаружено наложение экрана</string>
     <string name="screen_overlay_message">Чтобы предоставить или отменить разрешение, сначала отключите наложения. Для этого нажмите \"Настройки > Приложения\".</string>
     <string name="screen_overlay_button">Открыть настройки</string>
     <string name="title_activity_qiku_manage_permissions">Менеджер разрешений</string>

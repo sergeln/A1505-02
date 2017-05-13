@@ -45,7 +45,7 @@
     <string name="unselect_all">Очистить все</string>
     <string name="download_manager">Менеджер закачек</string>
     <string name="bought_themes">Купленные темы</string>
-    <string name="best_collect">Лучшие колекции</string>
+    <string name="best_collect">Лучшие коллекции</string>
     <string name="delete_prompt">Информация</string>
     <string name="confirm_delete_font">Удалить шрифт?</string>
     <string name="confirm_delete_theme">Удалить тему?</string>

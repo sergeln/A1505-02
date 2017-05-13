@@ -21,7 +21,7 @@
         <item>Добавить в Избранное</item>
         <item>Переименовать</item>
         <item>Сведения</item>
-        <item>Открыть каталог расположения файла</item>
+        <item>Открыть в папке</item>
     </string-array>
     <string-array name="gif_menu_view_bottom_items">
         <item>Удалить</item>

@@ -1029,9 +1029,9 @@
     <string name="pref_camera_professional_default">off</string>
     <string name="pref_camera_professional_entry_off">Выкл.</string>
     <string name="pref_camera_professional_entry_on">Вкл.</string>
-    <string name="security_hint_for_qiku">Some features of this application may need networking and positioning, data traffic generated during use.Check with your service provider about the rates. 360 promises not to reveal any personal information of users.</string>
+    <string name="security_hint">Некоторым функциям этого приложения может понадобиться сеть и позиционирование, передача данных. Уточните стоимость услуг у поставщика услуг. 360 обещает не раскрывать личную информацию пользователей.</string>
     <string name="show_dialog">Не показывать снова</string>
-    <string name="camera_security_hint_title_for_qiku">Welcome to the 360 camera</string>
+    <string name="camera_security_hint_title">Добро пожаловать в 360 camera</string>
     <string name="not_allow_record">Запись звука не поддерживается во время звонков.</string>
     <string name="about">О камере</string>
     <string name="about_title">О камере</string>
@@ -1279,7 +1279,7 @@
     <string name="screen_alway_off">Экран всегда включен Выкл.</string>
     <string name="gallery_copy_tip">К сожалению мы не поддерживаем репликацию более 1000 фотографий</string>
     <string name="exception_illegal_argument">Неверные параметры</string>
-    <string name="contact_photo">Фтото контакта</string>
+    <string name="contact_photo">Фото контакта</string>
     <string name="set_as_wallpaper">Обои</string>
     <string name="gallery_goto_doodle">Рисунок</string>
     <string name="cancel_collect">- избран.</string>
@@ -1331,7 +1331,7 @@
     <string name="gesture_time_to_capture">Отсчет 3с до съемки</string>
     <string name="guide_gesture_hold_fist">Сожмите руку в кулак</string>
     <string name="play_after_unlock">Пожалуйста, сначала разблокируйте</string>
-    <string name="mode_beautyshot_tips_title">Советы красивого фото</string>
+    <string name="mode_beautyshot_tips_title">Советы для красивого фото</string>
     <string name="mode_beautyshot_tips">Когда вы делаете снимок с информацией лица в режиме красоты по умолчанию, вы можете сохранить нормальные фотографии и привести информацию о лице. (можно закрыть в настройках камеры)</string>
     <string name="camera_beautylauncher_label">Определить возраст</string>
     <string name="rapid_save_face_info_picture_msg">Сохранить первоначальный вид при использовании функций, таких как [Возраст лица], [Значение лица] и [Звездное лицо] на снимке</string>
@@ -1568,11 +1568,11 @@
     <string name="cameraOutputFile_text">[filename]</string>
     <string name="title_activity_camera_capture">VideoRecorder</string>
     <string name="seconds_name">s</string>
-    <string name="key_effect_tips">One Key Effect</string>
+    <string name="key_effect_tips">Эффект одной кнопкой</string>
     <string name="video_encoding_tips">Кодирование видео</string>
     <string name="video_encoding_tips_second_line" />
     <string name="small_video_recorde">MV</string>
-    <string name="tipsVideoShare">Saved success,can be shared immediately</string>
+    <string name="tipsVideoShare">Сохранено успешно, можно поделиться немедленно</string>
     <string name="exit_capture_tips">Вернуться на главную страницу</string>
     <string name="exit_save_tips">Сохранить и выйти</string>
     <string name="camera_exit_without_save">Если вы выйдете сейчас, то не сможете сохранить видео. Вы хотите продолжить?</string>

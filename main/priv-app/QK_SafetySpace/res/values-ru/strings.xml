@@ -113,7 +113,7 @@
     <string name="moving_dialog_title">Перемещение…</string>
     <string name="no_app_to_move_in">Нет приложений для перемещения</string>
     <string name="ok">ОК</string>
-    <string name="press_again_to_exit">Нажимте еще раз, чтобы выйти.</string>
+    <string name="press_again_to_exit">Нажмите еще раз, чтобы выйти.</string>
     <string name="protecting_your_property">защита вашей собственности</string>
     <string name="quit">Выход</string>
     <string name="risk_appmngr_empty_result">Нет связанных результатов</string>

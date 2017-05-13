@@ -14,7 +14,7 @@
         <item>Личное</item>
         <item>Сервисный номер</item>
         <item>Не группировать</item>
-        <item>Несгруппированные</item>
+        <item>Не сгруппированные</item>
     </string-array>
     <string-array name="people_week_strings">
         <item>ВС</item>

@@ -7,7 +7,7 @@
         <item>Лос-Анджелес</item>
         <item>Тихуана</item>
         <item>Аризона</item>
-        <item>Чиуауа</item>
+        <item>Чихуахуа</item>
         <item>Горное время</item>
         <item>Центральная Америка</item>
         <item>Центральное время</item>
@@ -230,8 +230,8 @@
         <item>Выключить</item>
     </string-array>
     <string-array name="sensor_button_setting_entries">
-        <item>Закрыть</item>
-        <item>Вкл</item>
+        <item>Выкл.</item>
+        <item>Вкл.</item>
     </string-array>
     <string-array name="autorestart_duration_entries">
         <item>Не повторять</item>

@@ -17,12 +17,12 @@
         <item>2</item>
     </string-array>
     <string-array name="entries_development_mode">
-        <item>Experience mode</item>
-        <item>Network assess mode</item>
-        <item>Current network mode</item>
-        <item>RF mode</item>
-        <item>Debug mode</item>
-        <item>International roaming analog test mode</item>
+        <item>Режим для опытных</item>
+        <item>Режим оценки сети</item>
+        <item>Текущий режим сети</item>
+        <item>RF режим</item>
+        <item>Режим отладки</item>
+        <item>Режим тестового международного роуминга</item>
     </string-array>
     <string-array name="entryvalues_development_mode">
         <item>0</item>
@@ -250,12 +250,12 @@
         <item>S</item>
     </string-array>
     <string-array name="select_dialog_update_time">
-        <item>1-second</item>
-        <item>3-second</item>
-        <item>15-second</item>
-        <item>30-second</item>
-        <item>1-minute</item>
-        <item>2-minute</item>
+        <item>1-секунда</item>
+        <item>3-секунды</item>
+        <item>15-секунд</item>
+        <item>30-секунд</item>
+        <item>1-минута</item>
+        <item>2-минуты</item>
     </string-array>
     <string-array name="select_dialog_file_path">
         <item>/mnt/sdcard</item>
@@ -270,8 +270,8 @@
         <item>2</item>
     </string-array>
     <string-array name="entries_download_log_level">
-        <item>machine restart</item>
-        <item>related modems restart</item>
+        <item>перезапуск машины</item>
+        <item>перезапуск связанных модемов</item>
     </string-array>
     <string-array name="entryvalues_download_log_level">
         <item>1</item>
@@ -279,14 +279,14 @@
         <item>3</item>
     </string-array>
     <string-array name="entries_development_mode_rw">
-        <item>Experience mode</item>
-        <item>RW-Laboratory test mode</item>
-        <item>RW-Field Test Mode</item>
-        <item>XW-Laboratory test mode</item>
-        <item>XW-Field Test Mode</item>
+        <item>Режим для опытных</item>
+        <item>RW-Laboratory тестовый режим</item>
+        <item>RW-Field Тестовый Режим</item>
+        <item>XW-Laboratory тестовый режим</item>
+        <item>XW-Field Тестовый Режим</item>
         <item>RF mode</item>
-        <item>Debug mode</item>
-        <item>International roaming analog test mode</item>
+        <item>Режим отладки</item>
+        <item>Режим тестового международного роуминга</item>
     </string-array>
     <string-array name="entryvalues_development_mode_rw">
         <item>0</item>
@@ -313,7 +313,7 @@
         <item>2</item>
     </string-array>
     <string-array name="entries_whole_network">
-        <item>The whole network</item>
+        <item>Все сети</item>
         <item>China Telecom</item>
         <item>China Mobile</item>
         <item>China Unicom</item>

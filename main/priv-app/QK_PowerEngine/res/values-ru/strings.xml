@@ -36,7 +36,6 @@
     <string name="mm_qcamera_daemon">Обслуживание камеры</string>
     <string name="security_power">Диспетчер питания</string>
     <string name="security_power_manager">Диспетчер питания</string>
-
     <string name="unknown">Неизвестно</string>
     <string name="managed_user_title">Рабочий профиль</string>
     <string name="power_screen">Экран</string>
