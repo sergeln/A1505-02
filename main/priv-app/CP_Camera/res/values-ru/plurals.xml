@@ -16,8 +16,8 @@
         <item quantity="one">выбрано %1$d</item>
     </plurals>
     <plurals name="make_albums_available_offline">
-        <item quantity="other">Разрешить автономный просмотр альбома</item>
-        <item quantity="one">Разрешить автономный просмотр альбома</item>
+        <item quantity="other">Разрешить локальный просмотр</item>
+        <item quantity="one">Разрешить локальный просмотр</item>
     </plurals>
     <plurals name="number_of_photos">
         <item quantity="other">%1$d фотографий</item>

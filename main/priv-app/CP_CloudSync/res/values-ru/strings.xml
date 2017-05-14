@@ -5,7 +5,7 @@
     <string name="current_palytime">0:00:00</string>
     <string name="total_play_time">0:00:00</string>
   <string name="video_loading">Загрузка видео</string>
-  <string name="already_download">В буфере</string>
+    <string name="already_download">Буферизация завершена</string>
     <string name="network_unKnow">Ошибка сети</string>
     <string name="language">en-rUS</string>
     <string name="qihoo_accounts_image_captcha_hint">Введите проверочный код</string>
@@ -13,7 +13,7 @@
     <string name="qihoo_accounts_hide_password">Скрыть</string>
     <string name="qihoo_accounts_auto_read_license" />
     <string name="qihoo_accounts_webview_findpwd">Сбросить пароль</string>
-    <string name="qihoo_accounts_webview_lisence">Условия и защита</string>
+    <string name="qihoo_accounts_webview_lisence">Условия и конфиденциальность</string>
     <string name="qihoo_accounts_webview_chpwd">Изменить пароль</string>
   <string name="qihoo_accounts_webview_bindmobile">Привязать Мобильный</string>
     <string name="qihoo_accounts_webview_close">Закрыть</string>
@@ -26,15 +26,15 @@
     <string name="qihoo_accounts_login_top_title">Войти</string>
     <string name="qihoo_accounts_login_account_hint">Телефон/Email/Логин</string>
     <string name="qihoo_accounts_oversea_login_account_hint">Ваш номер</string>
-    <string name="qihoo_accounts_login_forget_password">Забыли пароль</string>
-  <string name="qihoo_accounts_login_oversea">Выберите код города</string>
-  <string name="qihoo_accounts_login_oversea_title">Вход</string>
+    <string name="qihoo_accounts_login_forget_password">Забыли пароль?</string>
+    <string name="qihoo_accounts_login_oversea">Выберите код страны</string>
+    <string name="qihoo_accounts_login_oversea_title">Войти</string>
     <string name="qihoo_accounts_login_quick_register">Регистрация</string>
-    <string name="qihoo_accounts_login_btn_text">Вход</string>
+    <string name="qihoo_accounts_login_btn_text">Войти в аккаунт 360</string>
     <string name="qihoo_accounts_login_error_captcha">Неверный код, повторите попытку</string>
     <string name="qihoo_accounts_login_error_active_email">Активируйте свой аккаунт</string>
-    <string name="qihoo_accounts_login_pwd_error_first">Неверный пароль,</string>
-    <string name="qihoo_accounts_login_pwd_error_last">попыток осталось.</string>
+    <string name="qihoo_accounts_login_pwd_error_first">"Неверный пароль, "</string>
+    <string name="qihoo_accounts_login_pwd_error_last">" попыток осталось."</string>
     <string name="qihoo_accounts_register_phone">Регистрация (телефон)</string>
     <string name="qihoo_accounts_register_email">Регистрация (Email)</string>
     <string name="qihoo_accounts_register_other">Другая регистрация</string>
@@ -46,23 +46,23 @@
     <string name="qihoo_accounts_findpwd_by_mobile_next">Далее</string>
     <string name="qihoo_accounts_findpwd_by_mobile_hint">Введите новый пароль</string>
     <string name="qihoo_accounts_findpwd_by_mobile_save">Сохранить пароль</string>
-    <string name="qihoo_accounts_findpwd_by_other">Сбросить пароль другими путями</string>
-    <string name="qihoo_accounts_findpwd_valid_phone">Счет не существует</string>
-    <string name="qihoo_accounts_findpwd_by_mobile_inputphone_hint">Введите номер телефона для проверочного кода</string>
+    <string name="qihoo_accounts_findpwd_by_other">Другие способы восстановления</string>
+    <string name="qihoo_accounts_findpwd_valid_phone">Аккаунт не найден</string>
+    <string name="qihoo_accounts_findpwd_by_mobile_inputphone_hint">Введите телефон для отправки проверочного кода</string>
     <string name="qihoo_accounts_findpwd_sms_tips">Следующая попытка автоматического входа кода</string>
-    <string name="qihoo_accounts_register_up_sms_tips_first">Этот</string>
-    <string name="qihoo_accounts_register_up_sms_tips">телефон</string>
+    <string name="qihoo_accounts_register_up_sms_tips_first">"Использовать "</string>
+    <string name="qihoo_accounts_register_up_sms_tips">номер телефона</string>
     <string name="qihoo_accounts_register_up_sms_tips_last">будет использоваться в качестве вашей учетной записи</string>
     <string name="qihoo_accounts_register_down_sms_account_hint">Введите номер телефона</string>
-    <string name="qihoo_accounts_register_down_sms_captcha_your_phone">Номер телефона:</string>
+    <string name="qihoo_accounts_register_down_sms_captcha_your_phone">"SMS с проверочным кодом отправлено на номер "</string>
     <string name="qihoo_accounts_register_down_sms_captcha_hint">Проверочный код</string>
-    <string name="qihoo_accounts_register_down_sms_captcha_send_click">Повтор кода</string>
+    <string name="qihoo_accounts_register_down_sms_captcha_send_click">Отправить код</string>
     <string name="qihoo_accounts_register_down_sms_captcha_send_time_first" />
-    <string name="qihoo_accounts_register_down_sms_captcha_send_time_last">попыток осталось</string>
-    <string name="qihoo_accounts_register_email_account_hint">Введите адрес электронной почты</string>
+    <string name="qihoo_accounts_register_down_sms_captcha_send_time_last">" сек. до повторной отправки"</string>
+    <string name="qihoo_accounts_register_email_account_hint">Введите адрес e-mail</string>
     <string name="qihoo_accounts_register_email_tips">Письмо с кодом активации отправлено:</string>
     <string name="qihoo_accounts_register_email_active_tips">Проверьте письмо и закончите активацию в течении 48 часов</string>
-    <string name="qihoo_accounts_register_email_commit">Перейти в почту</string>
+    <string name="qihoo_accounts_register_email_commit">Проверить почту</string>
     <string name="qihoo_accounts_valid_email_error_null">Введите правильный email</string>
     <string name="qihoo_accounts_valid_email_error_blankspace">Введите ваш email</string>
     <string name="qihoo_accounts_valid_email_error_no_email">Неверный email, введите снова</string>
@@ -86,7 +86,7 @@
     <string name="qihoo_accounts_dialog_doing_send">Отправка…</string>
     <string name="qihoo_accounts_dialog_doing_send_again">Отправка...</string>
     <string name="qihoo_accounts_dialog_doing_loading">Загрузка…</string>
-    <string name="qihoo_accounts_dialog_error_reg_title">Неудача</string>
+    <string name="qihoo_accounts_dialog_error_reg_title">Ошибка регистрации</string>
     <string name="qihoo_accounts_dialog_error_login_title">Не удалось войти</string>
     <string name="qihoo_accounts_dialog_error_active_title">Активация аккаунта</string>
     <string name="qihoo_accounts_dialog_error_btn_cancel">Отмена</string>
@@ -97,13 +97,13 @@
     <string name="qihoo_accounts_dialog_error_btn_confirm_active">Войти</string>
     <string name="qihoo_accounts_dialog_error_btn_cancel_login_active">Отмена</string>
     <string name="qihoo_accounts_dialog_error_btn_confirm_login_active">Активировать</string>
-    <string name="qihoo_accounts_dialog_error_btn_get_dynamic_pwd">Get it</string>
+    <string name="qihoo_accounts_dialog_error_btn_get_dynamic_pwd">Создать</string>
     <string name="qihoo_accounts_dialog_error_message_default">Не удалось</string>
-    <string name="qihoo_accounts_dialog_error_message_active">Войдите в свой аккаунт после активации</string>
+    <string name="qihoo_accounts_dialog_error_message_active">Войти в аккаунт после активации</string>
     <string name="qihoo_accounts_dialog_error_reg_mobile_message_default_first" />
     <string name="qihoo_accounts_dialog_error_reg_email_message_default_first" />
     <string name="qihoo_accounts_dialog_error_reg_message_default_last">Уже зарегистрирован</string>
-    <string name="qihoo_accounts_dialog_error_up_reg_cannot_send">Не удалось отправить сообщение</string>
+    <string name="qihoo_accounts_dialog_error_up_reg_cannot_send">Ошибка отправки SMS</string>
     <string name="qihoo_accounts_dialog_error_no_network">Сеть недоступна!</string>
     <string name="qihoo_accounts_dialog_error_out_of_valid_time">Неверное время, проверьте настройки телефона</string>
     <string name="qihoo_accounts_dialog_error_bad_data">Ошибка сервера</string>
@@ -117,43 +117,43 @@
     <string name="qihoo_accounts_dialog_error_http_error">Ошибка сети</string>
   <string name="qihoo_accounts_select_countrys_top_title">Страна/Регион</string>
   <string name="qihoo_accounts_select_countrys">Страна/Регион</string>
-  <string name="app_name">Qiku обслуживание учетной записи</string>
+    <string name="app_name">Аккаунт QiKU</string>
   <string name="cloudsync_app_name">Облачный сервис</string>
     <string name="uac_360os_ID">360 OS ID : %s</string>
-  <string name="umgr_360_account">360 учетная запись</string>
+    <string name="umgr_360_account">Аккаунт 360</string>
   <string name="umgr_prologue_prompt2">Вы можете синхронизировать контакты, личные данные в облако； И наслаждайтесь облачными сервисами, Магазином приложений, бесплатными телефонными и мобильными Интернет-сервисами.</string>
   <string name="umgr_skip_login_text">пропустить</string>
   <string name="umgr_prologue_login">Использовать существующую учетную запись для входа</string>
   <string name="umgr_prologue_register_btntitle">Быстрая регистрация нового аккаунта 360</string>
   <string name="umgr_personal_center_title">Персональный центр</string>
-  <string name="umgr_personal_center_title_qiku">Qiku Персональный центр</string>
-  <string name="umgr_personal_center_title_qihoo">360 Персональный центр</string>
-  <string name="umgr_personal_center_service">Мой сервис</string>
-  <string name="umgr_personal_center_upgrade">Обязательная учетная запись</string>
+    <string name="umgr_personal_center_title_qiku">Центр пользователя QiKU</string>
+    <string name="umgr_personal_center_title_qihoo">Центр пользователя 360</string>
+    <string name="umgr_personal_center_service">Мои сервисы</string>
+    <string name="umgr_personal_center_upgrade">Привязка аккаунта</string>
   <string name="umgr_personal_center_pay">Мои платежи</string>
-  <string name="umgr_personal_center_pay_des">Проверить платежные данные</string>
-  <string name="umgr_personal_center_manage">Управление аккунтами</string>
-  <string name="umgr_personal_center_device">Управление устройствами</string>
-  <string name="umgr_personal_center_personalinfo">Личные данные</string>
-  <string name="umgr_personal_center_pwdmanage">Управление паролями</string>
-  <string name="umgr_personal_center_loginout">Выход</string>
-  <string name="umgr_personal_center_modify_icon">Изменить изображение</string>
-  <string name="uac_add_take_pictue">Сделать фото</string>
-  <string name="uac_add_select_picture">Выбрать фото</string>
-  <string name="umgr_personal_info_title">Личные данные</string>
+    <string name="umgr_personal_center_pay_des">Платежная информация</string>
+    <string name="umgr_personal_center_manage">Аккаунт</string>
+    <string name="umgr_personal_center_device">Устройства</string>
+    <string name="umgr_personal_center_personalinfo">Профиль</string>
+    <string name="umgr_personal_center_pwdmanage">Пароль</string>
+    <string name="umgr_personal_center_loginout">Выход</string>
+    <string name="umgr_personal_center_modify_icon">Изменить аватар</string>
+    <string name="uac_add_take_pictue">Снять фото</string>
+    <string name="uac_add_select_picture">Выбрать из галереи</string>
+    <string name="umgr_personal_info_title">Профиль</string>
   <string name="umgr_personal_info_gender">Пол</string>
   <string name="umgr_personal_info_birthday">День рождения</string>
   <string name="umgr_personal_info_city">Город</string>
   <string name="umgr_personal_info_company">Компания</string>
-  <string name="umgr_personal_info_profession">Профессия</string>
-  <string name="umgr_personal_info_editinfo">Редактировать информацию</string>
-  <string name="umgr_personal_select_gender">выберите Пол</string>
-  <string name="umgr_personal_info_noset">Не выбрано</string>
-  <string name="umgr_personal_info_get_error">Не удалось получить личную информацию, данные не изменены</string>
-  <string name="umgr_personal_info_nickname">Имя</string>
-  <string name="umgr_personal_info_nickname_hint">Пожалуйста, введите ваш ник</string>
-  <string name="umgr_personal_info_nickname_illegal">Ник запрещен</string>
-  <string name="umgr_personal_info_illegal_input">Входящая информация запрещена</string>
+    <string name="umgr_personal_info_profession">Должность</string>
+    <string name="umgr_personal_info_editinfo">Изменить</string>
+    <string name="umgr_personal_select_gender">Пол</string>
+    <string name="umgr_personal_info_noset">Не установлено</string>
+    <string name="umgr_personal_info_get_error">Ошибка получения данных</string>
+    <string name="umgr_personal_info_nickname">Псевдоним</string>
+    <string name="umgr_personal_info_nickname_hint">Введите псевдоним</string>
+    <string name="umgr_personal_info_nickname_illegal">Неверный псевдоним</string>
+    <string name="umgr_personal_info_illegal_input">Неверные данные</string>
   <string name="umgr_alert_dialog_title_birthday">Ваш День Рождения</string>
   <string name="umgr_calendar_month">Месяц</string>
   <string name="umgr_personal_info_modify_company">Выбрать компанию</string>
@@ -162,29 +162,29 @@
   <string name="umgr_personal_info_career_hint">Введите подсказку</string>
   <string name="umgr_personal_info_city_hint">Пожалуйста, введите свой город</string>
   <string name="umgr_personal_info_company_hint">Укажите свою компанию</string>
-  <string name="umgr_pwd_manage_oldpwd">Старый пароль:</string>
-  <string name="umgr_pwd_manage_newpwd">Новый пароль:</string>
-  <string name="umgr_pwd_manage_confirmpwd">Подтвердите Пароль:</string>
+    <string name="umgr_pwd_manage_oldpwd">"Старый пароль: "</string>
+    <string name="umgr_pwd_manage_newpwd">"Новый пароль: "</string>
+    <string name="umgr_pwd_manage_confirmpwd">"Повторите пароль: "</string>
   <string name="umgr_pwd_manage_savemodify">Сохранить изменения</string>
   <string name="umgr_bind_manage_bindphone">Мобильный номер</string>
   <string name="umgr_bind_manage_bindmail">Безопасный адрес эл. Почты</string>
-  <string name="umgr_bind_manage_nobind">неограниченно</string>
-  <string name="umgr_bind_manage_bind_success">Привязка успешно</string>
-  <string name="uac_bindmail_dialog_title">Отправка успешно</string>
-  <string name="uac_dialog_title">Совет</string>
+    <string name="umgr_bind_manage_nobind">Не привязан</string>
+    <string name="umgr_bind_manage_bind_success">Привязка выполнена</string>
+    <string name="uac_bindmail_dialog_title">Отправлено</string>
+    <string name="uac_dialog_title">Уведомление</string>
   <string name="uac_dialog_mail_body">Система проверки через электронную почту отправлена ​​в почтовый ящик:%s</string>
   <string name="uac_dialog_ok">ОК</string>
   <string name="uac_dialog_cancel">Отмена</string>
   <string name="uac_authen_prompty_body">QIKU аккаунт: %s</string>
   <string name="uac_authen_prompty_body_360">360 аккаунт: %s</string>
-  <string name="uac_authen_currentapp">Для вашей безопасности данных,Приложения\"%s\"Необходимо проверить пароль учетной записи</string>
+    <string name="uac_authen_currentapp">Приложение \"%s\" запрашивает пароль от аккаунта</string>
   <string name="uac_relogin_currentapp">Система обнаружила, что вы можете изменить пароль или информацию учетной записи по ритму , для обеспечения нормального использования альбомов в облаке, облачных сервисов, сообществ, тем и других функций, введите свой пароль</string>
   <string name="uac_logout_prompty_body">Из вашего аккаунта %s будет произведен выход.</string>
   <string name="uac_logout_prompty_body_360">Из вашего аккаунта 360 %s будет произведен выход.</string>
-  <string name="umgr_title_login">QIKU вход в аккаунт</string>
-  <string name="umgr_title_findpwd_360">360 получение пароля</string>
+    <string name="umgr_title_login">Аккаунт QiKU</string>
+    <string name="umgr_title_findpwd_360">Забыли пароль?</string>
   <string name="umgr_title_auth">Авторизация учетной записи</string>
-  <string name="umgr_title_authenticate">Проверьте пароль</string>
+    <string name="umgr_title_authenticate">Введите пароль</string>
   <string name="umgr_title_logout">Выход</string>
   <string name="umgr_title_agreement">Пользовательское Соглашение</string>
   <string name="umgr_title_privacy">Политика конфиденциальности</string>
@@ -192,7 +192,7 @@
   <string name="umgr_please_holdon">Пожалуйста, подождите...</string>
   <string name="umgr_please_input_username">Номер телефона/почтовый адрес</string>
   <string name="umgr_please_input_phone">Номер телефона</string>
-  <string name="umgr_please_input_email">Адрес электронной почты</string>
+    <string name="umgr_please_input_email">Адрес e-mail</string>
   <string name="umgr_please_input_password">Введите от 6 до 20 цифр пароль</string>
   <string name="umgr_please_input_authcode">Введите Код аутентификации</string>
   <string name="umgr_please_confirm_password">Подтвердите пароль еще раз</string>
@@ -201,7 +201,7 @@
   <string name="umgr_register_agree_clause_1">Зарегистрированная учетная запись означает, что вы соглашаетесь соблюдать условия</string>
   <string name="umgr_agree_clause_2_user">QIKU аккаунт</string>
   <string name="umgr_agree_clause_2_agreement"><U>Пользовательское Соглашение</U></string>
-  <string name="umgr_agree_clause_2_and">и</string>
+    <string name="umgr_agree_clause_2_and">" и "</string>
   <string name="umgr_agree_clause_2_privacy">Политика конфиденциальности</string>
   <string name="umgr_get_authcode">Получить код подтверждения</string>
   <string name="umgr_next_step">Следующий шаг</string>
@@ -210,9 +210,9 @@
   <string name="umgr_auth_and_login">Авторизация и вход в систему</string>
   <string name="umgr_auth_and_login_format">Авторизация и вход в систему (%d секунд)</string>
   <string name="umgr_coolcloud_name">QIKU аккаунт</string>
-  <string name="umgr_360_name">Учетная запись 360</string>
-  <string name="umgr_3th_name">Третья сторона</string>
-  <string name="umgr_countdown_format">%d S</string>
+    <string name="umgr_360_name">Аккаунт 360</string>
+    <string name="umgr_3th_name">Сторонний аккаунт</string>
+    <string name="umgr_countdown_format">%d сек.</string>
   <string name="umgr_switch_user">Переключить аккаунт</string>
   <string name="umgr_personal_center_third_qihoo">Привязка аккаунта 360</string>
   <string name="umgr_personal_center_qihoo_des">Получит 360 Security Services</string>
@@ -220,18 +220,18 @@
   <string name="umgr_bind_device_undevice">Отменить привязку</string>
   <string name="umgr_bind_device_jump">Пропустить</string>
   <string name="umgr_bind_device_key">Управление устройством</string>
-  <string name="umgr_bind_device_describe">%s устройство</string>
-  <string name="umgr_bind_device_local">(Это машина)</string>
+    <string name="umgr_bind_device_describe">Устройств: %s</string>
+    <string name="umgr_bind_device_local">(этот телефон)</string>
   <string name="umgr_desktop_laber">Мой QIKU</string>
   <string name="umgr_logout_tip">Следующие приложения будут выходить из системы:</string>
-  <string name="umgr_loginapp_count">%s сервис</string>
-  <string name="umgr_upload_photo">изменение лица...</string>
-  <string name="umgr_upload_photo_error_save">Сбой лицевой панели хранилища</string>
+    <string name="umgr_loginapp_count">Сервисов: %s</string>
+    <string name="umgr_upload_photo">Изменение аватара…</string>
+    <string name="umgr_upload_photo_error_save">Ошибка сохранения аватара</string>
   <string name="umgr_upload_photo_error_upload">Ошибка загрузки аватара</string>
-  <string name="umgr_upload_photo_error_modify">Не удалось изменить информацию об изображении</string>
-  <string name="umgr_upload_photo_succeed">Модифицированное изображение успешно установлено</string>
-  <string name="umgr_unbind_logout_tip">Подсказка чтобы отвязать</string>
-  <string name="umgr_unbind_logout_msg">Устройство было отвязано, войдите в систему после выхода</string>
+    <string name="umgr_upload_photo_error_modify">Ошибка изменения аватара</string>
+    <string name="umgr_upload_photo_succeed">Аватар изменен</string>
+    <string name="umgr_unbind_logout_tip">Уведомление об удалении привязки</string>
+    <string name="umgr_unbind_logout_msg">Привязка устройства удалена. Войдите в аккаунт после выхода</string>
   <string name="umgr_rcode_illigel_response_type">Отсутствие ответов или запрещенное реагирование </string>
   <string name="umgr_rcode_appid_required">Отсутствие применения параметра ID</string>
   <string name="umgr_rcode_appkey_required">Отсутствие применения параметра пароль</string>
@@ -268,26 +268,26 @@
   <string name="umgr_rcode_http_ioexception">Аномальный сетевой запрос</string>
   <string name="umgr_rcode_system_time_erroe">Системное время неточно, пожалуйста, установите</string>
   <string name="umgr_rcode_input_appid_mismatch">Недопустимый входной appid</string>
-  <string name="umgr_rcode_json_parse_failure">JSON Ошибка синтаксического разбора</string>
+    <string name="umgr_rcode_json_parse_failure">Ошибка анализа JSON</string>
   <string name="umgr_rcode_server_uninstalled">Служба не установлена</string>
   <string name="umgr_rcode_server_startup_failure">Запустить службу обслуживания сбоев </string>
   <string name="umgr_rcode_illigel_appid_configuration">Запрещенная конфигурация appid</string>
   <string name="umgr_rcode_response_mismatch">Несоответствие ответа</string>
-  <string name="umgr_rcode_rpc_failure">Rpc ошибка</string>
-  <string name="umgr_rcode_userid_required">Userid требуется</string>
+    <string name="umgr_rcode_rpc_failure">Ошибка RPC</string>
+    <string name="umgr_rcode_userid_required">Требуется ID пользователя</string>
   <string name="umgr_rcode_get_local_logininfo_failed">Не удалось получить информацию о локальных подключениях</string>
-  <string name="umgr_rcode_req_unsupported">Req не поддерживается</string>
-  <string name="umgr_rcode_json_encoding_failure">Json сбой кодировки</string>
+    <string name="umgr_rcode_req_unsupported">Запрос не поддерживается</string>
+    <string name="umgr_rcode_json_encoding_failure">Ошибка кодировки JSON</string>
   <string name="umgr_rcode_invalid_response">Неверный ответ</string>
   <string name="umgr_rcode_rpc_connect_timeout">Rpc тайм-аут подключения</string>
-  <string name="umgr_rcode_rpc_no_response">Rpc нет ответа</string>
+    <string name="umgr_rcode_rpc_no_response">Нет ответа от RPC</string>
   <string name="umgr_rcode_send_message_failure">Отправить сообщение об ошибке</string>
   <string name="umgr_rcode_activate_no_reponse">Активировать нет отклика</string>
-  <string name="umgr_rcode_ok">Rcode ok</string>
-  <string name="umgr_rcode_fail">Rcode ошибка</string>
-  <string name="umgr_exception">Неверно</string>
+    <string name="umgr_rcode_ok">Выполнено</string>
+    <string name="umgr_rcode_fail">Ошибка</string>
+    <string name="umgr_exception">Ошибка</string>
   <string name="umgr_http_method_unsupported">Не поддерживается запрос HTTP</string>
-  <string name="umgr_http_illegal_request">HTTP запрос запрещен</string>
+    <string name="umgr_http_illegal_request">Неверный HTTP-запрос</string>
   <string name="umgr_http_timeout">Тайм-аут</string>
   <string name="umgr_rcode_illigel_request">Недопустимый параметр</string>
   <string name="umgr_rcode_user_unlogined">"Пользователь не вошел в систему"</string>
@@ -325,7 +325,7 @@
   <string name="umgr_rcode_authcode_sent_beyond_maximum">Кодов аутентификации отправлено больше максимального предела</string>
   <string name="umgr_rcode_nickname_existed">Ник уже существует</string>
   <string name="umgr_rcode_user_forbidden">Учетная запись отключена</string>
-  <string name="umgr_rcode_session_expired">Сеанс завершен</string>
+    <string name="umgr_rcode_session_expired">Время сеанса истекло</string>
   <string name="umgr_rcode_deviceid_absent">Номер оборудования не найден</string>
   <string name="umgr_rcode_third_binded">Учетная запись сообщества уже привязана</string>
   <string name="umgr_error_illigel_username">Пользователь не прошел проверку</string>
@@ -414,24 +414,24 @@
   <string name="umgr_finger_finger_list_tip">Список отпечатков</string>
   <string name="umgr_finger_add_finger">Добавить отпечаток</string>
   <string name="umgr_finger_del_finger">Удалить отпечаток</string>
-  <string name="umgr_finger_verify_error">Проверка отпечатков не удалась</string>
-  <string name="umgr_finger_id">Отпечаток ID:%s</string>
-  <string name="umgr_finger_name">Имя отпечатка:%s</string>
+    <string name="umgr_finger_verify_error">Ошибка проверки отпечатка</string>
+  <string name="umgr_finger_id">Отпечаток ID: %s</string>
+  <string name="umgr_finger_name">Имя отпечатка: %s</string>
   <string name="uac_authen_prompty_body_finger">Приложение“%s\"нужна проверка отпечатков</string>
-  <string name="uac_authen_prompty_inputpwd">Проверка пароля</string>
+    <string name="uac_authen_prompty_inputpwd">Введите пароль</string>
   <string name="app_name_game">Вход для тестирования игр</string>
   <string name="app_name_internal">Тестирование приложений</string>
   <string name="uac_bind_info_phone">Привязать телефон</string>
-  <string name="uac_bind_info_email">Привязать почту</string>
-  <string name="uac_bind_info_change_phone">Сменить телефон</string>
-  <string name="uac_bind_info_change_email">Сменить почту</string>
-  <string name="uac_bind_info_phone_msg">Связать информацию с телефоном:%s</string>
+    <string name="uac_bind_info_email">Привязать e-mail</string>
+    <string name="uac_bind_info_change_phone">Изменить телефон</string>
+    <string name="uac_bind_info_change_email">Изменить e-mail</string>
+    <string name="uac_bind_info_phone_msg">Привязан телефон: %s</string>
   <string name="uac_bind_info_phone_des">Рейтинг безопасности обновлен, можете восстановить пароль по номеру телефона.</string>
-  <string name="uac_bind_info_unphone_msg">Не привязывать телефон</string>
+    <string name="uac_bind_info_unphone_msg">Телефон не привязан</string>
   <string name="uac_bind_info_unphone_des">Привязать номера телефонов можно с помощью пароля, повысив безопасность учетной записи.</string>
-  <string name="uac_bind_info_email_msg">Привязка почты:%s</string>
+    <string name="uac_bind_info_email_msg">Привязан e-mail: %s</string>
   <string name="uac_bind_info_email_des">Привязка электронной почты может восстановить ваш пароль, повысив безопасность учетной записи.</string>
-  <string name="uac_bind_info_unemail_msg">Не привязывать почту</string>
+    <string name="uac_bind_info_unemail_msg">E-mail не привязан</string>
   <string name="uac_bind_info_unemail_des">Привязка электронной почты может восстановить ваш пароль, повысив безопасность учетной записи.</string>
   <string name="uac_bind_meid">Id устройства:%s</string>
   <string name="uac_bind_qiku_8681_i02">360 Q Luna</string>
@@ -443,7 +443,7 @@
   <string name="uac_bind_qiku_8676">360 Dazen NOTE3</string>
   <string name="uac_bind_qiku_1501">360 F4</string>
   <string name="uac_bind_qiku_1503">360 N4</string>
-  <string name="uac_captcha_hint">Введите проверочный код</string>
+    <string name="uac_captcha_hint">Введите код с картинки</string>
   <string name="uac_login_switch_qikoo_tv">Контакты и другие данные, сохраненные в QiKU аккаунте можно восстановить</string>
   <string name="umgr_rcode_phone_beyond_maximum">Регистрация телефона выполнялась слишком много раз</string>
   <string name="umgr_rcode_captcha_error_null">Код капчи пустой</string>
@@ -475,10 +475,10 @@
   <string name="umgr_title_secu_question_issuse">Задать секретный вопрос</string>
   <string name="umgr_secu_question_issuse_answer_hint">Введите ответ</string>
   <string name="uac_save">Сохранить</string>
-  <string name="umgr_rcode_answer_null">Ответ не может быть пустым</string>
-  <string name="umgr_rcode_code_null">Код не может быть пустым</string>
+    <string name="umgr_rcode_answer_null">Введите ответ</string>
+    <string name="umgr_rcode_code_null">Введите код</string>
   <string name="umgr_secu_question_list">Список секретных вопросов</string>
-  <string name="umgr_personal_center_secu">Пароли и Безопасность</string>
+    <string name="umgr_personal_center_secu">Пароль и безопасность</string>
   <string name="umgr_rcode_check_secu_question_error">Не удалось проверить секретный вопрос</string>
   <string name="umgr_rcode_findpwd_check_cookie_error">Cookie проверка не удалась</string>
   <string name="umgr_title_secu_question_issuse_check">Проверьте секретный вопрос</string>
@@ -491,18 +491,18 @@
   <string name="uac_notification_title">360 тест пароля учетной записи</string>
   <string name="uac_notification_content">Повторно проверьте свою учетную запись, чтобы обеспечить безопасность данных.</string>
   <string name="umgr_rcode_token_expired_need_logout">Поскольку ваш 360-й аккаунт в другом месте изменил информацию о безопасности, повторите вход снова</string>
-  <string name="uac_bind360mail_tip">Please sign http://i.360.cn/ modify the mailbox information in the computer</string>
+    <string name="uac_bind360mail_tip">Вы можете изменить привязанный e-mail с ПК, войдя на сайт http://i.360.cn/</string>
   <string name="facebook_app_id">1065802386821470</string>
   <string name="google_server_client_id">524365174882-vbe1962ql92mm158iun6n2iptoofombt.apps.googleusercontent.com</string>
   <string name="uac_oversea_tv">Выберите аккаунт для входа</string>
   <string name="uac_oversea_googlepplus">Google+</string>
   <string name="uac_oversea_facebook">Facebook</string>
-  <string name="uac_oversea_title_login">Логин аккаунта</string>
+    <string name="uac_oversea_title_login">Войти в аккаунт</string>
   <string name="uac_oversea_logout_dialog_content">Ваш аккаунт %1$s : %2$s , Выйти из системы?</string>
   <string name="uac_oversea_login_error">Ошибка входа</string>
   <string name="uac_oversea_login_cancel">Отмена входа</string>
   <string name="uac_oversea_login_google_not_connected">GoogleApiClient не подключен</string>
-  <string name="uac_oversea_login_google_not_install">Google Services Framework не установлен</string>
+    <string name="uac_oversea_login_google_not_install">Приложение \"Google Services Framework\" не установлено</string>
   <string name="applicatoins">Приложения для телефона</string>
   <string name="recovery_applications">Восстановить приложения</string>
   <string name="backup_applications">Резервное копирование приложений</string>
@@ -564,7 +564,7 @@
   <string name="install_failure">установка ошибка</string>
   <string name="loading_failure_format">"Ошибка!
 （%s）"</string>
-  <string name="install_file_not_found">Файлы не найдены при установке</string>
+    <string name="install_file_not_found">Пакет установки не найден</string>
   <string name="progress_completed">Завершено</string>
   <string name="no_app_delete">"Нет приложений для удаления"</string>
   <string name="pleast_select_applications_delete">Выберите приложения для удаления</string>
@@ -588,15 +588,15 @@
   <string name="background_download_toast">Загрузить в фоновом режиме</string>
   <string name="background_prepare_toast">Подготовка данных...</string>
   <string name="backup_device_list">Выбор данных для восстановления</string>
-  <string name="backup_time">Время резервирования:</string>
-  <string name="backup_from">Резервирование устройства:</string>
+    <string name="backup_time">"Время копирования: "</string>
+    <string name="backup_from">"Устройство копирования: "</string>
   <string name="uninstalling">Удаление приложений...</string>
   <string name="canceling">Отмена...</string>
   <string name="copy_data_error">Ошибка копирования данных</string>
-  <string name="date_before_seconds">секундой назад</string>
-  <string name="date_before_minutes">минутой назад</string>
-  <string name="date_before_hours">часом назад</string>
-  <string name="date_before_days">днем назад</string>
+    <string name="date_before_seconds">" сек. назад"</string>
+    <string name="date_before_minutes">" мин. назад"</string>
+    <string name="date_before_hours">" час. назад"</string>
+    <string name="date_before_days">" дн. назад"</string>
   <string name="date_mm_dd">dd-MM</string>
   <string name="date_yyyy_mm_dd">dd-MM-yyyy</string>
   <string name="coolcloud_netdisk_hello">Hello World, NetDiskActivity!</string>
@@ -616,25 +616,25 @@
   <string name="coolcloud_netdisk_title_edittext_select_move_location">переместить местоположение</string>
   <string name="coolcloud_netdisk_btn_text_search">Поиск</string>
   <string name="coolcloud_netdisk_myphoto">Мои фото</string>
-  <string name="coolcloud_netdisk_camera">Камера</string>
-  <string name="coolcloud_netdisk_camera_2">камера</string>
-  <string name="coolcloud_netdisk_mycamera">Мои фото</string>
-  <string name="coolcloud_netdisk_photo">Фото</string>
-  <string name="coolcloud_netdisk_category_picture">Изображение</string>
+    <string name="coolcloud_netdisk_camera">Camera</string>
+    <string name="coolcloud_netdisk_camera_2">camera</string>
+    <string name="coolcloud_netdisk_mycamera">My Camera</string>
+    <string name="coolcloud_netdisk_photo">Photo</string>
+    <string name="coolcloud_netdisk_category_picture">Изображения</string>
   <string name="coolcloud_netdisk_category_music">Музыка</string>
   <string name="coolcloud_netdisk_category_video">Видео</string>
   <string name="coolcloud_netdisk_category_document">Документы</string>
-  <string name="coolcloud_netdisk_category_other">Другое</string>
+    <string name="coolcloud_netdisk_category_other">Другие</string>
   <string name="coolcloud_netdisk_category_all">Все</string>
   <string name="coolcloud_netdisk_category_app">Приложения</string>
-  <string name="coolcloud_netdisk_category_favorite">Избранные</string>
+    <string name="coolcloud_netdisk_category_favorite">Избранное</string>
   <string name="coolcloud_netdisk_category_theme">Темы</string>
   <string name="coolcloud_netdisk_category_zip">Архивы</string>
   <string name="coolcloud_netdisk_category_netdisk_dir">Все файлы</string>
-  <string name="coolcloud_netdisk_category_bar_info">Емкость (%1$s/%2$s)</string>
+    <string name="coolcloud_netdisk_category_bar_info">Память: %1$s из %2$s</string>
   <string name="coolcloud_netdisk_category_bar_info_fetching">Получение...</string>
   <string name="coolcloud_netdisk_tip_folder_is_empty">Папка пуста</string>
-  <string name="coolcloud_netdisk_tip_no_subfolder">Нет папок внутри</string>
+    <string name="coolcloud_netdisk_tip_no_subfolder">Нет вложенных папок</string>
   <string name="coolcloud_netdisk_tip_no_this_type_of_files">Этот тип файла недоступен. Загрузить файл этого типа</string>
   <string name="coolcloud_netdisk_tip_no_match_result">Нет совпадающего результата</string>
   <string name="coolcloud_netdisk_tip_no_transport_record">Нет записей о передаче</string>
@@ -644,12 +644,12 @@
   <string name="coolcloud_netdisk_dialog_msg_comfirm_del">Удалить?</string>
   <string name="coolcloud_netdisk_dialog_title_content_upload_type">Тип загрузки</string>
   <string name="coolcloud_netdisk_dialog_title_content_net_type_set">Настройки типа сети</string>
-  <string name="coolcloud_netdisk_dialog_btn_text_create">Новое</string>
+    <string name="coolcloud_netdisk_dialog_btn_text_create">Создать</string>
   <string name="coolcloud_netdisk_dialog_btn_text_cancel">Отмена</string>
-  <string name="coolcloud_netdisk_dialog_btn_text_set">Установить</string>
+    <string name="coolcloud_netdisk_dialog_btn_text_set">Настройки</string>
   <string name="coolcloud_netdisk_dialog_title_text_net_exceptional">Другая сеть</string>
   <string name="coolcloud_netdisk_dialog_msg_text_no_net_connection">Нет подключения к сети</string>
-  <string name="coolcloud_netdisk_dialog_msg_downloading">Открываю</string>
+    <string name="coolcloud_netdisk_dialog_msg_downloading">Открытие</string>
   <string name="coolcloud_netdisk_toast_msg_folder_already_exist">Эта папка уже существует</string>
   <string name="coolcloud_netdisk_toast_msg_folder_too_long">Длина имени папки превышает предел</string>
   <string name="coolcloud_netdisk_toast_msg_deleted">Этот файл был удален</string>
@@ -678,18 +678,18 @@
   <string name="coolcloud_netdisk_textview_uploading">Выгружается (%1$s) элементов</string>
   <string name="coolcloud_netdisk_textview_uploaded">(%1$s) элементов загружено</string>
   <string name="coolcloud_netdisk_textview_task_status_waiting">Ожидание</string>
-  <string name="coolcloud_netdisk_textview_task_status_pauseing">Остановка</string>
+    <string name="coolcloud_netdisk_textview_task_status_pauseing">Пауза</string>
   <string name="coolcloud_netdisk_textview_task_status_pause">Пауза</string>
   <string name="coolcloud_netdisk_textview_task_status_downloaded">Загрузка завершена</string>
   <string name="coolcloud_netdisk_textview_task_status_download_failed">Ошибка загрузки</string>
-  <string name="coolcloud_netdisk_textview_task_status_continue_download">Продолжить загрузку</string>
+    <string name="coolcloud_netdisk_textview_task_status_continue_download">Далее</string>
   <string name="coolcloud_netdisk_textview_task_status_pause_download">Приостановить загрузку</string>
   <string name="coolcloud_netdisk_textview_task_status_continue_upload">Продолжить загрузку</string>
   <string name="coolcloud_netdisk_textview_task_status_pause_upload">Приостановить выгрузку</string>
   <string name="coolcloud_netdisk_textview_task_status_uploaded">Загрузка завершена</string>
   <string name="coolcloud_netdisk_textview_task_status_upload_failed">Загрузка не удалась</string>
   <string name="coolcloud_netdisk_textview_select_upload_path">Позиция загрузки:</string>
-  <string name="coolcloud_netdisk_textview_make_dir">Новая папка</string>
+    <string name="coolcloud_netdisk_textview_make_dir">Создать папку</string>
   <string name="coolcloud_netdisk_textview_choose_locate">Позиция загрузки:</string>
   <string name="coolcloud_netdisk_textview_choose_loading">Загрузка...</string>
   <string name="coolcloud_netdisk_textview_choose_no_files">В этом каталоге нет папок</string>
@@ -707,13 +707,13 @@
   <string name="coolcloud_netdisk_textview_bottom_btn_delete">Удалить</string>
   <string name="coolcloud_netdisk_string_operation_ok">ОК</string>
   <string name="coolcloud_netdisk_string_operation_cancel">Отмена</string>
-  <string name="coolcloud_netdisk_btn_text_coolyun_coolcloud_netdisk">Облачный диск для 360 облачных сервисов ОС</string>
-  <string name="coolcloud_netdisk_btn_text_create_folder">Новая папка</string>
-  <string name="coolcloud_netdisk_btn_text_upload">Загрузить</string>
-  <string name="coolcloud_netdisk_btn_text_upload_1">Загрузить (%1$s)</string>
-  <string name="coolcloud_netdisk_btn_text_selected">Выбрано: (%1$s)</string>
+    <string name="coolcloud_netdisk_btn_text_coolyun_coolcloud_netdisk">Облако 360</string>
+    <string name="coolcloud_netdisk_btn_text_create_folder">Создать папку</string>
+    <string name="coolcloud_netdisk_btn_text_upload">Отправить</string>
+    <string name="coolcloud_netdisk_btn_text_upload_1">Отправить: %1$s</string>
+    <string name="coolcloud_netdisk_btn_text_selected">Выбрано: %1$s</string>
   <string name="coolcloud_netdisk_btn_text_ok">ОК</string>
-  <string name="coolcloud_netdisk_loading">Загружается... Пожалуйста, подождите.</string>
+    <string name="coolcloud_netdisk_loading">Загрузка…</string>
   <string name="coolcloud_netdisk_string_share_version_failed">Ваш облачный сервис 360 OS устарел. Пожалуйста сделайте обновление...</string>
   <string name="coolcloud_netdisk_share_image_url_desc">\#Нажмите, чтобы открыть ссылку#</string>
   <string name="coolcloud_netdisk_copy_share_file_link">копировать ссылку</string>
@@ -831,10 +831,10 @@
   <string name="coolcloud_netdisk_from_small2big">По возрастанию</string>
   <string name="coolcloud_netdisk_from_new2old">От новых к старым</string>
   <string name="coolcloud_netdisk_from_old2new">От старых к новых</string>
-  <string name="coolcloud_netdisk_file">файл</string>
-  <string name="coolcloud_netdisk_classify">классифицировать</string>
+    <string name="coolcloud_netdisk_file">Файлы</string>
+    <string name="coolcloud_netdisk_classify">Категории</string>
   <string name="coolcloud_netdisk_vedio_has_download">Загрузите на свой телефон, откройте офлайн-доступ</string>
-  <string name="coolcloud_netdisk_vedio_play">Играть сейчас</string>
+    <string name="coolcloud_netdisk_vedio_play">Воспроизвести</string>
   <string name="coolcloud_netdisk_no_support_online_play">Телефон не поддерживает онлайн видео проигрывания</string>
   <string name="coolcloud_netdisk_play_try_again">Ошибка инициализации, повторите попытку!</string>
   <string name="coolcloud_netdisk_vedio_load_failed">Не удалось загрузить. Повторите попытку!</string>
@@ -875,20 +875,20 @@
   <string name="coolcloud_button_set_text">Настройки</string>
   <string name="coolcloud_button_cancel_text">Отмена</string>
   <string name="coolcloud_name_contacts_trash">Корзина</string>
-  <string name="coolcloud_name_sms">СМС</string>
+    <string name="coolcloud_name_sms">SMS</string>
   <string name="coolcloud_name_crecord">Журналы вызовов</string>
   <string name="coolcloud_name_calendar">Календарь</string>
-  <string name="coolcloud_name_notes">Блокнот</string>
-  <string name="coolcloud_name_note">Блокнот и группы</string>
-  <string name="coolcloud_name_phrase">Фраза</string>
+    <string name="coolcloud_name_notes">Заметки</string>
+    <string name="coolcloud_name_note">Заметки и группы</string>
+    <string name="coolcloud_name_phrase">Шаблоны</string>
   <string name="coolcloud_name_bookmark">Закладка браузера</string>
   <string name="coolcloud_name_picture">Альбомы</string>
-  <string name="coolcloud_name_sound_record">Запись</string>
-  <string name="coolcloud_name_phone_setting">Настройки телефона</string>
-  <string name="coolcloud_name_phone_app">Приложения телефона</string>
+    <string name="coolcloud_name_sound_record">Записи</string>
+    <string name="coolcloud_name_phone_setting">Настройки</string>
+    <string name="coolcloud_name_phone_app">Приложения</string>
   <string name="coolcloud_name_net_disk">Облако</string>
   <string name="coolcloud_name_contactgroup">Группы контактов</string>
-  <string name="coolcloud_login_cancel">Процесс регистрации отменен...</string>
+    <string name="coolcloud_login_cancel">Отмена входа в аккаунт…</string>
   <string name="coolcloud_login_failed">Ошибка входа...</string>
   <string name="coolcloud_system_have_not_login">Еще не вошли в систему</string>
   <string name="coolcloud_system_request_user_info_error">Не удалось получить информацию о пользователе</string>
@@ -902,7 +902,7 @@
   <string name="coolcloud_photo_2">Камера</string>
   <string name="coolcloud_photo_3">Альбомы</string>
   <string name="coolcloud_photo_4">100MEDIA</string>
-  <string name="coolcloud_tip_title">Запрос</string>
+    <string name="coolcloud_tip_title">Уведомление</string>
   <string name="coolcloud_ensure">ОК</string>
   <string name="coolcloud_cancel">Отмена</string>
   <string name="coolcloud_recovery">Восстановить</string>
@@ -928,7 +928,7 @@
   <string name="coolcloud_sms_backup_all_summary">Резервное копирование всех сообщений в облако</string>
   <string name="coolcloud_crecord_backup_all">Резервное копирование всех журналов вызовов</string>
   <string name="coolcloud_crecord_backup_all_summary">Резервное копирование всех журналов звонков в облако</string>
-  <string name="coolcloud_backuping">Делаю backup</string>
+    <string name="coolcloud_backuping">Копирование</string>
   <string name="coolcloud_recovering">Восстановление</string>
   <string name="coolcloud_last_backup">Последнее резервное копирование</string>
   <string name="coolcloud_last_recovery">Последнее восстановление</string>
@@ -962,39 +962,39 @@
   <string name="coolcloud_p2refresh_pull_to_refresh">Потяните вниз, чтобы обновить</string>
   <string name="coolcloud_p2refresh_doing_head_refresh">Обновление...</string>
   <string name="coolcloud_p2refresh_doing_end_refresh">Загрузка...</string>
-  <string name="coolcloud_p2refresh_refresh_lasttime">Последнее обновление : </string>
+    <string name="coolcloud_p2refresh_refresh_lasttime">"Обновлено: "</string>
   <string name="coolcloud_recovercontacttip">Восстановить дополнительно контакты с 360 Облачного сервера ОС на телефон?</string>
   <string name="coolcloud_network_invalide_warning">Вы используете сеть передачи данных. Восстановление будет использовать трафик. Продолжить?</string>
   <string name="coolcloud_network_invalide_opt_warning">Вы используете сеть передачи данных. Операция будет потреблять трафик. Продолжить?</string>
   <string name="coolcloud_exit_recovering_warning">Выход может привести к неудачной попытке восстановления. Продолжить?</string>
   <string name="coolcloud_continue_recvoery">Продолжить восстановление</string>
-  <string name="coolcloud_continue_upload">Продолжить загрузку</string>
+    <string name="coolcloud_continue_upload">Продолжить отправку</string>
   <string name="coolcloud_network_setting">Параметры сети</string>
-  <string name="coolcloud_downloading_has">Загрузка. Осталось</string>
-  <string name="coolcloud_files">Файлы</string>
+  <string name="coolcloud_downloading_has">"Загрузка. Осталось "</string>
+  <string name="coolcloud_files">" файлов"</string>
   <string name="coolcloud_download_completed">Загрузка завершена</string>
-  <string name="coolcloud_sweet_hints">Совет</string>
+    <string name="coolcloud_sweet_hints">Уведомление</string>
   <string name="coolcloud_recoversuccess">Восстановление завершено</string>
   <string name="coolcloud_recoverfailed">Восстановление не удалось</string>
   <string name="coolcloud_recovercancel">Отмена восстановления</string>
-  <string name="coolcloud_cancelrecovertip">Запрос</string>
+    <string name="coolcloud_cancelrecovertip">Уведомление</string>
   <string name="coolcloud_exit">Выход</string>
   <string name="coolcloud_label_unknown">Неизвестно</string>
   <string name="coolcloud_networkstatuserror">Не удалось подключиться к серверу. Проверьте настройки сети</string>
-  <string name="coolcloud_backuping_picture">Резервное копирование изображений</string>
-  <string name="coolcloud_backuping_sound_record">Резервное копирование файлов записей</string>
-  <string name="coolcloud_recover_sms">Восстановление коротких сообщений</string>
-  <string name="coolcloud_recover_crecord">Восстановление журналов вызовов</string>
-  <string name="coolcloud_recover_picture">Просмотр и восстановление фотографий</string>
-  <string name="coolcloud_recover_sound_record">Просмотр и восстановление файлов записей</string>
-  <string name="coolcloud_recover_cardcontact">Восстановление контактов карты</string>
-  <string name="coolcloud_recover_sms_item_default_summary">Восстановление коротких сообщений из облака на телефон</string>
-  <string name="coolcloud_recover_crecord_item_default_summary">Восстановление журналов вызовов из облака на телефон</string>
-  <string name="coolcloud_recover_picture_item_default_summary">Просмотр фотографий в облаке или их восстановление на телефоне</string>
-  <string name="coolcloud_recover_sound_record_item_default_summary">Просмотр файлов записей в облаке или их восстановление на телефоне</string>
-  <string name="coolcloud_recover_cardcontact_item_default_summary">Восстановление контактов в облаке на телефон</string>
-  <string name="coolcloud_enter_coolwind_password">Введите пароль облака 360 OS</string>
-  <string name="coolcloud_common_progress_dialog_summary_wait">Пожалуйста, подождите...</string>
+    <string name="coolcloud_backuping_picture">Копирование изображений</string>
+    <string name="coolcloud_backuping_sound_record">Копирование записей</string>
+    <string name="coolcloud_recover_sms">Восстановить SMS</string>
+    <string name="coolcloud_recover_crecord">Восстановить вызовы</string>
+    <string name="coolcloud_recover_picture">Восстановить изображения</string>
+    <string name="coolcloud_recover_sound_record">Восстановить записи</string>
+    <string name="coolcloud_recover_cardcontact">Восстановить контакты на SIM-карте</string>
+    <string name="coolcloud_recover_sms_item_default_summary">Восстановить SMS из облака в телефон</string>
+    <string name="coolcloud_recover_crecord_item_default_summary">Восстановить вызовы из облака в телефон</string>
+    <string name="coolcloud_recover_picture_item_default_summary">Просмотреть изображения в облаке и восстановить их в телефон</string>
+    <string name="coolcloud_recover_sound_record_item_default_summary">Просмотреть файлы в облаке и восстановить их в телефон</string>
+    <string name="coolcloud_recover_cardcontact_item_default_summary">Восстановить контакты из облака в телефон</string>
+    <string name="coolcloud_enter_coolwind_password">Введите пароль аккаунта 360</string>
+    <string name="coolcloud_common_progress_dialog_summary_wait">Ожидайте…</string>
   <string name="coolcloud_is_recovering">Восстановление</string>
   <string name="coolcloud_revocer_all">Восстановить все</string>
   <string name="coolcloud_is_check_password">Проверка пароля</string>
@@ -1004,13 +1004,13 @@
   <string name="coolcloud_item_recover_by_time">Восстановление по времени</string>
   <string name="coolcloud_item_recover_by_folder">Восстановление по папке</string>
   <string name="coolcloud_sms_inbox_folder">Входящие</string>
-  <string name="coolcloud_sms_sended_folder">Отправлено</string>
-  <string name="coolcloud_sms_drafts_folder">Ящик для черновиков</string>
-  <string name="coolcloud_crecord_dialed_calllog">Исходящий</string>
-  <string name="coolcloud_crecord_received_calllog">Входящий</string>
-  <string name="coolcloud_crecord_missed_calllog">Пропущенные вызовы</string>
-  <string name="coolcloud_crecord_temporary_calllog">Временное хранилище</string>
-  <string name="coolcloud_cloud_sms_num">Короткие сообщение в облаке:</string>
+    <string name="coolcloud_sms_sended_folder">Отправленные</string>
+    <string name="coolcloud_sms_drafts_folder">Черновики</string>
+    <string name="coolcloud_crecord_dialed_calllog">Исходящие</string>
+    <string name="coolcloud_crecord_received_calllog">Входящие</string>
+    <string name="coolcloud_crecord_missed_calllog">Пропущенные</string>
+    <string name="coolcloud_crecord_temporary_calllog">Временная папка</string>
+    <string name="coolcloud_cloud_sms_num">SMS в облаке:</string>
   <string name="coolcloud_cloud_crecord_num">Журналы вызовов в облаке:</string>
   <string name="coolcloud_recovery_already">(Существует)</string>
   <string name="coolcloud_task_list">Список передачи</string>
@@ -1028,23 +1028,23 @@
   <string name="coolcloud_no_data">Нет данных</string>
   <string name="coolcloud_choice_data_to_rev">Выберите данные для восстановления</string>
   <string name="coolcloud_process_error">Ошибка обработки. Повторите попытку.</string>
-  <string name="coolcloud_go_backup">Перейти к резервному копированию</string>
-  <string name="coolcloud_no_sdcard">Карты памяти не обнаружено</string>
+    <string name="coolcloud_go_backup">Назад</string>
+    <string name="coolcloud_no_sdcard">Нет SD-карты</string>
   <string name="coolcloud_gettingdata">Получение данных. Пожалуйста, подождите...</string>
   <string name="coolcloud_psw_can_not_be_null">Пароль не может быть пустым</string>
   <string name="coolcloud_psw_is_not_right">Неверный пароль</string>
   <string name="coolcloud_please_enter_coolwind_psw">Введите пароль для 360 OS Cloud</string>
   <string name="coolcloud_please_enter_specifyed_phone_num">Введите указанный номер</string>
-  <string name="coolcloud_latest">Недавние</string>
-  <string name="coolcloud_item">Часть</string>
-  <string name="coolcloud_from">От</string>
-  <string name="coolcloud_to">для</string>
-  <string name="coolcloud_not_login">Вход не выполнен</string>
+    <string name="coolcloud_latest">"Последние "</string>
+    <string name="coolcloud_item">" вызовов"</string>
+    <string name="coolcloud_from">"От "</string>
+    <string name="coolcloud_to">"До "</string>
+    <string name="coolcloud_not_login">Войти</string>
   <string name="coolcloud_send_data_now">Отправка данных</string>
   <string name="coolcloud_process_data_now">Обработка данных</string>
   <string name="coolcloud_process_local_data">Локальные данные</string>
-  <string name="coolcloud_upload_contact_photo">Выгрузка портрета</string>
-  <string name="coolcloud_download_contact_photo">Загрузка портрета</string>
+    <string name="coolcloud_upload_contact_photo">Отправка изображений</string>
+    <string name="coolcloud_download_contact_photo">Загрузка изображений</string>
   <string name="coolcloud_name">Облако</string>
   <string name="coolcloud_search">Поиск</string>
   <string name="coolcloud_search_contact">Поиск контактов</string>
@@ -1053,7 +1053,7 @@
   <string name="coolcloud_sync_contacts_recycle">Корзина</string>
   <string name="coolcloud_recoverletter">Синхронизация... Повторите попытку позже.</string>
   <string name="coolcloud_sync_reovering_now">Восстановление... Подождите</string>
-  <string name="coolcloud_input_something_to_search">Enter name or number</string>
+    <string name="coolcloud_input_something_to_search">Введите имя или номер</string>
   <string name="coolcloud_select_saved_infomation">Выберите элемент</string>
   <string name="coolcloud_cover_with_server">Использовать данные телефона для их перезаписи</string>
   <string name="coolcloud_cover_with_local">Использовать облачные данные для перезаписи</string>
@@ -1064,42 +1064,42 @@
   <string name="coolcloud_ok_to_sync">Да</string>
   <string name="coolcloud_no_sync">Нет</string>
   <string name="coolcloud_load_repeate_contacts_data">Загрузка повторяющихся контактов</string>
-  <string name="coolcloud_local_contacts_recycle">Локальный мусор</string>
-  <string name="coolcloud_server_contacts_recycle">Мусор на облаке</string>
+    <string name="coolcloud_local_contacts_recycle">Корзина в телефоне</string>
+    <string name="coolcloud_server_contacts_recycle">Корзина в облаке</string>
   <string name="coolcloud_loading_local_contacts_recycle">Загрузка данных локального мусора</string>
   <string name="coolcloud_sync_contacts_recover_success">Восстановление данных.</string>
   <string name="coolcloud_sync_recovering_local_contacts">Восстановление контактных данных...</string>
   <string name="coolcloud_combine_contact_by_last_update_time">Для объединения контактов используется последнее по времени обновление.</string>
   <string name="coolcloud_auto_unite_repeate_success">автоматические слияния контактов</string>
   <string name="coolcloud_sync_for_manual_reapeate">данные необходимо вручную объединить</string>
-  <string name="coolcloud_sync_manual_unite">объединение</string>
+    <string name="coolcloud_sync_manual_unite">Объединить</string>
   <string name="coolcloud_sync_manual_unite_cancel">Отмена</string>
   <string name="coolcloud_sync_auto_unite_num">автоматическое объединение (%s)</string>
   <string name="coolcloud_sync_unite">объединить</string>
-  <string name="coolcloud_sync_unite_edit_photo_tag">заголовок</string>
-  <string name="coolcloud_sync_unite_edit_name_tag">имя (выбор)</string>
-  <string name="coolcloud_sync_unite_edit_phonenum_tag">номер телефона (поп)</string>
-  <string name="coolcloud_sync_unite_edit_email_tag">Почта (поп)</string>
+    <string name="coolcloud_sync_unite_edit_photo_tag">Фото</string>
+    <string name="coolcloud_sync_unite_edit_name_tag">Имя (обязательно)</string>
+    <string name="coolcloud_sync_unite_edit_phonenum_tag">Телефон (выбрать)</string>
+    <string name="coolcloud_sync_unite_edit_email_tag">E-mail (выбрать)</string>
   <string name="coolcloud_sync_unite_loading">объединение контактов...</string>
   <string name="coolcloud_no_repeat_contact">Без дублей</string>
   <string name="coolcloud_localize_search">Поиск</string>
   <string name="coolcloud_ellipsis">...</string>
   <string name="coolcloud_data_refresh">Обновление... попробуйте еще раз позже.</string>
-  <string name="coolcloud_contacs_list_name_known">Неизвестно</string>
+    <string name="coolcloud_contacs_list_name_known">Неизвестный</string>
   <string name="coolcloud_contact_guid">Нет контактных данных или разрешений на подключение, не разрешено.</string>
   <string name="coolcloud_calendar_guid">Нет календарных данных или разрешений на подключение, не разрешено.</string>
-  <string name="coolcloud_continue_sync">Резюме</string>
+    <string name="coolcloud_continue_sync">Продолжить</string>
   <string name="coolcloud_view_guid">Помощь</string>
   <string name="coolcloud_sms_backup">Копировать</string>
-  <string name="coolcloud_phone_sms_backup_percent">Резервное копирование данных телефона</string>
-  <string name="coolcloud_calllog_backup">Резервное копирование журналов вызовов</string>
-  <string name="coolcloud_validate_sms_text">Код проверки</string>
-  <string name="coolcloud_friend_circle">Участники</string>
+    <string name="coolcloud_phone_sms_backup_percent">Копировать данные телефона</string>
+    <string name="coolcloud_calllog_backup">Копировать вызовы</string>
+    <string name="coolcloud_validate_sms_text">Проверочный код</string>
+    <string name="coolcloud_friend_circle">Друзья</string>
   <string name="coolcloud_explore_title">Найти</string>
   <string name="coolcloud_my_profile">Аккаунт</string>
   <string name="coolcloud_version_down">Эта версия включает значительные обновления. Вам нужно снова войти в систему.</string>
   <string name="coolcloud_sim_changed_title">Напоминание</string>
-  <string name="coolcloud_sim_changed_tip">Телефонная карта изменена. Пожалуйста, войдите снова.</string>
+    <string name="coolcloud_sim_changed_tip">SIM-карта заменена. Войдите в аккаунт повторно</string>
   <string name="coolcloud_dialog_confirm">ОК</string>
   <string name="coolcloud_dialog_cancel">Отмена</string>
   <string name="coolcloud_join_to_group">Вступить в группу</string>
@@ -1114,19 +1114,19 @@
   <string name="coolcloud_processing_contact_photo">Обработка…</string>
   <string name="coolcloud_onekey_recovery_immediately">Восстановить</string>
   <string name="coolcloud_onekey_select_oneitem">Выберите элемент</string>
-  <string name="coolcloud_onekey_recovery_success">Восстановить</string>
-  <string name="coolcloud_onekey_recovery_3_months">последние 3 месяца</string>
-  <string name="coolcloud_onekey_recovery_6_months">последние 6 месяцев</string>
+    <string name="coolcloud_onekey_recovery_success">Восстановлено</string>
+    <string name="coolcloud_onekey_recovery_3_months">За 3 месяца</string>
+    <string name="coolcloud_onekey_recovery_6_months">За 6 месяцев</string>
   <string name="coolcloud_onekey_recovery_all">Все</string>
-  <string name="coolcloud_onekey_recovery_recently">последнее время</string>
-  <string name="coolcloud_onekey_recovery_cancle">Остановить восстановление?</string>
-  <string name="coolcloud_onekey_backup_cancle">Остановить резервирование?</string>
-  <string name="coolcloud_recovery_cancel">Остановить восстановление ?</string>
+    <string name="coolcloud_onekey_recovery_recently">Недавние</string>
+    <string name="coolcloud_onekey_recovery_cancle">Отменить восстановление?</string>
+    <string name="coolcloud_onekey_backup_cancle">Отменить копирование?</string>
+    <string name="coolcloud_recovery_cancel">Отменить восстановление?</string>
   <string name="coolcloud_select_all">Все</string>
   <string name="coolcloud_unSelect_all">Очистить</string>
-  <string name="coolcloud_list_action_mode_selected">выбранные</string>
+    <string name="coolcloud_list_action_mode_selected">"Выбрано: "</string>
   <string name="coolcloud_list_action_mode_item"> пункт</string>
-  <string name="coolcloud_list_action_mode_total">Всего</string>
+    <string name="coolcloud_list_action_mode_total">"Всего: "</string>
   <string name="coolcloud_actionbar_mainmenu_text">Меню</string>
   <string name="coolcloud_action_mode_item_more">Ещё</string>
   <string name="coolcloud_list_action_mode_items"> пункт</string>
@@ -1141,22 +1141,22 @@
   <string name="coolcloud_data_is_error">Дата неверная</string>
   <string name="coolcloud_send_same_invalid">Уже отправлен идентичный микроблог</string>
   <string name="coolcloud_name2">Имя</string>
-  <string name="coolcloud_companyname">Название компании</string>
-  <string name="coolcloud_companytitle">Должность в компании</string>
-  <string name="coolcloud_mobile">Телефон</string>
-  <string name="coolcloud_home">Главный экран</string>
-  <string name="coolcloud_business">Компания</string>
-  <string name="coolcloud_work_fax">Факс компании</string>
+    <string name="coolcloud_companyname">Компания</string>
+    <string name="coolcloud_companytitle">Должность</string>
+    <string name="coolcloud_mobile">Мобильный</string>
+    <string name="coolcloud_home">Домашний</string>
+    <string name="coolcloud_business">Рабочий</string>
+    <string name="coolcloud_work_fax">Рабочий факс</string>
   <string name="coolcloud_home_fax">Домашний факс</string>
   <string name="coolcloud_pager">Пейджер</string>
-  <string name="coolcloud_other">Другое</string>
-  <string name="coolcloud_callback">Номер обратного вызова</string>
-  <string name="coolcloud_car">Бортовой телефон</string>
-  <string name="coolcloud_work_pref">Коммутатор компании</string>
+    <string name="coolcloud_other">Другой</string>
+    <string name="coolcloud_callback">Номер обратного дозвона</string>
+    <string name="coolcloud_car">Телефон в машине</string>
+    <string name="coolcloud_work_pref">Основной рабочий</string>
   <string name="coolcloud_isdn">ISDN</string>
-  <string name="coolcloud_pref">Коммутатор</string>
-  <string name="coolcloud_fax">прочие факсы</string>
-  <string name="coolcloud_radio">Беспроводные устройства</string>
+    <string name="coolcloud_pref">Основной</string>
+    <string name="coolcloud_fax">Другой факс</string>
+    <string name="coolcloud_radio">Радиотелефон</string>
   <string name="coolcloud_telex">Телеграф</string>
   <string name="coolcloud_ttytdd">Телетайп</string>
   <string name="coolcloud_work_mobile">Телефон компании</string>
@@ -1165,18 +1165,18 @@
   <string name="coolcloud_mms">MMS</string>
   <string name="coolcloud_custom">Пользовательский</string>
   <string name="coolcloud_number">Номер</string>
-  <string name="coolcloud_work_email">Почта офиса</string>
-  <string name="coolcloud_private_email">Личная почта</string>
+    <string name="coolcloud_work_email">Рабочий e-mail</string>
+    <string name="coolcloud_private_email">Личный e-mail</string>
   <string name="coolcloud_yahoo">Yahoo</string>
   <string name="coolcloud_belongGroup">Принадлежность к группе</string>
   <string name="coolcloud_ringtone_call">Мелодия вызова</string>
   <string name="coolcloud_ringtone_message">Мелодия сообщений</string>
-  <string name="coolcloud_web">URL</string>
+    <string name="coolcloud_web">Сайт</string>
   <string name="coolcloud_work_address">Адрес компании</string>
   <string name="coolcloud_private_address">Домашний адрес</string>
   <string name="coolcloud_other_address">Другой адрес</string>
   <string name="coolcloud_gender">Пол</string>
-  <string name="coolcloud_modify_gender">Изменение пола</string>
+    <string name="coolcloud_modify_gender">Изменить пол</string>
   <string name="coolcloud_male">Мужской</string>
   <string name="coolcloud_female">Женский</string>
   <string name="coolcloud_gender_na">Неизвестно</string>
@@ -1199,10 +1199,10 @@
   <string name="coolcloud_spouse">Супруг(а)</string>
   <string name="coolcloud_no_group">Без группы</string>
   <string name="coolcloud_popup_menu_phone">Телефон</string>
-  <string name="coolcloud_popup_menu_email">Почта</string>
-  <string name="coolcloud_popup_menu_remark">Примечания</string>
+    <string name="coolcloud_popup_menu_email">E-mail</string>
+    <string name="coolcloud_popup_menu_remark">Заметка</string>
   <string name="coolcloud_popup_menu_im">IM</string>
-  <string name="coolcloud_popup_menu_web">URL</string>
+    <string name="coolcloud_popup_menu_web">Сайт</string>
   <string name="coolcloud_popup_menu_addr">Адрес</string>
   <string name="coolcloud_popup_menu_sex">Пол</string>
   <string name="coolcloud_popup_menu_nick_name">Имя</string>
@@ -1215,8 +1215,8 @@
   <string name="coolcloud_popup_menu_ringtone">Мелодия</string>
   <string name="coolcloud_popup_menu_groups">Группы</string>
   <string name="coolcloud_one_key_recovery_summary">Быстрое восстановление</string>
-  <string name="coolcloud_one_key_backup_summary">Быстрое резервирование</string>
-  <string name="coolcloud_anti_threft_summary">Безопасность и Анти вор защищают безопасность телефона</string>
+    <string name="coolcloud_one_key_backup_summary">Быстрое копирование</string>
+    <string name="coolcloud_anti_threft_summary">Защита телефона от кражи</string>
   <string name="coolcloud_im_qq">QQ</string>
   <string name="coolcloud_im_window_live">Windows Live</string>
   <string name="coolcloud_im_skype">Skype</string>
@@ -1232,7 +1232,7 @@
   <string name="coolcloud_syncing_source_please_wait">Синхронизация %… Подождите.</string>
   <string name="coolcloud_backuping_recovering_source_please_wait">Восстановление %… Подождите.</string>
   <string name="coolcloud_backuping_source_please_wait">Резервирование %… Подождите.</string>
-  <string name="coolcloud_reply">Ответ</string>
+    <string name="coolcloud_reply">Ответить</string>
   <string name="coolcloud_feedback_has_reply">Новый ответ. Нажмите, чтобы просмотреть его.</string>
   <string name="coolcloud_backuping_quik_dial_info">Резервирование...</string>
   <string name="coolcloud_recovering_quik_dial_info">Восстановление...</string>
@@ -1243,8 +1243,8 @@
   <string name="coolcloud_version_checking">Проверка...</string>
   <string name="coolcloud_version_is_up_to_date">Это последняя версия.</string>
   <string name="coolcloud_version_is">"Версия: "</string>
-  <string name="servicearticle">Пункты использования</string>
-  <string name="coolcloud_please_acree_art">Я согласен на пункты</string>
+    <string name="servicearticle">Пользовательское соглашение</string>
+    <string name="coolcloud_please_acree_art">Я принимаю</string>
   <string name="coolcloud_newversion_check">Проверить новую версию</string>
   <string name="coolcloud_help">Помощь</string>
   <string name="coolcloud_intimacy">Приватность</string>
@@ -1275,84 +1275,84 @@
   <string name="coolcloud_domain_name">cloud.360shouji.com</string>
   <string name="coolcloud_domain_name_hw">cloud-en.360shouji.com</string>
   <string name="coolcloud_this_no_sdcard">Нет SD-карты.</string>
-  <string name="coolcloud_servicearticledata">"\u0009\u0009This agreement is between you and 360 OS Cloud providers to legal agreement, and show that you are willing to accept our terms of service. Along with all the updates, supplementary terms and conditions of this agreement, software license, and all regulations and policies which are mentioned in this agreement, together constitute the entire agreement between you and 360 OS Cloud. If you agree to the terms of this agreement, please click yes, if you do not agree to the terms of this agreement, please do not click the agree, also do not use this service. You must accept and abide by the terms of this agreement to you.
- \u0009\u0009The definition of a. 360 OS Cloud
- 360 OS Cloud is QiKu network technology provides online cloud synchronization service, including contacts, calendar, messages, call logs real-time synchronization service (of course need to have a network connection), at the same time in the server to delete the data backup, for example, when a user changes the content on the mobile end inside information, 360 OS Cloud will be instant and take the initiative to make the same 360 OS Cloud account other devices for synchronization, 360 OS Cloud not only in the mobile terminal to provide these services and applications, but also provide a complete set of web pages to operate.
- \u0009\u00092. Service risk and disclaimer
- Users need to understand and accept that the service comes to the Internet and mobile communications services, may be affected by many unstable factors. So many service existence of force majeure, the computer virus or hacker attacks, unstable system, the location of the user, the user shutdown, mobile communication network, Internet network, such as the communication line cause the service interruption or can not meet the requirement of the user's risk. Users of this service must take more risks, 360 OS Cloud to the service of timeliness, security, accuracy is not guaranteed, the resulting user cannot send and receive reading news, or transmission errors, personal set of aging, not storage, or some other problem does not undertake any responsibility. For force majeure or 360 OS Cloud fault causes the user data loss, loss, or stop service, 360 OS Cloud will not undertake any responsibility. At the same time may not be offline trading 360 OS Cloud account.
- \u0009\u00093. Change in the terms of service and notification
- (1) 360 OS Cloud will be held at any time or from time to time to update, revise, supplement and modification of this agreement in any other way and the use of the service you impose new or additional rules, policies, terms or conditions. The update, revise, supplement and additional rules, policies, terms and conditions referred to as the additional terms of this agreement will be sent to you by the announcement of a web page or to your account email address listed in the contact information to send e-mails, letters or mail way to send a notification to you, once you accept, will take effect immediately and incorporated into this agreement. If you do not agree with the changes of the content, you can terminate the related services.
- (2) For the normal operation of the system fails to affect this service, 360 OS Cloud promised treatment to repair in time. But from this and the inconvenience, please understanding, 360 OS Cloud will not be responsible for damages for your spirit
- \u0009\u00094. The duties and responsibilities users
- (1) The user shall not use the service or the 360 OS Cloud on a web page, copy, upload any endangering state security, storage, transmission, damage the interests of national pride and, incite ethnic hatred, ethnic discrimination and promote cults and feudal superstition, any obstruction of public security or reactionary, violence, murder, false, terror, harass, insult, slander, threatening, pornographic, or instigated crime content prohibited by laws and regulations.
- (2) The user shall not use the service to intentionally making, dissemination of computer viruses and other destructive procedures, shall not be permitted to work for this service, and the connection of the server or the network manufacturing interference, confusion, or connect the service network of any breach, procedures, policies and rules, otherwise the 360 OS Cloud will reserve the right to pursue its legal responsibility and shall have the right to be submitted to the relevant departments to deal with.
- (3) The user agrees to abide by the constitution of the People's Republic of China, the law of the People's Republic of China civil law, the law of the People's Republic of China copyright law, the law of the People's Republic of China law on guarding state secrets, the computer information system safety protection regulations of the People's Republic of China, the computer software protection ordinance, the supreme people's court about copyright dispute cases involving computer network to explain some issues of applicable law, the information network transmission right protection ordinance, the measures for administrative protection of Internet copyright and other relevant state laws and regulations, measures for its implementation.
+    <string name="coolcloud_servicearticledata">"\u0009\u0009Данный текст является соглашением между Вами и поставщиком облачного сервиса 360. Принимая текст этого соглашения, Вы соглашаетесь с условиями предоставления услуг. Обновления, дополнительные условия данного соглашения, лицензии на программное обеспечение, а также все правила и политики, которые упоминаются в настоящем соглашении, вместе составляют полное соглашение между Вами и компанией 360. Если Вы согласны с условиями настоящего соглашения, нажмите \"Да\", в противном случае закройте это приложение и не пользуйтесь этой услугой.
 
-        (4) Comply with all related to the use of the service of the network protocol, rules, procedures and practices.
+\u0009\u00091. Определение облака
+Облако является сетевой технологией компании 360, которая обеспечивает онлайн-сервис для синхронизации контактов, календаря, сообщений, журнала вызовов с облачным хранилищем в режиме реального времени (при условии подключения к сети). Кроме этого, сервис позволяет управлять резервными копиями на сервере, а также синхронизировать данные между несколькими устройствами, если в них установлен тот же аккаунт 360.
 
-\u0009\u0009\u0009\u00095. About a key activation
+\u0009\u00092. Риски и отказ от ответственности
+Пользователь должен понимать, что услуга предоставляется с помощью сети Интернет, поэтому устойчивость ее работы зависит от многих факторов. Например, от форс-мажорных обстоятельств, действия компьютерных вирусов или хакерских атак, нестабильной работы системы, местоположения пользователя. Разработчик не несет ответственности за безопасносную, точную и своевременную передачу информации, за возможные ошибки чтения/записи, а также за проблемы, связанные с повреждением накопителей и потерей пользовательских данных.
 
-\u0009\u0009\u0009\u0009You are using a key to activate registered 360 OS Cloud, we will use your phone to our backend server to send a text message, expense of charge carriers, also don't cost you any fee
+\u0009\u00093. Изменение условий обслуживания и уведомления
+Текст настоящего соглашения может обновляться, пересматриваться, дополняться и изменяться в любое время. Уведомления о любых изменениях будут отправлены пользователю на указанный при регистрации e-mail или физический адрес. В случае, если Вы не согласны с изменениями в соглашении, то можете прекратить пользование услугой.
+
+\u0009\u00094. Обязанности и ответственность пользователей
+1) Запрещено использование услуги для копирования, загрузки и хранения любых файлов, представляющих угрозу государственной безопасности, разжигающих межнациональную рознь или этническую дискриминацию, препятствующих общественной безопасности, провоцирующих насилие, убийства, ложь, террор, травлю, оскорбления, клевету или угрозы, а также содержащих материалы порнографического или другого характера, запрещенного Законом.
+2) Пользователи не имеют права использовать сервис для распространения компьютерных вирусов и других деструктивных процедур, а также для создания помех в работе сети. В противном случае компания 360 оставляет за собой право предоставлять юридические документы о выявленных нарушениях в соответствующие ведомства.
+3) Пользователь обязуется соблюдать Конституцию Китайской Народной Республики, Законы КНР в области гражданского права и Закон о защите авторских прав, Закон об охране государственной тайны, Положения о защите компьютерной информации.
+
+\u0009\u00095. Система авторизации
+Для входа в аккаунт 360 используется номер мобильного телефона или адрес e-mail, на которые отправляются бесплатные текстовые сообщения.
 "</string>
-    <string name="coolcloud_introudce_content1">"\u0009\u00091. 360 OS Cloud is QiKu network technology based on cloud computing's personal data synchronization, storage platform, the content including contacts, calendar, notepad, browser bookmarks two-way real-time synchronization, automatic backup messages, phone records, pictures, and you can through the mobile terminal find my phone switch, remote control your mobile phone. 360 OS Cloud simple and easy to use, allowing you to easily set!
- 
-\u0009\u00092. If you have more than one mobile phone, the mobile phone, only need to log in to the same account after 360 OS Cloud sync your contacts on the phone, calendar, notepad, browser bookmarks data will remain consistent, when one of your mobile phone contacts, calendar, notepad, bookmarks, after the change, after a 360 OS Cloud synchronization, changing data will appear on your other terminal, you don't have to worry about in each time a new contact person, needs to be in each new cell phone. When you change mobile phone, as long as you log on 360 OS Cloud, so your contacts, calendar data in the cloud will be automatically synchronized to the end of your login, convenient and quick.
- 
-\u0009\u00093. Contacts, calendar, notepad, browser bookmarks for two-way synchronization, if you change the mobile phone, want to use these data in the new phone, then you only need to select the synchronization, the cloud data will be automatically synchronized to your phone, if you want to see you in your new mobile phone text messages and phone records in the past, you only need to recovery text messages, call logs.
- 
-\u0009\u00094. 360 OS Cloud provides a set of web page operation at the same time, you can log in"</string>
-    <string name="coolcloud_introudce_content2">", manage their own data in the website, web side provide private mode at the same time, to protect your private data security.
- 
-\u0009\u0009 5. Web client provides the function of the recycle bin, prevent users from accidentally delete, you delete data automatically into the recycle bin, you can recover the data in the recycle bin and delete operation.
- 
-\u0009\u00096. A 360 OS Cloud account for 15 phone log in use at the same time, after login, the mobile phone contacts, calendar, notepad, browser bookmarks data after 360 OS Cloud cloud synchronization will remain consistent."</string>
-    <string name="coolcloud_notice_content1">"\u0009\u00091. In the first time in the process of synchronization data exchange capacity is more, so for a long time, this time please try to ensure smooth network so that you can quickly complete synchronization.
- 
-\u0009\u00092. If you have two or more than two mobile phones need to bind the same 360 OS Cloud account, you need to you a mobile phone binding this account first, when the data in a cell phone to complete the synchronization for the first time, and then to bind other phones.
- 
-\u0009\u00093. After you login account, do not need to cancel this account, 360 OS Cloud will always online, if choose cancel, 360 OS Cloud is unable to use.
- 
-\u0009\u00094. If you bind 360 OS Cloud account phone accidentally lost, please immediately go to"</string>
-    <string name="coolcloud_notice_content2">"Or in your another terminal modifying passwords, password modified, lost will not be able to sync terminal and recovery, to protect your data security.
- 
-\u0009\u00095. If you have a mobile phone has been binding 360 OS Cloud account, if you want to replace the phone, please login to the 360 OS Cloud account for cancellation, otherwise may affect your subsequent use.
- 
-\u0009\u00096. You can control on the web end cleared within a cell phone information, make your phone more secure."</string>
-    <string name="coolcloud_problem_content1">"1. Why does it respond slow at the first sync?
+    <string name="coolcloud_introudce_content1">"1. Облако является сетевой технологией компании 360, которая обеспечивает синхронизацию контактов, календаря, заметок и закладок браузера с облачным хранилищем в режиме реального времени, а также автоматическое резервное копирование SMS, журнала вызовов, записей телефонных разговоров и фотографий. С помощью функции \"Антивор\" Вы можете найти потерянный или украденный телефон и управлять им удаленно.
+
+2. Если Вы используете несколько мобильных телефонов с одним аккаунтом 360, Вам не придется беспокоиться о переносе данных из одного аппарата в другой. Приложение \"Облако\" синхронизирует контакты, календарь, заметки и закладки браузера автоматически, очень быстро и удобно.
+
+3. Если Вы купили новый телефон, то просто войдите с него в свой старый аккаунт, чтобы восстановить из облака все свои контакты, календарь, заметки, закладки браузера, а также SMS и журнал вызовов.
+
+4. Управлять своими данным в облаке Вы можете и с компьютера. Просто войдите на сайт"</string>
+    <string name="coolcloud_introudce_content2">" и введите данные своего аккаунта.
+
+5. Веб-версия облака предоставляет функцию корзины, для восстановления случайно удаленных данных.
+
+6. Облако поддерживает синхронизацию данных с 15 телефонами, подключенными к одному аккаунту."</string>
+    <string name="coolcloud_notice_content1">"1. Во время первой синхронизации телефона с облаком расходуется значительно большее количество трафика, чем при последующих. Поэтому с целью экономии времени и средств рекомендуем выполнять ее по Wi-Fi.
+
+2. Если у Вас есть несколько телефонов, которые Вы хотите привязать к одному аккаунту 360, сначала выполните синхронизацию на одном из них, а затем последовательно на всех остальных.
+
+3. После входа в аккаунт не нужно выходить из него, чтобы постоянно иметь доступ к облаку.
+
+4. Если Вы потеряли или у Вас украли телефон, в котором установлен аккаунт 360, немедленно войдите на сайт"</string>
+    <string name="coolcloud_notice_content2">" и измените пароль для доступа к аккаунту, или сделайте это с другого телефона, который привязан к этому же аккаунту.
+
+5. Если Вы купили новый телефон и хотите синхронизировать свои контакты, сообщения, заметки, закладки и другие данные с существующим аккаунтом 360, не забудьте выйти из этого аккаунта на старом телефоне, если планируете его кому-то подарить или продать.
+
+6. Не завбывайте о том, что в любое время Вы можете управлять своим аккаунтом через веб-интерфейс с любого устройства, подключенного к сети."</string>
+    <string name="coolcloud_problem_content1">"1. Почему первая синхронизация выполняется так медленно?
 "</string>
-    <string name="coolcloud_problem_content2">"A: At the first sync, Cloud Service initiates data authentication and protection and uploads phone data. This involves processing a large quantity of data.
+    <string name="coolcloud_problem_content2">"Ответ: при первой синхронизации приложение \"Облако\" выполняет авторизацию и настраивает параметры безопасного доступа к аккаунту, после чего копирует достаточно большой объем данных, в зависимости от количества контактов, сообщений, заметок и другой пользовательской информации, хранящейся в телефоне.
 "</string>
-    <string name="coolcloud_problem_content3">"2. Why are messages and call logs only backed up, while contacts, agenda, memos, and browser bookmarks are synced bidirectionally?
+    <string name="coolcloud_problem_content3">"2. Почему сообщения и журнал вызовов можно только копировать, а контакты, события, заметки и закладки браузера синхронизируются в обоих направлениях?
 "</string>
-    <string name="coolcloud_problem_content4">"A: Messages and call logs multiply too drastically to be accommodated in your phone.
+    <string name="coolcloud_problem_content4">"Ответ: сообщения и вызовы изменяются (добавляются) значительно чаще, чем другие синхронизируемые данные.
 "</string>
-    <string name="coolcloud_problem_content5">"3. Does the sync consume much data?
+    <string name="coolcloud_problem_content5">"3. Много ли трафика расходуется во время синхронизации?
 "</string>
-    <string name="coolcloud_problem_content6">"A: Little data is required for syncing contacts, agenda, memos, and bookmarks that do not experience frequent changes. You are advised to avoid frequent logins and logouts to minimize data usage.
+    <string name="coolcloud_problem_content6">"Ответ: для синхронизации контактов, событий календаря, заметок и закладок, которые не подвергаются частым изменениям расходуется немного трафика. Мы не рекомендуем часто выходить из аккаунта и входить в него снова, чтобы уменьшить расход трафика.
 "</string>
-    <string name="coolcloud_problem_content7">"4. Why does it notify me that the upper limit is reached for registries?
+    <string name="coolcloud_problem_content7">"4. Почему я получил сообщение о достижении максимального количества регистраций?
 "</string>
-    <string name="coolcloud_problem_content8">"A: A maximum of 5 Cloud Service accounts can be registered on the same phone.
+    <string name="coolcloud_problem_content8">"Ответ: Облако поддерживает не более 5 аккаунтов, зарегистрированных на одном телефоне.
 "</string>
-    <string name="coolcloud_problem_content9">"5. Why does it notify me that the upper limit is reached for logins?
+    <string name="coolcloud_problem_content9">"5. Почему я получил сообщение о достижении максимального количества входов в аккаунт?
 "</string>
-    <string name="coolcloud_problem_content10">A: A maximum of 15 phones can simultaneously access the Cloud Service server with the same account.</string>
-    <string name="coolcloud_intimacy_data_html">"\u0009\u0009\u0009\u0009We value your privacy. 360 OS Cloud uses multilayer encryption techniques to manage and protect data stored on the 360 OS Cloud in order to prevent data loss, theft, and tampering. This agreement is a legal agreement made between you and the 360 OS Cloud provider. Once you touch One-Key Activation or start to use 360 OS Cloud, it indicates that you have carefully read the agreement and accept its terms. This agreement and all updates, supplementary terms, software licenses, and all regulations and policies prescribed in this agreement constitute a complete agreement between you and 360 OS Cloud. 
-1. Introduction to 360 OS Cloud 
-\u0009\u0009\u0009\u0009360 OS Cloud is an online cloud computing based synchronization service provided by QiKU Network Technologies. It synchronizes calendars, address books, call logs, short messages, browser bookmarks, notepads, and pictures (requires a network connection). Deleted data will be backed up in QiKU server. For example, if a user modifies the data on a phone, 360 OS Cloud will automatically synchronize the information to other devices that is bound to the same account. 360 OS Cloud and applications are also provided as a web version. 
-2. Service risk and disclaimer 
-\u0009\u0009\u0009\u0009 Users should understand and agree that this service involves the Internet and mobile services, and may be affected by different factors in different scenarios. Service disconnection may occur due to the following reasons: a force majeure event, computer virus or hacker attacks, system instability, user location, power off by user, mobile communications network, Internet, and communication cable, or risks of failing to meet user requirements may occur. Users who use this service shall bear the above mentioned risks. 360 OS Cloud does not guarantee the timeliness, security or accuracy of the service. It bears no liability if the user fails to send, receive or read a message, or if any of the following occurs: transmission error, an error in personal settings, storage failure, or any other problems. 360 OS Cloud is not liable for any data damage, losses, or service suspension caused by a force majeure event or any other reason not attributable to 360 OS Cloud. Transactions on 360 OS Cloud account using methods other than those authorized are prohibited. 
-3. Change of service terms and notice 
-\u0009\u0009\u0009\u0009(1) 360 OS Cloud reserves the right to update, revise, supplement or modify this agreement at any time and to add new or supplementary rules, policies, terms, or conditions (additional terms). These additional terms will be posted on our webpage. Any changes become effective after they are published and will be included in this Agreement. If you do not agree to the content changes, you can terminate relevant service. 
-\u0009\u0009\u0009\u0009(2) 360 OS Cloud will fix any system faults as soon as possible. We apologize for any inconvenience caused, but 360 OS Cloud is not liable for any non-pecuniary losses you incur. 
-4. Users' obligations and liabilities 
-\u0009\u0009\u0009\u0009(1) Users shall not make use of this service to copy, upload, store, or transmit any illegal content that will endanger national security; harm national interests; incite ethnic hatred or ethnic discrimination; propagate cults; affect social security; or involve reactionary, violence, murder, falsified information, terror, harassment, insults, defamation, threats, pornography or crime. 
-\u0009\u0009\u0009\u0009(2) Users shall not make use of this service to make or transmit computer viruses or other destructive programs; disrupt this service or its servers or networks; or violate any corresponding requirement, procedure, policy or rule. 360 OS Cloud retains the right to pursue legal liability and instigate judicial procedures. 
-\u0009\u0009\u0009\u0009(3) Users shall agree to observe the Constitution of the People's Republic of China, General Principles of the Civil Law of the People's Republic of China, Copyright Law of the People's Republic of China, the Law of the People's Republic of China on Guarding State Secrets, Regulations of the People's Republic of China for Safety Protection of Computer Information Systems, Regulations on Computer Software Protection, Interpretations of the Supreme People's Court on Several Issues Concerning the Laws Applicable to the Trial of Copyright Disputes Involving Computer Networks, Ordinance on the Protection of the Right to Network Dissemination of Information, Measures for the Administrative Protection of Internet Copyright, and applicable national laws, regulations, and measures. 
-\u0009\u0009\u0009\u0009(4) Observe all network agreements, regulations, procedures, and conventions in relation with the use of this service. 
-5. One-key activation 
-\u0009\u0009\u0009\u0009 When you use the one-key activation function to register for a Cloud Service account, we will send a short message to our server via your phone, which incurs a fee. 
-\u0009\u0009\u0009\u0009The copyright for the service terms belongs to QiKU Network Technologies. QiKU Network Technologies reserves all rights of interpretation and modification. Give any feedback on 360 OS Cloud products by visiting our website bbs.qiku.com."</string>
+    <string name="coolcloud_problem_content10">Ответ: серверы облака поддерживают не более 15 одновременно подключенных устройств к одному аккаунту.</string>
+    <string name="coolcloud_intimacy_data_html">"\u0009\u0009\u0009\u0009Мы ценим Вашу конфиденциальность. Приложение \"Облако\" использует многослойные методы шифрования для управления и защиты данных, хранящихся в облачном хранилище, для предотвращения потери данных, кражи и несанкционированного доступа. Данный текст является соглашением между Вами и поставщиком сервиса \"Облако\". Принимая текст этого соглашения, Вы соглашаетесь с условиями предоставления услуг. Обновления, дополнительные условия настоящего соглашения, лицензии на программное обеспечение, а также все правила и политики, которые упоминаются в настоящем соглашении, вместе составляют полное соглашение между Вами и компанией 360.
+
+1. Определение облака
+\u0009\u0009\u0009\u0009Облако является сетевой технологией компании 360, которая обеспечивает онлайн-сервис для синхронизации контактов, календаря, сообщений, журнала вызовов с облачным хранилищем в режиме реального времени (при условии подключения к сети). Кроме этого, сервис позволяет управлять резервными копиями на сервере, а также синхронизировать данные между несколькими устройствами, если в них установлен тот же аккаунт 360.
+2. Риски и отказ от ответственности
+\u0009\u0009\u0009\u0009Пользователь должен понимать, что услуга предоставляется с помощью сети Интернет, поэтому устойчивость ее работы зависит от многих факторов. Например, от форс-мажорных обстоятельств, действия компьютерных вирусов или хакерских атак, нестабильной работы системы, местоположения пользователя. Разработчик не несет ответственности за безопасносную, точную и своевременную передачу информации, за возможные ошибки чтения/записи, а также за проблемы, связанные с повреждением накопителей и потерей пользовательских данных.
+3. Изменение условий обслуживания и уведомления
+\u0009\u0009\u0009\u0009Текст настоящего соглашения может обновляться, пересматриваться, дополняться и изменяться в любое время. Уведомления о любых изменениях будут отправлены пользователю на указанный при регистрации e-mail или физический адрес. В случае, если Вы не согласны с изменениями в соглашении, то можете прекратить пользование услугой.
+4. Обязанности и ответственность пользователей
+\u0009\u0009\u0009\u00091) Запрещено использование услуги для копирования, загрузки и хранения любых файлов, представляющих угрозу государственной безопасности, разжигающих межнациональную рознь или этническую дискриминацию, препятствующих общественной безопасности, провоцирующих насилие, убийства, ложь, террор, травлю, оскорбления, клевету или угрозы, а также содержащих материалы порнографического или другого характера, запрещенного Законом.
+\u0009\u0009\u0009\u00092) Пользователи не имеют права использовать сервис для распространения компьютерных вирусов и других деструктивных процедур, а также для создания помех в работе сети. В противном случае компания 360 оставляет за собой право предоставлять юридические документы о выявленных нарушениях в соответствующие ведомства.
+\u0009\u0009\u0009\u00093) Пользователь обязуется соблюдать Конституцию Китайской Народной Республики, Законы КНР в области гражданского права и Закон о защите авторских прав, Закон об охране государственной тайны, Положения о защите компьютерной информации.
+5. Система авторизации
+\u0009\u0009\u0009\u0009Для входа в аккаунт 360 используется номер мобильного телефона или адрес e-mail, на которые отправляются бесплатные текстовые сообщения.
+
+\u0009\u0009\u0009\u0009Авторские права на использование облачного сервиса принадлежат 360 Network Technologies. 360 Network Technologies оставляет за собой все права по интерпретации и модификации предоставляемых услуг. Свои отзывы о приложении \"Облако\" оставляйте на нашем официальном форуме bbs.360.cn."</string>
   <string name="coolcloud_quikdail_default_summary">Сохранить номера быстрого доступа на облако</string>
   <string name="coolcloud_sync_cardcontact_recv_view_sying_summary">Восстановление данных контактов карты...</string>
   <string name="coolcloud_quikdail_secd_view_only_wlan_default_summary">Резервное копирование данных быстрого набора только через Wi-Fi</string>
@@ -1366,7 +1366,7 @@
   <string name="coolcloud_auth_recover_tip">Добро пожаловать в функцию восстановления 360 OS Cloud. Элементы восстановления будут добавлены или изменены. Если вы не согласны, эта функция не может быть использована. Выполнить это действие?</string>
   <string name="coolcloud_auth_remind_tip">Больше не запрашивать</string>
   <string name="coolcloud_net_tip">Добро пожаловать в 360 OS Cloud. Это программное обеспечение может обращаться к сетям. Ваш контакт-лист, сообщения и информация о местоположении будут получены в режиме защиты частной жизни. Продолжайте, если вы согласны.</string>
-  <string name="coolcloud_agree">Согласен</string>
+    <string name="coolcloud_agree">ОК</string>
   <string name="coolcloud_auth_version">Версия не опознана</string>
   <string name="coolcloud_local_del_sync_msg">360 OS Cloud было обнаружено, что многие контакты были удалены из локальной части телефона</string>
   <string name="coolcloud_local_del_note_sync_msg">360 OS Cloud было обнаружено, что многие текстовые записи были удалены из локальной части телефоны</string>
@@ -1375,8 +1375,8 @@
   <string name="coolcloud_server_del_backup_msg">360 OS Cloud обнаружил, что все контакты будут удалены из Cloud Service аккаунта. Резервное копирование этих контактов в облако?</string>
   <string name="coolcloud_go_sync">Синхронизация</string>
   <string name="coolcloud_go_recovery">Восстановить</string>
-  <string name="coolcloud_go_setting">Перейти к настройкам</string>
-  <string name="coolcloud_i_kown">Понял</string>
+    <string name="coolcloud_go_setting">Настройки</string>
+    <string name="coolcloud_i_kown">ОК</string>
   <string name="coolcloud_setting_wlan_switch_tip">Вы установили, что синхронизации только по Wi-Fi. Синхронизация не может выполняться автоматически по сети передачи данных...</string>
   <string name="coolcloud_exception_toast">Оповещение 360 OS Cloud</string>
   <string name="sim_changed_title">360 OS Cloud оповещение безопасности</string>
@@ -1389,17 +1389,17 @@
   <string name="coolcloud_netdisk_dir_select">Выберите каталог</string>
   <string name="coolcloud_select_pic_folder">Рекомендуется выбрать путь для резервного копирования фотографий. Если путь не определен, мы не сможем сделать резервное копирование фотографий для вас. Продолжать или нет?</string>
   <string name="coolcloud_pic_defalut_folder">Каталог для резервного копирования фотографий:</string>
-  <string name="coolcloud_continue">Продолжить</string>
+    <string name="coolcloud_continue">Далее</string>
   <string name="coolcloud_photo_dir_error_toast">Нет изображений в этом каталоге. Пожалуйста, проверьте путь</string>
   <string name="coolcloud_open">Вкл</string>
-  <string name="coolcloud_close">  Выкл</string>
+    <string name="coolcloud_close">" Выкл."</string>
   <string name="coolcloud_auto_sync_contact">Автоматическая синхронизация контактов</string>
-  <string name="coolcloud_time_machine">Машина времени</string>
+    <string name="coolcloud_time_machine">История</string>
   <string name="coolcloud_action_mode_item_more_unfold">Развернуть</string>
-  <string name="coolcloud_action_mode_item_more_fold">Сложить</string>
-  <string name="coolcloud_local_data">Локально:</string>
-  <string name="coolcloud_sim">На SIM карте:</string>
-  <string name="coolcloud_server_data">Облако:</string>
+    <string name="coolcloud_action_mode_item_more_fold">Свернуть</string>
+    <string name="coolcloud_local_data">"Телефон: "</string>
+    <string name="coolcloud_sim">"SIM-карта: "</string>
+    <string name="coolcloud_server_data">"Облако: "</string>
   <string name="coolcloud_contact_sync_des">Включить на автоматическую загрузку контактов в облако и синхронизации с другими устройствами под одной учетной записью Cloud Service</string>
   <string name="coolcloud_sms_sync_des">Включить на автоматическую загрузку SMS в облако</string>
   <string name="coolcloud_cardcontact_sync_des">Включить на автоматически загружать контакты в облако</string>
@@ -1415,13 +1415,13 @@
   <string name="coolcloud_app_update_no_btn_msg">Зайти на наш официальный сайт</string>
   <string name="coolcloud_app_update_yes_tips">Совет по обновлению</string>
   <string name="coolcloud_app_update_yes_content_message">Быстрое обновление до новой версии</string>
-  <string name="coolcloud_app_update_yes_btn_ok_msg">Обнови сейчас</string>
-  <string name="coolcloud_app_update_yes_btn_cancel_msg">Не сейчас</string>
-  <string name="coolcloud_app_update_yes_size">размер:</string>
-  <string name="coolcloud_app_update_yes_version">Номер версии:</string>
-  <string name="coolcloud_app_update_no_content">Текущая версия является последней версией</string>
-  <string name="coolcloud_timem_contact">Контакты</string>
-  <string name="coolcloud_timem_cgroup">Группы</string>
+    <string name="coolcloud_app_update_yes_btn_ok_msg">Обновить</string>
+    <string name="coolcloud_app_update_yes_btn_cancel_msg">Позже</string>
+    <string name="coolcloud_app_update_yes_size">"Размер: "</string>
+    <string name="coolcloud_app_update_yes_version">"Версия: "</string>
+    <string name="coolcloud_app_update_no_content">Обновление не требуется</string>
+    <string name="coolcloud_timem_contact">" контактов,"</string>
+    <string name="coolcloud_timem_cgroup">" групп"</string>
   <string name="coolcloud_timem_month">Месяц</string>
   <string name="coolcloud_timem_reduction">Восстановить здесь</string>
   <string name="coolcloud_timem_gettimerecord">Получение времени записи</string>
@@ -1540,7 +1540,7 @@
   <string name="coolcloud_pic_folder_slect_tip">выберите автоматическую загрузку в облако папку с изображениями</string>
   <string name="coolcloud_pic_other_folder_slect">выберите другую папку с изображениями</string>
   <string name="coolcloud_pic_rec_folder_content">%1$d изображений, %2$d видео</string>
-  <string name="coolcloud_select">Выбор</string>
+    <string name="coolcloud_select">Выбрать</string>
   <string name="coolcloud_backup_wifi_root_permission">Эта функция требует разрешения ROOT</string>
   <string name="coolcloud_cancel_download_file">Отменить загрузку этого файла?</string>
   <string name="coolcloud_cancel_upload_file">Отменить выгрузку этого файла?</string>
@@ -1551,39 +1551,39 @@
   <string name="coolcloud_time_picker_separator">:</string>
   <string name="coolcloud_sync_sweet_des">Напоминание: Когда облачная служба включена, ваши личные данные, такие как контакты, календарь и сообщения, будут синхронизированы в режиме реального времени. If this is not your phone,data corruption may occur. please turn on this feature with caution!</string>
   <string name="coolcloud_del_contacts_toast">Удалено большое количество контактов, рекомендуется использовать Time Machine для восстановления</string>
-  <string name="coolcloud_simchange_logout_tip">Изменить SIM уведомление</string>
-  <string name="coolcloud_simchange_logout_msg">Подтвердите аккаунт еще раз</string>
-  <string name="coolcloud_crecord_filter_name">мошенничество и продажа телефонных записей</string>
-  <string name="coolcloud_crecord_filter_summary_1">Все записи звонков</string>
-  <string name="coolcloud_crecord_filter_summary_2">В дополнение к журналам мошеннических вызовов</string>
-  <string name="coolcloud_crecord_filter_select">Выберите тип резервного копирования</string>
+    <string name="coolcloud_simchange_logout_tip">SIM-карта заменена</string>
+    <string name="coolcloud_simchange_logout_msg">Требуется повторный вход в аккаунт</string>
+    <string name="coolcloud_crecord_filter_name">Номера мошенников</string>
+    <string name="coolcloud_crecord_filter_summary_1">Копировать все</string>
+    <string name="coolcloud_crecord_filter_summary_2">Не копировать</string>
+    <string name="coolcloud_crecord_filter_select">Номера мошенников</string>
   <string name="coolcloud_sync_notice">Уведомления</string>
-  <string name="coolcloud_sync_notice_choice">Выберите тип резервного копирования</string>
-  <string name="coolcloud_contacts_num_tips">Здесь контактный номер не включает контакты карты, также WeChat, QQ, и другие контактные данные третьей стороны, поэтому количество контактов на телефоне может иметь разницу</string>
-  <string name="coolcloud_donot_apply_tips">Это приложение применимо только к 360OS</string>
-  <string name="coolcloud_donot_apply_cloudalbum_tips">Не удалось получить доступ к альбому облака. Откройте приложение Local Photos, чтобы проверить, работает ли оно правильно..</string>
-  <string name="coolcloud_name_weixin_chats">Weixin_chats</string>
-  <string name="coolcloud_sync_weixin_chats">Automatic backup weixin_chats</string>
-  <string name="coolcloud_sync_weixin_chats_default_summary">In WLAN,weixin_chats автоматически будет создана резервная копия. Если запись с автоматическим резервным копированием больше лимита, будет потерта старая запись.Резервная копия завершится с ошибкой, если данные более 1G.</string>
-  <string name="coolcloud_sync_weixin_chats_default_summary2">In WLAN,weixin_chats автоматически будет создана резервная копия. Если запись автозагрузки более %1$d, старая запись будет потерта. Резервная копия завершится с ошибкой, если данные более 1G.</string>
-  <string name="coolcloud_backuping_weixin_chats">Идет резервирование weixin_chats, пожалуйста, повторите попытку позже</string>
-  <string name="coolcloud_downloading_weixin_chats">Возобновление weixin_chats, повторите попытку позже</string>
-  <string name="coolcloud_weixin_no_account">В настоящее время нет входа в WeChat аккаунт, войдите</string>
-  <string name="coolcloud_recover_weixin_chats">просмотр и восстановление WeChat чатов</string>
-  <string name="coolcloud_backup_weixin_record_default_summary">резервирование записей weixin чатов</string>
-  <string name="coolcloud_select_download_record">Выберите запись для возобновления</string>
-  <string name="coolcloud_weixin_low_version">Текущая версия WeChat ниже версии приложения чата, пожалуйста, обновите приложение, загрузите снова</string>
-  <string name="coolcloud_weixin_account_format_show">（Ник ：%s）</string>
-  <string name="coolcloud_weixin_account_inconsistent_tip">"Найдено, чтобы восстановить записи WeChat не совпадают с учетной записью ник с текущим входом в систему, продолжить восстановление приведет к потере данных чата текущей учетной записи.?"</string>
-  <string name="coolcloud_weixin_data_recover_tip">Восстановление записей будет охватывать данные телефонного чата WeChat, подтвердить запись WeChat, вернуться к этому моменту времени?</string>
-  <string name="coolcloud_weixin_confirm_del_record">Вы хотите удалить weixin чаты?</string>
-  <string name="coolcloud_weixin_del">удаление weixin чатов</string>
-  <string name="coolcloud_weixin_del_fail">удаление weixin чатов ошибка</string>
-  <string name="coolcloud_weixin_del_format">удаление weixin чатов (выбрано %1$d/всего %2$d)</string>
+    <string name="coolcloud_sync_notice_choice">Выберите тип данных</string>
+    <string name="coolcloud_contacts_num_tips">Некоторые контакты не содержат данных о WeChat, QQ и других сторонних аккаунтах, поэтому они могут отличаться от сохраненных в телефоне</string>
+    <string name="coolcloud_donot_apply_tips">Это приложение работает только в 360OS</string>
+    <string name="coolcloud_donot_apply_cloudalbum_tips">Ошибка доступа к альбому в облаке. Войдите в приложение \"Галерея\" и убедитесь в его работоспособности.</string>
+    <string name="coolcloud_name_weixin_chats">Сообщения WeChat</string>
+    <string name="coolcloud_sync_weixin_chats">Автокопирование</string>
+    <string name="coolcloud_sync_weixin_chats_default_summary">Автокопирование сообщений WeChat по Wi-Fi. Если объем данных превышает лимит, старые данные будут заменены. Если объем данных превышает 1 ГБ, копирование не будет выполнено</string>
+    <string name="coolcloud_sync_weixin_chats_default_summary2">Автокопирование сообщений WeChat по Wi-Fi. Если объем данных превышает %1$d, старые данные будут заменены. Если объем данных превышает 1 ГБ, копирование не будет выполнено</string>
+    <string name="coolcloud_backuping_weixin_chats">Выполняется копирование сообщений WeChat. Повторите попытку позже</string>
+    <string name="coolcloud_downloading_weixin_chats">Выполняется восстановление сообщений WeChat. Повторите попытку позже</string>
+    <string name="coolcloud_weixin_no_account">Войдите в аккаунт WeChat</string>
+    <string name="coolcloud_recover_weixin_chats">Восстановить сообщения WeChat</string>
+    <string name="coolcloud_backup_weixin_record_default_summary">Копирование сообщений WeChat</string>
+    <string name="coolcloud_select_download_record">Выберите данные для восстановления</string>
+    <string name="coolcloud_weixin_low_version">Текущая версия приложения WeChat ниже требуемой. Обновите приложение и повторите попытку</string>
+    <string name="coolcloud_weixin_account_format_show">(Аккаунт: %s)</string>
+    <string name="coolcloud_weixin_account_inconsistent_tip">Сохраненные данные восстановления WeChat не совпадают с текущим аккаунтом. Продолжение восстановления приведет к потере данных в текущем аккаунте. Продолжить?</string>
+    <string name="coolcloud_weixin_data_recover_tip">Восстанавливаемые данные перезапишут существующие сообщения WeChat в телефоне. Продолжить восстановление?</string>
+    <string name="coolcloud_weixin_confirm_del_record">Удалить сообщения WeChat?</string>
+    <string name="coolcloud_weixin_del">Удалить сообщения WeChat</string>
+    <string name="coolcloud_weixin_del_fail">Ошибка удаления сообщений WeChat</string>
+    <string name="coolcloud_weixin_del_format">Удалить сообщения WeChat (%1$d из %2$d)</string>
   <string name="coolcloud_weixin_select_one_del">Выберите хотя бы одну запись для удаления</string>
-  <string name="coolcloud_weixin_local">локально</string>
-  <string name="coolcloud_weixin_server">на сервере</string>
-  <string name="coolcloud_weixin_no_support_double">Эта функция не поддерживает резервное копирование данных при функции аватар.</string>
+    <string name="coolcloud_weixin_local">Телефон</string>
+    <string name="coolcloud_weixin_server">Облако</string>
+    <string name="coolcloud_weixin_no_support_double">Эта функция не поддерживает копирование аватаров WeChat</string>
   <string name="coolcloud_weixin_backup_start_notice">Резервное копирование всех записей чата в облако. WeChat будет закрыт во время резервного копирования, чтобы обеспечить точность данных.</string>
   <string name="coolcloud_weixin_backup_start_notice_second_failed">Не удалось получить данные WeChat.</string>
   <string name="coolcloud_weixin_backup_start_notice_second_normal_wlan">WeChat размер данных: %s. Вы действительно хотите начать резервное копирование?</string>
@@ -1592,9 +1592,9 @@
   <string name="coolcloud_weixin_backup_name_edit_default">Введите название резервной копии</string>
   <string name="coolcloud_weixin_back_clean_runing">Очистка данных… Пожалуйста, повторите попытку позже.</string>
   <string name="coolcloud_weixin_backup_dialog_continue_notice">Обнаружено, что у вас есть незаконченная резервная копия</string>
-  <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_time">Время резервирования: %s</string>
-  <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_size">Размер файла: %s</string>
-  <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_progress">Ход загрузки: %s</string>
+    <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_time">Дата: %s</string>
+    <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_size">Размер: %s</string>
+    <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_progress">Отправлено: %s</string>
   <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_last">Вы хотите продолжить загрузку или перезагрузку?</string>
   <string name="coolcloud_weixin_backup_dialog_continue_notice_detail_data">Вы используете сеть передачи данных, и продолжающаяся загрузка будет потреблять трафик.</string>
   <string name="coolcloud_weixin_backup_dialog_continue">Продолжить</string>
@@ -1963,11 +1963,11 @@
   <string name="security_findphone_delete_data_prompt">Когда данные уничтожаются, телефон немедленно восстановит заводские настройки и перейдет в состояние блокировки, Системные контакты, изображения и другая важная информация будут удалены. Когда управление осуществляется контактами телефона, резервная копия не будет уничтожена. Тогда телефон снова разблокируется, чтобы вернуться к обычному использованию.</string>
   <string name="security_title_find_phone_history_operation">История операций</string>
   <string name="security_select_all">выбрать все</string>
-  <string name="security_unSelect_all">Очистить все</string>
-  <string name="security_util_s">Секундой до</string>
-  <string name="security_util_m">Точкой до</string>
-  <string name="security_util_h">за несколько часов до</string>
-  <string name="security_util_d">днем ранее</string>
+    <string name="security_unSelect_all">Отменить все</string>
+    <string name="security_util_s">" сек. назад"</string>
+    <string name="security_util_m">" мин. назад"</string>
+    <string name="security_util_h">" час. назад"</string>
+    <string name="security_util_d">" дн. назад"</string>
   <string name="security_find_phone_location_return">Определение местонахождение при запросе обновления!</string>
   <string name="security_find_phone_info_return">Короткое сообщение отправлено!</string>
   <string name="security_find_phone_ring_return">Сообщение с предупреждением успешно отправлено!</string>
@@ -2113,63 +2113,65 @@
   <string name="security_level_primary">главное</string>
   <string name="security_level_middle">средний уровень</string>
   <string name="security_level_high">Верхний</string>
-  <string name="security_level">Уровень безопасности</string>
-  <string name="security_find_phone_bind_security_num">Привязка R или F номера</string>
-  <string name="security_find_phone_modify_security_num">Измение R или F номера</string>
-  <string name="security_find_phone_open_auto_sync">Открыть автоматическое резервное копирование</string>
-  <string name="security_find_phone_open_auto_sync_prompt">Включить автоматическое резервное копирование, уровень до %1$s уровня</string>
-  <string name="security_find_phone_relative_set_your_friend_number">Подтвердить номер телефона %1$s вашего родственника или друга?</string>
-  <string name="security_find_phone_guard_prompt">Защита от краж, ваши эксперты по управлению безопасностью мобильных телефонов</string>
-  <string name="security_find_phone_open_master_mute">Откройте мастер-уровень</string>
-  <string name="security_find_phone_foreign_phone_title">Напомнить</string>
+    <string name="security_level">Уровень защиты</string>
+    <string name="security_find_phone_bind_security_num">Установить безопасный номер</string>
+    <string name="security_find_phone_modify_security_num">Изменить безопасный номер</string>
+    <string name="security_find_phone_open_auto_sync">Включить автокопирование</string>
+    <string name="security_find_phone_open_auto_sync_prompt">Автокопирование включено. Уровень: %1$s</string>
+    <string name="security_find_phone_relative_set_your_friend_number">Подтвердить безопасный номер телефона %1$s?</string>
+    <string name="security_find_phone_guard_prompt">\"Антивор\" - эксперт безопасности Вашего телефона</string>
+    <string name="security_find_phone_open_master_mute">Включить наивысший уровень</string>
+    <string name="security_find_phone_foreign_phone_title">Уведомление</string>
   <string name="security_find_phone_foreign_phone_content">Ваш мобильный телефон не поддерживает родственников и друзей</string>
   <string name="security_find_phone_unbind_device_item">Отвязанное оборудование</string>
   <string name="security_find_phone_friends_num_set_prompt_1">Добавить номер телефона родственника или друга для контроля текущего телефона с помощью отправки SMS через номер телефона при необходимости</string>
   <string name="security_find_phone_please_select_friend_num">Войдите/выберите номера</string>
   <string name="security_find_phone_friends_num_set_prompt_2">Текстовое сообщение будет автоматически отправлено на номер телефона, указанного родственника или друга, когда SIM-карту текущего телефона будет изменена. Стоимость их списывается с соответствующего оператора.</string>
-  <string name="security_find_phone_spread">распространено</string>
-  <string name="security_find_phone_retract">Папка</string>
+    <string name="security_find_phone_spread">Развернуть</string>
+    <string name="security_find_phone_retract">Свернуть</string>
   <string name="security_find_phone_modifyed_phone_name_null">Введите пустое имя, введите снова</string>
   <string name="security_find_phone_modifyed_phone_name_too_long">Вы вводите имя слишком длинное, введите снова</string>
   <string name="security_find_phone_curr_not_marked_stolened">Нет отмеченных как украденные</string>
   <string name="security_find_phone_curr_marked_stolened">Пометка был украден</string>
   <string name="security_find_phone_how_to_do_when_lost">Потеряли инструкцию устройства</string>
   <string name="security_find_phone_use_other_account">Найти телефон, который использует другую учетную запись</string>
-  <string name="security_find_phone_location">расположение</string>
+    <string name="security_find_phone_location">Местоположение</string>
   <string name="security_find_phone_unlock_phone_tips">"После разблокировки телефона, телефон вернется в нормальное состояние из заблокированного состояния.
  Продолжить?"</string>
   <string name="security_find_phone_operate_local_phone_tips">"Эта операция может вызвать проблемы в использовании телефона.
  Продолжить?"</string>
-  <string name="security_find_phone_help_you_find_lost">"360 OS Cloud to help you find! 
- method 1: through the 360 OS Cloud APP back: 
-1.Download the 360 OS Cloud APP;
- 2.anding 360 OS Cloud; 
- 3. Select find mobile phone function of anti-theft security module, select the missing phone models to take pictures, send messages, ring and other instructions;
- Method 2: you can log in mobile browser back:
- 1. Open the mobile browser, type cloud.360shouji.com; Landing 
- 2. Landing 360 OS Cloud; 
- 3. Choice for mobile phones, choose photograph lost phone models, send messages, ring instructions such as operation;
- Method 3: use the 360 OS Cloud find computer access\ufffd\ufffd
- 1. Open the computer browser, type cloud.360shouji.com; Landing 
- 2, QIKU account; The 
-3.Choice for mobile phones, choose photograph lost phone models, send messages, ring and other instructions;
- Method 4: through mobile phone text messages with relative or friend back:
- 1. Open the security guard against theft, binding R&amp;F number 
- (2) through the preset stolen mobile phones to send relatives and friends number security instructions 
- 
- security command message format is as follows:
- A. to destroy data, send: anti-theft destroy data 
- b.Forwarding messages, send: forward short messages to XXX 
- c.Stop forwarding messages, send: anti-theft stop forwarding message 
- d. lock card, send: anti-theft lock card 
- e. Lock machine, send: anti-theft lock machine 
- f. anti-theft cancelled, send: anti-theft cancel 
- For example: to destroy data, directly send text messages anti-theft destroy information to stolen phones can, want to Forwarding messages, directly send text messages forward short messages to XXX stolen phones, where XXX to the phone number of the forwarding to 
- specific details please refer to:
+    <string name="security_find_phone_help_you_find_lost">"Приложение \"Облако\" поможет найти Ваш телефон!
+\u0009\u0009Способ 1: с помощью аккаунта 360
+1) Запустите приложение \"Облако\"
+2) Привяжите его к аккаунту 360
+3) Выберите функцию поиска телефона в модуле \"Антивор\", выберите украденный телефон, используйте команды скрытой съемки, отправки SMS, сигнала тревоги и т.д.
+\u0009\u0009Способ 2: с помощью браузера в телефоне
+1) Откройте браузер в телефоне и войдите на сайт cloud-en.360shouji.com
+2) Войдите в свой аккаунт
+3) Выберите украденный телефон, используйте команды скрытой съемки, отправки SMS, сигнала тревоги и т.д.
+\u0009\u0009Способ 3: с помощью браузера на ПК
+1) Откройте браузер на ПК и войдите на сайт cloud-en.360shouji.com
+2) Войдите в свой аккаунт
+3) Выберите украденный телефон, используйте команды скрытой съемки, отправки SMS, сигнала тревоги и т.д.
+\u0009\u0009Способ 4: с помощью безопасного номера телефона
+1) Выберите функцию \"Безопасный номер\" в модуле \"Антивор\"
+2) Используйте предустановленные команды для удаленного управления украденным телефоном
+
+Формат использования команд \"Антивора\":
+Очистка данных: destroy data
+Переадресация вызовов: forward calls to XXX
+Отмена переадресации вызовов: stop forwarding calls
+Переадресация SMS: forward short messages to XXX
+Отмена переадресации SMS: stop forwarding short messages
+Блокировка SIM-карты: lock card
+Блокировка телефона: lock mobile
+Отключить \"Антивор\": cancel anti-theft
+Например, чтобы очистить данные, отправьте SMS с текстом: destroy data; чтобы включить переадресацию вызовов, отправьте SMS с текстом: forward calls to XXX, где XXX - номер украденного или потерянного телефона.
+Для уточнения деталей свяжитесь с нами:
 "</string>
-  <string name="security_find_phone_safe_psw">сохранить пароль</string>
-  <string name="security_find_phone_not_login">Не вошли в аккаунт</string>
-  <string name="security_find_phone">Найдите Мой Телефон</string>
+    <string name="security_find_phone_safe_psw">Пароль безопасности</string>
+    <string name="security_find_phone_not_login">Вход не выполнен</string>
+    <string name="security_find_phone">Поиск телефона</string>
   <string name="security_find_phone_lock_phone_tip">После этой команды происходит,телефон вы дистанционно не сможете открывать приложения или быть подключены к USB-портам. When the phone is back, please unlock the phone to return to normal use.</string>
   <string name="security_find_phone_what_is_guard">Что такое защита от краж?</string>
   <string name="security_find_phone_operate_help">Операции, связанные с безопасностью мобильных устройств</string>

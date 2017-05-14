@@ -32,14 +32,14 @@
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Немедленно</item>
-        <item>Через 5 сек.</item>
-        <item>Через 15 сек.</item>
-        <item>Через 30 сек.</item>
-        <item>Через 1 мин.</item>
-        <item>Через 2 мин.</item>
-        <item>Через 5 мин.</item>
-        <item>Через 10 мин.</item>
-        <item>Через 30 мин.</item>
+        <item>5 сек.</item>
+        <item>15 сек.</item>
+        <item>30 сек.</item>
+        <item>1 мин.</item>
+        <item>2 мин.</item>
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>30 мин.</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Мелкий</item>
@@ -94,7 +94,7 @@
         <item>Временно избегать плохого соединения</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Кнопка</item>
+        <item>Кнопкой</item>
         <item>PIN-код подключенного устройства</item>
         <item>PIN-код этого устройства</item>
     </string-array>
@@ -128,8 +128,8 @@
         <item>Никогда</item>
     </string-array>
     <string-array name="data_usage_data_range">
-        <item>Последние 30 дней</item>
-        <item>Цикл использования данных</item>
+        <item>Последние 30 дней</item>
+        <item>Установить период…</item>
     </string-array>
     <string-array name="sim_card_data_range">
         <item>Последние 4 цифры</item>
@@ -192,7 +192,7 @@
     <string-array name="app_install_location_entries">
         <item>Внутренняя память</item>
         <item>SD-карта</item>
-        <item>На усмотрение системы</item>
+        <item>По выбору системы</item>
     </string-array>
     <string-array name="app_ops_categories">
         <item>Местоположение</item>
@@ -343,11 +343,11 @@
     </string-array>
     <string-array name="captioning_preset_selector_titles">
         <item>По умолчанию</item>
-        <item>Белый на черном</item>
-        <item>Черный на белом</item>
-        <item>Желтый на черном</item>
-        <item>Желтый на синем</item>
-        <item>Специальный</item>
+        <item>Белое на черном</item>
+        <item>Черное на белом</item>
+        <item>Желтое на черном</item>
+        <item>Желтое на синем</item>
+        <item>Настроить</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>64 КБ</item>
@@ -379,7 +379,7 @@
         <item>Всегда использовать проверку HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -388,7 +388,7 @@
         <item>Анимация (масштаб: 10x)</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Отключение анимации</item>
+        <item>Без анимации</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -408,12 +408,12 @@
     <string-array name="overlay_display_devices_entries">
         <item>Нет</item>
         <item>720x480 mdpi</item>
-        <item>720x480 mdpi (безопасно)</item>
+        <item>720x480 mdpi (защищено)</item>
         <item>1280x720 tvdpi</item>
-        <item>1280x720 tvdpi (безопасно)</item>
+        <item>1280x720 tvdpi (защищено)</item>
         <item>1920x1080 xhdpi</item>
-        <item>1920x1080 xhdpi (безопасно)</item>
-        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (защищено)</item>
+        <item>1280x720 tvdpi и 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="overlay_display_devices_values">
         <item></item>
@@ -471,11 +471,11 @@
         <item>Сбой</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
-        <item>Human</item>
-        <item>Neanderthal</item>
-        <item>Chimp</item>
-        <item>Monkey</item>
+        <item>Высшее существо</item>
+        <item>Человек</item>
+        <item>Неандерталец</item>
+        <item>Шимпанзе</item>
+        <item>Обезьяна</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Спрашивать</item>
@@ -490,8 +490,8 @@
     </string-array>
     <string-array name="entries_zen_mode">
         <item>Выкл.</item>
-        <item>Limited interruptions</item>
-        <item>Zero interruptions</item>
+        <item>Ограниченное количество прерываний</item>
+        <item>Без прерываний</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Нормально</item>
@@ -562,24 +562,24 @@
         <item>&lt;font size="27">Большой&lt;/font></item>
     </string-array>
     <string-array name="finger_print_unlock_shortcut">
-        <item>Разблокировать экран</item>
-        <item>Быстрый захват</item>
-        <item>Открыть wechat</item>
-        <item>Открыть другое</item>
+        <item>Разблокировка</item>
+        <item>Быстрая съемка</item>
+        <item>Открыть Wechat</item>
+        <item>Открыть приложение</item>
     </string-array>
     <string-array name="finger_print_unlock_shortcut_dual_domain">
-        <item>Разблокировать экран</item>
-        <item>Быстрый захват</item>
-        <item>Открыть wechat</item>
-        <item>Открыть ячейку сейфа</item>
-        <item>Открыть другое</item>
+        <item>Разблокировка</item>
+        <item>Быстрая съемка</item>
+        <item>Открыть Wechat</item>
+        <item>Открыть безопасность</item>
+        <item>Открыть приложение</item>
     </string-array>
     <string-array name="finger_print_unlock_shortcuts_MTK">
-        <item>Разблокировать экран</item>
-        <item>Быстрый захват</item>
-        <item>Открыть wechat</item>
-        <item>Один из ключей набора</item>
-        <item>Открыть другое app</item>
+        <item>Разблокировка</item>
+        <item>Быстрая съемка</item>
+        <item>Открыть Wechat</item>
+        <item>Быстрый набор</item>
+        <item>Открыть приложение</item>
         <item>Привязка пользователя</item>
     </string-array>
     <string-array name="date_format_values">
@@ -604,11 +604,11 @@
         <item>Это просто тест?</item>
     </string-array>
     <string-array name="finger_print_unlock_shortcuts">
-        <item>Разблокировать экран</item>
-        <item>Быстрый захват</item>
-        <item>Открыть wechat</item>
-        <item>Один из ключей набора</item>
-        <item>Открыть другое app</item>
+        <item>Разблокировка</item>
+        <item>Быстрая съемка</item>
+        <item>Открыть Wechat</item>
+        <item>Быстрый набор</item>
+        <item>Открыть приложение</item>
         <item>Привязка пользователя</item>
     </string-array>
     <string-array name="colorenhance_bhd_entries">
@@ -653,17 +653,17 @@
     </string-array>
     <string-array name="home_key_entries">
         <item>Нет</item>
-        <item>Последние задачи</item>
+        <item>Недавние приложения</item>
         <item>Экран выключен</item>
     </string-array>
     <string-array name="click_press_key_entries">
-        <item>Последние задачи</item>
+        <item>Недавние приложения</item>
         <item>Меню</item>
         <item>Назад</item>
     </string-array>
     <string-array name="longclick_press_recent_task_entries">
         <item>Нет</item>
-        <item>Последние задачи</item>
+        <item>Недавние приложения</item>
         <item>Меню</item>
     </string-array>
     <string-array name="toggle_install_applications_entries">

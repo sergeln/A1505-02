@@ -39,16 +39,16 @@
     <string name="close_savepower">Закрыть</string>
     <string name="auto_pattern">Автоматически (рекомендуется)</string>
     <string name="auto_pattern_summary">Автоматически настроить схемы управления питанием основываясь на текущем уровне батареи и температуре</string>
-    <string name="super_save">Super</string>
-    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
-    <string name="pull_to_refresh_release_label">Release to refresh</string>
-    <string name="pull_to_refresh_refreshing_label">Refreshing</string>
+    <string name="super_save">Режим экономии</string>
+    <string name="pull_to_refresh_pull_label">Потяните вниз, чтобы обновить</string>
+    <string name="pull_to_refresh_release_label">Отпустите, чтобы обновить</string>
+    <string name="pull_to_refresh_refreshing_label">Обновление</string>
     <string name="system_default_set_font">sans-serif-light</string>
     <string name="security_abs_action_menu_overflow_description">Больше вариантов</string>
     <string name="coolui_process_security_remote">:remote</string>
-    <string name="device_storage_low">"Less than &lt;font color='#ff0000'>%1$s&lt;/font> of space left"</string>
-    <string name="device_storage_clean">Clean</string>
-    <string name="device_storage_text">Please delete useless files</string>
+    <string name="device_storage_low">"Осталось менее &lt;font color='#ff0000'>%1$s&lt;/font>"</string>
+    <string name="device_storage_clean">Очистить</string>
+    <string name="device_storage_text">Удалите ненужные файлы</string>
     <string name="clean_scan_main_text_300">"Ненужных системе файлов &lt;font color='#ff0000'>300 MB&lt;. Рекомендуется их чистить"</string>
     <string name="clean_scan_main_text_500">"Ненужных системе файлов &lt;font color='#ff0000'>500 MB&lt;. Рекомендуется их чистить"</string>
     <string name="clean_scan_main_text_1000">"Ненужных системе файлов &lt;font color='#ff0000'>1 GB&lt;. Рекомендуется их чистить"</string>
@@ -58,7 +58,7 @@
     <string name="cleaning_notice">Очистка...</string>
     <string name="cleaned_summary_priview">"Высвободится "</string>
     <string name="cleaned_summary_last">" памяти"</string>
-    <string name="clean_power_continue">Выполните ручную очистку</string>
+    <string name="clean_power_continue">Выполнить ручную очистку</string>
     <string name="clean_svg_rubbish_number">M32,20h-4v-4h-8v4h-4v2h2v10h12V22h2V20z M22,18h4v2h-4V18z M28,30h-8v-8h8V30z</string>
     <string name="clean_svg_circle_number">"M30.3,10.18c5.47,2.97,8.45,9.38,6.82,15.69c-1.86,7.2-9.01,11.59-16.2,10.12c0,0-0.01,0-0.01,0
 c-0.7-0.18-1.42,0.24-1.6,0.94c-0.18,0.7,0.24,1.42,0.94,1.6c8.03,2.02,16.19-2.82,18.27-10.87C40.37,20.49,36.76,13.2,30.3,10.18
@@ -69,8 +69,8 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_app_name">CoolManager</string>
     <string name="security_app_name_360">360 guard</string>
     <string name="security_coolsafe">Служба безопасности</string>
-    <string name="security_app_name_apklock">Блокировка приложения</string>
-    <string name="security_app_name_memclean">Защищенные приложения</string>
+    <string name="security_app_name_apklock">Блокировка приложений</string>
+    <string name="security_app_name_memclean">Белый список приложений</string>
     <string name="security_setting">настройки</string>
     <string name="security_text_change_password">Смена пароля</string>
     <string name="security_screen_set">Настройка блокировки экрана</string>
@@ -85,13 +85,13 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_text_mem_clean_sugg_close">Предлагаем закрыть</string>
     <string name="security_password_manager">Безопасный пароль</string>
     <string name="security_way_choice">Выбор типа защиты</string>
-    <string name="security_pattern_verify">Повторите рисунок графического ключа</string>
+    <string name="security_pattern_verify">Начертите графический ключ</string>
     <string name="security_pattern_or_finger">Проверить графический ключ или отпечаток пальца</string>
     <string name="security_pls_make_pattern">Нарисуйте графический ключ</string>
     <string name="security_way_pattern">Графический ключ</string>
     <string name="security_way_number">Цифровой пароль</string>
     <string name="security_text_apk_lock">Включите ограничения, чтобы ограничить доступ к определенным приложениям</string>
-    <string name="security_lock_confirm">Замок</string>
+    <string name="security_lock_confirm">Заблокировать</string>
     <string name="security_add_contacts">Добавить контакты</string>
     <string name="security_type_short">Слишком короткий, пожалуйста, повторите</string>
     <string name="security_30_retry">Вы уже ввели неверный пароль слишком много раз, пробуйте снова через 30с</string>
@@ -99,11 +99,11 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_retry_after">повторить</string>
     <string name="security_text_apk_lock_program_title">Блокировка приложения</string>
     <string name="security_choice_lock_way">Выбор способа разблокировки</string>
-    <string name="security_power_manager">Диспетчер питания</string>
+    <string name="security_power_manager">Энергосбережение</string>
     <string name="security_confirm">Ок</string>
     <string name="security_cancel">Отмена</string>
-    <string name="security_text_user_app">Личное приложение</string>
-    <string name="security_text_system_app">Системное приложение</string>
+    <string name="security_text_user_app">Установленные</string>
+    <string name="security_text_system_app">Системные</string>
     <string name="security_item_detail">Сведения</string>
     <string name="security_dialog_btn_sure">ОК</string>
     <string name="security_dialog_btn_cancel">Отмена</string>
@@ -123,13 +123,13 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_recovery_failed">Ошибка восстановления</string>
     <string name="security_input_pass_hint">Введите пароль CoolManager</string>
     <string name="security_input_pass_error_info">Неверный пароль. %1$s раз</string>
-    <string name="security_password_cancel">Очистить</string>
-    <string name="security_password_confirm">Введите</string>
-    <string name="security_ok_button">Подтвердить</string>
+    <string name="security_password_cancel">Удалить</string>
+    <string name="security_password_confirm">ОК</string>
+    <string name="security_ok_button">ОК</string>
     <string name="security_cancel_button">Отмена</string>
     <string name="security_password_manager_text">Он решает проблему настройки и запоминания разных паролей после создания пароля безопасности, который может применяться к экрану блокировки и блокировки приложений.</string>
     <string name="security_text_apn_title">Данные</string>
-    <string name="security_tips">Совет</string>
+    <string name="security_tips">Уведомление</string>
     <string name="battery_info_status_unknown">Неизвестно</string>
     <string name="battery_info_status_charging">Зарядка</string>
     <string name="battery_info_status_charging_ac">Зарядка от сети</string>
@@ -140,7 +140,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="battery_info_status_full">Батарея заряжена</string>
     <string name="unknown">Неизвестно</string>
     <string name="running_process_item_user_label">Пользователь: %1$s</string>
-    <string name="running_process_item_removed_user_label">Removed user</string>
+    <string name="running_process_item_removed_user_label">Пользователь удален</string>
     <string name="battery_history_days">%1$dд. %2$dч. %3$dм. %4$dс.</string>
     <string name="battery_history_hours">%1$dч. %2$dм. %3$dс.</string>
     <string name="battery_history_minutes">%1$dм. %2$dс.</string>
@@ -170,11 +170,11 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="power_phone">Голосовые звонки</string>
     <string name="power_idle">Режим ожидания</string>
     <string name="power_unaccounted">Прочее</string>
-    <string name="power_overcounted">Пересчитанное</string>
+    <string name="power_overcounted">Перерасход</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медиа-сервер</string>
     <string name="managed_user_title">Рабочий профиль</string>
-    <string name="already">Уже</string>
+    <string name="already">Всегда</string>
     <string name="sharedUserLabel">Основные приложения Android</string>
     <string name="security_tv_wifi">WIFI</string>
     <string name="security_nodisturb_mode">\"Не беспокоить\"</string>
@@ -237,7 +237,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_do_not_show_again">Не показывать снова</string>
     <string name="security_interruptions_dialog_button_confirm">OK</string>
     <string name="security_interruptions_dialog_button_cancel">Отмена</string>
-    <string name="security_kavass_app_name">Перехват</string>
+    <string name="security_kavass_app_name">Антиспам</string>
     <string name="security_action_settings">1111</string>
     <string name="security_more">Больше</string>
     <string name="security_delete">Удалить</string>
@@ -327,7 +327,7 @@ C19.72,7.45,11.56,12.3,9.48,20.34c-1.85,7.17,1.76,14.46,8.22,17.48C12.23,34.85,9
     <string name="security_add_from_sms_log_title">История SMS</string>
     <string name="security_add_from_contact">Добавить из контактов</string>
     <string name="security_add_from_contact_title">Контакты</string>
-    <string name="security_add_city">Добавить в регионе</string>
+    <string name="security_add_city">Добавить местные</string>
     <string name="security_add_by_hand">Добавление вручную</string>
     <string name="security_add_vip_found_in_black">Этот номер уже существует в списке, добавлять этот номер в VIP-список?</string>
     <string name="security_add_vip_found_in_vip">Номер в VIP-список добавлен ранее и будет перезаписан, продолжить?</string>

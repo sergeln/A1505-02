@@ -74,7 +74,7 @@
     <string-array name="wifi_WEP_security_type">
         <item>Авто</item>
         <item>WEP ASCII</item>
-        <item>WEP hexadecimal</item>
+        <item>WEP шестнадцатиричный</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>

@@ -19,10 +19,10 @@
     <string name="timeright">%1$02d</string>
     <string name="flight_number_label">Рейс</string>
     <string name="flight_station">%1$s Отъезд</string>
-    <string name="Train_line">Линия</string>
+    <string name="Train_line">Путь</string>
     <string name="Train_num">Номер</string>
-    <string name="data_total">Общий объем данных %1$sMB</string>
-    <string name="health_card_wanshui1">Вы %1$s мужчина</string>
+    <string name="data_total">Трафик: %1$s МБ</string>
+    <string name="health_card_wanshui1">%1$s пользователей</string>
     <string name="health_card_wanshui">Спите еще</string>
     <string name="health_card_shuohaode">"Пришло время"</string>
     <string name="health_card_xiuxishijian">для отдыха</string>
@@ -34,8 +34,8 @@
     <string name="storage_space">Места для хранения</string>
     <string name="storage_label1">Осталось места</string>
     <string name="storage_label2">Процесс</string>
-    <string name="dataUsage_buy">Покупать</string>
-    <string name="dataUsage_remain">Данные ниже</string>
+    <string name="dataUsage_buy">Купить</string>
+    <string name="dataUsage_remain">Остаток</string>
     <string name="garbage_clean">Очистить</string>
     <string name="garbage_label1">Очистка</string>
     <string name="garbage_label2">Сверх</string>

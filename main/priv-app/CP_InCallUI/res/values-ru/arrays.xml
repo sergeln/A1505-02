@@ -6,16 +6,16 @@
         <item>Bluetooth наушники</item>
     </string-array>
     <string-array name="auto_answer_delay_time_choices">
-        <item>3 сек</item>
-        <item>5 сек</item>
-        <item>10 сек</item>
-        <item>15 сек</item>
+        <item>3 сек.</item>
+        <item>5 сек.</item>
+        <item>10 сек.</item>
+        <item>15 сек.</item>
     </string-array>
     <string-array name="qk_unknown_number_info_context">
-        <item>С другой стороны открыла вызова скрытого сервиса</item>
-        <item>Сначала нужно включить АОН</item>
-        <item>Армия, правительство и другие спецслужбы</item>
-        <item>Мошенничества, угроз и других вредоносных звонков, остерегайтесь обмана</item>
+        <item>На удаленном телефоне включен скрытый вызов</item>
+        <item>Невозможно включить функцию АОН</item>
+        <item>Военные, госучреждения и др. конфиденциальные вызовы</item>
+        <item>Мошенники, спам и др. нежелательные вызовы</item>
     </string-array>
     <string-array name="qk_qiku_block_type">
         <item>Подозреваемый в мошенничестве</item>

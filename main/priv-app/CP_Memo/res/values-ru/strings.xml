@@ -4,7 +4,7 @@
     <string name="select_nothing">Снять выбор</string>
     <string name="batch_content">Выбрано: %1$d</string>
     <string name="menu_delete">Удалить</string>
-    <string name="menu_share">Поделиться</string>
+    <string name="menu_share">Отправить</string>
     <string name="msg_attach_detected">Эта версия не поддерживает просмотр записей. Если вы хотите использовать эту функцию, выполните вход на сайте cloud.360shouji.com.</string>
     <string name="search">Поиск</string>
     <string name="delete_dialog_confirm">Удалить эту заметку?</string>

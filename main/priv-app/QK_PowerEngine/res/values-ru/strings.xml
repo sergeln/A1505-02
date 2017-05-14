@@ -2,12 +2,12 @@
 <resources>
     <string name="heat_text">Температура телефона высокая.\nОхладите телефон запустив быструю очистку</string>
     <string name="cool_text">Температура телефона снижена до безопасного значения</string>
-    <string name="clean_text">Связанные приложения были очищены.\nПодождите пока телефон остынет</string>
+    <string name="clean_text">Приложения, влияющие на перегрев, остановлены</string>
     <string name="cleaning_text">Охлаждение...</string>
     <string name="search_heatsource">Попытка найти источник нагрева. Подождите</string>
     <string name="charge_text">Телефон заряжается. Он может нагреваться во время зарядки</string>
-    <string name="hight_heat_app">Приложения с высокой нагрузкой</string>
-    <string name="no_heat_app">Нет приложений с высокой нагрузкой</string>
+    <string name="hight_heat_app">Приложения, влияющие на перегрев</string>
+    <string name="no_heat_app">Нет приложений, влияющих на перегрев</string>
     <string name="hight_running_app">Другие запущенные приложения</string>
     <string name="no_running_app"> Нет других запущенных приложений</string>
     <string name="security_power_heat_resource">Источник тепла</string>
@@ -30,10 +30,10 @@
     <string name="heatsouce_got_it">Охладить</string>
     <string name="heatsource_record">Записи журнала</string>
     <string name="heatsource_cause_fever">Причина нагрева</string>
-    <string name="heatsource_history_count">Счетчик:</string>
-    <string name="heatsource_history_count_unit">раз</string>
-    <string name="heatsource_history_recent_time">Последнее время:</string>
-    <string name="mm_qcamera_daemon">Обслуживание камеры</string>
+    <string name="heatsource_history_count">"Количество: "</string>
+    <string name="heatsource_history_count_unit">", "</string>
+    <string name="heatsource_history_recent_time">"последний раз: "</string>
+    <string name="mm_qcamera_daemon">Камера</string>
     <string name="security_power">Диспетчер питания</string>
     <string name="security_power_manager">Диспетчер питания</string>
     <string name="unknown">Неизвестно</string>
@@ -129,7 +129,7 @@
     <string name="security_text_mem_clean_sugg_open">Предлагаю открыть</string>
     <string name="security_text_mem_clean_sugg_close">Предлагаю закрыть</string>
     <string name="rog_reduce_resolution">Уменьшить разрешение</string>
-    <string name="rog_power_save">Матрица энергосбережения</string>
+    <string name="rog_power_save">Экономия заряда экраном</string>
     <string name="rog_opend">Открыт</string>
     <string name="rog_power_save_detail">Сделать разрешение экрана 1280*720 чтобы уменьшить потребление памяти, повысить производительность и экономию энергии</string>
     <string name="rog_power_save_alert">Использование данной функции позволит сократить объем памяти, но может повлиять на эффект отображения, подтверждаете?</string>
@@ -151,8 +151,8 @@
     <string name="welcome_reminder">Добро пожаловать в PowerEngine</string>
     <string name="security_dialog_btn_cancel">Отмена</string>
     <string name="security_dialog_btn_sure">Применить</string>
-    <string name="doze_protect">Добавить в исключение</string>
-    <string name="doze_limit">Ограничить</string>
+    <string name="doze_protect">Не отключать</string>
+    <string name="doze_limit">Отключать</string>
     <string name="doze_no_notify">Больше не напоминать</string>
     <string name="auto_pattern">Автоматически(рекомендуется)</string>
     <string name="auto_pattern_summary">Исходя из уровня заряда батареи и температуры автоматически настроить схемы управления питанием</string>
@@ -168,11 +168,11 @@
     <string name="wl_cancel_check_all">Снять все</string>
     <string name="stop_app">Остановить</string>
     <string name="disable_app">Заморозить</string>
-    <string name="item_list_more_apps">Группа программ</string>
-    <string name="item_list_more_pkgs">Группа пакетов</string>
+    <string name="item_list_more_apps">Приложения</string>
+    <string name="item_list_more_pkgs">Пакеты установки</string>
     <string name="tip_loading">Загрузка...</string>
-    <string name="wl_realtime">время   </string>
-    <string name="wl_times"> раз</string>
+    <string name="wl_realtime">"раз(а) "</string>
+    <string name="wl_times">" раз(а)"</string>
     <string name="msg_qklauncher_disabled">Заморозка требует использования QiKU Launcher с включенной функцией заморозки.</string>
     <string name="msg_qklauncher_freezer_disabled">Необходимо включить функцию заморозки в QiKU OS.</string>
     <string name="notify_wl_app_detail">Ещё</string>
@@ -183,11 +183,11 @@
     <string name="notify_tips_wl_exist_toolong"> энергоемкий.</string>
     <string name="notify_tips_wlm_exist_toolong"> энергоемкий.</string>
     <string name="app_wakelock_not_exist">нет данных</string>
-    <string name="wl_since_unplug">Статистика с момента отключиния</string>
-    <string name="wl_day">д </string>
-    <string name="wl_hour">ч </string>
-    <string name="wl_minute">м </string>
-    <string name="wl_second">с </string>
-    <string name="wl_millisecond">мс </string>
+    <string name="wl_since_unplug">С момента отключения зарядки</string>
+    <string name="wl_day">" д."</string>
+    <string name="wl_hour">" час."</string>
+    <string name="wl_minute">" мин."</string>
+    <string name="wl_second">" сек."</string>
+    <string name="wl_millisecond">" мс."</string>
     <string name="wl_text_ok">ОК</string>
 </resources>

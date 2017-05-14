@@ -285,7 +285,7 @@
     <string name="global_actions">Настройки выключения</string>
     <string name="global_action_lock">Блокировка экрана</string>
     <string name="global_action_power_off">Отключить питание</string>
-    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="global_action_reboot">Перезагрузить</string>
     <string name="global_action_bug_report">Отчет об ошибке</string>
     <string name="bugreport_title">Отчет об ошибке</string>
     <string name="bugreport_message">Информация о текущем состоянии вашего устройства будет собрана и отправлена по электронной почте. Подготовка отчета займет некоторое время.</string>
@@ -305,7 +305,7 @@
     <string name="user_owner_label">Личные данные</string>
     <string name="managed_profile_label">Работа</string>
     <string name="permgrouplab_contacts">Контакты</string>
-    <string name="permgroupdesc_contacts">доступ к контактам</string>
+    <string name="permgroupdesc_contacts">Доступ к контактам</string>
     <string name="permgrouplab_location">Местоположение</string>
     <string name="permgroupdesc_location">доступ к данным о местоположении устройства</string>
     <string name="permgrouplab_calendar">Календарь</string>
@@ -317,11 +317,11 @@
     <string name="permgrouplab_microphone">Микрофон</string>
     <string name="permgroupdesc_microphone">запись аудио</string>
     <string name="permgrouplab_camera">Камера</string>
-    <string name="permgroupdesc_camera">фото- и видеосъемка</string>
+    <string name="permgroupdesc_camera">Фото- и видеосъемка</string>
     <string name="permgrouplab_phone">Телефон</string>
-    <string name="permgroupdesc_phone">осуществление телефонных звонков и управление ими</string>
-    <string name="permgrouplab_sensors">Нательные датчики</string>
-    <string name="permgroupdesc_sensors">доступ к данным датчиков о состоянии организма</string>
+    <string name="permgroupdesc_phone">Совершение вызовов и управление ими</string>
+    <string name="permgrouplab_sensors">Датчики</string>
+    <string name="permgroupdesc_sensors">Доступ к данным датчиков</string>
     <string name="capability_title_canRetrieveWindowContent">Получать содержимое окна</string>
     <string name="capability_desc_canRetrieveWindowContent">Анализировать содержимое активного окна.</string>
     <string name="capability_title_canRequestTouchExploration">Включать аудиоподсказки</string>

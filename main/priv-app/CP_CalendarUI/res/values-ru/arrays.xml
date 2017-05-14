@@ -112,8 +112,8 @@
         <item>Тонга</item>
     </string-array>
     <string-array name="availability">
-        <item>Занято</item>
-        <item>Доступно</item>
+        <item>Занят</item>
+        <item>Свободен</item>
     </string-array>
     <string-array name="visibility">
         <item>По умолчанию</item>
@@ -219,7 +219,7 @@
         <item>5 мин</item>
     </string-array>
     <string-array name="textTitle">
-        <item>Обратный отсчет</item>
+        <item>Таймер</item>
         <item>Альманах</item>
         <item>Астрология</item>
         <item>Мечты</item>
@@ -227,7 +227,7 @@
     </string-array>
     <string-array name="direction_label">
         <item>Назад</item>
-        <item>Вперед</item>
+        <item>Далее</item>
     </string-array>
     <string-array name="day_view_agenda_process">
         <item>Просмотр события</item>
@@ -275,11 +275,11 @@
     </string-array>
     <string-array name="pop_menu_items">
         <item>Поиск</item>
-        <item>Выберите дату</item>
+        <item>Выбрать дату</item>
         <item>Массовое удаление</item>
         <item>Инструменты</item>
         <item>Импорт событий</item>
-        <item>Set</item>
+        <item>Настройки</item>
     </string-array>
     <string-array name="CONSTELLATION_DESC_MALE">
         <item>"Aries man 
@@ -387,14 +387,14 @@ The Pisces woman is a daydreamer and can quickly escape the harsh realities of l
     </string-array>
     <string-array name="menu_view_items">
         <item>События</item>
-        <item>Выберите дату</item>
-        <item>Обратный отсчет</item>
-        <item>Настройка</item>
+        <item>Выбрать дату</item>
+        <item>Отношения</item>
+        <item>Настройки</item>
     </string-array>
     <string-array name="menu_view_items_en">
         <item>События</item>
-        <item>Выберите дату</item>
-        <item>Настройка</item>
+        <item>Выбрать дату</item>
+        <item>Настройки</item>
     </string-array>
     <string-array name="reply_items">
         <item>Sim1</item>

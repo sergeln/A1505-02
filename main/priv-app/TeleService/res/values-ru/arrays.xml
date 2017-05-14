@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Глобальный</item>
-        <item>LTE / CDMA</item>
-        <item>LTE / GSM / UMTS</item>
+        <item>Все сети</item>
+        <item>LTE/CDMA</item>
+        <item>LTE/GSM/UMTS</item>
     </string-array>
     <string-array name="clir_display_values">
         <item>Настройки сети по умолчанию</item>
@@ -11,9 +11,9 @@
         <item>Показывать номер</item>
     </string-array>
     <string-array name="preferred_network_mode_gsm_wcdma_choices">
-        <item>GSM только</item>
-        <item>WCDMA только</item>
-        <item>GSM/WCDMA предпочтительно</item>
+        <item>Только GSM</item>
+        <item>Только WCDMA</item>
+        <item>Приоритет GSM/WCDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
         <item>TD-SCDMA/LTE/CDMA/EVDO/GSM/WCDMA</item>
@@ -25,26 +25,26 @@
         <item>TD-SCDMA/GSM</item>
         <item>TD-SCDMA/LTE</item>
         <item>TD-SCDMA/WCDMA</item>
-        <item>TD-SCDMA only</item>
+        <item>Только TD-SCDMA</item>
         <item>LTE / WCDMA</item>
         <item>LTE</item>
-        <item>Весь мир</item>
+        <item>Все сети</item>
         <item>GSM/WCDMA/LTE</item>
         <item>CDMA и LTE/EvDo</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>EvDo только</item>
-        <item>CDMA w/o EvDo</item>
-        <item>CDMA/EvDo авто</item>
-        <item>GSM/WCDMA авто</item>
-        <item>WCDMA только</item>
-        <item>GSM только</item>
-        <item>GSM/WCDMA предпочтительно</item>
+        <item>Только EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>CDMA/EvDo (авто)</item>
+        <item>GSM/WCDMA (авто)</item>
+        <item>Только WCDMA</item>
+        <item>Только GSM</item>
+        <item>Приоритет GSM/WCDMA</item>
     </string-array>
     <string-array name="call_barring_outgoing_display_values">
         <item>Выкл.</item>
-        <item>Международный роум. звонок</item>
-        <item>Международный звонок</item>
-        <item>Исходящий звонок</item>
+        <item>Международные вызовы в роуминге</item>
+        <item>Международные вызовы</item>
+        <item>Исходящие вызовы</item>
     </string-array>
     <string-array name="call_barring_incoming_display_values">
         <item>Выкл.</item>
@@ -52,12 +52,12 @@
         <item>Все</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
-        <item>Только домашняя</item>
+        <item>Только домашние</item>
         <item>Автоматически</item>
     </string-array>
     <string-array name="dtmf_tone_entries">
-        <item>Обычный</item>
-        <item>Длинный</item>
+        <item>Обычные</item>
+        <item>Длинные</item>
     </string-array>
     <string-array name="voicemail_notification_vibrate_when_values">
         <item>всегда</item>
@@ -85,50 +85,50 @@
     </string-array>
     <string-array name="wcdma_network_preferences_choices">
         <item>WCDMA/GSM</item>
-        <item>GSM только</item>
-        <item>WCDMA только</item>
+        <item>Только GSM</item>
+        <item>Только WCDMA</item>
     </string-array>
     <string-array name="tdscdma_network_preferences_choices_xianwang">
         <item>TD-SCDMA/GSM</item>
     </string-array>
     <string-array name="tdscdma_network_preferences_choices">
         <item>TD-SCDMA/GSM</item>
-        <item>TD-SCDMA только</item>
-        <item>GSM только</item>
+        <item>Только TD-SCDMA</item>
+        <item>Только GSM</item>
     </string-array>
     <string-array name="tdscdma_gsm_network_preferences_choices_xianwang">
-        <item>Авто-переключение</item>
+        <item>Автоматически</item>
     </string-array>
     <string-array name="tdscdma_gsm_network_preferences_choices">
-        <item>Авто-переключение</item>
-        <item>TD-SCDMA предпочтительно</item>
-        <item>GSM предпочтительно</item>
-        <item>TD-SCDMA только</item>
-        <item>GSM только</item>
+        <item>Автоматически</item>
+        <item>Приоритет TD-SCDMA</item>
+        <item>Приоритет GSM</item>
+        <item>Только TD-SCDMA</item>
+        <item>Только GSM</item>
     </string-array>
     <string-array name="tdlte_network_preferences_choices">
         <item>4G/3G/2G(предпочтительно)</item>
         <item>3G/2G</item>
         <item>4G только(Без звонков)</item>
-        <item>3G oтолько</item>
-        <item>2G только</item>
+        <item>Только 3G</item>
+        <item>Только 2G</item>
     </string-array>
     <string-array name="tdlte_boot_choose_network_choices">
-        <item>4G предпочтительно</item>
-        <item>3G/2G предпочтительно</item>
+        <item>Приоритет 4G</item>
+        <item>Приоритет 3G/2G</item>
     </string-array>
     <string-array name="remind_time_item">
         <item>Через 0.5 ч</item>
         <item>Через 1 ч</item>
         <item>Через 2 ч</item>
-        <item>Пользовательское время</item>
+        <item>Настроить</item>
     </string-array>
     <string-array name="lte_boot_choose_newwork_prior_choices">
-        <item>Авто переключение</item>
-        <item>LTE предпочтительно</item>
-        <item>TD-SCDMA предпочтительно</item>
-        <item>WCDMA pпредпочтительно</item>
-        <item>GSM предпочтительно</item>
+        <item>Автоматически</item>
+        <item>Приоритет LTE</item>
+        <item>Приоритет TD-SCDMA</item>
+        <item>Приоритет WCDMA</item>
+        <item>Приоритет GSM</item>
     </string-array>
     <string-array name="lte_boot_choose_newwork_muti_choices">
         <item>LTE</item>
@@ -138,21 +138,21 @@
     </string-array>
     <string-array name="dial_touch_tone_choices">
         <item>Нет</item>
-        <item>Общий тон</item>
-        <item>Номер индикации</item>
+        <item>Обычный</item>
+        <item>Тональный</item>
     </string-array>
     <string-array name="vp_replay_mode_choices">
-        <item>Ручной откат</item>
-        <item>Автоматический откат</item>
-        <item>Автоматическая отмена</item>
+        <item>Назад вручную</item>
+        <item>Назад автоматически</item>
+        <item>Отмена автоматически</item>
     </string-array>
     <string-array name="entries_show_mode_choices">
-        <item>Standard (large view at peer end)</item>
-        <item>Standard (small view at peer end)</item>
-        <item>Maximum (peer view)</item>
-        <item>Maximum (local view)</item>
-        <item>PIP (peer view)</item>
-        <item>PIP (local view)</item>
+        <item>Стандартный (большое изображение на удаленном телефоне)</item>
+        <item>Стандартный (маленькое изображение на удаленном телефоне)</item>
+        <item>Максимальный (не удаленном телефоне)</item>
+        <item>Максимальный (на локальном телефоне)</item>
+        <item>Картинка в картинке (на удаленном телефоне)</item>
+        <item>Картинка в картинке (на локальном телефоне)</item>
     </string-array>
     <string-array name="auto_answer_scene_choices">
         <item>Bluetooth или наушники</item>
@@ -160,27 +160,27 @@
         <item>Bluetooth</item>
     </string-array>
     <string-array name="roaming_mode_preferences_choices">
-        <item>Глобальный режим (рекомендуется)</item>
-        <item>CDMA только</item>
-        <item>GSM/UMTS только</item>
+        <item>Все сети (рекомендуется)</item>
+        <item>Только CDMA</item>
+        <item>Только GSM/UMTS</item>
     </string-array>
     <string-array name="cdma_network_preferences_choices_yl">
         <item>4G/3G/2G</item>
         <item>3G/2G</item>
-        <item>4G только</item>
-        <item>2G только</item>
+        <item>Только 4G</item>
+        <item>Только 2G</item>
     </string-array>
     <string-array name="lte_usage_mode_choices">
-        <item>Voice centric</item>
-        <item>Data centric</item>
+        <item>Приоритет голоса</item>
+        <item>Приоритет данных</item>
     </string-array>
     <string-array name="cdma_network_preferences_choices">
         <item>CDMA/EvDo</item>
-        <item>CDMA только</item>
+        <item>Только CDMA</item>
     </string-array>
     <string-array name="call_auto_record_scene_list">
-        <item>Все звонки</item>
+        <item>Все вызовы</item>
         <item>Все контакты</item>
-        <item>Указанные контакты</item>
+        <item>Выбранные контакты</item>
     </string-array>
 </resources>

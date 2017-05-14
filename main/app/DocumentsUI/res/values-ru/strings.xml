@@ -11,7 +11,7 @@
     <string name="menu_settings">Настройки</string>
     <string name="menu_open">Открыть</string>
     <string name="menu_save">Сохранить</string>
-    <string name="menu_share">Поделиться</string>
+    <string name="menu_share">Отправить</string>
     <string name="menu_delete">Удалить</string>
     <string name="menu_select_all">Выбрать все</string>
     <string name="menu_copy">Копировать в…</string>
@@ -21,8 +21,8 @@
     <string name="menu_file_size_hide">Скрыть размер файлов</string>
     <string name="button_select">Выбрать</string>
     <string name="button_copy">Копировать</string>
-    <string name="sort_name">По названию</string>
-    <string name="sort_date">По дате изменения</string>
+    <string name="sort_name">По имени</string>
+    <string name="sort_date">По дате</string>
     <string name="sort_size">По размеру</string>
     <string name="drawer_open">Показать</string>
     <string name="drawer_close">Скрыть</string>
@@ -38,11 +38,11 @@
     <string name="empty">Список пуст</string>
     <string name="toast_no_application">Не удалось открыть файл</string>
     <string name="toast_failed_delete">Не удалось удалить некоторые документы</string>
-    <string name="share_via">Поделиться</string>
+    <string name="share_via">Отправить</string>
     <string name="copy_notification_title">Копирование файлов</string>
     <string name="copy_remaining">Осталось %s</string>
     <string name="copy_preparing">Подготовка к копированию…</string>
     <string name="notification_touch_for_details">Нажмите, чтобы узнать подробности.</string>
-    <string name="retry">Повторить</string>
-    <string name="copy_failure_alert_content">Не удалось скопировать эти файлы: %1$s</string>
+    <string name="retry">Повтор</string>
+    <string name="copy_failure_alert_content">Не скопировано файлов: %1$s</string>
 </resources>

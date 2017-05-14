@@ -23,8 +23,8 @@
         <item>Режим стерео</item>
     </string-array>
     <string-array name="record_path_mode_sub_title">
-        <item>Приоритет телефона</item>
-        <item>Приоритет SD-карты</item>
+        <item>Внутренняя память</item>
+        <item>SD-карта</item>
     </string-array>
     <string-array name="record_mode_propet">
         <item>Режим интервью: Микрофоны чувствительны к звуку на верхней и нижней части мобильного телефона. Передние и задние звуки вокруг устройства будут записаны.</item>
@@ -32,8 +32,8 @@
         <item>Режим стерео: Все окружающие звуки будут записаны.</item>
     </string-array>
     <string-array name="record_channel_values">
-        <item>aac——Mono</item>
-        <item>aac——Stereo</item>
+        <item>aac (моно)</item>
+        <item>aac (стерео)</item>
         <item>amr</item>
         <item>3gpp</item>
     </string-array>

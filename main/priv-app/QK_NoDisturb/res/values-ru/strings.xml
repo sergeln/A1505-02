@@ -8,7 +8,7 @@
     <string name="no_disturb_activity_main_text_allowed_content">Оповещение, допускается содержание</string>
     <string name="no_disturb_activity_main_text_telephony">Вызовы и SMS</string>
     <string name="no_disturb_activity_main_text_block_all">Блокировать все</string>
-    <string name="no_disturb_activity_main_text_all_contacts">Только от контактов</string>
+    <string name="no_disturb_activity_main_text_all_contacts">Все контакты</string>
     <string name="no_disturb_activity_main_text_starred_contacts">Только избранные</string>
     <string name="no_disturb_activity_main_text_self_define">Пользовательские</string>
     <string name="no_disturb_activity_main_text_self_define_with_number">Пользовательские (%d контакт(ы))</string>
@@ -25,7 +25,7 @@
     <string name="no_disturb_activity_main_text_days_sat">Сб</string>
     <string name="no_disturb_activity_main_text_days_sun">Вс</string>
     <string name="no_disturb_activity_main_text_days_everyday">Ежедневно</string>
-    <string name="no_disturb_activity_main_text_days_once">Однажды</string>
+    <string name="no_disturb_activity_main_text_days_once">Однократно</string>
     <string name="no_disturb_activity_main_text_add_period">Период времени</string>
     <string name="no_disturb_dialog_time_chooser_text_title_add">Добавить период времени</string>
     <string name="no_disturb_dialog_time_chooser_text_title_edit">Изменить период времени</string>

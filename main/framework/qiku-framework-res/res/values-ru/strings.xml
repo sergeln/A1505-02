@@ -55,9 +55,9 @@
     <string name="deny">Запретить</string>
     <string name="toast_system_alert_window_reject">Плавающее окно разрешения запрещено</string>
     <string name="fingerprint_pay_alarm">Быстрый платеж с помощью отпечатка пальцев, пожалуйста, подключитесь к сети!</string>
-    <string name="qk_bgkill_desc">Блокировать #app# выполняющее несущественные операции в фоновом режиме.</string>
-    <string name="qk_trust_app">Доверять APP</string>
-    <string name="qk_deny_app">Разрешить OPT</string>
+    <string name="qk_bgkill_desc">Блокировать #app# выполняющее недопустимые операции в фоновом режиме.</string>
+    <string name="qk_trust_app">Не блокировать</string>
+    <string name="qk_deny_app">Заблокировать</string>
     <string name="enable_virtual_key">Виртуальная кнопка включена</string>
     <string name="disable_virtual_key">Виртуальная кнопка отключена</string>
 </resources>

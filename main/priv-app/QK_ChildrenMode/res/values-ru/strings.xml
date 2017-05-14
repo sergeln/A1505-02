@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Детский режим</string>
-    <string name="securitycode_txt">Пароль безопасности не установлен, установите надежный пароль</string>
-    <string name="longeachuse">Время использования</string>
+    <string name="securitycode_txt">Установите пароль безопасности</string>
+    <string name="longeachuse">Длительность использования</string>
     <string name="cancel">Отмена</string>
-    <string name="sure">Определить</string>
+    <string name="sure">ОК</string>
     <string name="modedescription">В Детском режиме запрещены все уведомления, всплывающие окна, запрещается сторонним приложениям отправка SMS сообщений, чтобы предотвратить финансовые операции</string>
     <string name="title_activity_childrenapplications">Childrenapplications</string>
     <string name="action_settings">Настройки</string>
@@ -24,8 +24,8 @@
     <string name="loadingapps">Загрузка приложения ...</string>
     <string name="Months">" шт."</string>
     <string name="minuite">" минут"</string>
-    <string name="Anyduration">Любая продолжительность</string>
-    <string name="loading_enter">Загрузка приложения, введите позже</string>
+    <string name="Anyduration">Не ограничивать</string>
+    <string name="loading_enter">Приложение загружается. Повторите попытку позже</string>
     <string name="applicationnumberlimit">Выберите приложение, которое превышает максимальное число</string>
     <string name="applicationempty">Нет выбранных приложений, перейдите к выбору приложения!</string>
     <string name="uncheckall">Очистить</string>
