@@ -89,8 +89,8 @@
     <string name="emergency_dial">Экстренные вызовы</string>
     <string name="setting_app_default">Звонки/Сообщения/Данные</string>
     <string name="setting_app_default_no_net">Сообщения/Звонки</string>
-    <string name="card_one">Карта 1</string>
-    <string name="card_two">Карта 2</string>
+    <string name="card_one">SIM1</string>
+    <string name="card_two">SIM2</string>
     <string name="international_hotline">Глобальный роуминг горячая линия: +8618918910000</string>
     <string name="preference_use_sim">Мобильные услуги этой карты являются предпочтительными.</string>
     <string name="forbit_same_name">Независимые карты должны иметь разные имена.</string>

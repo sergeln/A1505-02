@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_alpha" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="51.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_alpha">
+        <TextView android:textSize="27.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/contact_detail_name" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="27.0dip" android:singleLine="false" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/contact_detail_company" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <com.android.custom.common.view.ContactTabView android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/contact_detail_tab_layout" android:layout_width="180.0dip" android:layout_height="32.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="27.0dip">
+                <TextView android:textSize="16.0dip" android:gravity="center" android:id="@id/contact_detail_tab_detail" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/people_detail" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0dip" android:gravity="center" android:id="@id/contact_detail_tab_record" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/people_records" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:id="@id/contact_detail_tab_line" android:layout_width="50.0dip" android:layout_height="2.0dip" android:layout_marginLeft="20.0dip" android:layout_centerHorizontal="true" />
+        </com.android.custom.common.view.ContactTabView>
+        <android.support.v4.view.ViewPager android:id="@id/contact_detail_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.android.custom.common.view.CircleImageView android:id="@id/contact_detail_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>
