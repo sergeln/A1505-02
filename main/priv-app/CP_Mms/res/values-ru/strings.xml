@@ -372,8 +372,8 @@
     <string name="people_quicksearch_name">Боковая панель</string>
     <string name="people_save_name">Сохранить</string>
     <string name="people_send_sms">Отправить SMS</string>
-    <string name="people_edit_number">Изменить номер</string>
-    <string name="people_copy_number">Скопировать номер</string>
+    <string name="people_edit_number">Изм. номер</string>
+    <string name="people_copy_number">Скопировать</string>
     <string name="people_search">Поиск</string>
     <string name="people_mult_del">Массовое удаление</string>
     <string name="people_account">Учетная запись</string>
@@ -1590,7 +1590,7 @@
     <string name="smsmms_s_menu_batch_unlock">Разблокировать</string>
     <string name="smsmms_s_menu_batch_forward">Отправить</string>
     <string name="smsmms_s_menu_batch_set_important">В избранное</string>
-    <string name="smsmms_s_menu_batch_set_unimportant">Из избранного</string>
+    <string name="smsmms_s_menu_batch_set_unimportant">- Избр.</string>
     <string name="smsmms_s_menu_batch_set_private">Пометить как личное</string>
     <string name="smsmms_s_menu_batch_set_secret">Пометить как секретное</string>
     <string name="smsmms_s_menu_batch_set_unprivate">Пометить как общедоступное</string>
@@ -1601,7 +1601,7 @@
     <string name="smsmms_s_menu_phone_number">Номер</string>
     <string name="smsmms_s_menu_delete">Удалить</string>
     <string name="smsmms_s_menu_set_important">В избранное</string>
-    <string name="smsmms_s_menu_set_unimportant">Из избранного</string>
+    <string name="smsmms_s_menu_set_unimportant">"- Избр."</string>
     <string name="smsmms_s_menu_set_private">Пометить как личное</string>
     <string name="smsmms_s_menu_set_secret">Пометить как секретное</string>
     <string name="smsmms_s_menu_set_unprivate">Отмена конфиденциальности</string>
