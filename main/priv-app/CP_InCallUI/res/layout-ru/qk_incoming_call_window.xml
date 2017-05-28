@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/qk_incoming_window" android:background="@drawable/ic_float_window_button_bg" android:layout_width="@dimen/qk_incomming_float_call_width" android:layout_height="@dimen/qk_incomming_float_call_hight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/qk_incoming_window_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/qk_incoming_window_info" android:background="@drawable/ic_float_window_content_bg" android:layout_width="@dimen/qk_incomming_float_row_width" android:layout_height="@dimen/qk_incomming_float_row_one_hight">
+            <RelativeLayout android:id="@id/qk_incoming_window_image_text" android:background="@drawable/qk_call_window_ic_small_bg" android:layout_width="@dimen/qk_incomming_float_photo_text_image_bg_width" android:layout_height="@dimen/qk_incomming_float_photo_text_image_bg_hight" android:layout_centerVertical="true" android:contentDescription="@string/qk_call_contacts_photo" android:layout_marginStart="@dimen/qk_incomming_float_photo_paddingleft">
+                <ImageView android:id="@id/qk_incoming_window_image" android:layout_width="@dimen/qk_incomming_float_photo_image_width" android:layout_height="@dimen/qk_incomming_float_photo_image_hight" android:layout_centerInParent="true" android:contentDescription="@string/qk_call_contacts_photo" />
+                <TextView android:textSize="@dimen/qk_incomming_float_photo_text_size" android:textColor="@color/qk_call_photo_text_color" android:gravity="center" android:id="@id/qk_incoming_window_text_info" android:visibility="gone" android:layout_width="@dimen/qk_incomming_float_text_width" android:layout_height="@dimen/qk_incomming_float_text_hight" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/qk_incoming_window_full_screen_bt" android:layout_width="@dimen/qk_incomming_float_full_screen_width" android:layout_height="@dimen/qk_incomming_float_full_screen_hight" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_float_window_full_screen" android:layout_alignParentRight="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/qk_incomming_float_info_paddingleft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/qk_incoming_window_image_text">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/qk_incoming_window_line1_right_margin">
+                    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/qk_incomming_float_name_size" android:textColor="@color/white_color" android:gravity="center_vertical" android:id="@id/qk_incoming_window_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_name" android:singleLine="false" android:drawablePadding="@dimen/qk_float_name_right_padding" android:drawableEnd="@drawable/qk_float_ic_card1" />
+                    </FrameLayout>
+                    <TextView android:layout_gravity="end" android:id="@id/qk_incoming_window_call_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/qk_incomming_float_otherinfo_size" android:textColor="@color/white_alpha70_color" android:layout_gravity="center_vertical" android:id="@id/qk_incoming_window_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_telephone_number" android:singleLine="true" />
+                    <TextView android:textSize="@dimen/qk_incomming_float_otherinfo_size" android:textColor="@color/white_alpha60_color" android:layout_gravity="center_vertical" android:id="@id/qk_incoming_window_mark_type_content" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="@dimen/qk_incomming_float_otherinfo_gap" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/qk_incoming_window_handle" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:id="@id/qk_incoming_window_decline_layout" android:background="?android:selectableItemBackground" android:layout_width="114.0dip" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/float_window_decline_text_color" android:gravity="center" android:id="@id/qk_incoming_window_decline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_reject" android:singleLine="true" android:drawablePadding="0.0dip" android:drawableStart="@drawable/qk_call_window_ic_hangup" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/qk_incoming_window_ignore_layout" android:background="?android:selectableItemBackground" android:layout_width="116.0dip" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/float_window_ignore_text_color" android:gravity="center" android:id="@id/qk_incoming_window_ignore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_ignore" android:singleLine="true" android:drawablePadding="0.0dip" android:drawableStart="@drawable/qk_call_window_ic_ignore" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/qk_incoming_window_answer_layout" android:background="?android:selectableItemBackground" android:layout_width="114.0dip" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/float_window_answer_text_color" android:gravity="center" android:id="@id/qk_incoming_window_answer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_answer" android:singleLine="true" android:drawablePadding="0.0dip" android:drawableStart="@drawable/qk_call_window_ic_answer" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

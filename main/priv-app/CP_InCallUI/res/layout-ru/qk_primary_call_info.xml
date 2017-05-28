@@ -12,7 +12,7 @@
         <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/qk_Number_Conference_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
             <TextView android:textSize="@dimen/number_text_size" android:textColor="@color/white_alpha70_color" android:id="@id/qk_phoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
         </LinearLayout>
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:id="@id/qk_append_info_layout" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/qk_append_info_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
             <TextView android:textSize="@dimen/number_text_size" android:textColor="@color/white_alpha70_color" android:id="@id/qk_contacts_geo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
             <ImageView android:id="@id/qk_unknown_num_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qk_unknown_number_info" />
             <ImageView android:id="@id/qk_telecomm_secret" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />

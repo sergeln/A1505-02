@@ -116,7 +116,7 @@
     <string name="new_savepower_connect_net">Не отключать</string>
     <string name="new_savepower_disconnect_net">Всегда отключать сеть</string>
     <string name="new_savepower_disconnect_screenoff">Отключать при отключении экрана</string>
-    <string name="new_savepower_bytime">Энергосбережение по рассписанию</string>
+    <string name="new_savepower_bytime">Энергосбережение по расписанию</string>
     <string name="new_savepower_bytime_time_setting">Время начала и окончания</string>
     <string name="new_savepower_bytime_open_use">Вкл.</string>
     <string name="new_savepower_bytime_close_use">Выкл.</string>
