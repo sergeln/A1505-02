@@ -1594,8 +1594,6 @@
     <string name="facelab_download_ok">Загружено</string>
     <string name="pref_video_slow_motion_entry_off">Выкл.</string>
     <string name="pref_camera_gpu_effect_SoftLight">Мягкое свечение</string>
-    <string name="security_hint">Некоторым функциям этого приложения может понадобиться сеть и позиционирование, передача данных. Уточните стоимость услуг у поставщика услуг. 360 обещает не раскрывать личную информацию пользователей.</string>
-    <string name="camera_security_hint_title">Добро пожаловать в 360 camera</string>
     <string name="scan_txt_warning">Отсканированное содержимое не предоставляется на 360. Пожалуйста, используйте с осторожностью</string>
     <string name="pref_exposure_title">Экспозиция</string>
     <string name="pref_camera_effect_green">Зеленоватый</string>

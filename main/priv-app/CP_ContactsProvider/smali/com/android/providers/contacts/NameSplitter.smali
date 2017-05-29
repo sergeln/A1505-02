@@ -218,45 +218,45 @@
 
     .prologue
     .line 284
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {v4}, Ljava/lang/Object;-><init>()V
 
     .line 286
-    invoke-static {p1}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mPrefixesSet:Ljava/util/HashSet;
+    iput-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mPrefixesSet:Ljava/util/HashSet;
 
     .line 287
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
+    iput-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
 
     .line 288
-    invoke-static {p3}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
+    iput-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
 
     .line 289
-    invoke-static {p4}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter;->convertToSet(Ljava/lang/String;)Ljava/util/HashSet;
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mConjuctions:Ljava/util/HashSet;
+    iput-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mConjuctions:Ljava/util/HashSet;
 
     .line 290
-    if-eqz p5, :cond_1
+    if-eqz v9, :cond_1
 
-    .end local p5    # "locale":Ljava/util/Locale;
+    .end local v9    # "locale":Ljava/util/Locale;
     :goto_0
-    iput-object p5, p0, Lcom/android/providers/contacts/NameSplitter;->mLocale:Ljava/util/Locale;
+    iput-object v9, v4, Lcom/android/providers/contacts/NameSplitter;->mLocale:Ljava/util/Locale;
 
     .line 291
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mLocale:Ljava/util/Locale;
+    iget-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mLocale:Ljava/util/Locale;
 
     invoke-virtual {v3}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
@@ -266,14 +266,14 @@
 
     move-result-object v3
 
-    iput-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iput-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     .line 293
     const/4 v1, 0x0
 
     .line 294
     .local v1, "maxLength":I
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
+    iget-object v3, v4, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v3}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
@@ -313,20 +313,20 @@
     .end local v0    # "i$":Ljava/util/Iterator;
     .end local v1    # "maxLength":I
     .end local v2    # "suffix":Ljava/lang/String;
-    .restart local p5    # "locale":Ljava/util/Locale;
+    .restart local v9    # "locale":Ljava/util/Locale;
     :cond_1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
-    move-result-object p5
+    move-result-object v9
 
     goto :goto_0
 
     .line 300
-    .end local p5    # "locale":Ljava/util/Locale;
+    .end local v9    # "locale":Ljava/util/Locale;
     .restart local v0    # "i$":Ljava/util/Iterator;
     .restart local v1    # "maxLength":I
     :cond_2
-    iput v1, p0, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
+    iput v1, v4, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
 
     .line 301
     return-void
@@ -355,12 +355,12 @@
 
     .line 309
     .local v1, "set":Ljava/util/HashSet;, "Ljava/util/HashSet<Ljava/lang/String;>;"
-    if-eqz p0, :cond_0
+    if-eqz v4, :cond_0
 
     .line 310
     const-string v3, ","
 
-    invoke-virtual {p0, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {v4, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
 
@@ -406,17 +406,17 @@
 
     .prologue
     .line 1015
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v1
 
     .line 1016
     .local v1, "length":I
     :goto_0
-    if-ge p2, v1, :cond_2
+    if-ge v6, v1, :cond_2
 
     .line 1017
-    invoke-static {p1, p2}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
+    invoke-static {v5, v6}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
 
     move-result v0
 
@@ -472,7 +472,7 @@
 
     move-result v3
 
-    add-int/2addr p2, v3
+    add-int/2addr v6, v3
 
     .line 1028
     goto :goto_0
@@ -495,7 +495,7 @@
     const/4 v3, 0x1
 
     .line 926
-    iget v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iget v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     if-eqz v2, :cond_0
 
@@ -505,9 +505,9 @@
 
     .line 930
     :cond_0
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v0
 
@@ -520,15 +520,15 @@
     if-eq v0, v3, :cond_1
 
     .line 935
-    iput v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v0, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 
     .line 939
     :cond_1
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -542,7 +542,7 @@
     if-eq v1, v3, :cond_2
 
     .line 942
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v1, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 
@@ -552,9 +552,9 @@
 
     .line 948
     :cond_3
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -567,7 +567,7 @@
     if-eq v1, v3, :cond_4
 
     .line 951
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v1, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 
@@ -577,9 +577,9 @@
 
     .line 957
     :cond_5
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
+    iget-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -592,7 +592,7 @@
     if-eq v1, v3, :cond_6
 
     .line 960
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v1, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 
@@ -602,9 +602,9 @@
 
     .line 966
     :cond_7
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iget-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -617,7 +617,7 @@
     if-eq v1, v3, :cond_8
 
     .line 969
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v1, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 
@@ -627,7 +627,7 @@
 
     .line 975
     :cond_9
-    iput v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v0, v6, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     goto :goto_0
 .end method
@@ -640,7 +640,7 @@
     const/4 v3, 0x2
 
     .line 1034
-    iget v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
+    iget v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
 
     if-eqz v2, :cond_1
 
@@ -651,9 +651,9 @@
 
     .line 1038
     :cond_1
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticFamilyName:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticFamilyName:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v4, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
 
     move-result v0
 
@@ -664,15 +664,15 @@
     if-eq v0, v3, :cond_2
 
     .line 1040
-    iput v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
+    iput v0, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
 
     goto :goto_0
 
     .line 1044
     :cond_2
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticGivenName:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticGivenName:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v4, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -684,7 +684,7 @@
     if-eq v1, v3, :cond_3
 
     .line 1047
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
+    iput v1, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
 
     goto :goto_0
 
@@ -694,9 +694,9 @@
 
     .line 1053
     :cond_4
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticMiddleName:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticMiddleName:Ljava/lang/String;
 
-    invoke-virtual {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v4, v2}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Ljava/lang/String;)I
 
     move-result v1
 
@@ -707,7 +707,7 @@
     if-eq v1, v3, :cond_5
 
     .line 1056
-    iput v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
+    iput v1, v5, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
 
     goto :goto_0
 
@@ -726,39 +726,39 @@
     .line 1100
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_UNIFIED_IDEOGRAPHS:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_SYMBOLS_AND_PUNCTUATION:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_RADICALS_SUPPLEMENT:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_COMPATIBILITY:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_COMPATIBILITY_FORMS:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_COMPATIBILITY_IDEOGRAPHS:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT:Ljava/lang/Character$UnicodeBlock;
 
-    if-ne p0, v0, :cond_1
+    if-ne v1, v0, :cond_1
 
     :cond_0
     const/4 v0, 0x1
@@ -778,13 +778,13 @@
 
     .prologue
     .line 840
-    invoke-virtual {p1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v0
 
     .line 842
     .local v0, "normalized":Ljava/lang/String;
-    iget-object v1, p0, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
+    iget-object v1, v4, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v1, v0}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
@@ -792,7 +792,7 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, p0, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
+    iget-object v1, v4, Lcom/android/providers/contacts/NameSplitter;->mLastNamePrefixesSet:Ljava/util/HashSet;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -838,19 +838,19 @@
     .line 1118
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->KATAKANA:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->KATAKANA_PHONETIC_EXTENSIONS:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->HALFWIDTH_AND_FULLWIDTH_FORMS:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->HIRAGANA:Ljava/lang/Character$UnicodeBlock;
 
-    if-ne p0, v0, :cond_1
+    if-ne v1, v0, :cond_1
 
     :cond_0
     const/4 v0, 0x1
@@ -872,15 +872,15 @@
     .line 1112
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->HANGUL_SYLLABLES:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->HANGUL_JAMO:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->HANGUL_COMPATIBILITY_JAMO:Ljava/lang/Character$UnicodeBlock;
 
-    if-ne p0, v0, :cond_1
+    if-ne v1, v0, :cond_1
 
     :cond_0
     const/4 v0, 0x1
@@ -902,23 +902,23 @@
     .line 1092
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->BASIC_LATIN:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->LATIN_1_SUPPLEMENT:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->LATIN_EXTENDED_A:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->LATIN_EXTENDED_B:Ljava/lang/Character$UnicodeBlock;
 
-    if-eq p0, v0, :cond_0
+    if-eq v1, v0, :cond_0
 
     sget-object v0, Ljava/lang/Character$UnicodeBlock;->LATIN_EXTENDED_ADDITIONAL:Ljava/lang/Character$UnicodeBlock;
 
-    if-ne p0, v0, :cond_1
+    if-ne v1, v0, :cond_1
 
     :cond_0
     const/4 v0, 0x1
@@ -945,37 +945,37 @@
 
     .prologue
     .line 561
-    if-nez p1, :cond_5
+    if-nez v10, :cond_5
 
-    const/4 p1, 0x0
+    const/4 v10, 0x0
 
     .line 562
     :goto_0
-    if-nez p2, :cond_6
+    if-nez v11, :cond_6
 
-    const/4 p2, 0x0
+    const/4 v11, 0x0
 
     .line 563
     :goto_1
-    if-nez p3, :cond_7
+    if-nez v12, :cond_7
 
-    const/4 p3, 0x0
+    const/4 v12, 0x0
 
     .line 564
     :goto_2
-    if-nez p4, :cond_8
+    if-nez v13, :cond_8
 
-    const/4 p4, 0x0
+    const/4 v13, 0x0
 
     .line 565
     :goto_3
-    if-nez p5, :cond_9
+    if-nez v14, :cond_9
 
-    const/4 p5, 0x0
+    const/4 v14, 0x0
 
     .line 567
     :goto_4
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v10}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
@@ -986,7 +986,7 @@
     .line 568
     .local v3, "hasPrefix":Z
     :goto_5
-    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v11}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
@@ -997,7 +997,7 @@
     .line 569
     .local v0, "hasPart1":Z
     :goto_6
-    invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v12}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
@@ -1008,7 +1008,7 @@
     .line 570
     .local v1, "hasPart2":Z
     :goto_7
-    invoke-static {p4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v13}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
@@ -1019,7 +1019,7 @@
     .line 571
     .local v2, "hasPart3":Z
     :goto_8
-    invoke-static {p5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v14}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
@@ -1041,7 +1041,7 @@
     if-eqz v3, :cond_0
 
     .line 577
-    move-object v7, p1
+    move-object v7, v10
 
     .line 580
     :cond_0
@@ -1104,41 +1104,41 @@
     .end local v4    # "hasSuffix":Z
     .end local v5    # "isSingleWord":Z
     :cond_5
-    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v10}, Ljava/lang/String;->trim()Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v10
 
     goto :goto_0
 
     .line 562
     :cond_6
-    invoke-virtual {p2}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v11}, Ljava/lang/String;->trim()Ljava/lang/String;
 
-    move-result-object p2
+    move-result-object v11
 
     goto :goto_1
 
     .line 563
     :cond_7
-    invoke-virtual {p3}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/String;->trim()Ljava/lang/String;
 
-    move-result-object p3
+    move-result-object v12
 
     goto :goto_2
 
     .line 564
     :cond_8
-    invoke-virtual {p4}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v13}, Ljava/lang/String;->trim()Ljava/lang/String;
 
-    move-result-object p4
+    move-result-object v13
 
     goto :goto_3
 
     .line 565
     :cond_9
-    invoke-virtual {p5}, Ljava/lang/String;->trim()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/String;->trim()Ljava/lang/String;
 
-    move-result-object p5
+    move-result-object v14
 
     goto :goto_4
 
@@ -1181,25 +1181,25 @@
     .restart local v5    # "isSingleWord":Z
     .restart local v7    # "singleWord":Ljava/lang/String;
     :cond_f
-    move-object v7, p2
+    move-object v7, v11
 
     goto :goto_a
 
     .line 592
     :cond_10
-    move-object v7, p3
+    move-object v7, v12
 
     goto :goto_b
 
     .line 600
     :cond_11
-    move-object v7, p4
+    move-object v7, v13
 
     goto :goto_c
 
     .line 608
     :cond_12
-    invoke-direct {p0, p5}, Lcom/android/providers/contacts/NameSplitter;->normalizedSuffix(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v9, v14}, Lcom/android/providers/contacts/NameSplitter;->normalizedSuffix(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -1216,7 +1216,7 @@
     if-eqz v3, :cond_14
 
     .line 619
-    invoke-virtual {v6, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 622
     :cond_14
@@ -1232,7 +1232,7 @@
 
     .line 626
     :cond_15
-    invoke-virtual {v6, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 629
     :cond_16
@@ -1245,7 +1245,7 @@
 
     .line 631
     :cond_17
-    if-eqz p7, :cond_18
+    if-eqz v16, :cond_18
 
     .line 632
     const/16 v8, 0x2c
@@ -1254,7 +1254,7 @@
 
     .line 634
     :cond_18
-    if-eqz p6, :cond_19
+    if-eqz v15, :cond_19
 
     .line 635
     const/16 v8, 0x20
@@ -1263,7 +1263,7 @@
 
     .line 638
     :cond_19
-    invoke-virtual {v6, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 641
     :cond_1a
@@ -1278,7 +1278,7 @@
 
     .line 643
     :cond_1b
-    if-eqz p6, :cond_1c
+    if-eqz v15, :cond_1c
 
     .line 644
     const/16 v8, 0x20
@@ -1287,7 +1287,7 @@
 
     .line 647
     :cond_1c
-    invoke-virtual {v6, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 650
     :cond_1d
@@ -1304,7 +1304,7 @@
 
     .line 652
     :cond_1e
-    if-eqz p8, :cond_1f
+    if-eqz v17, :cond_1f
 
     .line 653
     const/16 v8, 0x2c
@@ -1313,7 +1313,7 @@
 
     .line 655
     :cond_1f
-    if-eqz p6, :cond_20
+    if-eqz v15, :cond_20
 
     .line 656
     const/16 v8, 0x20
@@ -1322,7 +1322,7 @@
 
     .line 659
     :cond_20
-    invoke-direct {p0, p5}, Lcom/android/providers/contacts/NameSplitter;->normalizedSuffix(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {v9, v14}, Lcom/android/providers/contacts/NameSplitter;->normalizedSuffix(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -1345,7 +1345,7 @@
     const/16 v3, 0x2e
 
     .line 670
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v0
 
@@ -1355,26 +1355,26 @@
 
     add-int/lit8 v2, v0, -0x1
 
-    invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C
+    invoke-virtual {v5, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
     if-ne v2, v3, :cond_1
 
     .line 679
-    .end local p1    # "suffix":Ljava/lang/String;
+    .end local v5    # "suffix":Ljava/lang/String;
     :cond_0
     :goto_0
-    return-object p1
+    return-object v5
 
     .line 675
-    .restart local p1    # "suffix":Ljava/lang/String;
+    .restart local v5    # "suffix":Ljava/lang/String;
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1388,7 +1388,7 @@
 
     .line 676
     .local v1, "withDot":Ljava/lang/String;
-    iget-object v2, p0, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
+    iget-object v2, v4, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
@@ -1400,7 +1400,7 @@
 
     if-eqz v2, :cond_0
 
-    move-object p1, v1
+    move-object v5, v1
 
     .line 677
     goto :goto_0
@@ -1413,13 +1413,11 @@
 
     .prologue
     .line 866
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1431,13 +1429,11 @@
 
     .line 870
     :cond_0
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1448,19 +1444,17 @@
     if-ne v2, v3, :cond_1
 
     .line 871
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -1472,23 +1466,20 @@
 
     .line 874
     .local v1, "sb":Ljava/lang/StringBuilder;
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v0
 
     .local v0, "i":I
     :goto_1
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
     if-ge v0, v2, :cond_4
 
     .line 875
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
@@ -1501,8 +1492,7 @@
 
     .line 878
     :cond_2
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v6}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
@@ -1511,7 +1501,7 @@
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 879
-    invoke-virtual {p2, v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v6, v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v2
 
@@ -1534,7 +1524,7 @@
 
     move-result-object v2
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 .end method
@@ -1548,13 +1538,11 @@
     const/16 v4, 0x2e
 
     .line 793
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1567,93 +1555,82 @@
 
     .line 798
     :cond_1
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    invoke-virtual {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
+    invoke-virtual {v7, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
     .line 799
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 800
-    # operator++ for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$008(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$008(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto :goto_0
 
     .line 807
     :cond_2
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
     add-int/lit8 v2, v2, 0x1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     if-ge v2, v3, :cond_4
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
     add-int/lit8 v2, v2, 0x1
 
-    invoke-virtual {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
+    invoke-virtual {v7, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    invoke-direct {p0, v2}, Lcom/android/providers/contacts/NameSplitter;->isFamilyNamePrefix(Ljava/lang/String;)Z
+    invoke-direct {v5, v2}, Lcom/android/providers/contacts/NameSplitter;->isFamilyNamePrefix(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
     .line 810
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1661,12 +1638,11 @@
 
     .line 811
     .local v0, "familyNamePrefix":Ljava/lang/String;
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    invoke-virtual {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v7, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v2
 
@@ -1705,13 +1681,11 @@
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v3
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v4
 
@@ -1727,26 +1701,23 @@
 
     move-result-object v2
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 815
     const/4 v2, 0x2
 
-    # += operator for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$012(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;I)I
+    invoke-static {v7, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$012(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;I)I
 
     goto/16 :goto_0
 
     .line 820
     .end local v0    # "familyNamePrefix":Ljava/lang/String;
     :cond_4
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1754,20 +1725,17 @@
 
     aget-object v2, v2, v3
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 821
-    # operator-- for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     .line 824
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1776,13 +1744,11 @@
     if-lez v2, :cond_0
 
     .line 825
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v2
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -1792,21 +1758,20 @@
 
     .line 826
     .local v1, "lastNamePrefix":Ljava/lang/String;
-    invoke-direct {p0, v1}, Lcom/android/providers/contacts/NameSplitter;->isFamilyNamePrefix(Ljava/lang/String;)Z
+    invoke-direct {v5, v1}, Lcom/android/providers/contacts/NameSplitter;->isFamilyNamePrefix(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
     .line 827
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
     add-int/lit8 v2, v2, -0x1
 
-    invoke-virtual {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v7, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v2
 
@@ -1845,7 +1810,7 @@
 
     move-result-object v2
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v3, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1855,11 +1820,10 @@
 
     move-result-object v2
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v2, v6, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 831
-    # operator-- for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v7}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto/16 :goto_0
 .end method
@@ -1871,13 +1835,11 @@
 
     .prologue
     .line 848
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v0
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
@@ -1890,13 +1852,11 @@
 
     .line 852
     :cond_1
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v0
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
@@ -1907,13 +1867,11 @@
     if-le v0, v1, :cond_0
 
     .line 853
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v0
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
@@ -1923,15 +1881,13 @@
 
     if-eq v0, v1, :cond_2
 
-    iget-object v0, p0, Lcom/android/providers/contacts/NameSplitter;->mConjuctions:Ljava/util/HashSet;
+    iget-object v0, v3, Lcom/android/providers/contacts/NameSplitter;->mConjuctions:Ljava/util/HashSet;
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
@@ -1951,13 +1907,11 @@
 
     .line 856
     :cond_2
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v0
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
@@ -1965,17 +1919,16 @@
 
     aget-object v0, v0, v1
 
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v0, v4, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 857
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x1
 
-    invoke-virtual {p2, v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v5, v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v0
 
@@ -1986,7 +1939,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v1, v4, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2002,12 +1955,11 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v0, v4, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 860
     :cond_3
-    # operator-- for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto :goto_0
 .end method
@@ -2019,13 +1971,11 @@
 
     .prologue
     .line 716
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
@@ -2038,13 +1988,11 @@
 
     .line 720
     :cond_1
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
@@ -2052,7 +2000,7 @@
 
     .line 721
     .local v0, "firstToken":Ljava/lang/String;
-    iget-object v1, p0, Lcom/android/providers/contacts/NameSplitter;->mPrefixesSet:Ljava/util/HashSet;
+    iget-object v1, v3, Lcom/android/providers/contacts/NameSplitter;->mPrefixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
@@ -2065,12 +2013,11 @@
     if-eqz v1, :cond_0
 
     .line 722
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
-    invoke-virtual {p2, v1}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v5, v1}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v1
 
@@ -2097,11 +2044,10 @@
 
     .line 725
     :cond_2
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
+    iput-object v0, v4, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
 
     .line 726
-    # operator++ for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$008(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$008(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto :goto_0
 .end method
@@ -2115,13 +2061,11 @@
     const/16 v5, 0x2e
 
     .line 734
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v4
 
@@ -2134,13 +2078,11 @@
 
     .line 738
     :cond_1
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v3
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v4
 
@@ -2150,13 +2092,11 @@
 
     .line 741
     .local v0, "lastToken":Ljava/lang/String;
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v4
 
@@ -2166,28 +2106,26 @@
 
     if-le v3, v4, :cond_3
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     add-int/lit8 v3, v3, -0x2
 
-    invoke-virtual {p2, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
+    invoke-virtual {v8, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasComma(I)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
     .line 743
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     add-int/lit8 v3, v3, -0x1
 
-    invoke-virtual {p2, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v8, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v3
 
@@ -2212,11 +2150,10 @@
 
     .line 746
     :cond_2
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iput-object v0, v7, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     .line 747
-    # operator-- for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto :goto_0
 
@@ -2226,7 +2163,7 @@
 
     move-result v3
 
-    iget v4, p0, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
+    iget v4, v6, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
 
     if-gt v3, v4, :cond_0
 
@@ -2237,7 +2174,7 @@
 
     .line 756
     .local v1, "normalized":Ljava/lang/String;
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
+    iget-object v3, v6, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v3, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
@@ -2246,24 +2183,22 @@
     if-eqz v3, :cond_4
 
     .line 757
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iput-object v0, v7, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     .line 758
-    # operator-- for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$110(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     goto :goto_0
 
     .line 762
     :cond_4
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     add-int/lit8 v3, v3, -0x1
 
-    invoke-virtual {p2, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v8, v3}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v3
 
@@ -2307,8 +2242,7 @@
     move-result-object v1
 
     .line 768
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -2321,12 +2255,12 @@
 
     move-result v3
 
-    iget v4, p0, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
+    iget v4, v6, Lcom/android/providers/contacts/NameSplitter;->mMaxSuffixLength:I
 
     if-gt v3, v4, :cond_0
 
     .line 771
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
+    iget-object v3, v6, Lcom/android/providers/contacts/NameSplitter;->mSuffixesSet:Ljava/util/HashSet;
 
     invoke-virtual {v3, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
@@ -2335,18 +2269,16 @@
     if-eqz v3, :cond_6
 
     .line 772
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iput-object v0, v7, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     .line 773
-    # setter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
-    invoke-static {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$102(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;I)I
+    invoke-static {v8, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$102(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;I)I
 
     goto/16 :goto_0
 
     .line 777
     :cond_6
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
@@ -2356,7 +2288,7 @@
     add-int/lit8 v2, v2, -0x1
 
     .line 782
-    invoke-virtual {p2, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
+    invoke-virtual {v8, v2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->hasDot(I)Z
 
     move-result v3
 
@@ -2367,8 +2299,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v4
 
@@ -2398,8 +2329,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v4
 
@@ -2435,8 +2365,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
-    invoke-static {p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v4
 
@@ -2480,7 +2409,7 @@
     .line 420
     new-instance v2, Ljava/util/StringTokenizer;
 
-    invoke-direct {v2, p2}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v11}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
 
     .line 421
     .local v2, "tokenizer":Ljava/util/StringTokenizer;
@@ -2498,44 +2427,44 @@
 
     .line 423
     .local v1, "token":Ljava/lang/String;
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     if-nez v3, :cond_0
 
     .line 424
-    iput-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v1, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
     .line 425
     :cond_0
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     if-nez v3, :cond_1
 
     .line 426
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 427
-    iput-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v1, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
     .line 428
     :cond_1
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     if-nez v3, :cond_2
 
     .line 429
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 430
-    iput-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v1, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -2545,13 +2474,13 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2561,30 +2490,30 @@
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 433
-    iput-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v1, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
     .line 438
     .end local v1    # "token":Ljava/lang/String;
     :cond_3
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     if-eqz v3, :cond_4
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     if-nez v3, :cond_4
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     if-nez v3, :cond_4
 
     .line 439
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {v11}, Ljava/lang/String;->length()I
 
     move-result v0
 
@@ -2593,18 +2522,18 @@
     if-ne v0, v5, :cond_5
 
     .line 441
-    invoke-virtual {p2, v7, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v7, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 442
-    invoke-virtual {p2, v6}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v11, v6}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     .line 454
     .end local v0    # "length":I
@@ -2618,25 +2547,25 @@
     if-ne v0, v8, :cond_6
 
     .line 444
-    invoke-virtual {p2, v7, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v7, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 445
-    invoke-virtual {p2, v6, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v6, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 446
-    invoke-virtual {p2, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v11, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_1
 
@@ -2647,25 +2576,25 @@
     if-ne v0, v3, :cond_4
 
     .line 448
-    invoke-virtual {p2, v7, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v7, v5}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 449
-    invoke-virtual {p2, v5, v8}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v5, v8}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
     .line 450
-    invoke-virtual {p2, v8}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v11, v8}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v3
 
-    iput-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_1
 .end method
@@ -2679,7 +2608,7 @@
     .line 463
     new-instance v1, Ljava/util/StringTokenizer;
 
-    invoke-direct {v1, p2}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
 
     .line 464
     .local v1, "tokenizer":Ljava/util/StringTokenizer;
@@ -2697,28 +2626,28 @@
 
     .line 466
     .local v0, "token":Ljava/lang/String;
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     if-nez v2, :cond_0
 
     .line 467
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v0, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
     .line 468
     :cond_0
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     if-nez v2, :cond_1
 
     .line 469
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 470
-    iput-object v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v0, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -2728,7 +2657,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2748,7 +2677,7 @@
 
     move-result-object v2
 
-    iput-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v2, v5, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -2767,7 +2696,7 @@
     .line 484
     new-instance v5, Ljava/util/StringTokenizer;
 
-    invoke-direct {v5, p2}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v11}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
 
     .line 485
     .local v5, "tokenizer":Ljava/util/StringTokenizer;
@@ -2794,28 +2723,28 @@
 
     .line 489
     .local v4, "token":Ljava/lang/String;
-    iget-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     if-nez v7, :cond_0
 
     .line 490
-    iput-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
     .line 491
     :cond_0
-    iget-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     if-nez v7, :cond_1
 
     .line 492
-    iget-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iput-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 493
-    iput-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -2825,7 +2754,7 @@
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v8, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v8, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2845,7 +2774,7 @@
 
     move-result-object v7
 
-    iput-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     goto :goto_0
 
@@ -2872,7 +2801,7 @@
 
     .line 505
     .local v6, "twoLengthFamilyName":Ljava/lang/String;
-    invoke-virtual {p2, v6}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v11, v6}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v7
 
@@ -2886,25 +2815,25 @@
     :cond_3
     const/4 v7, 0x0
 
-    invoke-virtual {p2, v7, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+    invoke-virtual {v11, v7, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v7
 
-    iput-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iput-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
     .line 512
-    invoke-virtual {p2}, Ljava/lang/String;->length()I
+    invoke-virtual {v11}, Ljava/lang/String;->length()I
 
     move-result v7
 
     if-le v7, v1, :cond_4
 
     .line 513
-    invoke-virtual {p2, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    invoke-virtual {v11, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v7
 
-    iput-object v7, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v7, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     .line 516
     .end local v0    # "arr$":[Ljava/lang/String;
@@ -2935,14 +2864,13 @@
     .line 395
     new-instance v0, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;
 
-    invoke-direct {v0, p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v5}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;-><init>(Ljava/lang/String;)V
 
     .line 396
     .local v0, "tokens":Lcom/android/providers/contacts/NameSplitter$NameTokenizer;
-    invoke-direct {p0, p1, v0}, Lcom/android/providers/contacts/NameSplitter;->parsePrefix(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
+    invoke-direct {v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->parsePrefix(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
 
     .line 400
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
     invoke-static {v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
@@ -2952,20 +2880,18 @@
     if-le v1, v2, :cond_0
 
     .line 401
-    invoke-direct {p0, p1, v0}, Lcom/android/providers/contacts/NameSplitter;->parseSuffix(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
+    invoke-direct {v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->parseSuffix(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
 
     .line 404
     :cond_0
-    iget-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
+    iget-object v1, v4, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
     invoke-static {v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
     invoke-static {v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
@@ -2977,19 +2903,17 @@
     if-ne v1, v2, :cond_1
 
     .line 405
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
     invoke-static {v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v1
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
     invoke-static {v0}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v2
 
     aget-object v1, v1, v2
 
-    iput-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iput-object v1, v4, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
     .line 411
     :goto_0
@@ -2997,13 +2921,13 @@
 
     .line 407
     :cond_1
-    invoke-direct {p0, p1, v0}, Lcom/android/providers/contacts/NameSplitter;->parseLastName(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
+    invoke-direct {v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->parseLastName(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
 
     .line 408
-    invoke-direct {p0, p1, v0}, Lcom/android/providers/contacts/NameSplitter;->parseMiddleName(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
+    invoke-direct {v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->parseMiddleName(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
 
     .line 409
-    invoke-direct {p0, p1, v0}, Lcom/android/providers/contacts/NameSplitter;->parseGivenNames(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
+    invoke-direct {v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->parseGivenNames(Lcom/android/providers/contacts/NameSplitter$Name;Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)V
 
     goto :goto_0
 .end method
@@ -3022,12 +2946,12 @@
     const/4 v2, 0x3
 
     .line 690
-    if-nez p1, :cond_4
+    if-nez v6, :cond_4
 
     .line 691
     sget-object v3, Lcom/android/providers/contacts/NameSplitter;->JAPANESE_LANGUAGE:Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iget-object v4, v5, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3035,20 +2959,20 @@
 
     if-eqz v3, :cond_1
 
-    move p1, v0
+    move v6, v0
 
     .line 709
-    .end local p1    # "nameStyle":I
+    .end local v6    # "nameStyle":I
     :cond_0
     :goto_0
-    return p1
+    return v6
 
     .line 693
-    .restart local p1    # "nameStyle":I
+    .restart local v6    # "nameStyle":I
     :cond_1
     sget-object v0, Lcom/android/providers/contacts/NameSplitter;->KOREAN_LANGUAGE:Ljava/lang/String;
 
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iget-object v3, v5, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3056,7 +2980,7 @@
 
     if-eqz v0, :cond_2
 
-    move p1, v1
+    move v6, v1
 
     .line 694
     goto :goto_0
@@ -3065,7 +2989,7 @@
     :cond_2
     sget-object v0, Lcom/android/providers/contacts/NameSplitter;->CHINESE_LANGUAGE:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iget-object v1, v5, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3073,14 +2997,14 @@
 
     if-eqz v0, :cond_3
 
-    move p1, v2
+    move v6, v2
 
     .line 696
     goto :goto_0
 
     .line 698
     :cond_3
-    const/4 p1, 0x1
+    const/4 v6, 0x1
 
     goto :goto_0
 
@@ -3088,12 +3012,12 @@
     :cond_4
     const/4 v3, 0x2
 
-    if-ne p1, v3, :cond_0
+    if-ne v6, v3, :cond_0
 
     .line 701
     sget-object v3, Lcom/android/providers/contacts/NameSplitter;->JAPANESE_LANGUAGE:Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iget-object v4, v5, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3101,7 +3025,7 @@
 
     if-eqz v3, :cond_5
 
-    move p1, v0
+    move v6, v0
 
     .line 702
     goto :goto_0
@@ -3110,7 +3034,7 @@
     :cond_5
     sget-object v0, Lcom/android/providers/contacts/NameSplitter;->KOREAN_LANGUAGE:Ljava/lang/String;
 
-    iget-object v3, p0, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
+    iget-object v3, v5, Lcom/android/providers/contacts/NameSplitter;->mLanguage:Ljava/lang/String;
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3118,13 +3042,13 @@
 
     if-eqz v0, :cond_6
 
-    move p1, v1
+    move v6, v1
 
     .line 704
     goto :goto_0
 
     :cond_6
-    move p1, v2
+    move v6, v2
 
     .line 706
     goto :goto_0
@@ -3145,42 +3069,42 @@
     const/4 v3, 0x2
 
     .line 906
-    if-eqz p2, :cond_1
+    if-eqz v6, :cond_1
 
     .line 907
-    if-eqz p1, :cond_0
+    if-eqz v5, :cond_0
 
-    if-ne p1, v3, :cond_1
+    if-ne v5, v3, :cond_1
 
     .line 908
     :cond_0
-    if-ne p2, v0, :cond_2
+    if-ne v6, v0, :cond_2
 
-    move p1, v0
+    move v5, v0
 
     .line 918
-    .end local p1    # "nameStyle":I
+    .end local v5    # "nameStyle":I
     :cond_1
     :goto_0
-    return p1
+    return v5
 
     .line 910
-    .restart local p1    # "nameStyle":I
+    .restart local v5    # "nameStyle":I
     :cond_2
-    if-ne p2, v1, :cond_3
+    if-ne v6, v1, :cond_3
 
-    move p1, v1
+    move v5, v1
 
     .line 911
     goto :goto_0
 
     .line 913
     :cond_3
-    if-ne p1, v3, :cond_1
+    if-ne v5, v3, :cond_1
 
-    if-ne p2, v2, :cond_1
+    if-ne v6, v2, :cond_1
 
-    move p1, v2
+    move v5, v2
 
     .line 914
     goto :goto_0
@@ -3192,7 +3116,7 @@
 
     .prologue
     .line 979
-    if-nez p1, :cond_1
+    if-nez v7, :cond_1
 
     .line 980
     const/4 v2, 0x0
@@ -3208,7 +3132,7 @@
 
     .line 984
     .local v2, "nameStyle":I
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v1
 
@@ -3222,7 +3146,7 @@
     if-ge v3, v1, :cond_0
 
     .line 987
-    invoke-static {p1, v3}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
+    invoke-static {v7, v3}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
 
     move-result v0
 
@@ -3261,7 +3185,7 @@
 
     add-int/2addr v5, v3
 
-    invoke-direct {p0, p1, v5}, Lcom/android/providers/contacts/NameSplitter;->guessCJKNameStyle(Ljava/lang/String;I)I
+    invoke-direct {v6, v7, v5}, Lcom/android/providers/contacts/NameSplitter;->guessCJKNameStyle(Ljava/lang/String;I)I
 
     move-result v2
 
@@ -3316,21 +3240,21 @@
 
     .prologue
     .line 894
-    invoke-direct {p0, p1}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Lcom/android/providers/contacts/NameSplitter$Name;)V
+    invoke-direct {v2, v3}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Lcom/android/providers/contacts/NameSplitter$Name;)V
 
     .line 895
-    invoke-direct {p0, p1}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Lcom/android/providers/contacts/NameSplitter$Name;)V
+    invoke-direct {v2, v3}, Lcom/android/providers/contacts/NameSplitter;->guessPhoneticNameStyle(Lcom/android/providers/contacts/NameSplitter$Name;)V
 
     .line 896
-    iget v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iget v0, v3, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
-    iget v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
+    iget v1, v3, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticNameStyle:I
 
-    invoke-virtual {p0, v0, v1}, Lcom/android/providers/contacts/NameSplitter;->getAdjustedNameStyleBasedOnPhoneticNameStyle(II)I
+    invoke-virtual {v2, v0, v1}, Lcom/android/providers/contacts/NameSplitter;->getAdjustedNameStyleBasedOnPhoneticNameStyle(II)I
 
     move-result v0
 
-    iput v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v0, v3, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     .line 898
     return-void
@@ -3342,7 +3266,7 @@
 
     .prologue
     .line 1064
-    if-nez p1, :cond_1
+    if-nez v7, :cond_1
 
     .line 1065
     const/4 v2, 0x0
@@ -3358,7 +3282,7 @@
 
     .line 1069
     .local v2, "nameStyle":I
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v1
 
@@ -3372,7 +3296,7 @@
     if-ge v3, v1, :cond_0
 
     .line 1072
-    invoke-static {p1, v3}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
+    invoke-static {v7, v3}, Ljava/lang/Character;->codePointAt(Ljava/lang/CharSequence;I)I
 
     move-result v0
 
@@ -3449,28 +3373,28 @@
 
     .prologue
     .line 524
-    if-eqz p3, :cond_0
+    if-eqz v12, :cond_0
 
-    iget-object v1, p1, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
+    iget-object v1, v10, Lcom/android/providers/contacts/NameSplitter$Name;->prefix:Ljava/lang/String;
 
     .line 525
     .local v1, "prefix":Ljava/lang/String;
     :goto_0
-    iget v0, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iget v0, v10, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     packed-switch v0, :pswitch_data_0
 
     .line 537
-    if-eqz p2, :cond_1
+    if-eqz v11, :cond_1
 
     .line 538
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
-    iget-object v5, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iget-object v5, v10, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     const/4 v6, 0x1
 
@@ -3478,7 +3402,7 @@
 
     const/4 v8, 0x1
 
-    move-object v0, p0
+    move-object v0, v9
 
     invoke-direct/range {v0 .. v8}, Lcom/android/providers/contacts/NameSplitter;->join(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/lang/String;
 
@@ -3498,13 +3422,13 @@
     .line 529
     .restart local v1    # "prefix":Ljava/lang/String;
     :pswitch_0
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iget-object v5, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iget-object v5, v10, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -3512,7 +3436,7 @@
 
     const/4 v8, 0x0
 
-    move-object v0, p0
+    move-object v0, v9
 
     invoke-direct/range {v0 .. v8}, Lcom/android/providers/contacts/NameSplitter;->join(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/lang/String;
 
@@ -3522,13 +3446,13 @@
 
     .line 533
     :pswitch_1
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iget-object v5, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iget-object v5, v10, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     const/4 v6, 0x1
 
@@ -3536,7 +3460,7 @@
 
     const/4 v8, 0x0
 
-    move-object v0, p0
+    move-object v0, v9
 
     invoke-direct/range {v0 .. v8}, Lcom/android/providers/contacts/NameSplitter;->join(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/lang/String;
 
@@ -3546,13 +3470,13 @@
 
     .line 541
     :cond_1
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
+    iget-object v2, v10, Lcom/android/providers/contacts/NameSplitter$Name;->familyName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->givenNames:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->middleName:Ljava/lang/String;
 
-    iget-object v5, p1, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
+    iget-object v5, v10, Lcom/android/providers/contacts/NameSplitter$Name;->suffix:Ljava/lang/String;
 
     const/4 v6, 0x1
 
@@ -3560,7 +3484,7 @@
 
     const/4 v8, 0x1
 
-    move-object v0, p0
+    move-object v0, v9
 
     invoke-direct/range {v0 .. v8}, Lcom/android/providers/contacts/NameSplitter;->join(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/lang/String;
 
@@ -3590,15 +3514,15 @@
     const/4 v7, 0x0
 
     .line 552
-    iget-object v2, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticFamilyName:Ljava/lang/String;
+    iget-object v2, v10, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticFamilyName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticMiddleName:Ljava/lang/String;
+    iget-object v3, v10, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticMiddleName:Ljava/lang/String;
 
-    iget-object v4, p1, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticGivenName:Ljava/lang/String;
+    iget-object v4, v10, Lcom/android/providers/contacts/NameSplitter$Name;->phoneticGivenName:Ljava/lang/String;
 
     const/4 v6, 0x1
 
-    move-object v0, p0
+    move-object v0, v9
 
     move-object v5, v1
 
@@ -3618,7 +3542,7 @@
 
     .prologue
     .line 346
-    if-nez p2, :cond_0
+    if-nez v4, :cond_0
 
     .line 356
     :goto_0
@@ -3626,7 +3550,7 @@
 
     .line 350
     :cond_0
-    invoke-virtual {p0, p2}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
+    invoke-virtual {v2, v4}, Lcom/android/providers/contacts/NameSplitter;->guessFullNameStyle(Ljava/lang/String;)I
 
     move-result v0
 
@@ -3637,13 +3561,13 @@
     if-ne v0, v1, :cond_1
 
     .line 352
-    invoke-virtual {p0, v0}, Lcom/android/providers/contacts/NameSplitter;->getAdjustedFullNameStyle(I)I
+    invoke-virtual {v2, v0}, Lcom/android/providers/contacts/NameSplitter;->getAdjustedFullNameStyle(I)I
 
     move-result v0
 
     .line 355
     :cond_1
-    invoke-virtual {p0, p1, p2, v0}, Lcom/android/providers/contacts/NameSplitter;->split(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;I)V
+    invoke-virtual {v2, v3, v4, v0}, Lcom/android/providers/contacts/NameSplitter;->split(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;I)V
 
     goto :goto_0
 .end method
@@ -3656,7 +3580,7 @@
 
     .prologue
     .line 363
-    if-nez p2, :cond_0
+    if-nez v2, :cond_0
 
     .line 385
     :goto_0
@@ -3664,31 +3588,31 @@
 
     .line 367
     :cond_0
-    iput p3, p1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
+    iput v3, v1, Lcom/android/providers/contacts/NameSplitter$Name;->fullNameStyle:I
 
     .line 369
-    packed-switch p3, :pswitch_data_0
+    packed-switch v3, :pswitch_data_0
 
     .line 383
-    invoke-direct {p0, p1, p2}, Lcom/android/providers/contacts/NameSplitter;->splitWesternName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/android/providers/contacts/NameSplitter;->splitWesternName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 371
     :pswitch_0
-    invoke-direct {p0, p1, p2}, Lcom/android/providers/contacts/NameSplitter;->splitChineseName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/android/providers/contacts/NameSplitter;->splitChineseName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 375
     :pswitch_1
-    invoke-direct {p0, p1, p2}, Lcom/android/providers/contacts/NameSplitter;->splitJapaneseName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/android/providers/contacts/NameSplitter;->splitJapaneseName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 379
     :pswitch_2
-    invoke-direct {p0, p1, p2}, Lcom/android/providers/contacts/NameSplitter;->splitKoreanName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/android/providers/contacts/NameSplitter;->splitKoreanName(Lcom/android/providers/contacts/NameSplitter$Name;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -3710,7 +3634,7 @@
     const/4 v0, 0x0
 
     .line 322
-    if-nez p2, :cond_1
+    if-nez v9, :cond_1
 
     .line 338
     :cond_0
@@ -3720,16 +3644,14 @@
     :cond_1
     new-instance v4, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;
 
-    invoke-direct {v4, p2}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v9}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;-><init>(Ljava/lang/String;)V
 
     .line 328
     .local v4, "tokenizer":Lcom/android/providers/contacts/NameSplitter$NameTokenizer;
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v5
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v6
@@ -3737,12 +3659,10 @@
     if-eq v5, v6, :cond_0
 
     .line 332
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v5
 
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v6
@@ -3755,14 +3675,12 @@
 
     .line 334
     .local v0, "count":I
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mStartPointer:I
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$000(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v3
 
     .local v3, "i":I
     :goto_0
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mEndPointer:I
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$100(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)I
 
     move-result v5
@@ -3774,14 +3692,13 @@
 
     .end local v0    # "count":I
     .local v1, "count":I
-    # getter for: Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->mTokens:[Ljava/lang/String;
     invoke-static {v4}, Lcom/android/providers/contacts/NameSplitter$NameTokenizer;->access$200(Lcom/android/providers/contacts/NameSplitter$NameTokenizer;)[Ljava/lang/String;
 
     move-result-object v5
 
     aget-object v5, v5, v3
 
-    aput-object v5, p1, v0
+    aput-object v5, v8, v0
 
     .line 334
     add-int/lit8 v3, v3, 0x1

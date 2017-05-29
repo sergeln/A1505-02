@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Widget3D</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="temperature">%1$s ℃</string>
-    <string name="Mon">Пн</string>
-    <string name="Tue">Вт</string>
-    <string name="Wed">Ср</string>
-    <string name="Thur">Чт</string>
-    <string name="Fri">Пт</string>
-    <string name="Sat">Сб</string>
-    <string name="Sun">Вс</string>
-    <string name="default_city">Mahilyow</string>
-    <string name="default_weather">Sun</string>
-    <string name="default_temp">0</string>
+    <string name="Mon">понедельник</string>
+    <string name="Tue">вторник</string>
+    <string name="Wed">среда</string>
+    <string name="Thur">четверг</string>
+    <string name="Fri">пятница</string>
+    <string name="Sat">суббота</string>
+    <string name="Sun">воскресенье</string>
     <string name="train_station">%1$s Отъезд</string>
-    <string name="train_seat">%1$sCar%2$sNum</string>
-    <string name="timeleft">%1$02d</string>
-    <string name="timeright">%1$02d</string>
-    <string name="flight_number_label">Рейс</string>
-    <string name="flight_station">%1$s Отъезд</string>
     <string name="Train_line">Путь</string>
     <string name="Train_num">Номер</string>
+    <string name="flight_number_label">Рейс</string>
+    <string name="flight_station">%1$s Отъезд</string>
     <string name="data_total">Трафик: %1$s МБ</string>
-    <string name="health_card_wanshui1">%1$s пользователей</string>
-    <string name="health_card_wanshui">Спите еще</string>
-    <string name="health_card_shuohaode">"Пришло время"</string>
     <string name="health_card_xiuxishijian">для отдыха</string>
     <string name="drive_Mode">За рулем</string>
     <string name="vip_Mode">VIP режим</string>
@@ -42,4 +30,16 @@
     <string name="button_open">Открыть</string>
     <string name="button_close">Закрыть</string>
     <string name="setting">"   Настр."</string>
+    <string name="app_name">Widget3D</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="temperature">%1$s ℃</string>
+    <string name="timeleft">%1$02d</string>
+    <string name="timeright">%1$02d</string>
+    <string name="default_city">Mahilyow</string>
+    <string name="default_weather">Sun</string>
+    <string name="default_temp">0</string>
+    <string name="train_seat">%1$sCar%2$sNum</string>
+    <string name="health_card_wanshui1">%1$s пользователей</string>
+    <string name="health_card_wanshui">Спите еще</string>
+    <string name="health_card_shuohaode">Пришло время</string>
 </resources>

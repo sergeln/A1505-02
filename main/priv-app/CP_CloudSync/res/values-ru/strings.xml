@@ -123,8 +123,8 @@
     <string name="umgr_360_account">Аккаунт 360</string>
   <string name="umgr_prologue_prompt2">Вы можете синхронизировать контакты, личные данные в облако； И наслаждайтесь облачными сервисами, Магазином приложений, бесплатными телефонными и мобильными Интернет-сервисами.</string>
   <string name="umgr_skip_login_text">пропустить</string>
-  <string name="umgr_prologue_login">Использовать существующую учетную запись для входа</string>
-  <string name="umgr_prologue_register_btntitle">Быстрая регистрация нового аккаунта 360</string>
+  <string name="umgr_prologue_login">Использовать существующий аккаунт</string>
+  <string name="umgr_prologue_register_btntitle">Быстрая регистрация</string>
   <string name="umgr_personal_center_title">Персональный центр</string>
     <string name="umgr_personal_center_title_qiku">Центр пользователя QiKU</string>
     <string name="umgr_personal_center_title_qihoo">Центр пользователя 360</string>
