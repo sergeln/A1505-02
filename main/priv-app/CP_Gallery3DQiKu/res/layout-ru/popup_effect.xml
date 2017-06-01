@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/popup_layout_effect" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="94.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_effect_fd" android:layout_width="wrap_content" android:layout_height="94.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="10.0dip" android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/popup_effect_first1" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_horizontal" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/effect_title_lomo" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_effect_gz" android:layout_width="wrap_content" android:layout_height="94.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="10.0dip" android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/popup_effect_first2" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_horizontal" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/effect_photo_0" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_effect_sm" android:layout_width="wrap_content" android:layout_height="94.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="10.0dip" android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/popup_effect_first3" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_horizontal" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/effect_fashion_0" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_effect_art" android:layout_width="wrap_content" android:layout_height="94.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="10.0dip" android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/popup_effect_first4" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_horizontal" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/effect_art_0" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+</LinearLayout>

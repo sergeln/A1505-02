@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/yl_system_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/time_and_language" android:key="time_and_language">
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="language_settings" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" settings:yl_preference_title="@string/language_settings" />
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="date_time_settings" android:fragment="com.android.settings.DateTimeSettings" settings:yl_preference_title="@string/date_and_time_settings_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/yl_system_title" android:key="system">
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="privacy__settings" settings:yl_preference_title="@string/privacy_settings_title">
+            <intent android:action="yulong.intent.action.BACK_AND_RESET" />
+        </com.qiku.android.settings.modules.YulongPreferenceScreen>
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="recovery_settings" settings:yl_preference_title="@string/recovery_settings_title">
+            <intent android:action="com.yulong.android.coolsafe.RECOVERYSYSAPP" />
+        </com.qiku.android.settings.modules.YulongPreferenceScreen>
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="storage_settings" settings:yl_preference_title="@string/storage_settings">
+            <intent android:action="android.settings.INTERNAL_STORAGE_SETTINGS" />
+        </com.qiku.android.settings.modules.YulongPreferenceScreen>
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="press_key" android:fragment="com.android.settings.PressKey" settings:yl_preference_title="@string/press_key_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/display_more_category" android:key="more">
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="@id/location_settings" android:fragment="com.android.settings.location.LocationSettings" settings:yl_preference_title="@string/location_settings_title" />
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="accessibility_settings" android:fragment="com.android.settings.accessibility.AccessibilitySettings" settings:yl_preference_title="@string/accessibility_settings" />
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="vpn_settings" android:fragment="com.android.settings.vpn2.VpnSettings" settings:yl_preference_title="@string/vpn_settings_title" />
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="equipment_safety" settings:yl_preference_title="@string/equipment_safety_title" />
+        <com.qiku.android.settings.modules.YulongPreferenceScreen android:key="print_settings" android:fragment="com.android.settings.print.PrintSettingsFragment" settings:yl_preference_title="@string/print_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

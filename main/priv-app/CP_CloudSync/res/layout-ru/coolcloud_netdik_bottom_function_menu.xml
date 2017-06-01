@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_bar_parent_view" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/netdisk_bottombar_background_shadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sort_layout_bottom_bar" android:background="@drawable/common_rect_circle_ripple_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/coolcloud_netdisk_bottom_sequence_selector" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff4c4c4c" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coolcloud_netdisk_browse_file_by_sort" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/upload_layout_bottom_bar" android:background="@drawable/common_rect_circle_ripple_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:focusable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/coolcloud_netdisk_bottom_upload_selector" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff4c4c4c" android:gravity="center" android:layout_width="55.0dip" android:layout_height="wrap_content" android:text="@string/coolcloud_netdisk_btn_text_upload" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/transport_list_layout_bottom_bar" android:background="@drawable/common_rect_circle_ripple_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="24.0dip">
+                <ImageView android:id="@id/transfer_image" android:focusable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/coolcloud_netdisk_bottom_transferlist_selector" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/transfer_list_status_image" android:visibility="gone" android:clickable="false" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="-8.0dip" android:src="@drawable/coolcloud_sync_newnotice" android:layout_toRightOf="@id/transfer_image" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff4c4c4c" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/coolcloud_netdisk_tansport_list" android:layout_below="@id/transfer_image" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

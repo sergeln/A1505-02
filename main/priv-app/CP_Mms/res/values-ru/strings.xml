@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_action_bar_home_description">Домой</string>
+    <string name="abc_action_bar_up_description">Вверх</string>
+    <string name="abc_action_menu_overflow_description">Параметры</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_search_hint">Поиск…</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_clear">Очистить запрос</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_activity_chooser_view_see_all">Смотреть все</string>
+    <string name="abc_shareactionprovider_share_with_application">Отправить через %s</string>
+    <string name="abc_shareactionprovider_share_with">Отправить</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
     <string name="app_name">SDKUI</string>
     <string name="duoqu_select_destination">Выберите терминал</string>
     <string name="duoqu_forword_sms">Пересылка текстовых сообщений</string>
@@ -355,6 +375,9 @@
     <string name="people_delete_call_record">Очистить журнал</string>
     <string name="people_delete_call_record_message">Вы действительно хотите все удалить?</string>
     <string name="people_all_sms_record">sms</string>
+    <string name="people_dialpad_regulatory_info_title">Максимальный уровень SAR</string>
+    <string name="people_dialpad_regulatory_info">"Для тела:1.112W/kg @ 1g
+Для головы:1.221W/kg @ 1g"</string>
     <string name="people_store_information">Статистика</string>
     <string name="people_store_information_phone">Телефон 　</string>
     <string name="people_store_information_groups">Группы в телефоне</string>
@@ -2018,6 +2041,7 @@
     <string name="smsmms_notification_prehead_count_info">"[%s] "</string>
     <string name="smsmms_notification_prehead_name_info">"[%s] "</string>
     <string name="smsmms_embedded_storage">Встроенное хранилище</string>
+    <string name="smsmms_sms_send_select_title_info">Отправить SMS %s</string>
     <string name="smsmms_cloudmsg_new">Новые зашифрованные сообщения</string>
     <string name="smsmms_cloudcall_time">Длительность звонка %s</string>
     <string name="smsmms_cloudmsg_string_dial">[Телефон]</string>
@@ -2154,4 +2178,5 @@
     <string name="smsmms_cloudmsg_index_kui">Уничтожен</string>
     <string name="smsmms_cloudmsg_index_ban">Офис</string>
     <string name="smsmms_cloudmsg_index_san">3</string>
+    <string name="smsmms_sensitive_msg_tip">Служба отправляет сообщение на дополнительный номер. Удостоверьтесь, что это не мошенничество. Продолжить отправку?</string>
 </resources>

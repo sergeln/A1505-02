@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/BtnCompositeFunction" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="60.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/mmvideo_button_left" style="@android:style/MediaButton" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/function_layout" android:background="@drawable/mmvideo_more_bg" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/function_thirdButton_layout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/dlnaButton" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mmvideo_button_dlna" android:layout_centerVertical="true" style="@android:style/MediaButton" />
+            <com.yulong.android.videoplayer.view.AlphaTextView android:textColor="@color/mmvideo_color_white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="DLNA" android:layout_toRightOf="@id/dlnaButton" android:layout_centerVertical="true" />
+            <View android:background="@color/video_play_screen_function_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/function_firstButton_layout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/BtnScreenShot" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mmvideo_button_shot" android:layout_centerVertical="true" style="@android:style/MediaButton" />
+            <com.yulong.android.videoplayer.view.AlphaTextView android:textColor="@color/mmvideo_color_white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/mmvideo_screenshot" android:layout_toRightOf="@id/BtnScreenShot" android:layout_centerVertical="true" />
+            <View android:background="@color/video_play_screen_function_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/function_fourthButton_layout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/settingButton" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mmvideo_button_setting" android:layout_centerVertical="true" style="@android:style/MediaButton" />
+            <com.yulong.android.videoplayer.view.AlphaTextView android:textColor="@color/mmvideo_color_white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/mmvideo_textview_setting" android:layout_toRightOf="@id/settingButton" android:layout_centerVertical="true" />
+            <View android:background="@color/video_play_screen_function_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/function_secondButton_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/BtnSize" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mmvideo_button_video_size" android:scaleType="fitCenter" android:layout_centerVertical="true" style="@android:style/MediaButton" />
+            <View android:background="@drawable/mmvideo_more_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/function_fiveButton_layout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/VideoEditorButton" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mmvideo_editor_selector" android:layout_centerVertical="true" style="@android:style/MediaButton" />
+            <com.yulong.android.videoplayer.view.AlphaTextView android:textColor="@color/mmvideo_color_white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/mmvideo_video_clip" android:layout_toRightOf="@id/VideoEditorButton" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/player_function_detail_layout" android:background="@drawable/mmvideo_play_ctrl_detail_layout_bg" android:visibility="gone" android:layout_width="184.0dip" android:layout_height="fill_parent">
+        <include android:id="@id/play_setings_local" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/mmvideo_player_setting_local" />
+        <ListView android:id="@id/player_function_scale_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#26333333" android:dividerHeight="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/player_function_detail_layout_sublayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ListView android:id="@id/player_function_dmr_listview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/mmvideo_individual_item_press" android:divider="@color/mmvideo_base_os_normal_text" android:dividerHeight="1.0px" />
+                <TextView android:textSize="@dimen/mmvideo_list_order_text" android:textColor="@color/video_play_screen_function_assist_text" android:id="@id/dlna_show_dmr_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mmvideo_dmr_no_search" android:layout_centerInParent="true" />
+                <com.yulong.android.videoplayer.view.CircularProgressBar android:id="@id/dlna_dmr_loading_process_dialog_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="false" android:layout_centerInParent="true" style="@style/CommonProgressBarMedium" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/mmvideo_tab_bg" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <com.yulong.android.videoplayer.view.AlphaButton android:textSize="12.0dip" android:textColor="@color/mmvideo_color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_dlna_refresh" android:background="@drawable/mmvideo_playandclarity_rate" android:layout_width="80.0dip" android:layout_height="30.0dip" android:text="@string/mmvideo_button_refresh" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
