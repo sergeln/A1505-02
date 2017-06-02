@@ -65,11 +65,11 @@ rd /S /Q %FW_DIR%\priv-app\BY_3RD_coolmart >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\BY_3RD_GameCenter >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\CP_OTA >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\BY_3RD_360MobileSafe\oat >NUL: 2>&1
-copy /Y D:\360\Soft\BY_3RD_360MobileSafe.apk %FW_DIR%\priv-app\ >NUL: 2>&1
+copy /Y D:\360\Soft\BY_3RD_360MobileSafe.apk %FW_DIR%\priv-app\BY_3RD_360MobileSafe >NUL: 2>&1
 copy /Y D:\360\Soft\supersu\install-recovery.sh %FW_DIR%\bin >NUL: 2>&1
-xcopy /Y D:\360\Soft\RE %FW_DIR%\app >NUL: 2>&1
-xcopy /Y D:\360\Soft\TB %FW_DIR%\app >NUL: 2>&1
-xcopy /Y D:\360\Soft\srec %FW_DIR%\usr >NUL: 2>&1
+xcopy /Y /E /I /R D:\360\Soft\RE %FW_DIR%\app\RE >NUL: 2>&1
+xcopy /Y /E /I /R D:\360\Soft\TB %FW_DIR%\app\TB >NUL: 2>&1
+xcopy /Y /E /I /R D:\360\Soft\srec %FW_DIR%\usr\srec >NUL: 2>&1
 copy /Y D:\360\xbin\*.* %FW_DIR%\xbin >NUL: 2>&1
 ECHO.
 ECHO  Приложения удалены.
@@ -79,6 +79,8 @@ goto restart
 :fromapp
 for /d %%i in ("%TR_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
 del /Q /F %TR_DIR%\*.*
+for /d %%i in ("%RA_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
+del /Q /F %RA_DIR%\*.*
 copy /Y %FW_DIR%\APP\AntHalService\AntHalService.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\BluetoothExt\BluetoothExt.apk %TR_DIR% >NUL: 2>&1
 rem Перевести
@@ -153,6 +155,8 @@ goto restart
 :fromprivapp
 for /d %%i in ("%TR_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
 del /Q /F %TR_DIR%\*.*
+for /d %%i in ("%RA_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
+del /Q /F %RA_DIR%\*.*
 copy /Y %FW_DIR%\PRIV-APP\BackupRestoreConfirmation\BackupRestoreConfirmation.apk %TR_DIR% >NUL: 2>&1
 rem copy /Y %FW_DIR%\PRIV-APP\BY_3RD_AvatarMaster\BY_3RD_AvatarMaster.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\CalendarProvider\CalendarProvider.apk %TR_DIR% >NUL: 2>&1
@@ -222,6 +226,8 @@ goto restart
 :fromfr
 for /d %%i in ("%TR_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
 del /Q /F %TR_DIR%\*.*
+for /d %%i in ("%RA_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
+del /Q /F %RA_DIR%\*.*
 copy /Y %FW_DIR%\framework\framework-res.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\framework\qiku-framework-res\qiku-framework-res.apk %TR_DIR% >NUL: 2>&1
 ECHO.
