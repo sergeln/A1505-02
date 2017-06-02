@@ -67,9 +67,10 @@ rd /S /Q %FW_DIR%\priv-app\CP_OTA >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\BY_3RD_360MobileSafe\oat >NUL: 2>&1
 copy /Y D:\360\Soft\BY_3RD_360MobileSafe.apk %FW_DIR%\priv-app\ >NUL: 2>&1
 copy /Y D:\360\Soft\supersu\install-recovery.sh %FW_DIR%\bin >NUL: 2>&1
-xcopy D:\360\Soft\RE %FW_DIR%\app >NUL: 2>&1
-xcopy D:\360\Soft\TB %FW_DIR%\app >NUL: 2>&1
-xcopy D:\360\Soft\srec %FW_DIR%\usr >NUL: 2>&1
+xcopy /Y D:\360\Soft\RE %FW_DIR%\app >NUL: 2>&1
+xcopy /Y D:\360\Soft\TB %FW_DIR%\app >NUL: 2>&1
+xcopy /Y D:\360\Soft\srec %FW_DIR%\usr >NUL: 2>&1
+copy /Y D:\360\xbin\*.* %FW_DIR%\xbin >NUL: 2>&1
 ECHO.
 ECHO  Приложения удалены.
 ECHO.
