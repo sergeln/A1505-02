@@ -3063,7 +3063,7 @@
     <string name="privacy_settings_summary">Настройки резервного копирования и фабричном режиме</string>
     <string name="processor_title">Процессор</string>
     <string name="phone_storage_title">Память телефона</string>
-    <string name="resolution_title">Разрешение экрана</string>
+    <string name="resolution_title">Разрешение</string>
     <string name="sim1_status_title">Статус SIM1</string>
     <string name="sim2_status_title">Статус SIM2</string>
     <string name="simcard_status">" статус SIM"</string>

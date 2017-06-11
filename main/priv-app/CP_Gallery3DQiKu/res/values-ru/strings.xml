@@ -788,7 +788,7 @@
     <string name="share_to">Поделиться с</string>
     <string name="back_album">Альбом назад</string>
     <string name="save_success">Сохранить результаты</string>
-    <string name="test_age">Испытание Возраста</string>
+    <string name="test_age">Возраст</string>
     <string name="failed_load_image">Не удалось загрузить изображение!</string>
     <string name="del_tip_alter">Вы можете восстановить удаленные файлы в течение 30 дней с QiKU Web Cloud(cloud.qiku.com) в течение 30 дней для восстановления файлов, то они будут навсегда удалены.</string>
     <string name="shake_shake">Встряхните телефон</string>
