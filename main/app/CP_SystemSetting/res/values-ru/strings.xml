@@ -3184,7 +3184,7 @@
     <string name="longclick_recent_task_keys_summary">Меню отображения</string>
     <string name="app_notification_bubble_title">Уведомление в углу значка на рабочем столе</string>
     <string name="immediate_dormancy_title">Немедленная спячка</string>
-    <string name="key_light_title">Подсветка клавишь</string>
+    <string name="key_light_title">Подсветка клавиш</string>
     <string name="key_light_summary">Задачи отображения индикатора</string>
     <string name="deep_space_clean">Глубокая очистка</string>
     <string name="deep_clean_reminder">Напоминание</string>
