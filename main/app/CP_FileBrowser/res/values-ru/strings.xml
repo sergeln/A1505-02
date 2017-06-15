@@ -566,7 +566,7 @@
     <string name="wlan_no_confige">Нет беспроводной сети</string>
     <string name="wlan">Удаленное управление</string>
     <string name="wlan_main_info">После запуска файлами телефона можно управлять удаленно на компьютере.</string>
-    <string name="wlan_sub_info">Внимание: Компьютер и телефон должны быть подключены к одной беспроводной сети.</string>
+    <string name="wlan_sub_info">Внимание: Компьютер и телефон должны быть подключены\nк одной беспроводной сети.</string>
     <string name="wlan_start_ftp">Запуск службы</string>
     <string name="wlan_stop_ftp">Остановка службы</string>
     <string name="notif_title">Запущена служба удаленного управления</string>
