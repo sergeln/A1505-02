@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_name">Блокировка клавиатуры</string>
     <string name="duoqu_open_net">Посетить URL-АДРЕС</string>
     <string name="duoqu_reply_sms">Ответить на SMS</string>
@@ -195,7 +197,7 @@
     <string name="accessibility_wifi_three_bars">Wi-Fi: три деления</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi: надежный сигнал</string>
     <string name="ok">@android:string/ok</string>
-    <string name="system_ui_date_pattern">@android:string/config_dozeComponent</string>
+    <string name="system_ui_date_pattern">@android:string/locale_codes</string>
     <string name="abbrev_wday_month_day_no_year">dMMMMEEEE</string>
     <string name="abbrev_wday_month_day_no_year_alarm">dMMMEEE</string>
     <string name="abbrev_month_day_no_wday_no_year">dMMMM</string>
@@ -259,6 +261,7 @@
     <string name="phone_locked_website_abroad">cloud-en.360shouji.com</string>
     <string name="phone_locked_contact_text">Пожалуйста, свяжитесь с %1$s или посетите %2$s, чтобы разблокировать телефон.</string>
     <string name="phone_locked_secure_code_text">Защитный код: %1$s</string>
+    <string name="phone_locked_insert_sim_text">Вставте SIM-карту для подключения к мобильной связи</string>
     <string name="keyguard_weather_warning_notify_content">Нажмите, чтобы просмотреть подробные сведения</string>
     <string name="keyguard_weather_titie_publish">Публикация</string>
     <string name="keyguard_weather_forecast_today">Сегодня</string>
@@ -344,8 +347,8 @@
     <string name="qiku_touch_protection_exit_hint_text3">"3.Нажмите кнопку питания и громкости
  одновременно"</string>
     <string name="please_unlock_before_shutdown">Чтобы обезопасить свой телефон, разблокируйте перед завершением работы</string>
-    <string name="keyguard_month_day_week_time_care">d/M/yyyy E aa</string>
-    <string name="keyguard_month_day_week_care">d/M/yyyy/ E</string>
+    <string name="keyguard_month_day_week_time_care">d.M.yyyy E aa</string>
+    <string name="keyguard_month_day_week_care">d.M.yyyy E</string>
     <string name="keyguard_password_enter_pin_code">Введите PIN-код</string>
     <string name="keyguard_password_enter_puk_code">Введите PUK-код и новый PIN-код</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-код</string>
