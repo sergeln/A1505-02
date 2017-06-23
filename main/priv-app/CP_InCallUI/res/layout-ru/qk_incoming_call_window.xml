@@ -17,7 +17,7 @@
                 </LinearLayout>
                 <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
                     <TextView android:textSize="@dimen/qk_incomming_float_otherinfo_size" android:textColor="@color/white_alpha70_color" android:layout_gravity="center_vertical" android:id="@id/qk_incoming_window_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_telephone_number" android:singleLine="true" />
-                    <TextView android:textSize="@dimen/qk_incomming_float_otherinfo_size" android:textColor="@color/white_alpha60_color" android:layout_gravity="center_vertical" android:id="@id/qk_incoming_window_mark_type_content" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="@dimen/qk_incomming_float_otherinfo_gap" />
+                    <TextView android:textSize="@dimen/qk_incomming_float_otherinfo_size" android:textColor="@color/white_alpha60_color" android:layout_gravity="center_vertical" android:id="@id/qk_incoming_window_mark_type_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qk_incomming_float_otherinfo_gap" />
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>

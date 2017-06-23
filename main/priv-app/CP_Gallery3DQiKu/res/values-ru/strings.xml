@@ -533,7 +533,7 @@
     <string name="today">Сегодня</string>
     <string name="yesterday">Вчера</string>
     <string name="latest">Последние</string>
-    <string name="to">To</string>
+    <string name="to">-</string>
     <string name="select">Выбор</string>
     <string name="deselect">Отменить</string>
     <string name="deselect_upload">Отменить все</string>

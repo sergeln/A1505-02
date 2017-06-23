@@ -1458,7 +1458,7 @@
     <string name="face_score_share_words">Я использую мобильный телефон 360 N4S, оценка лица PK. Меня оценили более %1$s человек！(⊙ˍ⊙)</string>
     <string name="not_card_qrcode">не содержат информацию Vcard</string>
     <string name="qrcode_scan">Сканирование QR</string>
-    <string name="qrcode_tips">Поместите QR-code внутрь квадрата\nдля автоматического сканирования</string>
+    <string name="qrcode_tips">Поместите QR-code внутрь квадрата \n для автоматического сканирования</string>
     <string name="qrcode_for_card">(Поддерживает только карты QRcode)</string>
     <string name="picture_operation">Изображение</string>
     <string name="file_operation">Файл</string>

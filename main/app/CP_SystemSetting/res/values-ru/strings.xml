@@ -806,7 +806,7 @@
     <string name="wifi_cancel">Отмена</string>
     <string name="wifi_skip_anyway">Пропустить</string>
     <string name="wifi_dont_skip">Настроить</string>
-    <string name="wifi_skipped_message">"Внимание! Оплата мобильного Интернета производится по тарифу вашего оператора сотовой связи.</string>
+    <string name="wifi_skipped_message">Внимание! Оплата мобильного Интернета производится по тарифу вашего оператора сотовой связи.</string>
     <string name="wifi_and_mobile_skipped_message">"Если вы не настроите Wi‑Fi:
 
 Телефон не будет подключен к Интернету.
@@ -1203,7 +1203,7 @@
     <string name="manage_mobile_plan_title">Тарифный план</string>
     <string name="sms_application_title">Менеджер сообщений по умолчанию</string>
     <string name="sms_change_default_dialog_title">Выберите менеджер сообщений</string>
-    <string name="sms_change_default_dialog_text" formatted="false">Использовать приложение «%1$s» вместо « %2$s» для обмена сообщениями?</string>
+    <string name="sms_change_default_dialog_text">Использовать приложение «%1$s» вместо « %2$s» для обмена сообщениями?</string>
     <string name="sms_change_default_no_previous_dialog_text">Использовать приложение «%s» для обмена SMS-сообщениями?</string>
     <string name="network_scorer_change_active_dialog_title">Сменить ассистента WLAN?</string>
     <string name="network_scorer_change_active_dialog_text">Использовать приложение «%1$s» вместо приложения «%2$s» для управления сетевыми подключениями?</string>
@@ -1626,8 +1626,8 @@
     <string name="accessibility_screen_magnification_summary">"Эта функция позволяет увеличивать и уменьшать изображение, трижды нажав на экран.
 
 При увеличенном масштабе можно:
-"<li><ul>"панорамировать – проведите пальцами по экрану;
-"<li>изменять масштаб – сведите или разведите пальцы.</li></ul></li>"
+"<ul><li>"панорамировать – проведите пальцами по экрану;
+"<li>изменять масштаб – сведите или разведите пальцы.</li></li></ul>"
 
 Чтобы временно увеличить изображение под пальцем, трижды нажмите на экран и удерживайте его. Проведя пальцем, вы можете посмотреть на другие области экрана. Чтобы вернуть экран в прежнее состояние, уберите палец.
 
@@ -3551,6 +3551,7 @@ SD-карта \"^1\" будет работать только на этом ус
     <string name="magic_ball_title">Волшебный шар</string>
     <string name="charging_lock_screen_title">Зарядка на экране блокировки</string>
     <string name="sos_settings_title">Настройки аварийного вызова</string>
+    <string name="multitasking_control_title">Боковая панель</string>
     <string name="button_ok_text">ОК</string>
     <string name="button_cancel_text">Отмена</string>
     <string name="button_yes_text">Да</string>

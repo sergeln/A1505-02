@@ -27,7 +27,7 @@
     <string name="duoqu_open_text">Открыть оригинал</string>
     <string name="duoqu_open_net">Посетить веб-сайт</string>
     <string name="duoqu_reply_sms">Ответное сообщение</string>
-    <string name="duoqu_send_email">Отправить сообщение</string>
+    <string name="duoqu_send_email">Отправить Email</string>
     <string name="duoqu_open_map">Открыть карту</string>
     <string name="duoqu_chonzhi">Пополнение счета</string>
     <string name="duoqu_cancel">Отмена</string>
@@ -976,7 +976,7 @@
     <string name="people_action_call_2">Вызов через SIM 2</string>
     <string name="people_action_call">Вызов</string>
     <string name="people_action_free_call">Бесплатный звонок</string>
-    <string name="people_action_send_sms">Отправить сообщение</string>
+    <string name="people_action_send_sms">SMS</string>
     <string name="people_action_send_card">Отпр. vCard</string>
     <string name="people_pick_phone">Выберите Телефон</string>
     <string name="people_private_space_multi_add">Добавить личный</string>
