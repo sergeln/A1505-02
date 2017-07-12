@@ -79,7 +79,7 @@
     <string name="config_defaultNetworkScorerPackageName" />
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
     <string name="config_webViewPackageName">com.android.webview</string>
-    <string name="prohibit_manual_network_selection_in_gobal_mode">false</string>
+    <string name="prohibit_manual_network_selection_in_gobal_mode">true</string>
     <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
     <string name="config_forceVoiceInteractionServicePackage" />
     <string name="config_radio_access_family" />
@@ -106,7 +106,7 @@
     <string name="common_last_name_prefixes" />
     <string name="common_name_conjunctions" />
     <string name="lock_pattern_view_aspect">square</string>
-    <string name="icu_abbrev_wday_month_day_no_year">eeeMMMMd</string>
+    <string name="icu_abbrev_wday_month_day_no_year">eeedMMMM</string>
     <string name="system_ui_date_pattern">@string/icu_abbrev_wday_month_day_no_year</string>
     <string name="font_family_display_4_material">sans-serif-light</string>
     <string name="font_family_display_3_material">sans-serif</string>
@@ -127,9 +127,9 @@
     <string name="terabyteShort">TБ</string>
     <string name="petabyteShort">ПБ</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
-    <string name="durationDays">%1$d дн.</string>
-    <string name="durationDayHours">%1$d день %2$d ч.</string>
-    <string name="durationDayHour">%1$d день %2$d ч.</string>
+    <string name="durationDays">%1$d д.</string>
+    <string name="durationDayHours">%1$d д. %2$d час.</string>
+    <string name="durationDayHour">%1$d д. %2$d час.</string>
     <string name="durationHours">%1$d ч.</string>
     <string name="durationHourMinutes">%1$d ч. %2$d мин.</string>
     <string name="durationHourMinute">%1$d ч. %2$d мин.</string>
@@ -155,7 +155,7 @@
     <string name="invalidPuk">Введите PUK-код из 8 или более цифр.</string>
     <string name="needPuk">SIM-карта заблокирована с помощью кода PUK. Для разблокировки введите код PUK.</string>
     <string name="needPuk2">Для разблокировки SIM-карты введите PUK2.</string>
-    <string name="enablePin">Произошла ошибка. Включите блокировку SIM-карты или карты R-UIM.</string>
+    <string name="enablePin">Ошибка. Включите блокировку SIM/RUIM.</string>
     <string name="imei">IMEI</string>
     <string name="meid">MEID</string>
     <string name="ClipMmi">Идентификация вызывающего абонента</string>
@@ -418,8 +418,8 @@
     <string name="permdesc_readPhoneState">Приложение получит доступ к функциям телефона на устройстве. Кроме того, оно сможет определять номера телефонов и серийные номера моделей, состояние активности вызова, а также удаленные номера, с которыми установлено соединение.</string>
     <string name="permlab_wakeLock">Отключение спящего режима</string>
     <string name="permdesc_wakeLock">Приложение сможет запрещать перевод телефона в спящий режим.</string>
-    <string name="permlab_transmitIr">использовать инфракрасный передатчик</string>
-    <string name="permdesc_transmitIr">Приложение сможет использовать инфракрасный передатчик телефона.</string>
+    <string name="permlab_transmitIr">ИК-передача</string>
+    <string name="permdesc_transmitIr">Разрешать приложениям использовать ИК-передатчик телефона.</string>
     <string name="permlab_setWallpaper">Установка обоев</string>
     <string name="permdesc_setWallpaper">Приложение сможет устанавливать системные обои.</string>
     <string name="permlab_setWallpaperHints">Изменение размера обоев</string>
@@ -693,10 +693,10 @@
     <string name="lockscreen_sound_on_label">Вкл. звук</string>
     <string name="lockscreen_sound_off_label">Откл. звук</string>
     <string name="lockscreen_access_pattern_start">Ввод графического ключа</string>
-    <string name="lockscreen_access_pattern_cleared">Графический ключ сброшен</string>
-    <string name="lockscreen_access_pattern_cell_added">Ячейка добавлена</string>
-    <string name="lockscreen_access_pattern_cell_added_verbose">Ячейка %1$s добавлена</string>
-    <string name="lockscreen_access_pattern_detected">Графический ключ введен</string>
+    <string name="lockscreen_access_pattern_cleared">Графический ключ удален</string>
+    <string name="lockscreen_access_pattern_cell_added">Точка добавлена</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">Точка %1$s добавлена</string>
+    <string name="lockscreen_access_pattern_detected">Графический ключ установлен</string>
     <string name="lockscreen_access_pattern_area">Область ввода графического ключа.</string>
     <string name="keyguard_accessibility_widget_changed">%1$s. Виджет %2$d из %3$d.</string>
     <string name="keyguard_accessibility_add_widget">Добавить виджет</string>
@@ -1238,7 +1238,7 @@
     <string name="activity_chooser_view_dialog_title_default">Выберите</string>
     <string name="share_action_provider_share_with">Открыть доступ</string>
     <string name="list_delimeter">", "</string>
-    <string name="sending">Отправка...</string>
+    <string name="sending">Отправка…</string>
     <string name="launchBrowserDefault">Запустить браузер?</string>
     <string name="SetupCallDefault">Ответить?</string>
     <string name="activity_resolver_use_always">Всегда</string>
@@ -1430,7 +1430,7 @@
     <string name="minute_picker_description">Выбор минут на циферблате</string>
     <string name="select_hours">Выберите часы</string>
     <string name="select_minutes">Выберите минуты</string>
-    <string name="select_day">Выберите месяц и число</string>
+    <string name="select_day">Выберите месяц и день</string>
     <string name="select_year">Выберите год</string>
     <string name="deleted_key">Цифра %1$s удалена</string>
     <string name="managed_profile_label_badge">Рабочий %1$s</string>
@@ -1465,7 +1465,7 @@
     <string name="zen_mode_default_weeknights_name">Будний вечер</string>
     <string name="zen_mode_default_weekends_name">Выходные</string>
     <string name="zen_mode_default_events_name">Мероприятие</string>
-    <string name="muted_by">Звук отключен приложением \"%1$s\"</string>
+    <string name="muted_by">Звук отключен: %1$s</string>
     <string name="system_error_wipe_data">Произошла внутренняя ошибка, и устройство может работать нестабильно, пока вы не выполните сброс настроек.</string>
     <string name="system_error_manufacturer">Произошла внутренняя ошибка. Обратитесь к производителю устройства за подробными сведениями.</string>
     <string name="stk_cc_ussd_to_dial">USSD-запрос преобразован в DIAL-запрос</string>
@@ -1491,7 +1491,7 @@
     <string name="deny_button">Запретить</string>
     <string name="dual_instance_tag">" Клонировать"</string>
     <string name="battery_mode_change_normal_title">Менеджер зарядки</string>
-    <string name="battery_mode_change_normal_message_fastmode">Эффективный режим</string>
+    <string name="battery_mode_change_normal_message_fastmode">Быстрый режим</string>
     <string name="battery_mode_change_normal_message_normalmode">Обычный режим</string>
     <string name="battery_mode_change_abnormal_title">Информация</string>
     <string name="battery_mode_change_work">Нажмите, чтобы изменить.</string>

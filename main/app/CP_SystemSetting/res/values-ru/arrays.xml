@@ -192,7 +192,7 @@
     <string-array name="app_install_location_entries">
         <item>Внутренняя память</item>
         <item>SD-карта</item>
-        <item>На усмотрение системы</item>
+        <item>По выбору системы</item>
     </string-array>
     <string-array name="app_ops_categories">
         <item>Местоположение</item>

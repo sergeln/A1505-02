@@ -3455,8 +3455,8 @@ SD-карта \"^1\" будет работать только на этом ус
     <string name="fingerprint_quick_payment_summary">Сканер отпечатков fast payment introduction</string>
     <string name="fingerprint_quick_payment_detail">Задайте отпечаток пальца, вы можете быстро начать WeChat/Alipay сканирования кода оплаты интерфейса пропустить экран разблокировки - Поиск приложения при запуске приложения - нажмите кнопку оплаты и других утомительных шагов ключ для обеспечения быстрой оплаты</string>
     <string name="fingerprint_quick_payment_warning">"Вопросы, требующие внимания 
-1、Убедитесь, что WeChat/Alipay вошел
-2、WeChat в первый раз для использования функции сканирования кода платежа для ввода пароля, пожалуйста, подтвердите ввод"</string>
+1. Убедитесь, что WeChat/Alipay вошел
+2. WeChat в первый раз для использования функции сканирования кода платежа для ввода пароля, пожалуйста, подтвердите ввод"</string>
     <string name="fingerprint_same_area_error">Пожалуйста, измените положение пальца</string>
     <string name="cy_clear_record">Удалить запись</string>
     <string name="cy_clear_record_summary">Очистить всю историю, след домашней страницы будет очищен.</string>
