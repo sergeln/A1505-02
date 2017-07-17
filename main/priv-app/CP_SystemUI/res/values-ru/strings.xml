@@ -263,7 +263,7 @@
     <string name="phone_locked_secure_code_text">Защитный код: %1$s</string>
     <string name="phone_locked_insert_sim_text">Вставте SIM-карту для подключения к мобильной связи</string>
     <string name="keyguard_weather_warning_notify_content">Нажмите, чтобы просмотреть подробные сведения</string>
-    <string name="keyguard_weather_titie_publish">Публикация</string>
+    <string name="keyguard_weather_titie_publish">" обновлено"</string>
     <string name="keyguard_weather_forecast_today">Сегодня</string>
     <string name="keyguard_weather_forecast_tomorrow">Завтра</string>
     <string name="keyguard_weather_forcast_title">Прогноз погоды на несколько дней</string>
@@ -287,7 +287,7 @@
     <string name="keyguard_weather_location_error_no_date_tips">Не удалось получить местоположение. Пожалуйста, проверьте, включена ли служба местоположения.</string>
     <string name="keyguard_weather_data_requesting">Получение данных</string>
     <string name="keyguard_weather_ad_open">Загрузить</string>
-    <string name="keyguard_accu_weather_more">Посмотреть больше></string>
+    <string name="keyguard_accu_weather_more">Еще></string>
     <string name="keyguard_weather_ad_tag">Объявление</string>
     <string name="keyguard_weather_pm25">PM2.5:</string>
     <string name="keyguard_weather_centigrade_unit">℃</string>
