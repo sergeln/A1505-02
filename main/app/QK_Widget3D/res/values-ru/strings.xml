@@ -36,7 +36,7 @@
     <string name="timeleft">%1$02d</string>
     <string name="timeright">%1$02d</string>
     <string name="default_city">Mahilyow</string>
-    <string name="default_weather">Sun</string>
+    <string name="default_weather">haze</string>
     <string name="default_temp">0</string>
     <string name="train_seat">%1$sCar%2$sNum</string>
     <string name="health_card_wanshui1">%1$s пользователей</string>

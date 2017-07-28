@@ -788,7 +788,7 @@
     <string name="qs_dontinterruptions_allow_app_notification_subtitle">%d приложения разрешено</string>
     <string name="qs_dontinterruptions_allow_alarm_and_calander_title">Разрешить сигнал оповещения</string>
     <string name="qs_superpower_not_change_network_connection_item">Не изменяйте</string>
-    <string name="qs_superpower_close_network_in_keyguard_item">Закрыть сеть, когда экран off</string>
+    <string name="qs_superpower_close_network_in_keyguard_item">Выключать сеть при выключении экрана</string>
     <string name="qs_superpower_close_network_item">Выключать сеть всегда</string>
     <string name="quick_volume_control_notification_volume">Уведомления</string>
     <string name="network_connect_hint_dialog_title">Уведомление</string>
