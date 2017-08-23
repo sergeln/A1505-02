@@ -211,9 +211,9 @@
     <string name="background_process_stop_description">Это старый процесс приложения, который по-прежнему запущен на случай, если он снова понадобится. Обычно останавливать его не требуется.</string>
     <string name="backup_configure_account_default_summary">Не найдены аккаунты с резервными копиями данных</string>
     <string name="backup_configure_account_title">Аккаунт для резервирования</string>
-    <string name="backup_data_summary">Сохранять резервные копии данных приложений, паролей точек доступа Wi‑Fi и настроек на серверах Google</string>
+    <string name="backup_data_summary">Сохранять резервные копии данных приложений, паролей точек доступа Wi-Fi и настроек на серверах Google</string>
     <string name="backup_data_title">Резервирование данных</string>
-    <string name="backup_erase_dialog_message">Прекратить резервное копирование паролей точек доступа Wi‑Fi, закладок, других настроек и данных приложений, а также удалить все копии с серверов Google?</string>
+    <string name="backup_erase_dialog_message">Прекратить резервное копирование паролей точек доступа Wi-Fi, закладок, других настроек и данных приложений, а также удалить все копии с серверов Google?</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_lock_settings_picker_title">Доп. способ блокировки</string>
     <string name="backup_pw_cancel_button_text">Отмена</string>
@@ -230,7 +230,7 @@
     <string name="battery_action_bluetooth">Настройки Bluetooth</string>
     <string name="battery_action_display">Настройки экрана</string>
     <string name="battery_action_stop">Остановить</string>
-    <string name="battery_action_wifi">Настройки Wi‑Fi</string>
+    <string name="battery_action_wifi">Настройки Wi-Fi</string>
     <string name="battery_desc_apps">Использование батареи приложением</string>
     <string name="battery_desc_bluetooth">Использование батареи модулем Bluetooth</string>
     <string name="battery_desc_display">Использование батареи для подсветки экрана</string>
@@ -238,7 +238,7 @@
     <string name="battery_desc_standby">Расход заряда батареи в режиме ожидания</string>
     <string name="battery_desc_users">Использование батареи пользователем</string>
     <string name="battery_desc_voice">Использование батареи для голосовых вызовов</string>
-    <string name="battery_desc_wifi">Расход заряда батареи при подключении к Wi‑Fi</string>
+    <string name="battery_desc_wifi">Расход заряда батареи при подключении к Wi-Fi</string>
     <string name="battery_history_days">%1$dд. %2$dч. %3$dм. %4$dс.</string>
     <string name="battery_history_days_no_seconds">%1$dдн. %2$dч. %3$dм.</string>
     <string name="battery_history_hours">%1$dч. %2$dм. %3$dс.</string>
@@ -295,7 +295,7 @@
     <string name="battery_stats_phone_signal_label">Сигнал мобильной сети</string>
     <string name="battery_stats_screen_on_label">"Работа экрана "</string>
     <string name="battery_stats_wake_lock_label">Активный режим</string>
-    <string name="battery_stats_wifi_running_label">Работа Wi‑Fi</string>
+    <string name="battery_stats_wifi_running_label">Работа Wi-Fi</string>
     <string name="battery_status_title">Состояние батареи</string>
     <string name="battery_sugg_apps_gps">Включайте и выключайте GPS вручную, чтобы приложения не могли использовать эту функцию</string>
     <string name="battery_sugg_apps_info">Остановите или удалите приложение</string>
@@ -304,7 +304,7 @@
     <string name="battery_sugg_bluetooth_headset">Попробуйте подключиться к другому Bluetooth-устройству</string>
     <string name="battery_sugg_display">Уменьшить яркость экрана и/или время до отключения экрана</string>
     <string name="battery_sugg_radio">Если нет доступа в сеть, вкл. режим полета для экономии заряда</string>
-    <string name="battery_sugg_wifi">Отключать модуль Wi‑Fi, когда он не используется или сеть недоступна</string>
+    <string name="battery_sugg_wifi">Отключать модуль Wi-Fi, когда он не используется или сеть недоступна</string>
     <string name="beam_mgmt_tab_download_title">Принятые вызовы</string>
     <string name="beam_mgmt_tab_upload_title">"3. Перейдите на вкладку совместного использования и выберите 'Разрешить другим пользователям сети подключаться с помощью Интернет--подключения данного компьютера'(выберите недавно добавленную сеть, которая работает с помощью устройства USB, если отображается сообщение 'Подключение к домашней сети')."</string>
     <string name="beam_share_clear_confirm_dialog_message">Очистить историю?</string>
@@ -415,7 +415,7 @@
     <string name="bluetooth_notif_message">Нажмите для подключения к устройству \"%1$s\".</string>
     <string name="bluetooth_notif_ticker">Запрос сопряжения Bluetooth</string>
     <string name="bluetooth_notif_title">Запрос на сопряжение</string>
-    <string name="bluetooth_on_time">Время работы Wi‑Fi</string>
+    <string name="bluetooth_on_time">Время работы Wi-Fi</string>
     <string name="bluetooth_only_visible_to_paired_devices">Доступно только для подключенных устройств</string>
     <string name="bluetooth_opp_profile_summary_connected">Установлено подключение к серверу передачи файлов</string>
     <string name="bluetooth_opp_profile_summary_not_connected">Нет подключения к серверу передачи файлов</string>
@@ -623,7 +623,7 @@
     <string name="data_usage_app_restrict_background">Ограничить фоновый режим</string>
     <string name="data_usage_app_restrict_background_summary">Запретить передачу данных в фоновом режиме по мобильной сети.</string>
     <string name="data_usage_app_restrict_background_summary_disabled">Сначала установите лимит использования мобильных данных.</string>
-    <string name="data_usage_app_restrict_dialog">"Если приложению постоянно требуется передавать данные в фоновом режиме, оно может перестать работать при отсутствии подключения к сети Wi‑Fi.
+    <string name="data_usage_app_restrict_dialog">"Если приложению постоянно требуется передавать данные в фоновом режиме, оно может перестать работать при отсутствии подключения к сети Wi-Fi.
 
 Расширенные возможности управления данными доступны в настройках самого приложения."</string>
     <string name="data_usage_app_restrict_dialog_title">Ограничение фонового режима</string>
@@ -646,7 +646,7 @@
     <string name="data_usage_disable_4g_limit">Лимитировать трафик 4G</string>
     <string name="data_usage_disable_mobile">Отключить мобильные данные?</string>
     <string name="data_usage_disable_mobile_limit">Лимит мобильного трафика</string>
-    <string name="data_usage_disable_wifi_limit">Установить лимит трафика Wi‑Fi</string>
+    <string name="data_usage_disable_wifi_limit">Установить лимит трафика Wi-Fi</string>
     <string name="data_usage_empty">В этот период не было трафика от приложений.</string>
     <string name="data_usage_enable_3g">Передача данных по сетям 2G/3G</string>
     <string name="data_usage_enable_4g">Передача данных 4G</string>
@@ -665,17 +665,17 @@
     <string name="data_usage_menu_restrict_background">Ограничить фоновый трафик</string>
     <string name="data_usage_menu_roaming">Интернет-роуминг</string>
     <string name="data_usage_menu_show_ethernet">Показывать загрузку Ethernet</string>
-    <string name="data_usage_menu_show_wifi">Показывать трафик Wi‑Fi</string>
+    <string name="data_usage_menu_show_wifi">Показывать трафик Wi-Fi</string>
     <string name="data_usage_menu_split_4g">Только по каналу 4G</string>
     <string name="data_usage_metered_body">Если для передачи данных в фоновом режиме установлен лимит, устройство применяет к сетям с тарификацией трафика те же правила, что и к мобильным сетям. Перед их использованием для скачивания большого объема данных в приложении может появляться предупреждение.</string>
     <string name="data_usage_metered_mobile">Мобильные сети</string>
     <string name="data_usage_metered_title">Ограничения трафика</string>
-    <string name="data_usage_metered_wifi">Сети Wi‑Fi с ограничением трафика</string>
-    <string name="data_usage_metered_wifi_disabled">Чтобы настроить сеть с ограничением трафика, включите Wi‑Fi.</string>
+    <string name="data_usage_metered_wifi">Сети Wi-Fi с ограничением трафика</string>
+    <string name="data_usage_metered_wifi_disabled">Чтобы настроить сеть с ограничением трафика, включите Wi-Fi.</string>
     <string name="data_usage_pick_cycle_day">"День месяца, когда сбрасывается цикл использования данных: "</string>
     <string name="data_usage_received_sent">Получено: %1$s; отправлено: %2$s</string>
-    <string name="data_usage_restrict_background">Если ограничить передачу данных в фоновом режиме по мобильной сети, некоторые приложения и сервисы не будут работать без подключения к сети Wi‑Fi.</string>
-    <string name="data_usage_restrict_background_multiuser">"Если ограничить передачу данных в фоновом режиме по мобильной сети, некоторые приложения и сервисы не будут работать без подключения к сети Wi‑Fi.
+    <string name="data_usage_restrict_background">Если ограничить передачу данных в фоновом режиме по мобильной сети, некоторые приложения и сервисы не будут работать без подключения к сети Wi-Fi.</string>
+    <string name="data_usage_restrict_background_multiuser">"Если ограничить передачу данных в фоновом режиме по мобильной сети, некоторые приложения и сервисы не будут работать без подключения к сети Wi-Fi.
 
 Настройки будут изменены для всех пользователей устройства."</string>
     <string name="data_usage_restrict_background_title">Ограничить фоновый трафик</string>
@@ -689,7 +689,7 @@
     <string name="data_usage_tab_4g">Трафик 4G</string>
     <string name="data_usage_tab_ethernet">Ethernet</string>
     <string name="data_usage_tab_mobile">Мобильные</string>
-    <string name="data_usage_tab_wifi">Wi‑Fi</string>
+    <string name="data_usage_tab_wifi">Wi-Fi</string>
     <string name="data_usage_total_during_range">%2$s: ≈%1$s</string>
     <string name="data_usage_total_during_range_mobile">%2$s: %1$s (трафик, определенный устройством). Данные оператора могут отличаться.</string>
     <string name="data_usage_uninstalled_apps">Удаленные приложения</string>
@@ -872,8 +872,8 @@
     <string name="gadget_sync">Синхронизация</string>
     <string name="gadget_title">Энергосбережение</string>
     <string name="gadget_toggle_bluetooth">Обновление настроек Bluetooth</string>
-    <string name="gadget_toggle_wifi">Обновление настроек Wi‑Fi...</string>
-    <string name="gadget_wifi">Wi‑Fi</string>
+    <string name="gadget_toggle_wifi">Обновление настроек Wi-Fi...</string>
+    <string name="gadget_wifi">Wi-Fi</string>
     <string name="game_controller_settings_category">Игровые контроллеры</string>
     <string name="gemini_3g_disable_warning">Служба 3G недоступна с выбранной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки службы 3G через меню Настройки > Беспроводная связь и сети > Мобильные сети. Действительно выбрать эту SIM-карту?</string>
     <string name="gemini_3g_disable_warning_case0">Для данной SIM-карты сначала следует включить роуминг данных, что может повлечь значительное повышение стоимости передачи данных! Включить режим роуминга и выбрать данную SIM-карту?</string>
@@ -1105,18 +1105,18 @@
     <string name="location_high_battery_use">Высокий расход заряда батареи</string>
     <string name="location_loading_injected_setting">Извлечение...</string>
     <string name="location_low_battery_use">Низкий расход заряда батареи</string>
-    <string name="location_mode_battery_saving_description">Использовать Wi‑Fi и мобильные сети для определения местоположения</string>
+    <string name="location_mode_battery_saving_description">Использовать Wi-Fi и мобильные сети для определения местоположения</string>
     <string name="location_mode_battery_saving_title">По координатам сети</string>
-    <string name="location_mode_high_accuracy_description">Использовать GPS, Wi‑Fi и мобильные сети для определения местоположения</string>
+    <string name="location_mode_high_accuracy_description">Использовать GPS, Wi-Fi и мобильные сети для определения местоположения</string>
     <string name="location_mode_high_accuracy_title">По всем источникам</string>
     <string name="location_mode_location_off_title">Отправка геоданных отключена</string>
     <string name="location_mode_screen_title">Определение местоположения</string>
     <string name="location_mode_sensors_only_description">Использовать GPS для определения местоположения</string>
     <string name="location_mode_sensors_only_title">По спутникам GPS</string>
     <string name="location_mode_title">Режим</string>
-    <string name="location_neighborhood_level">Разрешить отправлять анонимные геоданные и позволить приложениям определять ваше местоположение с помощью Wi‑Fi и мобильных сетей</string>
-    <string name="location_neighborhood_level_wifi">С помощью Wi‑Fi</string>
-    <string name="location_network_based">Wi‑Fi и мобильные сети</string>
+    <string name="location_neighborhood_level">Разрешить отправлять анонимные геоданные и позволить приложениям определять ваше местоположение с помощью Wi-Fi и мобильных сетей</string>
+    <string name="location_neighborhood_level_wifi">С помощью Wi-Fi</string>
+    <string name="location_network_based">Wi-Fi и мобильные сети</string>
     <string name="location_no_recent_apps">В последнее время приложения не запрашивали геоданные</string>
     <string name="location_settings_label">Местоположение, инженерный режим</string>
     <string name="location_settings_title">Местоположение</string>
@@ -1423,7 +1423,7 @@
     <string name="power_usage_not_available">Расход батареи неизвестен.</string>
     <string name="power_usage_summary">На что расходуется заряд батареи</string>
     <string name="power_usage_summary_title">Батарея</string>
-    <string name="power_wifi">Wi‑Fi</string>
+    <string name="power_wifi">Wi-Fi</string>
     <string name="preference_change_password_title">Изменить пароль</string>
     <string name="print_blocked_state_title_template">Задание \"%1$s\" заблокировано</string>
     <string name="print_cancel">Отмена</string>
@@ -1526,7 +1526,7 @@
     <string name="radioInfo_service_off">Радио отключено</string>
     <string name="radioInfo_service_out">Вне зоны обслуживания</string>
     <string name="radioInfo_unknown">неизвестно</string>
-    <string name="radio_controls_summary">Настройки Wi‑Fi, Bluetooth, режима полета, мобильных сетей и VPN</string>
+    <string name="radio_controls_summary">Настройки Wi-Fi, Bluetooth, режима полета, мобильных сетей и VPN</string>
     <string name="radio_controls_title">Ещё</string>
     <string name="radio_info_band_mode_label">Выбрать радиостанцию</string>
     <string name="radio_info_call_redirect_label">"Перенаправление вызовов: "</string>
@@ -1594,8 +1594,8 @@
     <string name="restriction_nfc_enable_summary">Разрешить обмен данными при совмещении телефона с другим устройством</string>
     <string name="restriction_nfc_enable_title">NFC</string>
     <string name="restriction_settings_title">Ограничения</string>
-    <string name="restriction_wifi_config_summary">Разрешить изменение настроек Wi‑Fi и мобильной сети</string>
-    <string name="restriction_wifi_config_title">Wi‑Fi и мобильная сеть</string>
+    <string name="restriction_wifi_config_summary">Разрешить изменение настроек Wi-Fi и мобильной сети</string>
+    <string name="restriction_wifi_config_title">Wi-Fi и мобильная сеть</string>
     <string name="ring_summary">Звонок</string>
     <string name="ring_vibrate_summary">Звонок и вибрация</string>
     <string name="ring_volume_title">Громкость звонка</string>
@@ -1852,7 +1852,7 @@
     <string name="status_signal_strength">Уровень сигнала</string>
     <string name="status_unavailable">Недоступно</string>
     <string name="status_up_time">Время с момента включения</string>
-    <string name="status_wifi_mac_address">MAC-адрес Wi‑Fi</string>
+    <string name="status_wifi_mac_address">MAC-адрес Wi-Fi</string>
     <string name="status_wimax_mac_address">МАС-адрес для 4G</string>
     <string name="storage_label">"Занято: "</string>
     <string name="storage_low_summary">Некоторые системные функции (например, синхронизация) могут работать неправильно. Попробуйте освободить пространство. Для этого удалите или уберите из офлайн-просмотра приложения и мультимедийный контент.</string>
@@ -1900,12 +1900,12 @@
     <string name="testing_phone_info">Информация о телефоне</string>
     <string name="testing_sim_toolkit">Меню SIM-карты</string>
     <string name="testing_usage_stats">Статистика использования</string>
-    <string name="testing_wifi_info">Сведения о Wi‑Fi</string>
+    <string name="testing_wifi_info">Сведения о Wi-Fi</string>
     <string name="tether_settings_title_all">Режим модема</string>
     <string name="tether_settings_title_bluetooth">Bluetooth-модем</string>
     <string name="tether_settings_title_usb">USB-модем</string>
     <string name="tether_settings_title_usb_bluetooth">Режим модема</string>
-    <string name="tether_settings_title_wifi">Точка доступа Wi‑Fi</string>
+    <string name="tether_settings_title_wifi">Точка доступа Wi-Fi</string>
     <string name="tethered_ipv4">(Протокол IPv6 недоступен)</string>
     <string name="tethered_ipv4v6">(Протокол IPv6 доступен)</string>
     <string name="tethered_ipv6">(Доступен только протокол IPv6)</string>
@@ -2022,15 +2022,15 @@
     <string name="usage_type_cpu_foreground">"ЦП – акт. режим "</string>
     <string name="usage_type_data_recv">"Данные получены по моб. сети "</string>
     <string name="usage_type_data_send">"Данные отправлены по моб. сети "</string>
-    <string name="usage_type_data_wifi_recv">"Данные получены по сети Wi‑Fi "</string>
-    <string name="usage_type_data_wifi_send">"Данные отправлены по сети Wi‑Fi "</string>
+    <string name="usage_type_data_wifi_recv">"Данные получены по сети Wi-Fi "</string>
+    <string name="usage_type_data_wifi_send">"Данные отправлены по сети Wi-Fi "</string>
     <string name="usage_type_gps">"GPS "</string>
     <string name="usage_type_no_coverage">"Время отсутствия сигнала "</string>
     <string name="usage_type_on_time">"Время работы "</string>
     <string name="usage_type_phone">"Телефон "</string>
     <string name="usage_type_video">"Видео "</string>
     <string name="usage_type_wake_lock">"Акт. режим "</string>
-    <string name="usage_type_wifi_running">"Wi‑Fi включен "</string>
+    <string name="usage_type_wifi_running">"Wi-Fi включен "</string>
     <string name="usb_bicr_summary">Показать виртуальный привод CD-ROM с полезным программным обеспечением.</string>
     <string name="usb_bicr_title">Встроенный CD-ROM</string>
     <string name="usb_charge_summary">Отключение обмена данными с ПК. Позволяет снизить энергопотребление и ускорить зарядку.</string>
@@ -2070,7 +2070,7 @@
     <string name="user_add_user_item_summary">У пользователей есть свои приложения и контент</string>
     <string name="user_add_user_item_title">Добавить пользователя</string>
     <string name="user_add_user_menu">Добавить пользователя</string>
-    <string name="user_add_user_message_long">"Если вашим устройством пользуется кто-то ещё, создайте на нем дополнительные профили. Владелец профиля может настроить его по своему вкусу, в том числе выбрать обои и установить нужные приложения. Кроме того, пользователи могут изменять общие для всех параметры устройства, например включать или отключать Wi‑Fi.
+    <string name="user_add_user_message_long">"Если вашим устройством пользуется кто-то ещё, создайте на нем дополнительные профили. Владелец профиля может настроить его по своему вкусу, в том числе выбрать обои и установить нужные приложения. Кроме того, пользователи могут изменять общие для всех параметры устройства, например включать или отключать Wi-Fi.
 
 После создания профиля его необходимо настроить.
 
@@ -2217,7 +2217,7 @@
     <string name="widget_picker_title">Выберите виджет</string>
     <string name="wifi_WEP_secury_key">Ключ безопасности</string>
     <string name="wifi_WEP_transmit_key">Ключ передачи</string>
-    <string name="wifi_access_points">Сети Wi‑Fi</string>
+    <string name="wifi_access_points">Сети Wi-Fi</string>
     <string name="wifi_add_network">Добавить сеть</string>
     <string name="wifi_advanced_ip_address_title">IP-адрес</string>
     <string name="wifi_advanced_ipv4_address_title">Адрес IPv4</string>
@@ -2225,7 +2225,7 @@
     <string name="wifi_advanced_mac_address_title">MAC-адрес</string>
     <string name="wifi_advanced_settings_label">Настройки IP</string>
     <string name="wifi_advanced_titlebar">Дополнительные функции</string>
-    <string name="wifi_and_mobile_skipped_message">"Если вы не настроите Wi‑Fi:
+    <string name="wifi_and_mobile_skipped_message">"Если вы не настроите Wi-Fi:
 
 Телефон не будет подключен к Интернету.
 
@@ -2256,13 +2256,13 @@
     <string name="wifi_ap_wps_dialog_title">Подключение WPS</string>
     <string name="wifi_ap_wps_mode_title">Режим WPS</string>
     <string name="wifi_ap_wps_pin_title">Введите PIN-код клиента</string>
-    <string name="wifi_api_test">Wi‑Fi API</string>
+    <string name="wifi_api_test">Wi-Fi API</string>
     <string name="wifi_cancel">Отмена</string>
     <string name="wifi_channel">Предпочтительный канал</string>
     <string name="wifi_channel_width">Ширина пропускания канала</string>
-    <string name="wifi_config_info">Конфигурация Wi‑Fi</string>
+    <string name="wifi_config_info">Конфигурация Wi-Fi</string>
     <string name="wifi_connect">Подключить</string>
-    <string name="wifi_connect_failed_message">Не удалось подключиться к сети Wi‑Fi.</string>
+    <string name="wifi_connect_failed_message">Не удалось подключиться к сети Wi-Fi.</string>
     <string name="wifi_disabled_generic">Отключено</string>
     <string name="wifi_disabled_network_failure">Ошибка IP-конфигурации</string>
     <string name="wifi_disabled_password_failure">Ошибка аутентификации</string>
@@ -2284,7 +2284,7 @@
     <string name="wifi_display_pause">Пауза</string>
     <string name="wifi_display_resume">Продолжить</string>
     <string name="wifi_display_session_info">Информация о сессии</string>
-    <string name="wifi_display_settings_title">Wi‑Fi-монитор</string>
+    <string name="wifi_display_settings_title">Wi-Fi-монитор</string>
     <string name="wifi_display_status_connected">Подключен</string>
     <string name="wifi_display_status_connecting">Подключение...</string>
     <string name="wifi_display_status_in_use">Используется</string>
@@ -2300,9 +2300,9 @@
     <string name="wifi_eap_identity">Удостоверение</string>
     <string name="wifi_eap_method">Метод EAP</string>
     <string name="wifi_eap_user_cert">Сертификат пользователя</string>
-    <string name="wifi_empty_list_user_restricted">У вас недостаточно прав для изменения настроек сети Wi‑Fi</string>
-    <string name="wifi_empty_list_wifi_off">Чтобы просмотреть доступные сети, включите Wi‑Fi.</string>
-    <string name="wifi_empty_list_wifi_on">Поиск сетей Wi‑Fi...</string>
+    <string name="wifi_empty_list_user_restricted">У вас недостаточно прав для изменения настроек сети Wi-Fi</string>
+    <string name="wifi_empty_list_wifi_off">Чтобы просмотреть доступные сети, включите Wi-Fi.</string>
+    <string name="wifi_empty_list_wifi_on">Поиск сетей Wi-Fi...</string>
     <string name="wifi_error">Ошибка</string>
     <string name="wifi_fail_to_scan">Не удалось начать поиск сетей.</string>
     <string name="wifi_failed_connect_message">Не удалось подключиться к сети.</string>
@@ -2313,8 +2313,8 @@
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_gprs_selector_title">Переключатель сети</string>
     <string name="wifi_hex_password">Шестнадцатеричный пароль.</string>
-    <string name="wifi_hotspot_suspend_optimizations">Оптимизация точки доступа Wi‑Fi</string>
-    <string name="wifi_hotspot_suspend_optimizations_summary">Минимизируйте использование батареи, когда точка доступа Wi‑Fi включена</string>
+    <string name="wifi_hotspot_suspend_optimizations">Оптимизация точки доступа Wi-Fi</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Минимизируйте использование батареи, когда точка доступа Wi-Fi включена</string>
     <string name="wifi_in_airplane_mode">Режим полета</string>
     <string name="wifi_install_credentials">Установка сертификатов</string>
     <string name="wifi_ip_address">IP-адрес</string>
@@ -2334,7 +2334,7 @@
     <string name="wifi_menu_forget">Удалить эту сеть</string>
     <string name="wifi_menu_modify">Изменить сеть</string>
     <string name="wifi_menu_more_options">Ещё</string>
-    <string name="wifi_menu_p2p">Wi‑Fi управление</string>
+    <string name="wifi_menu_p2p">Wi-Fi управление</string>
     <string name="wifi_menu_scan">Поиск</string>
     <string name="wifi_menu_wps_pbc">Кнопка WPS</string>
     <string name="wifi_menu_wps_pin">Вход по PIN-коду WPS</string>
@@ -2345,7 +2345,7 @@
     <string name="wifi_not_in_range">Вне диапазона</string>
     <string name="wifi_notify_open_networks">Уведомления о сетях</string>
     <string name="wifi_notify_open_networks_summary">Сообщать о наличии общедоступных сетей</string>
-    <string name="wifi_on_time">Время работы Wi‑Fi</string>
+    <string name="wifi_on_time">Время работы Wi-Fi</string>
     <string name="wifi_other_network">Добавить сеть</string>
     <string name="wifi_p2p_cancel_connect_message">Вы собираетесь отменить приглашение на подключение к устройству \"%1$s\". Продолжить?</string>
     <string name="wifi_p2p_cancel_connect_title">Отмена приглашения</string>
@@ -2362,25 +2362,25 @@
     <string name="wifi_p2p_peer_devices">Обнаруженные устройства</string>
     <string name="wifi_p2p_persist_network">Запомнить это соединение</string>
     <string name="wifi_p2p_remembered_groups">Сохраненные группы</string>
-    <string name="wifi_p2p_settings_title">Wi‑Fi управление</string>
+    <string name="wifi_p2p_settings_title">Wi-Fi управление</string>
     <string name="wifi_password">Пароль</string>
-    <string name="wifi_poor_network_detection">Фильтр сетей Wi‑Fi</string>
-    <string name="wifi_poor_network_detection_summary">Не использовать сети Wi‑Fi с плохим интернет-соединением</string>
-    <string name="wifi_quick_toggle_summary">Включить Wi‑Fi</string>
-    <string name="wifi_quick_toggle_title">Wi‑Fi</string>
+    <string name="wifi_poor_network_detection">Фильтр сетей Wi-Fi</string>
+    <string name="wifi_poor_network_detection_summary">Не использовать сети Wi-Fi с плохим интернет-соединением</string>
+    <string name="wifi_quick_toggle_summary">Включить Wi-Fi</string>
+    <string name="wifi_quick_toggle_title">Wi-Fi</string>
     <string name="wifi_remembered">Сохранено</string>
-    <string name="wifi_required_info_text">Для завершения настройки необходимо подключение к сети Wi‑Fi. После этого можно будет переключаться между мобильной сетью и Wi‑Fi.</string>
+    <string name="wifi_required_info_text">Для завершения настройки необходимо подключение к сети Wi-Fi. После этого можно будет переключаться между мобильной сетью и Wi-Fi.</string>
     <string name="wifi_save">Сохранить</string>
     <string name="wifi_scan_always_available">Всегда искать сети</string>
-    <string name="wifi_scan_always_available_summary">Разрешить службе геопозиционирования Google и другим приложениям искать сети, даже когда модуль Wi‑Fi отключен</string>
+    <string name="wifi_scan_always_available_summary">Разрешить службе геопозиционирования Google и другим приложениям искать сети, даже когда модуль Wi-Fi отключен</string>
     <string name="wifi_scan_always_confirm_allow">Разрешить</string>
     <string name="wifi_scan_always_confirm_deny">Отклонить</string>
-    <string name="wifi_scan_always_turnon_message">"Чтобы определение местоположения и некоторые другие функции работали лучше, приложению \"%1$s\" необходимо выполнять поиск сетей, даже если модуль Wi‑Fi отключен.
+    <string name="wifi_scan_always_turnon_message">"Чтобы определение местоположения и некоторые другие функции работали лучше, приложению \"%1$s\" необходимо выполнять поиск сетей, даже если модуль Wi-Fi отключен.
 
 Разрешить?"</string>
     <string name="wifi_scan_notify_remember_choice">Больше не показывать</string>
-    <string name="wifi_scan_notify_text_location_off">Приложения могут выполнять поиск сетей поблизости, даже если сеть Wi‑Fi отключена. Чтобы изменить эти настройки, перейдите в меню \"Дополнительно > Всегда искать сети\".</string>
-    <string name="wifi_scan_notify_text_location_on">Чтобы точнее определять местоположение, а также и в других целях, приложение Google и другие приложения могут искать доступные сети даже при отключенном Wi‑Fi. Изменить настройки можно в меню \"Дополнительно > Всегда искать сети\".</string>
+    <string name="wifi_scan_notify_text_location_off">Приложения могут выполнять поиск сетей поблизости, даже если сеть Wi-Fi отключена. Чтобы изменить эти настройки, перейдите в меню \"Дополнительно > Всегда искать сети\".</string>
+    <string name="wifi_scan_notify_text_location_on">Чтобы точнее определять местоположение, а также и в других целях, приложение Google и другие приложения могут искать доступные сети даже при отключенном Wi-Fi. Изменить настройки можно в меню \"Дополнительно > Всегда искать сети\".</string>
     <string name="wifi_secured_first_item">Шифрование %1$s</string>
     <string name="wifi_secured_second_item">, шифрование %1$s</string>
     <string name="wifi_security">Шифрование</string>
@@ -2401,23 +2401,23 @@
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
     <string name="wifi_setting_frequency_band_error">При настройке полосы частот возникла неполадка.</string>
     <string name="wifi_setting_frequency_band_summary">Укажите рабочий диапазон частот</string>
-    <string name="wifi_setting_frequency_band_title">Полоса частот Wi‑Fi</string>
+    <string name="wifi_setting_frequency_band_title">Полоса частот Wi-Fi</string>
     <string name="wifi_setting_sleep_policy_error">Не удалось изменить этот параметр</string>
-    <string name="wifi_setting_sleep_policy_title">Wi‑Fi в спящем режиме</string>
-    <string name="wifi_settings">Wi‑Fi</string>
-    <string name="wifi_settings_category">Настройки Wi‑Fi</string>
+    <string name="wifi_setting_sleep_policy_title">Wi-Fi в спящем режиме</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="wifi_settings_category">Настройки Wi-Fi</string>
     <string name="wifi_settings_summary">Настройка и управление точками доступа беспроводной сети</string>
-    <string name="wifi_settings_title">Wi‑Fi</string>
+    <string name="wifi_settings_title">Wi-Fi</string>
     <string name="wifi_setup_add_network">Добавить сеть</string>
     <string name="wifi_setup_back">Назад</string>
     <string name="wifi_setup_cancel">Отмена</string>
     <string name="wifi_setup_connect">Подключить</string>
     <string name="wifi_setup_description_connected">Нажмите <b>Далее</b>", чтобы продолжить настройку.
 
-Нажмите "<b>Назад</b>, чтобы подключиться к другой сети Wi‑Fi.</string>
+Нажмите "<b>Назад</b>, чтобы подключиться к другой сети Wi-Fi.</string>
     <string name="wifi_setup_description_connecting">Подключение может занять несколько минут...</string>
     <string name="wifi_setup_detail">Сведения о сети</string>
-    <string name="wifi_setup_eap_not_supported">Во время установки нельзя настроить подключение к сети Wi‑Fi с защитой EAP. Вы можете сделать это позже в меню \"Настройки > Беспроводные сети\".</string>
+    <string name="wifi_setup_eap_not_supported">Во время установки нельзя настроить подключение к сети Wi-Fi с защитой EAP. Вы можете сделать это позже в меню \"Настройки > Беспроводные сети\".</string>
     <string name="wifi_setup_forget">Удалить</string>
     <string name="wifi_setup_next">Далее</string>
     <string name="wifi_setup_not_connected">Не подключено</string>
@@ -2433,38 +2433,38 @@
     <string name="wifi_setup_status_scanning">Поиск доступных сетей...</string>
     <string name="wifi_setup_status_select_network">Чтобы подключиться, нажмите на сеть</string>
     <string name="wifi_setup_status_unsecured_network">Подключение к незащищенной сети</string>
-    <string name="wifi_setup_title">Настройки Wi‑Fi</string>
+    <string name="wifi_setup_title">Настройки Wi-Fi</string>
     <string name="wifi_setup_title_add_network">Добавьте сеть</string>
-    <string name="wifi_setup_title_connected_network">Установлено подключение к сети Wi‑Fi %s</string>
-    <string name="wifi_setup_title_connecting_network">Подключение к сети Wi‑Fi: %s</string>
-    <string name="wifi_setup_title_editing_network">Подключение к сети Wi‑Fi %s</string>
-    <string name="wifi_setup_wizard_title">Wi‑Fi</string>
+    <string name="wifi_setup_title_connected_network">Установлено подключение к сети Wi-Fi %s</string>
+    <string name="wifi_setup_title_connecting_network">Подключение к сети Wi-Fi: %s</string>
+    <string name="wifi_setup_title_editing_network">Подключение к сети Wi-Fi %s</string>
+    <string name="wifi_setup_wizard_title">Wi-Fi</string>
     <string name="wifi_setup_wps">Автонастройка (WPS)</string>
     <string name="wifi_show_advanced">Расширенные настройки</string>
     <string name="wifi_show_password">Показать пароль</string>
     <string name="wifi_signal">Уровень сигнала</string>
     <string name="wifi_skip_anyway">ОК</string>
-    <string name="wifi_skipped_message">ВНИМАНИЕ! Если вы не настроите Wi‑Fi, для скачивания приложений и обновлений будет использоваться мобильная сеть. Чтобы избежать лишних расходов, подключитесь к Wi‑Fi.</string>
+    <string name="wifi_skipped_message">ВНИМАНИЕ! Если вы не настроите Wi-Fi, для скачивания приложений и обновлений будет использоваться мобильная сеть. Чтобы избежать лишних расходов, подключитесь к Wi-Fi.</string>
     <string name="wifi_speed">Скорость соединения</string>
     <string name="wifi_ssid">Имя сети</string>
     <string name="wifi_ssid_hint">Введите имя сети (SSID)</string>
-    <string name="wifi_starting">Включение Wi‑Fi...</string>
+    <string name="wifi_starting">Включение Wi-Fi...</string>
     <string name="wifi_state_disabled">Отключено</string>
     <string name="wifi_state_disabling">Отключение</string>
     <string name="wifi_state_enabled">Включено</string>
     <string name="wifi_state_enabling">Включение</string>
-    <string name="wifi_state_label">"Состояние Wi‑Fi: "</string>
+    <string name="wifi_state_label">"Состояние Wi-Fi: "</string>
     <string name="wifi_state_unknown">Неизвестно</string>
     <string name="wifi_status">Статус</string>
-    <string name="wifi_status_test">Состояние Wi‑Fi</string>
-    <string name="wifi_stopping">Отключение Wi‑Fi...</string>
-    <string name="wifi_suspend_optimizations">Оптимизация Wi‑Fi</string>
-    <string name="wifi_suspend_optimizations_summary">Экономить заряд батареи, когда используется Wi‑Fi</string>
+    <string name="wifi_status_test">Состояние Wi-Fi</string>
+    <string name="wifi_stopping">Отключение Wi-Fi...</string>
+    <string name="wifi_suspend_optimizations">Оптимизация Wi-Fi</string>
+    <string name="wifi_suspend_optimizations_summary">Экономить заряд батареи, когда используется Wi-Fi</string>
     <string name="wifi_tether_auto_channel_text">Автоматически</string>
     <string name="wifi_tether_auto_channel_width_text">Авто 20/40 МГц</string>
-    <string name="wifi_tether_auto_disable_title">Сохранять точку доступа Wi‑Fi</string>
-    <string name="wifi_tether_checkbox_text">Точка доступа Wi‑Fi</string>
-    <string name="wifi_tether_configure_ap_text">Настройка точки доступа Wi‑Fi</string>
+    <string name="wifi_tether_auto_disable_title">Сохранять точку доступа Wi-Fi</string>
+    <string name="wifi_tether_checkbox_text">Точка доступа Wi-Fi</string>
+    <string name="wifi_tether_configure_ap_text">Настройка точки доступа Wi-Fi</string>
     <string name="wifi_tether_configure_ssid_default">Точка доступа Android</string>
     <string name="wifi_tether_configure_subtext">Сеть: %1$s; шифрование: %2$s</string>
     <string name="wifi_tether_enabled_subtext">Точка доступа \"%1$s\" активна</string>
@@ -2473,28 +2473,28 @@
     <string name="wifi_tether_setting_title">Основные настройки</string>
     <string name="wifi_tether_starting">Включение точки доступа...</string>
     <string name="wifi_tether_stopping">Выключение точки доступа...</string>
-    <string name="wifi_tether_wps_connect_summary">Продолжить выбранный защищенный режим настройки Wi‑Fi</string>
+    <string name="wifi_tether_wps_connect_summary">Продолжить выбранный защищенный режим настройки Wi-Fi</string>
     <string name="wifi_tether_wps_connect_title">Подключение WPS</string>
     <string name="wifi_tether_wps_pin_error">Недопустимый PIN-код</string>
-    <string name="wifi_tethering_title">Точка доступа Wi‑Fi</string>
+    <string name="wifi_tethering_title">Точка доступа Wi-Fi</string>
     <string name="wifi_unchanged">(без изменений)</string>
     <string name="wifi_unspecified">(не указано)</string>
     <string name="wifi_update">Обновить</string>
     <string name="wifi_wps_available_first_item">Поддерживает WPS</string>
     <string name="wifi_wps_available_second_item">" (доступно WPS)"</string>
     <string name="wifi_wps_complete">Ошибок нет. Подключение к сети...</string>
-    <string name="wifi_wps_connected">Установлено подключение к сети Wi‑Fi %s</string>
-    <string name="wifi_wps_fail_error">Не удалось выполнить защищенную настройку Wi-fi, повторите попытку.</string>
+    <string name="wifi_wps_connected">Установлено подключение к сети Wi-Fi %s</string>
+    <string name="wifi_wps_fail_error">Не удалось выполнить защищенную настройку Wi-Fi, повторите попытку.</string>
     <string name="wifi_wps_failed_auth">Ошибка аутентификации. Повторите попытку.</string>
     <string name="wifi_wps_failed_generic">Ошибка. Повторите попытку через несколько минут.</string>
     <string name="wifi_wps_failed_overlap">Обнаружен другой сеанс WPS. Повторите попытку через несколько минут.</string>
     <string name="wifi_wps_failed_tkip">Безопасная настройка беспроводного маршрутизатора (TKIP) не поддерживаются</string>
     <string name="wifi_wps_failed_wep">Безопасная настройка беспроводного маршрутизатора (WEP) не поддерживается</string>
     <string name="wifi_wps_in_progress">Выполняется настройка WPS. Для завершения потребуется не более двух минут.</string>
-    <string name="wifi_wps_onstart_pbc">"Нажмите кнопку \"Безопасная настройка Wi‑Fi\" на маршрутизаторе. Она может называться WPS или быть обозначена следующим символом: "</string>
-    <string name="wifi_wps_onstart_pin">Введите PIN-код %1$s на маршрутизаторе Wi‑Fi. Для завершения настройки потребуется не более двух минут.</string>
+    <string name="wifi_wps_onstart_pbc">"Нажмите кнопку \"Безопасная настройка Wi-Fi\" на маршрутизаторе. Она может называться WPS или быть обозначена следующим символом: "</string>
+    <string name="wifi_wps_onstart_pin">Введите PIN-код %1$s на маршрутизаторе Wi-Fi. Для завершения настройки потребуется не более двух минут.</string>
     <string name="wifi_wps_setup_msg">Запуск WPS...</string>
-    <string name="wifi_wps_setup_title">Безопасная настройка Wi‑Fi</string>
+    <string name="wifi_wps_setup_title">Безопасная настройка Wi-Fi</string>
     <string name="wimax_settings">4G</string>
     <string name="window_animation_scale_title">Окно: масштаб</string>
     <string name="wireless_networks_settings_title">Беспроводные сети</string>

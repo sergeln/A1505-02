@@ -66,13 +66,13 @@
 Просто совместите антенны устройств (обычно нужно совместить их задние панели) и коснитесь экрана. Передаваемые данные зависят от приложения."</string>
     <string name="nsd_quick_toggle_title">Обнаружение сетевых служб</string>
     <string name="nsd_quick_toggle_summary">Разрешить приложениям на других устройствах обнаруживать приложения на этом устройстве</string>
-    <string name="wifi_quick_toggle_title">Wi‑Fi</string>
+    <string name="wifi_quick_toggle_title">Wi-Fi</string>
     <string name="wifi_quick_toggle_summary">Включить Wi-Fi</string>
-    <string name="wifi_settings">Wi‑Fi</string>
-    <string name="wifi_settings_category">Настройки Wi‑Fi</string>
-    <string name="wifi_settings_title">Wi‑Fi</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="wifi_settings_category">Настройки Wi-Fi</string>
+    <string name="wifi_settings_title">Wi-Fi</string>
     <string name="wifi_settings_summary">Настройка и управление точками доступа беспроводной сети</string>
-    <string name="wifi_setup_wizard_title">Выберите сеть Wi‑Fi</string>
+    <string name="wifi_setup_wizard_title">Выберите сеть Wi-Fi</string>
     <string name="wifi_select_network">Выбор сети Wi-Fi</string>
     <string name="wifi_starting">Включение Wi-Fi…</string>
     <string name="wifi_stopping">Выключение Wi-Fi…</string>
@@ -87,7 +87,7 @@
     <string name="wifi_scan_always_available">Сканирование всегда доступно</string>
     <string name="wifi_scan_always_available_title">Всегда разрешать сканирование</string>
     <string name="wifi_scan_always_available_summary">Разрешить службе определения местоположения и другим приложениям Google выполнять поиск сетей даже при отключенном WLAN</string>
-    <string name="wifi_automatically_connect_title">Подключаться к открытым сетям Wi‑Fi</string>
+    <string name="wifi_automatically_connect_title">Подключаться к открытым сетям Wi-Fi</string>
     <string name="wifi_automatically_connect_summary">Разрешить ассистенту WLAN автоматически проверять открытые сети и подключаться к ним</string>
     <string name="wifi_select_assistant_dialog_title">Выбор ассистента WLAN</string>
     <string name="wifi_install_credentials">Установка сертификатов</string>
@@ -98,11 +98,11 @@
     <string name="wifi_setting_on_during_sleep_title">Wi-Fi в спящем режиме</string>
     <string name="wifi_setting_sleep_policy_error">Не удалось изменить этот параметр</string>
     <string name="wifi_suspend_efficiency_title">Сбережение энергии</string>
-    <string name="wifi_suspend_optimizations">Оптимизация Wi‑Fi</string>
+    <string name="wifi_suspend_optimizations">Оптимизация Wi-Fi</string>
     <string name="wifi_suspend_optimizations_summary">Экономить заряд батареи, когда используется WLAN</string>
     <string name="wifi_limit_optimizations_summary">Лимит расхода батареи (WLAN)</string>
     <string name="wifi_add_network">Добавить сеть</string>
-    <string name="wifi_access_points">Wi‑Fi сети</string>
+    <string name="wifi_access_points">Wi-Fi сети</string>
     <string name="wifi_menu_wps_pbc">WPS по кнопке</string>
     <string name="wifi_menu_more_options">Ещё</string>
     <string name="wifi_menu_wps_pin">Вход по PIN-коду WPS</string>
@@ -118,7 +118,7 @@
     <string name="wifi_menu_forget">Удалить сеть</string>
     <string name="wifi_menu_modify">Изменить сеть</string>
     <string name="wifi_menu_write_to_nfc">Записать на NFC-метку</string>
-    <string name="wifi_empty_list_wifi_off">Чтобы увидеть список доступных сетей включите Wi‑Fi.</string>
+    <string name="wifi_empty_list_wifi_off">Чтобы увидеть список доступных сетей включите Wi-Fi.</string>
     <string name="wifi_empty_list_wifi_on">Поиск сетей Wi-Fi…</string>
     <string name="wifi_empty_list_user_restricted">"У вас нет прав на изменение сети Wi-Fi."</string>
     <string name="wifi_other_network">Добавить другую сеть</string>
@@ -232,7 +232,7 @@
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_network_prefix_length">Длина префикса сети</string>
     <string name="wifi_network_prefix_length_hint">24</string>
-    <string name="wifi_p2p_settings_title">Wi‑Fi Direct</string>
+    <string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
     <string name="wifi_p2p_device_info">Информация об устройстве</string>
     <string name="wifi_p2p_persist_network">Запомнить это соединение</string>
     <string name="wifi_p2p_menu_search">Поиск устройств</string>
@@ -249,8 +249,8 @@
     <string name="wifi_p2p_cancel_connect_message">Вы хотите отменить приглашение для соединения с %1$s?</string>
     <string name="wifi_p2p_delete_group_message">Удалить эту группу?</string>
     <string name="wifi_tether_checkbox_text">Локальный хотспот</string>
-    <string name="wifi_hotspot_checkbox_text">Wi‑Fi хотспот</string>
-    <string name="wifi_hotspot_checkbox_text_summary">Использовать сотовую связь для обеспечения сети Wi‑Fi</string>
+    <string name="wifi_hotspot_checkbox_text">Wi-Fi хотспот</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Использовать сотовую связь для обеспечения сети Wi-Fi</string>
     <string name="wifi_tether_starting">Включение хотспота…</string>
     <string name="wifi_tether_stopping">Выключение хотспота…</string>
     <string name="wifi_tether_enabled_subtext">хотспот %1$s включен</string>
@@ -312,10 +312,10 @@
     <string name="proxy_error_invalid_port">Указанный порт недействителен.</string>
     <string name="proxy_warning_limited_support">Прокси-сервер HTTP используется браузером, но недоступен для других приложений.</string>
     <string name="proxy_url_title">"URL-адрес конфигурационного файла: "</string>
-    <string name="wifi_setup_title">Настройки Wi‑Fi</string>
-    <string name="wifi_setup_title_editing_network">Подключение к Wi‑Fi сети %s</string>
-    <string name="wifi_setup_title_connecting_network">Подключение к Wi‑Fi сети %s…</string>
-    <string name="wifi_setup_title_connected_network">Подключено к Wi‑Fi сети %s</string>
+    <string name="wifi_setup_title">Настройки Wi-Fi</string>
+    <string name="wifi_setup_title_editing_network">Подключение к Wi-Fi сети %s</string>
+    <string name="wifi_setup_title_connecting_network">Подключение к Wi-Fi сети %s…</string>
+    <string name="wifi_setup_title_connected_network">Подключено к Wi-Fi сети %s</string>
     <string name="wifi_setup_title_add_network">Добавьте сеть</string>
     <string name="wifi_setup_not_connected">Не подключено</string>
     <string name="wifi_setup_add_network">Добавить сеть</string>
