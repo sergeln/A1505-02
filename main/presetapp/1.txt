@@ -1,0 +1,12 @@
+\A1505-02\main\presetapp
+
+CP_Compass
+CP_FMRadio
+CP_SoundRecord
+#CP_Transfer
+CP_VideoPlayer
+QK_Calculator
+QK_HealthGuard
+QK_Magazine
+QK_Music
+

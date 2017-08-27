@@ -1,0 +1,62 @@
+﻿[
+  {
+    "type_id": 1,
+    "type_name": "Коллекция",
+    "magazine_id": 1,
+    "magazine_name": "Коллекция",
+    "thumb_url": "http://n.qikucdn.com/t/17554816ba3bde56d8k7jb.png",
+    "url_local": "jing_xuan_ssp.png",
+    "is_choose": 1,
+    "order_type": 0
+  },
+  {
+    "type_id": 21,
+    "type_name": "Путешествия",
+    "magazine_id": 21,
+    "magazine_name": "Путешествия",
+    "thumb_url": "http://n.qikucdn.com/t/17ceeed69ecf387b69k7l5.png",
+    "url_local": "lv_xing_ssp.png",
+    "is_choose": 1,
+    "order_type": 1
+  },
+  {
+    "type_id": 10,
+    "type_name": "Автомобили",
+    "magazine_id": 10,
+    "magazine_name": "Автомобили",
+    "thumb_url": "http://n.qikucdn.com/t/179d2bd8d448f56ebbk7ma.png",
+    "url_local": "qi_che_ssp.png",
+    "is_choose": 1,
+    "order_type": 2
+  },
+  {
+    "type_id": 22,
+    "type_name": "Развлечения",
+    "magazine_id": 22,
+    "magazine_name": "Развлечения",
+    "thumb_url": "http://n.qikucdn.com/t/17db02599f4b3462d8k7mv.png",
+    "url_local": "yu_le_ssp.png",
+    "is_choose": 1,
+    "order_type": 3
+  },
+  {
+    "type_id": 15,
+    "type_name": "Мода",
+    "magazine_id": 15,
+    "magazine_name": "Мода",
+    "thumb_url": "http://n.qikucdn.com/t/17a013cf2b40af42c6k7nj.png",
+    "url_local": "shi_shang_ssp.png",
+    "is_choose": 1,
+    "order_type": 4
+  },
+  {
+    "type_id": 18,
+    "type_name": "Жизнь",
+    "magazine_id": 18,
+    "magazine_name": "Жизнь",
+    "thumb_url": "http://n.qikucdn.com/t/171acfb5f752e1e87fk7oc.png",
+    "url_local": "sheng_huo_ssp.png",
+    "is_choose": 1,
+    "order_type": 5
+  }
+]

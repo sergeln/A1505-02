@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="refresh_rate_list">
+        <item>Постоянно</item>
+        <item>Раз в час</item>
+        <item>Раз в день</item>
+        <item>Не обновлять</item>
+    </string-array>
+</resources>

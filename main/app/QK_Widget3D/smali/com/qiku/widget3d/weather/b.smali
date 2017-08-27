@@ -20,10 +20,6 @@
 
 .field private B:Lcom/qiku/widget3d/m;
 
-.field private C:Lcom/qiku/widget3d/m;
-
-.field private D:I
-
 .field private a:Lcom/qiku/widget3d/weather/WeatherController;
 
 .field private b:Lcom/qiku/widget3d/s;
@@ -58,32 +54,23 @@
 
 .field private q:Ldepthui/ui/DPImage;
 
-.field private r:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List",
-            "<",
-            "Lcom/qiku/widget3d/weather/ForeCast;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field private r:Lcom/qiku/widget3d/i;
 
 .field private s:Lcom/qiku/widget3d/i;
 
 .field private t:Lcom/qiku/widget3d/i;
 
-.field private u:Lcom/qiku/widget3d/i;
+.field private u:F
 
 .field private v:F
 
 .field private w:F
 
-.field private x:F
+.field private x:I
 
 .field private y:I
 
-.field private z:I
+.field private z:Lcom/qiku/widget3d/m;
 
 
 # direct methods
@@ -91,7 +78,7 @@
     .locals 3
 
     .prologue
-    .line 136
+    .line 125
     invoke-static {}, Lcom/qiku/widget3d/b;->a()Lcom/qiku/widget3d/b;
 
     move-result-object v0
@@ -104,7 +91,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/qiku/widget3d/b;->a(Ljava/lang/Class;Lcom/qiku/widget3d/n;)V
 
-    .line 137
+    .line 126
     return-void
 .end method
 
@@ -113,7 +100,7 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 141
+    .line 129
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 55
@@ -123,68 +110,56 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
-    .line 64
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Ljava/util/List;
-
-    .line 68
+    .line 65
     const/high16 v0, 0x41100000    # 9.0f
+
+    iput v0, p0, Lcom/qiku/widget3d/weather/b;->u:F
+
+    .line 66
+    const/4 v0, 0x0
 
     iput v0, p0, Lcom/qiku/widget3d/weather/b;->v:F
 
-    .line 69
-    const/4 v0, 0x0
+    .line 67
+    const/high16 v0, 0x41700000    # 15.0f
 
     iput v0, p0, Lcom/qiku/widget3d/weather/b;->w:F
 
-    .line 70
-    const/high16 v0, 0x41700000    # 15.0f
-
-    iput v0, p0, Lcom/qiku/widget3d/weather/b;->x:F
-
-    .line 71
+    .line 68
     const/high16 v0, 0x33000000
+
+    iput v0, p0, Lcom/qiku/widget3d/weather/b;->x:I
+
+    .line 69
+    const/4 v0, -0x1
 
     iput v0, p0, Lcom/qiku/widget3d/weather/b;->y:I
 
-    .line 72
-    const/4 v0, -0x1
-
-    iput v0, p0, Lcom/qiku/widget3d/weather/b;->z:I
-
-    .line 73
+    .line 70
     new-instance v0, Lcom/qiku/widget3d/weather/b$1;
 
     invoke-direct {v0, p0}, Lcom/qiku/widget3d/weather/b$1;-><init>(Lcom/qiku/widget3d/weather/b;)V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->A:Lcom/qiku/widget3d/m;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->z:Lcom/qiku/widget3d/m;
 
-    .line 97
+    .line 94
     new-instance v0, Lcom/qiku/widget3d/weather/b$2;
 
     invoke-direct {v0, p0}, Lcom/qiku/widget3d/weather/b$2;-><init>(Lcom/qiku/widget3d/weather/b;)V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->B:Lcom/qiku/widget3d/m;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->A:Lcom/qiku/widget3d/m;
 
-    .line 113
+    .line 109
     new-instance v0, Lcom/qiku/widget3d/weather/b$3;
 
     invoke-direct {v0, p0}, Lcom/qiku/widget3d/weather/b$3;-><init>(Lcom/qiku/widget3d/weather/b;)V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->C:Lcom/qiku/widget3d/m;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->B:Lcom/qiku/widget3d/m;
 
-    .line 139
-    const/4 v0, -0x2
-
-    iput v0, p0, Lcom/qiku/widget3d/weather/b;->D:I
-
-    .line 143
+    .line 131
     iput-object p1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    .line 144
+    .line 132
     invoke-static {}, Lcom/qiku/widget3d/b;->a()Lcom/qiku/widget3d/b;
 
     move-result-object v0
@@ -193,8 +168,38 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/b;->a(Ljava/lang/Class;)V
 
-    .line 145
+    .line 133
     return-void
+.end method
+
+.method private a()I
+    .locals 2
+
+    .prologue
+    .line 295
+    const-string v0, "my"
+
+    sget-object v1, Lcom/qiku/widget3d/MainView;->view:Lcom/qiku/widget3d/MainView;
+
+    iget-object v1, v1, Lcom/qiku/widget3d/MainView;->mLanguage:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 296
+    const/16 v0, 0x24
+
+    .line 298
+    :goto_0
+    return v0
+
+    :cond_0
+    const/16 v0, 0x3a
+
+    goto :goto_0
 .end method
 
 .method static synthetic a(Lcom/qiku/widget3d/weather/b;)I
@@ -203,7 +208,7 @@
 
     .prologue
     .line 41
-    iget v0, p0, Lcom/qiku/widget3d/weather/b;->z:I
+    iget v0, p0, Lcom/qiku/widget3d/weather/b;->y:I
 
     return v0
 .end method
@@ -215,7 +220,7 @@
 
     .prologue
     .line 41
-    iput p1, p0, Lcom/qiku/widget3d/weather/b;->z:I
+    iput p1, p0, Lcom/qiku/widget3d/weather/b;->y:I
 
     return p1
 .end method
@@ -230,11 +235,7 @@
 
     const/4 v4, 0x0
 
-    .line 182
-    if-nez p2, :cond_0
-
-    .line 186
-    :cond_0
+    .line 171
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -243,7 +244,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000f
+    const v2, 0x7f060021
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -263,12 +264,12 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 187
+    .line 172
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 188
+    .line 173
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
@@ -297,7 +298,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPImage;->setSize(FF)V
 
-    .line 190
+    .line 175
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -306,7 +307,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060010
+    const v2, 0x7f060022
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -326,12 +327,12 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 191
+    .line 176
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 192
+    .line 177
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
@@ -360,7 +361,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPImage;->setSize(FF)V
 
-    .line 193
+    .line 178
     return-void
 .end method
 
@@ -371,23 +372,23 @@
     .param p3, "dayOfMonth"    # I
 
     .prologue
-    .line 148
+    .line 136
     invoke-direct {p0, p2, p3, p1}, Lcom/qiku/widget3d/weather/b;->b(III)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 149
+    .line 137
     .local v0, "dateString":Ljava/lang/String;
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v1, v0}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 150
+    .line 138
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v1}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 151
+    .line 139
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     new-instance v2, Lcom/badlogic/gdx/graphics/g2d/TextureRegion;
@@ -402,7 +403,7 @@
 
     invoke-virtual {v1, v2}, Ldepthui/ui/DPImage;->setDrawable(Lcom/badlogic/gdx/graphics/g2d/TextureRegion;)V
 
-    .line 152
+    .line 140
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
@@ -431,7 +432,7 @@
 
     invoke-virtual {v1, v2, v3}, Ldepthui/ui/DPImage;->setSize(FF)V
 
-    .line 153
+    .line 141
     return-void
 .end method
 
@@ -477,7 +478,7 @@
 
     const/high16 v5, 0x434f0000    # 207.0f
 
-    .line 203
+    .line 188
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -488,7 +489,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
-    .line 204
+    .line 189
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     const/high16 v1, 0x40c00000    # 6.0f
@@ -499,24 +500,24 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 205
+    .line 190
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     const-string v1, " "
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 206
+    .line 191
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0, v6}, Lcom/qiku/widget3d/s;->a(Z)V
 
-    .line 207
+    .line 192
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 208
+    .line 193
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
@@ -529,7 +530,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
-    .line 209
+    .line 194
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
@@ -558,7 +559,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 210
+    .line 195
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     const v1, 0x40c33333    # 6.1f
@@ -569,14 +570,14 @@
 
     invoke-virtual {v0, v1, v2, v3}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 211
+    .line 196
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     const-string v1, "temperature"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 212
+    .line 197
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -585,12 +586,12 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 213
+    .line 198
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 215
+    .line 200
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -601,14 +602,14 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
-    .line 216
+    .line 201
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     const-string v1, " "
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 217
+    .line 202
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     const/high16 v1, 0x40a00000    # 5.0f
@@ -619,17 +620,17 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 218
+    .line 203
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0, v6}, Lcom/qiku/widget3d/s;->a(Z)V
 
-    .line 219
+    .line 204
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 220
+    .line 205
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
@@ -642,21 +643,21 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
-    .line 221
+    .line 206
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     const/high16 v1, -0x3de40000    # -39.0f
 
     invoke-virtual {v0, v8, v1, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 222
+    .line 207
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     const-string v1, "calendar"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 223
+    .line 208
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -665,12 +666,12 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 224
+    .line 209
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->e:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 226
+    .line 211
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -681,7 +682,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
-    .line 227
+    .line 212
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     const/high16 v1, 0x40a00000    # 5.0f
@@ -692,24 +693,24 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 228
+    .line 213
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     const-string v1, " "
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 229
+    .line 214
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0, v6}, Lcom/qiku/widget3d/s;->a(Z)V
 
-    .line 230
+    .line 215
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 231
+    .line 216
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
@@ -722,7 +723,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
-    .line 232
+    .line 217
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
@@ -751,21 +752,21 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 233
+    .line 218
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
     const/high16 v1, -0x3d460000    # -93.0f
 
     invoke-virtual {v0, v8, v1, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 234
+    .line 219
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
     const-string v1, "location"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 235
+    .line 220
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -774,12 +775,12 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 236
+    .line 221
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 238
+    .line 223
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -790,7 +791,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
-    .line 239
+    .line 224
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
     const/high16 v1, 0x40a00000    # 5.0f
@@ -801,24 +802,24 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 240
+    .line 225
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
     const-string v1, " "
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 241
+    .line 226
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0, v6}, Lcom/qiku/widget3d/s;->a(Z)V
 
-    .line 242
+    .line 227
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 243
+    .line 228
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
@@ -831,7 +832,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
-    .line 244
+    .line 229
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
@@ -860,21 +861,21 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 245
+    .line 230
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     const/high16 v1, -0x3ced0000    # -147.0f
 
     invoke-virtual {v0, v8, v1, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 246
+    .line 231
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     const-string v1, "location"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 247
+    .line 232
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -883,23 +884,33 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 248
+    .line 233
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 250
+    .line 235
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    const/16 v2, 0x3a
+    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->a()I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    mul-float/2addr v2, v3
+
+    float-to-int v2, v2
 
     invoke-direct {v0, v1, v2}, Lcom/qiku/widget3d/s;-><init>(Landroid/content/Context;I)V
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
-    .line 251
+    .line 236
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -908,7 +919,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000f
+    const v2, 0x7f060021
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -928,20 +939,20 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 252
+    .line 237
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
-    iget v1, p0, Lcom/qiku/widget3d/weather/b;->v:F
+    iget v1, p0, Lcom/qiku/widget3d/weather/b;->u:F
 
-    iget v2, p0, Lcom/qiku/widget3d/weather/b;->w:F
+    iget v2, p0, Lcom/qiku/widget3d/weather/b;->v:F
 
-    iget v3, p0, Lcom/qiku/widget3d/weather/b;->x:F
+    iget v3, p0, Lcom/qiku/widget3d/weather/b;->w:F
 
-    iget v4, p0, Lcom/qiku/widget3d/weather/b;->y:I
+    iget v4, p0, Lcom/qiku/widget3d/weather/b;->x:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 253
+    .line 238
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     invoke-static {}, Lcom/qiku/widget3d/c/a;->a()Lcom/qiku/widget3d/c/a;
@@ -954,12 +965,12 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Landroid/graphics/Typeface;)V
 
-    .line 254
+    .line 239
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 255
+    .line 240
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
@@ -972,7 +983,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
-    .line 256
+    .line 241
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
@@ -1001,7 +1012,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 257
+    .line 242
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     const v1, -0x3d0e3333    # -120.9f
@@ -1010,14 +1021,14 @@
 
     invoke-virtual {v0, v1, v2, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 258
+    .line 243
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     const-string v1, "weather"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 259
+    .line 244
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -1026,23 +1037,33 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 260
+    .line 245
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->m:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 262
+    .line 247
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    const/16 v2, 0x3a
+    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->a()I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    mul-float/2addr v2, v3
+
+    float-to-int v2, v2
 
     invoke-direct {v0, v1, v2}, Lcom/qiku/widget3d/s;-><init>(Landroid/content/Context;I)V
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
-    .line 263
+    .line 248
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -1051,7 +1072,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060010
+    const v2, 0x7f060022
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1071,20 +1092,20 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 264
+    .line 249
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
-    iget v1, p0, Lcom/qiku/widget3d/weather/b;->v:F
+    iget v1, p0, Lcom/qiku/widget3d/weather/b;->u:F
 
-    iget v2, p0, Lcom/qiku/widget3d/weather/b;->w:F
+    iget v2, p0, Lcom/qiku/widget3d/weather/b;->v:F
 
-    iget v3, p0, Lcom/qiku/widget3d/weather/b;->x:F
+    iget v3, p0, Lcom/qiku/widget3d/weather/b;->w:F
 
-    iget v4, p0, Lcom/qiku/widget3d/weather/b;->y:I
+    iget v4, p0, Lcom/qiku/widget3d/weather/b;->x:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 265
+    .line 250
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
     invoke-static {}, Lcom/qiku/widget3d/c/a;->a()Lcom/qiku/widget3d/c/a;
@@ -1097,12 +1118,12 @@
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Landroid/graphics/Typeface;)V
 
-    .line 266
+    .line 251
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 267
+    .line 252
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
@@ -1115,7 +1136,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
-    .line 268
+    .line 253
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->n:Lcom/qiku/widget3d/s;
@@ -1144,7 +1165,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 269
+    .line 254
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     const v1, 0x42fc3333    # 126.1f
@@ -1153,14 +1174,14 @@
 
     invoke-virtual {v0, v1, v2, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 270
+    .line 255
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     const-string v1, "weather"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 271
+    .line 256
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -1169,48 +1190,58 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 272
+    .line 257
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 274
+    .line 259
     new-instance v0, Lcom/qiku/widget3d/s;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    const/16 v2, 0x3a
+    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->a()I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    mul-float/2addr v2, v3
+
+    float-to-int v2, v2
 
     invoke-direct {v0, v1, v2}, Lcom/qiku/widget3d/s;-><init>(Landroid/content/Context;I)V
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
-    .line 275
+    .line 260
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
     const-string v1, ":"
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/s;->a(Ljava/lang/String;)V
 
-    .line 276
+    .line 261
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
-    iget v1, p0, Lcom/qiku/widget3d/weather/b;->v:F
+    iget v1, p0, Lcom/qiku/widget3d/weather/b;->u:F
 
-    iget v2, p0, Lcom/qiku/widget3d/weather/b;->w:F
+    iget v2, p0, Lcom/qiku/widget3d/weather/b;->v:F
 
-    iget v3, p0, Lcom/qiku/widget3d/weather/b;->x:F
+    iget v3, p0, Lcom/qiku/widget3d/weather/b;->w:F
 
-    iget v4, p0, Lcom/qiku/widget3d/weather/b;->y:I
+    iget v4, p0, Lcom/qiku/widget3d/weather/b;->x:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/qiku/widget3d/s;->a(FFFI)V
 
-    .line 278
+    .line 263
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->b()V
 
-    .line 279
+    .line 264
     new-instance v0, Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
@@ -1223,7 +1254,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
-    .line 280
+    .line 265
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
@@ -1252,7 +1283,7 @@
 
     invoke-virtual {v0, v1, v2}, Ldepthui/ui/DPWidget;->setSize(FF)V
 
-    .line 281
+    .line 266
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
     const v1, -0x40999998    # -0.9000001f
@@ -1261,14 +1292,14 @@
 
     invoke-virtual {v0, v1, v2, v5}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 282
+    .line 267
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
     const-string v1, "weather"
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->setName(Ljava/lang/String;)V
 
-    .line 283
+    .line 268
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
     invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
@@ -1277,27 +1308,27 @@
 
     invoke-virtual {v0, v1, p1}, Ldepthui/DPUIObject;->setGroupIdForRenderOrder(ILdepthui/DPUIObject;)V
 
-    .line 284
+    .line 269
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->q:Ldepthui/ui/DPImage;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 302
+    .line 271
     new-instance v0, Lcom/qiku/widget3d/i;
 
     invoke-direct {v0}, Lcom/qiku/widget3d/i;-><init>()V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
-    .line 303
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 272
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
     const/high16 v1, 0x430c0000    # 140.0f
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/i;->a(F)V
 
-    .line 304
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 273
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
     const v1, 0x432dcccd    # 173.8f
 
@@ -1307,27 +1338,27 @@
 
     invoke-virtual {v0, v1, v2, v3}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 305
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 274
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 306
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 275
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->A:Lcom/qiku/widget3d/m;
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->z:Lcom/qiku/widget3d/m;
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->addCaptureListeners(Ldepthui/DPEventListener;)V
 
-    .line 308
+    .line 277
     new-instance v0, Lcom/qiku/widget3d/i;
 
     invoke-direct {v0}, Lcom/qiku/widget3d/i;-><init>()V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
-    .line 309
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 278
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     const/high16 v1, 0x43c80000    # 400.0f
 
@@ -1335,8 +1366,8 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/qiku/widget3d/i;->a(FF)V
 
-    .line 310
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 279
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     const/high16 v1, -0x3ee00000    # -10.0f
 
@@ -1346,27 +1377,27 @@
 
     invoke-virtual {v0, v1, v2, v3}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 311
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 280
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->B:Lcom/qiku/widget3d/m;
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->A:Lcom/qiku/widget3d/m;
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->addCaptureListeners(Ldepthui/DPEventListener;)V
 
-    .line 312
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 281
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 315
+    .line 284
     new-instance v0, Lcom/qiku/widget3d/i;
 
     invoke-direct {v0}, Lcom/qiku/widget3d/i;-><init>()V
 
-    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
+    iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
-    .line 316
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
+    .line 285
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     const/high16 v1, 0x42c80000    # 100.0f
 
@@ -1374,8 +1405,8 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/qiku/widget3d/i;->a(FF)V
 
-    .line 317
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
+    .line 286
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     const/high16 v1, -0x3de40000    # -39.0f
 
@@ -1383,19 +1414,19 @@
 
     invoke-virtual {v0, v8, v1, v2}, Ldepthui/DPUIObject;->setPosition(FFF)V
 
-    .line 318
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
+    .line 287
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->C:Lcom/qiku/widget3d/m;
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->B:Lcom/qiku/widget3d/m;
 
     invoke-virtual {v0, v1}, Ldepthui/DPUIObject;->addCaptureListeners(Ldepthui/DPEventListener;)V
 
-    .line 319
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
+    .line 288
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 321
+    .line 290
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
@@ -1404,7 +1435,7 @@
 
     invoke-virtual {v0, p1, v1, v7}, Lcom/qiku/widget3d/weather/c;->a(Ldepthui/DPGroup;IZ)V
 
-    .line 322
+    .line 291
     new-instance v0, Lcom/qiku/widget3d/weather/WeatherController;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
@@ -1413,7 +1444,7 @@
 
     iput-object v0, p0, Lcom/qiku/widget3d/weather/b;->a:Lcom/qiku/widget3d/weather/WeatherController;
 
-    .line 323
+    .line 292
     return-void
 .end method
 
@@ -1424,36 +1455,112 @@
     .param p3, "dayOfWeek"    # I
 
     .prologue
-    .line 156
+    .line 144
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 157
+    .line 145
     .local v0, "sb":Ljava/lang/StringBuilder;
-invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    add-int/lit8 v1, p1, 0x1
 
-.line 158
-const-string v1, " - "
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 146
+    const-string v1, "-"
 
-.line 159
-add-int/lit8 v1, p1, 0x1
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    .line 147
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 160
+    .line 148
     const-string v1, " "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 162
+    .line 150
     const/4 v1, 0x2
 
     if-ne p3, v1, :cond_1
 
-    .line 163
+    .line 151
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const/high16 v2, 0x7f060000
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 166
+    :cond_0
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    return-object v1
+
+    .line 152
+    :cond_1
+    const/4 v1, 0x3
+
+    if-ne p3, v1, :cond_2
+
+    .line 153
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v2, 0x7f060001
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_0
+
+    .line 154
+    :cond_2
+    const/4 v1, 0x4
+
+    if-ne p3, v1, :cond_3
+
+    .line 155
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v2, 0x7f060002
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_0
+
+    .line 156
+    :cond_3
+    const/4 v1, 0x5
+
+    if-ne p3, v1, :cond_4
+
+    .line 157
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1468,22 +1575,15 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 178
-    :cond_0
-    :goto_0
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    goto :goto_0
 
-    move-result-object v1
+    .line 158
+    :cond_4
+    const/4 v1, 0x6
 
-    return-object v1
+    if-ne p3, v1, :cond_5
 
-    .line 164
-    :cond_1
-    const/4 v1, 0x3
-
-    if-ne p3, v1, :cond_2
-
-    .line 165
+    .line 159
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1500,13 +1600,13 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     goto :goto_0
 
-    .line 166
-    :cond_2
-    const/4 v1, 0x4
+    .line 160
+    :cond_5
+    const/4 v1, 0x7
 
-    if-ne p3, v1, :cond_3
+    if-ne p3, v1, :cond_6
 
-    .line 167
+    .line 161
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1523,13 +1623,13 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     goto :goto_0
 
-    .line 168
-    :cond_3
-    const/4 v1, 0x5
+    .line 162
+    :cond_6
+    const/4 v1, 0x1
 
-    if-ne p3, v1, :cond_4
+    if-ne p3, v1, :cond_0
 
-    .line 169
+    .line 163
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1545,73 +1645,92 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
+.end method
 
-    .line 170
-    :cond_4
-    const/4 v1, 0x6
+.method private b()V
+    .locals 5
 
-    if-ne p3, v1, :cond_5
+    .prologue
+    .line 303
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    .line 171
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+    const-string v3, "getClockPkg"
 
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v1
-
-    const v2, 0x7f060007
-
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 304
+    .local v1, "pkg":Ljava/lang/String;
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    goto :goto_0
+    const-string v3, "getClockClass"
 
-    .line 172
-    :cond_5
-    const/4 v1, 0x7
+    invoke-static {v2, v3}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
-    if-ne p3, v1, :cond_6
+    move-result-object v0
 
-    .line 173
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+    .line 305
+    .local v0, "cls":Ljava/lang/String;
+    sget-object v2, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
 
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    new-instance v3, Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f060008
+    const-string v4, "onTimeClicked pkg = "
 
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    move-result-object v3
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    goto :goto_0
+    move-result-object v3
 
-    .line 174
-    :cond_6
-    const/4 v1, 0x1
+    const-string v4, ", cls = "
 
-    if-ne p3, v1, :cond_0
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 175
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+    move-result-object v3
 
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    move-result-object v3
 
-    const v2, 0x7f060009
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    move-result-object v3
 
-    move-result-object v1
+    invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 307
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-static {v2, v1, v0}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 312
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 310
+    :cond_1
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v3, "com.yulong.android.xtime"
+
+    const-string v4, "yulong.xtime.ui.main.XTimeActivity"
+
+    invoke-static {v2, v3, v4}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
 
     goto :goto_0
 .end method
@@ -1631,54 +1750,86 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 5
 
     .prologue
-    .line 328
-    :try_start_0
-    new-instance v1, Landroid/content/Intent;
-
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
-
-    .line 329
-    .local v1, "intent":Landroid/content/Intent;
-    new-instance v2, Landroid/content/ComponentName;
-
-    const-string v3, "com.yulong.android.xtime"
-
-    const-string v4, "yulong.xtime.ui.main.XTimeActivity"
-
-    invoke-direct {v2, v3, v4}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
-
-    .line 330
-    const/high16 v2, 0x10000000
-
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 331
+    .line 316
     iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
-    invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    const-string v3, "getCalendarPkg"
 
-    .line 335
-    .end local v1    # "intent":Landroid/content/Intent;
-    :goto_0
-    return-void
+    invoke-static {v2, v3}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 332
-    :catch_0
-    move-exception v0
+    move-result-object v1
 
-    .line 333
-    .local v0, "e":Ljava/lang/Exception;
+    .line 317
+    .local v1, "pkg":Ljava/lang/String;
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v3, "getCalendarClass"
+
+    invoke-static {v2, v3}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 318
+    .local v0, "cls":Ljava/lang/String;
     sget-object v2, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "onCalendarClicked pkg = "
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, ", cls = "
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 320
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-static {v2, v1, v0}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 326
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 323
+    :cond_1
+    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v3, "com.yulong.android.calendar"
+
+    const-string v4, "com.yulong.android.calendar.ui.MenuAnimationActivity"
+
+    invoke-static {v2, v3, v4}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
 
     goto :goto_0
 .end method
@@ -1689,50 +1840,251 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     .prologue
     .line 41
-    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->c()V
+    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->b()V
 
     return-void
 .end method
 
-.method static synthetic d(Lcom/qiku/widget3d/weather/b;)Landroid/content/Context;
-    .locals 1
+.method private d()V
+    .locals 9
+
+    .prologue
+    const/4 v3, 0x1
+
+    const/4 v8, 0x0
+
+    .line 330
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-static {v5}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;)V
+
+    .line 331
+    invoke-static {}, Lcom/qiku/widget3d/a/c;->c()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_2
+
+    .line 333
+    :try_start_0
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-virtual {v5}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v5
+
+    const-string v6, "keyguard_switch_weather"
+
+    const/4 v7, 0x1
+
+    invoke-static {v5, v6, v7}, Landroid/provider/Settings$Global;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    if-ne v5, v3, :cond_1
+
+    .line 334
+    .local v3, "isOn":Z
+    :goto_0
+    sget-object v5, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "keyguard_switch_weather value is open == "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 335
+    if-eqz v3, :cond_0
+
+    .line 336
+    new-instance v2, Landroid/content/Intent;
+
+    const-string v5, "qiku.intent.action.keyguard.weather.show"
+
+    invoke-direct {v2, v5}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    .line 337
+    .local v2, "intent":Landroid/content/Intent;
+    const/high16 v5, 0x10000000
+
+    invoke-virtual {v2, v5}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+
+    .line 338
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-virtual {v5, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 365
+    .end local v2    # "intent":Landroid/content/Intent;
+    .end local v3    # "isOn":Z
+    :cond_0
+    :goto_1
+    return-void
+
+    .line 333
+    :cond_1
+    const/4 v3, 0x0
+
+    goto :goto_0
+
+    .line 341
+    :catch_0
+    move-exception v1
+
+    .line 342
+    .local v1, "e":Ljava/lang/Exception;
+    sget-object v5, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    goto :goto_1
+
+    .line 345
+    .end local v1    # "e":Ljava/lang/Exception;
+    :cond_2
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "getWeatherPkg"
+
+    invoke-static {v5, v6}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 346
+    .local v4, "pkg":Ljava/lang/String;
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "getWeatherClass"
+
+    invoke-static {v5, v6}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 347
+    .local v0, "cls":Ljava/lang/String;
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-static {v5, v4, v0}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    .line 348
+    sget-object v5, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "demosticClickWeather pkg = "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    const-string v7, ", cls = "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 350
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    invoke-static {v5, v4, v0}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_0
+
+    .line 353
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "com.moji.mjweather"
+
+    invoke-static {v5, v6, v8}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_0
+
+    .line 356
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "com.tianqiwhite"
+
+    invoke-static {v5, v6, v8}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_0
+
+    .line 359
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "com.tianqi2345white.doov"
+
+    invoke-static {v5, v6, v8}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_0
+
+    .line 362
+    iget-object v5, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+
+    const-string v6, "com.icoolme.android.weather"
+
+    invoke-static {v5, v6, v8}, Lcom/qiku/widget3d/a/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_0
+
+    goto :goto_1
+.end method
+
+.method static synthetic d(Lcom/qiku/widget3d/weather/b;)V
+    .locals 0
     .param p0, "x0"    # Lcom/qiku/widget3d/weather/b;
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
+    invoke-direct {p0}, Lcom/qiku/widget3d/weather/b;->c()V
 
-    return-object v0
-.end method
-
-.method private d()V
-    .locals 1
-
-    .prologue
-    .line 338
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-static {v0}, Lcom/qiku/widget3d/a/b;->a(Landroid/content/Context;)V
-
-    .line 339
-    invoke-static {}, Lcom/qiku/widget3d/a/c;->c()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 340
-    invoke-virtual {p0}, Lcom/qiku/widget3d/weather/b;->a()V
-
-    .line 344
-    :goto_0
     return-void
-
-    .line 342
-    :cond_0
-    invoke-virtual {p0}, Lcom/qiku/widget3d/weather/b;->b()V
-
-    goto :goto_0
 .end method
 
 .method static synthetic e(Lcom/qiku/widget3d/weather/b;)Lcom/qiku/widget3d/s;
@@ -1746,13 +2098,13 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/qiku/widget3d/weather/b;)Lcom/qiku/widget3d/s;
+.method static synthetic f(Lcom/qiku/widget3d/weather/b;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/qiku/widget3d/weather/b;
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
 
     return-object v0
 .end method
@@ -1763,18 +2115,18 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     return-object v0
 .end method
 
-.method static synthetic h(Lcom/qiku/widget3d/weather/b;)Ldepthui/ui/DPImage;
+.method static synthetic h(Lcom/qiku/widget3d/weather/b;)Lcom/qiku/widget3d/s;
     .locals 1
     .param p0, "x0"    # Lcom/qiku/widget3d/weather/b;
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->i:Lcom/qiku/widget3d/s;
 
     return-object v0
 .end method
@@ -1785,7 +2137,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     .prologue
     .line 41
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->j:Ldepthui/ui/DPImage;
 
     return-object v0
 .end method
@@ -1796,12 +2148,23 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     .prologue
     .line 41
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->h:Ldepthui/ui/DPImage;
+
+    return-object v0
+.end method
+
+.method static synthetic k(Lcom/qiku/widget3d/weather/b;)Ldepthui/ui/DPImage;
+    .locals 1
+    .param p0, "x0"    # Lcom/qiku/widget3d/weather/b;
+
+    .prologue
+    .line 41
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->d:Ldepthui/ui/DPImage;
 
     return-object v0
 .end method
 
-.method static synthetic k(Lcom/qiku/widget3d/weather/b;)Ldepthui/DPGroup;
+.method static synthetic l(Lcom/qiku/widget3d/weather/b;)Ldepthui/DPGroup;
     .locals 1
     .param p0, "x0"    # Lcom/qiku/widget3d/weather/b;
 
@@ -1814,53 +2177,6 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
 
 # virtual methods
-.method public a()V
-    .locals 4
-
-    .prologue
-    .line 348
-    :try_start_0
-    new-instance v1, Landroid/content/Intent;
-
-    const-string v2, "qiku.intent.action.keyguard.weather.show"
-
-    invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    .line 349
-    .local v1, "intent":Landroid/content/Intent;
-    const/high16 v2, 0x10000000
-
-    invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 350
-    iget-object v2, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 354
-    .end local v1    # "intent":Landroid/content/Intent;
-    :goto_0
-    return-void
-
-    .line 351
-    :catch_0
-    move-exception v0
-
-    .line 352
-    .local v0, "e":Ljava/lang/Exception;
-    sget-object v2, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
-
-    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    goto :goto_0
-.end method
-
 .method public a(IIIII)V
     .locals 8
     .param p1, "hour"    # I
@@ -1870,7 +2186,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p5, "dayOfMonth"    # I
 
     .prologue
-    .line 611
+    .line 566
     sget-object v7, Lcom/badlogic/gdx/Gdx;->app:Lcom/badlogic/gdx/Application;
 
     new-instance v0, Lcom/qiku/widget3d/weather/b$4;
@@ -1891,12 +2207,12 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-interface {v7, v0}, Lcom/badlogic/gdx/Application;->postRunnable(Ljava/lang/Runnable;)V
 
-    .line 617
+    .line 572
     sget-object v0, Lcom/badlogic/gdx/Gdx;->graphics:Lcom/badlogic/gdx/Graphics;
 
     invoke-interface {v0}, Lcom/badlogic/gdx/Graphics;->requestRendering()V
 
-    .line 618
+    .line 573
     return-void
 .end method
 
@@ -1906,7 +2222,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p2, "city"    # Ljava/lang/String;
 
     .prologue
-    .line 791
+    .line 618
     sget-object v0, Lcom/badlogic/gdx/Gdx;->app:Lcom/badlogic/gdx/Application;
 
     new-instance v1, Lcom/qiku/widget3d/weather/b$6;
@@ -1915,7 +2231,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-interface {v0, v1}, Lcom/badlogic/gdx/Application;->postRunnable(Ljava/lang/Runnable;)V
 
-    .line 811
+    .line 635
     return-void
 .end method
 
@@ -1941,11 +2257,8 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .end annotation
 
     .prologue
-    .line 622
+    .line 577
     .local p7, "forecasts":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/String;>;"
-    iput p6, p0, Lcom/qiku/widget3d/weather/b;->D:I
-
-    .line 623
     sget-object v8, Lcom/badlogic/gdx/Gdx;->app:Lcom/badlogic/gdx/Application;
 
     new-instance v0, Lcom/qiku/widget3d/weather/b$5;
@@ -1968,267 +2281,15 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-interface {v8, v0}, Lcom/badlogic/gdx/Application;->postRunnable(Ljava/lang/Runnable;)V
 
-    .line 660
+    .line 614
     return-void
-.end method
-
-.method public b()V
-    .locals 10
-
-    .prologue
-    .line 358
-    :try_start_0
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v8
-
-    const-string v9, "com.tianqi2345white.doov"
-
-    invoke-virtual {v8, v9}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    move-result-object v5
-
-    .line 359
-    .local v5, "intent2345":Landroid/content/Intent;
-    if-eqz v5, :cond_1
-
-    .line 360
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v8
-
-    const/4 v9, 0x0
-
-    invoke-virtual {v8, v5, v9}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
-
-    move-result-object v3
-
-    .line 361
-    .local v3, "infos2345":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    if-eqz v3, :cond_1
-
-    invoke-interface {v3}, Ljava/util/List;->size()I
-
-    move-result v8
-
-    if-lez v8, :cond_1
-
-    .line 362
-    const/high16 v8, 0x10000000
-
-    invoke-virtual {v5, v8}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 363
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8, v5}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-
-    .line 399
-    .end local v3    # "infos2345":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    .end local v5    # "intent2345":Landroid/content/Intent;
-    :cond_0
-    :goto_0
-    return-void
-
-    .line 369
-    .restart local v5    # "intent2345":Landroid/content/Intent;
-    :cond_1
-    new-instance v6, Landroid/content/Intent;
-
-    const-string v8, "android.intent.action.MAIN"
-
-    invoke-direct {v6, v8}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    .line 370
-    .local v6, "mojiIntent":Landroid/content/Intent;
-    const-string v8, "android.intent.category.LAUNCHER"
-
-    invoke-virtual {v6, v8}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 371
-    new-instance v0, Landroid/content/ComponentName;
-
-    const-string v8, "com.moji.mjweather"
-
-    const-string v9, "com.moji.mjweather.CSplashScreen"
-
-    invoke-direct {v0, v8, v9}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 372
-    .local v0, "cn":Landroid/content/ComponentName;
-    invoke-virtual {v6, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
-
-    .line 373
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v8
-
-    const/4 v9, 0x0
-
-    invoke-virtual {v8, v6, v9}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
-
-    move-result-object v7
-
-    .line 374
-    .local v7, "mojiinfos":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    if-eqz v7, :cond_2
-
-    invoke-interface {v7}, Ljava/util/List;->size()I
-
-    move-result v8
-
-    if-lez v8, :cond_2
-
-    .line 375
-    const/high16 v8, 0x10000000
-
-    invoke-virtual {v6, v8}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 376
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8, v6}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    .line 396
-    .end local v0    # "cn":Landroid/content/ComponentName;
-    .end local v5    # "intent2345":Landroid/content/Intent;
-    .end local v6    # "mojiIntent":Landroid/content/Intent;
-    .end local v7    # "mojiinfos":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    :catch_0
-    move-exception v1
-
-    .line 397
-    .local v1, "e":Ljava/lang/Exception;
-    sget-object v8, Lcom/qiku/widget3d/a/a;->w:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
-
-    move-result-object v9
-
-    invoke-static {v8, v9, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    goto :goto_0
-
-    .line 380
-    .end local v1    # "e":Ljava/lang/Exception;
-    .restart local v0    # "cn":Landroid/content/ComponentName;
-    .restart local v5    # "intent2345":Landroid/content/Intent;
-    .restart local v6    # "mojiIntent":Landroid/content/Intent;
-    .restart local v7    # "mojiinfos":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    :cond_2
-    :try_start_1
-    new-instance v0, Landroid/content/ComponentName;
-
-    .end local v0    # "cn":Landroid/content/ComponentName;
-    const-string v8, "com.moji.mjweather"
-
-    const-string v9, "com.moji.mjweather.LauncherActivity"
-
-    invoke-direct {v0, v8, v9}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 381
-    .restart local v0    # "cn":Landroid/content/ComponentName;
-    invoke-virtual {v6, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
-
-    .line 382
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v8
-
-    const/4 v9, 0x0
-
-    invoke-virtual {v8, v6, v9}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
-
-    move-result-object v7
-
-    .line 383
-    if-eqz v7, :cond_3
-
-    invoke-interface {v7}, Ljava/util/List;->size()I
-
-    move-result v8
-
-    if-lez v8, :cond_3
-
-    .line 384
-    const/high16 v8, 0x10000000
-
-    invoke-virtual {v6, v8}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 385
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8, v6}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-
-    goto :goto_0
-
-    .line 389
-    :cond_3
-    new-instance v4, Landroid/content/Intent;
-
-    invoke-direct {v4}, Landroid/content/Intent;-><init>()V
-
-    .line 390
-    .local v4, "intent":Landroid/content/Intent;
-    const-string v8, "com.icoolme.android.weather.action.HomeActivity"
-
-    invoke-virtual {v4, v8}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 391
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v8
-
-    const/4 v9, 0x0
-
-    invoke-virtual {v8, v4, v9}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
-
-    move-result-object v2
-
-    .line 392
-    .local v2, "infos":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
-    if-eqz v2, :cond_0
-
-    invoke-interface {v2}, Ljava/util/List;->size()I
-
-    move-result v8
-
-    if-lez v8, :cond_0
-
-    .line 393
-    const/high16 v8, 0x10000000
-
-    invoke-virtual {v4, v8}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 394
-    iget-object v8, p0, Lcom/qiku/widget3d/weather/b;->f:Landroid/content/Context;
-
-    invoke-virtual {v8, v4}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-
-    goto/16 :goto_0
 .end method
 
 .method public clickClose()V
     .locals 0
 
     .prologue
-    .line 817
+    .line 641
     return-void
 .end method
 
@@ -2236,164 +2297,164 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 2
 
     .prologue
-    .line 558
+    .line 513
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     if-eqz v0, :cond_0
 
-    .line 559
+    .line 514
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->b:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->d()V
 
-    .line 562
+    .line 517
     :cond_0
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     if-eqz v0, :cond_1
 
-    .line 563
+    .line 518
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->c:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->d()V
 
-    .line 566
+    .line 521
     :cond_1
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     if-eqz v0, :cond_2
 
-    .line 567
+    .line 522
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->l:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->d()V
 
-    .line 570
+    .line 525
     :cond_2
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     if-eqz v0, :cond_3
 
-    .line 571
+    .line 526
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->o:Ldepthui/ui/DPImage;
 
     invoke-virtual {v0}, Ldepthui/ui/DPImage;->dispose()V
 
-    .line 574
+    .line 529
     :cond_3
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
     if-eqz v0, :cond_4
 
-    .line 575
+    .line 530
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->p:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->d()V
 
-    .line 578
+    .line 533
     :cond_4
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     if-eqz v0, :cond_5
 
-    .line 579
+    .line 534
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->g:Lcom/qiku/widget3d/s;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/s;->d()V
 
-    .line 583
+    .line 538
     :cond_5
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
 
     if-eqz v0, :cond_6
 
-    .line 584
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 539
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+
+    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->z:Lcom/qiku/widget3d/m;
+
+    invoke-virtual {v0, v1}, Lcom/qiku/widget3d/i;->removeCaptureListener(Ldepthui/DPEventListener;)Z
+
+    .line 540
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+
+    invoke-virtual {v0}, Lcom/qiku/widget3d/i;->dispose()V
+
+    .line 541
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+
+    invoke-virtual {v0}, Lcom/qiku/widget3d/i;->remove()Z
+
+    .line 543
+    :cond_6
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
+
+    if-eqz v0, :cond_7
+
+    .line 544
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->A:Lcom/qiku/widget3d/m;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/i;->removeCaptureListener(Ldepthui/DPEventListener;)Z
 
-    .line 585
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 545
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/i;->dispose()V
 
-    .line 586
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
+    .line 546
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->r:Lcom/qiku/widget3d/i;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/i;->remove()Z
 
-    .line 588
-    :cond_6
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 549
+    :cond_7
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
-    if-eqz v0, :cond_7
+    if-eqz v0, :cond_8
 
-    .line 589
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 550
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->B:Lcom/qiku/widget3d/m;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/i;->removeCaptureListener(Ldepthui/DPEventListener;)Z
 
-    .line 590
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 551
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/i;->dispose()V
 
-    .line 591
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->s:Lcom/qiku/widget3d/i;
+    .line 552
+    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->t:Lcom/qiku/widget3d/i;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/i;->remove()Z
 
-    .line 594
-    :cond_7
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
-
-    if-eqz v0, :cond_8
-
-    .line 595
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
-
-    iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->C:Lcom/qiku/widget3d/m;
-
-    invoke-virtual {v0, v1}, Lcom/qiku/widget3d/i;->removeCaptureListener(Ldepthui/DPEventListener;)Z
-
-    .line 596
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
-
-    invoke-virtual {v0}, Lcom/qiku/widget3d/i;->dispose()V
-
-    .line 597
-    iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->u:Lcom/qiku/widget3d/i;
-
-    invoke-virtual {v0}, Lcom/qiku/widget3d/i;->remove()Z
-
-    .line 600
+    .line 555
     :cond_8
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->a:Lcom/qiku/widget3d/weather/WeatherController;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/WeatherController;->dispose()V
 
-    .line 601
+    .line 556
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->h()V
 
-    .line 603
+    .line 558
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v0}, Ldepthui/DPGroup;->remove()Z
 
-    .line 604
+    .line 559
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v0}, Ldepthui/DPGroup;->dispose()V
 
-    .line 606
+    .line 561
     invoke-static {}, Lcom/qiku/widget3d/b;->a()Lcom/qiku/widget3d/b;
 
     move-result-object v0
@@ -2402,7 +2463,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/b;->b(Ljava/lang/Class;)V
 
-    .line 607
+    .line 562
     return-void
 .end method
 
@@ -2410,7 +2471,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 1
 
     .prologue
-    .line 548
+    .line 503
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     return-object v0
@@ -2421,17 +2482,17 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p1, "group"    # Ldepthui/DPGroup;
 
     .prologue
-    .line 197
+    .line 182
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {p1, v0}, Ldepthui/DPGroup;->addUIObject(Ldepthui/DPUIObject;)V
 
-    .line 199
+    .line 184
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-direct {p0, v0}, Lcom/qiku/widget3d/weather/b;->a(Ldepthui/DPGroup;)V
 
-    .line 200
+    .line 185
     return-void
 .end method
 
@@ -2439,21 +2500,21 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 2
 
     .prologue
-    .line 420
+    .line 375
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->e()V
 
-    .line 421
+    .line 376
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 422
+    .line 377
     return-void
 .end method
 
@@ -2461,21 +2522,21 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 2
 
     .prologue
-    .line 414
+    .line 369
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->d()V
 
-    .line 415
+    .line 370
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 416
+    .line 371
     return-void
 .end method
 
@@ -2483,26 +2544,26 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 2
 
     .prologue
-    .line 434
+    .line 389
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->g()V
 
-    .line 435
+    .line 390
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 437
+    .line 392
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->a:Lcom/qiku/widget3d/weather/WeatherController;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/WeatherController;->onPause()V
 
-    .line 438
+    .line 393
     return-void
 .end method
 
@@ -2510,26 +2571,26 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 2
 
     .prologue
-    .line 426
+    .line 381
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->f()V
 
-    .line 427
+    .line 382
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 429
+    .line 384
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->a:Lcom/qiku/widget3d/weather/WeatherController;
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/WeatherController;->onResume()V
 
-    .line 430
+    .line 385
     return-void
 .end method
 
@@ -2538,14 +2599,14 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p1, "up"    # Z
 
     .prologue
-    .line 543
+    .line 498
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/qiku/widget3d/weather/c;->c(Z)V
 
-    .line 544
+    .line 499
     return-void
 .end method
 
@@ -2558,22 +2619,22 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     const/4 v2, 0x0
 
-    .line 531
+    .line 486
     if-eqz p1, :cond_0
 
-    .line 532
+    .line 487
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/high16 v1, -0x3c6a0000    # -300.0f
 
     invoke-virtual {v0, v2, v1, v2}, Ldepthui/DPGroup;->translate(FFF)V
 
-    .line 533
+    .line 488
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v0, v3}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 538
+    .line 493
     :goto_0
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
@@ -2581,10 +2642,10 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-virtual {v0, p1}, Lcom/qiku/widget3d/weather/c;->d(Z)V
 
-    .line 539
+    .line 494
     return-void
 
-    .line 535
+    .line 490
     :cond_0
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
@@ -2592,7 +2653,7 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     invoke-virtual {v0, v2, v1, v2}, Ldepthui/DPGroup;->translate(FFF)V
 
-    .line 536
+    .line 491
     iget-object v0, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v0, v3}, Ldepthui/DPGroup;->setVisible(Z)V
@@ -2605,14 +2666,14 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p1, "up"    # Z
 
     .prologue
-    .line 452
+    .line 407
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/qiku/widget3d/weather/c;->a(Z)V
 
-    .line 453
+    .line 408
     return-void
 .end method
 
@@ -2621,14 +2682,14 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p1, "up"    # Z
 
     .prologue
-    .line 447
+    .line 402
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/qiku/widget3d/weather/c;->b(Z)V
 
-    .line 448
+    .line 403
     return-void
 .end method
 
@@ -2636,14 +2697,14 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .locals 1
 
     .prologue
-    .line 553
+    .line 508
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/qiku/widget3d/weather/c;->c()V
 
-    .line 554
+    .line 509
     return-void
 .end method
 
@@ -2663,79 +2724,79 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     const/4 v3, 0x0
 
-    .line 474
+    .line 429
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Ldepthui/DPGroup;->setVisible(Z)V
 
-    .line 475
+    .line 430
     invoke-static {}, Lcom/qiku/widget3d/weather/c;->a()Lcom/qiku/widget3d/weather/c;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/qiku/widget3d/weather/c;->f()V
 
-    .line 476
+    .line 431
     if-eqz p1, :cond_0
 
-    .line 477
+    .line 432
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v3, v4, v3}, Ldepthui/DPGroup;->translate(FFF)V
 
-    .line 478
+    .line 433
     new-instance v0, Lcom/qiku/widget3d/t;
 
     invoke-direct {v0, p2, v7}, Lcom/qiku/widget3d/t;-><init>(Lcom/qiku/widget3d/a/c$a;Z)V
 
-    .line 479
+    .line 434
     .local v0, "action":Lcom/qiku/widget3d/t;
     invoke-virtual {v0, v3, v6, v3}, Lcom/qiku/widget3d/t;->a(FFF)V
 
-    .line 480
+    .line 435
     invoke-virtual {v0, v5}, Lcom/qiku/widget3d/t;->setDuration(F)V
 
-    .line 481
+    .line 436
     sget-object v1, Lcom/badlogic/gdx/math/Interpolation;->pow3Out:Lcom/badlogic/gdx/math/Interpolation$PowOut;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/t;->setInterpolation(Lcom/badlogic/gdx/math/Interpolation;)V
 
-    .line 482
+    .line 437
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v0}, Ldepthui/DPGroup;->addAction(Ldepthui/DPAction;)V
 
-    .line 491
+    .line 446
     :goto_0
     return-void
 
-    .line 484
+    .line 439
     .end local v0    # "action":Lcom/qiku/widget3d/t;
     :cond_0
     new-instance v0, Lcom/qiku/widget3d/t;
 
     invoke-direct {v0, p2, v7}, Lcom/qiku/widget3d/t;-><init>(Lcom/qiku/widget3d/a/c$a;Z)V
 
-    .line 485
+    .line 440
     .restart local v0    # "action":Lcom/qiku/widget3d/t;
     invoke-virtual {v0, v3, v4, v3}, Lcom/qiku/widget3d/t;->a(FFF)V
 
-    .line 486
+    .line 441
     invoke-virtual {v0, v5}, Lcom/qiku/widget3d/t;->setDuration(F)V
 
-    .line 487
+    .line 442
     sget-object v1, Lcom/badlogic/gdx/math/Interpolation;->pow3Out:Lcom/badlogic/gdx/math/Interpolation$PowOut;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/t;->setInterpolation(Lcom/badlogic/gdx/math/Interpolation;)V
 
-    .line 488
+    .line 443
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v3, v6, v3}, Ldepthui/DPGroup;->translate(FFF)V
 
-    .line 489
+    .line 444
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v0}, Ldepthui/DPGroup;->addAction(Ldepthui/DPAction;)V
@@ -2755,59 +2816,59 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
 
     const/4 v2, 0x0
 
-    .line 457
+    .line 412
     if-eqz p1, :cond_0
 
-    .line 458
+    .line 413
     new-instance v0, Lcom/qiku/widget3d/t;
 
     invoke-direct {v0, p2, v1}, Lcom/qiku/widget3d/t;-><init>(Lcom/qiku/widget3d/a/c$a;Z)V
 
-    .line 459
+    .line 414
     .local v0, "action":Lcom/qiku/widget3d/t;
     const/high16 v1, 0x43960000    # 300.0f
 
     invoke-virtual {v0, v2, v1, v2}, Lcom/qiku/widget3d/t;->a(FFF)V
 
-    .line 460
+    .line 415
     invoke-virtual {v0, v3}, Lcom/qiku/widget3d/t;->setDuration(F)V
 
-    .line 461
+    .line 416
     sget-object v1, Lcom/badlogic/gdx/math/Interpolation;->pow3Out:Lcom/badlogic/gdx/math/Interpolation$PowOut;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/t;->setInterpolation(Lcom/badlogic/gdx/math/Interpolation;)V
 
-    .line 462
+    .line 417
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v0}, Ldepthui/DPGroup;->addAction(Ldepthui/DPAction;)V
 
-    .line 470
+    .line 425
     :goto_0
     return-void
 
-    .line 464
+    .line 419
     .end local v0    # "action":Lcom/qiku/widget3d/t;
     :cond_0
     new-instance v0, Lcom/qiku/widget3d/t;
 
     invoke-direct {v0, p2, v1}, Lcom/qiku/widget3d/t;-><init>(Lcom/qiku/widget3d/a/c$a;Z)V
 
-    .line 465
+    .line 420
     .restart local v0    # "action":Lcom/qiku/widget3d/t;
     const/high16 v1, -0x3c6a0000    # -300.0f
 
     invoke-virtual {v0, v2, v1, v2}, Lcom/qiku/widget3d/t;->a(FFF)V
 
-    .line 466
+    .line 421
     invoke-virtual {v0, v3}, Lcom/qiku/widget3d/t;->setDuration(F)V
 
-    .line 467
+    .line 422
     sget-object v1, Lcom/badlogic/gdx/math/Interpolation;->pow3Out:Lcom/badlogic/gdx/math/Interpolation$PowOut;
 
     invoke-virtual {v0, v1}, Lcom/qiku/widget3d/t;->setInterpolation(Lcom/badlogic/gdx/math/Interpolation;)V
 
-    .line 468
+    .line 423
     iget-object v1, p0, Lcom/qiku/widget3d/weather/b;->k:Ldepthui/DPGroup;
 
     invoke-virtual {v1, v0}, Ldepthui/DPGroup;->addAction(Ldepthui/DPAction;)V
@@ -2820,6 +2881,6 @@ invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBu
     .param p1, "content"    # Landroid/os/Bundle;
 
     .prologue
-    .line 443
+    .line 398
     return-void
 .end method
