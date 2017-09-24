@@ -40,6 +40,6 @@
     <string name="default_temp">0</string>
     <string name="train_seat">%1$sCar%2$sNum</string>
     <string name="health_card_wanshui1">%1$s пользователей</string>
-    <string name="health_card_wanshui">Спите еще</string>
+    <string name="health_card_wanshui">Время сна</string>
     <string name="health_card_shuohaode">Пришло время</string>
 </resources>
