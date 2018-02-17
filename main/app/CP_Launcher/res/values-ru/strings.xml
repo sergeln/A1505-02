@@ -150,7 +150,7 @@
     <string name="network_prompt_dont_prompt">Больше не спрашивать</string>
     <string name="network_prompt_title">Запрос инструмента запуска</string>
     <string name="str_search_history">История поиска</string>
-    <string name="settings_workspace_scene_folder">Папка сюжетов</string>
+    <string name="settings_workspace_scene_folder">Фон папок</string>
     <string name="settings_workspace_scene_folder_summary">Изменить фон папки</string>
     <string name="cold_closet_30_days">30 дней</string>
     <string name="cold_closet_25_days">25 дней</string>
@@ -164,7 +164,7 @@
     <string name="thaw_app_hint_text">Нажмите на него для разморозки.</string>
     <string name="freeze_period">Период статистики</string>
     <string name="batch_thaw">Групповая разморозка</string>
-    <string name="select_all">Выбрать</string>
+    <string name="select_all">Выбрать все</string>
     <string name="select_none">Отменить выбор</string>
     <string name="uninstall_safe_center_dialog_hint1">Его удаление повредит работе системы. Настоятельно НЕ рекомендуем удалять его.</string>
     <string name="uninstall_systemapp_prompt">Его удаление повлияет на использование функций. Будьте осторожны.</string>
@@ -187,7 +187,7 @@
     <string name="open_instance">Открыть</string>
     <string name="delete_history_negative">Нет</string>
     <string name="delete_history_positive">Да</string>
-    <string name="zuimeitianqi_4x2_appwidget_name">Время погода</string>
+    <string name="zuimeitianqi_4x2_appwidget_name">Часы и погода</string>
     <string name="settings_lock_workspace_layout_summary">Эл-ты рабоч. стола нельзя изменять</string>
     <string name="settings_icon_auto_arrange_summary">Значки сортируются автоматически</string>
     <string name="settings_enable_shortcut_summary">Ярлыки можно доб. на рабочий стол</string>

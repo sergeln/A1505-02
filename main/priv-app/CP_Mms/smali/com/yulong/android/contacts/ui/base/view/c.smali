@@ -111,7 +111,7 @@
     .line 93
     const/4 v0, 0x0
 
-    invoke-direct {v1, v2, v0}, Lcom/yulong/android/contacts/ui/base/view/c;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lcom/yulong/android/contacts/ui/base/view/c;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 94
     return-void
@@ -124,7 +124,7 @@
     .line 97
     const/4 v0, 0x0
 
-    invoke-direct {v1, v2, v3, v0}, Lcom/yulong/android/contacts/ui/base/view/c;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/yulong/android/contacts/ui/base/view/c;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 98
     return-void
@@ -145,18 +145,18 @@
     const/high16 v3, 0x3f800000    # 1.0f
 
     .line 101
-    invoke-direct {v8, v9, v10, v11}, Landroid/widget/Button;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroid/widget/Button;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 32
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->x:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->x:F
 
     .line 33
     const/high16 v0, 0x41f00000    # 30.0f
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->y:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->y:F
 
     .line 41
-    iput v7, v8, Lcom/yulong/android/contacts/ui/base/view/c;->b:I
+    iput v7, p0, Lcom/yulong/android/contacts/ui/base/view/c;->b:I
 
     .line 62
     const/16 v0, 0x1d
@@ -329,42 +329,42 @@
 
     aput-object v2, v0, v1
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     .line 65
     new-instance v0, Ljava/util/ArrayList;
 
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     .line 67
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, v6}, Landroid/graphics/Paint;-><init>(I)V
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     .line 69
     const/4 v0, -0x1
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 613
-    iput-boolean v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->o:Z
+    iput-boolean v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->o:Z
 
     .line 732
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     .line 734
-    iput-boolean v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->q:Z
+    iput-boolean v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->q:Z
 
     .line 736
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     .line 839
     const/4 v0, 0x5
@@ -373,7 +373,7 @@
 
     fill-array-data v0, :array_0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     .line 844
     const/4 v0, 0x6
@@ -382,13 +382,13 @@
 
     fill-array-data v0, :array_1
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     .line 102
-    iput-object v9, v8, Lcom/yulong/android/contacts/ui/base/view/c;->s:Landroid/content/Context;
+    iput-object p1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->s:Landroid/content/Context;
 
     .line 103
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -398,10 +398,10 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     .line 104
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -411,71 +411,71 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->z:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->z:I
 
     .line 105
-    iget v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     div-int/lit8 v0, v0, 0x2
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     .line 106
     const/high16 v0, 0x42e80000    # 116.0f
 
-    invoke-virtual {v8, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
 
     move-result v0
 
     int-to-float v0, v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
 
     .line 107
     const/high16 v0, 0x41400000    # 12.0f
 
-    invoke-virtual {v8, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->F:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->F:I
 
     .line 108
     const/high16 v0, 0x42f00000    # 120.0f
 
-    invoke-virtual {v8, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     .line 109
     const/high16 v0, 0x42b40000    # 90.0f
 
-    invoke-virtual {v8, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(F)I
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->H:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->H:I
 
     .line 110
-    iget v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
 
-    iget v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->b:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->b:I
 
     int-to-float v1, v1
 
     div-float/2addr v0, v1
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     .line 111
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v5}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 112
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -485,10 +485,10 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
 
     .line 113
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -498,10 +498,10 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
 
     .line 114
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -511,10 +511,10 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
 
     .line 115
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -524,10 +524,10 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->E:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->E:I
 
     .line 116
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -537,24 +537,24 @@
 
     move-result v0
 
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->C:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->C:I
 
     .line 117
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 118
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     .line 119
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -564,10 +564,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->I:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->I:Landroid/graphics/Bitmap;
 
     .line 121
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -577,10 +577,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->J:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->J:Landroid/graphics/Bitmap;
 
     .line 123
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -590,10 +590,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->K:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->K:Landroid/graphics/Bitmap;
 
     .line 125
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -603,10 +603,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->L:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->L:Landroid/graphics/Bitmap;
 
     .line 127
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -616,10 +616,10 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->M:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->M:Landroid/graphics/Bitmap;
 
     .line 129
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -629,14 +629,14 @@
 
     move-result-object v0
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->N:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->N:Landroid/graphics/Bitmap;
 
     .line 131
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
-    iput-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iput-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
     .line 132
     return-void
@@ -676,9 +676,9 @@
     const/high16 v4, 0x40000000    # 2.0f
 
     .line 511
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -686,14 +686,14 @@
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
-    invoke-direct {v6, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
+    invoke-direct {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
 
     .line 512
-    iget v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v2, v6, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v2, v2, v3
 
@@ -701,57 +701,57 @@
 
     sub-float/2addr v0, v1
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v2, v6, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v2, v2, v3
 
     mul-float/2addr v1, v2
 
-    iget v2, v6, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v1, v2
 
     sub-float v3, v0, v1
 
     .line 515
-    iget v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     int-to-float v1, v1
 
     mul-float/2addr v0, v1
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v1, v4
 
     add-float/2addr v0, v1
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v1, v1
 
     add-float v2, v0, v1
 
     .line 517
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->E:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->E:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 518
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v5}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 519
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -759,7 +759,7 @@
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v1, v4
 
@@ -770,9 +770,9 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 520
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -780,38 +780,38 @@
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     sub-float v1, v3, v1
 
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 521
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v4
 
     add-float/2addr v3, v0
 
-    iget-object v5, v6, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v7
+    move-object v0, p1
 
     move v4, v2
 
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     .line 523
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v1, v6, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 524
-    iget-object v0, v6, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     const/high16 v1, 0x40800000    # 4.0f
 
@@ -838,15 +838,15 @@
     .line 385
     const/4 v0, 0x0
 
-    iput v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     .line 386
-    iget-object v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v7, v0
 
     .line 387
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     if-gez v0, :cond_0
 
@@ -855,7 +855,7 @@
     if-ge v6, v7, :cond_a
 
     .line 389
-    iget-object v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v6}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -864,25 +864,25 @@
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 390
-    invoke-direct {v12, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
+    invoke-direct {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
 
     .line 391
-    iget v1, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 392
-    iget v1, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     int-to-float v2, v6
 
     mul-float/2addr v1, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v1, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
@@ -891,9 +891,9 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 393
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    invoke-virtual {v12, v6, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v6, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 388
     add-int/lit8 v6, v6, 0x1
@@ -902,40 +902,40 @@
 
     .line 398
     :cond_0
-    iget-object v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     const/high16 v1, 0x40800000    # 4.0f
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 399
-    iget-object v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v1, v12, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->D:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 400
-    iget v1, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     .line 402
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x4
 
     if-ltz v0, :cond_1
 
     .line 403
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x4
 
     .line 405
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     const/4 v5, 0x4
 
@@ -945,27 +945,27 @@
 
     sub-float/2addr v2, v3
 
-    iget-object v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v3, v3, v11
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     add-float/2addr v3, v2
 
     .line 407
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 409
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, -0x4
 
@@ -973,28 +973,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 410
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1002,23 +1002,23 @@
 
     .line 413
     :cond_1
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x3
 
     if-ltz v0, :cond_2
 
     .line 414
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x3
 
     .line 416
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v11
 
@@ -1026,27 +1026,27 @@
 
     sub-float/2addr v2, v3
 
-    iget-object v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v3, v3, v10
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     add-float/2addr v3, v2
 
     .line 418
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 420
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, -0x3
 
@@ -1054,28 +1054,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 421
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1083,23 +1083,23 @@
 
     .line 424
     :cond_2
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x2
 
     if-ltz v0, :cond_3
 
     .line 425
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x2
 
     .line 427
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v10
 
@@ -1107,27 +1107,27 @@
 
     sub-float/2addr v2, v3
 
-    iget-object v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v3, v3, v9
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     add-float/2addr v3, v2
 
     .line 429
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 431
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, -0x2
 
@@ -1135,28 +1135,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 432
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1164,23 +1164,23 @@
 
     .line 435
     :cond_3
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x1
 
     if-ltz v0, :cond_4
 
     .line 436
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x1
 
     .line 438
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v9
 
@@ -1188,27 +1188,27 @@
 
     sub-float/2addr v2, v3
 
-    iget-object v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v3, v3, v6
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     add-float/2addr v3, v2
 
     .line 440
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 441
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, -0x1
 
@@ -1216,28 +1216,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 442
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1245,26 +1245,26 @@
 
     .line 445
     :cond_4
-    invoke-direct {v12, v13}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Landroid/graphics/Canvas;)V
+    invoke-direct {p0, p1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Landroid/graphics/Canvas;)V
 
     .line 447
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x1
 
     if-ge v0, v7, :cond_5
 
     .line 448
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x1
 
     .line 450
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v9
 
@@ -1272,27 +1272,27 @@
 
     sub-float/2addr v2, v3
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v4, v4, v6
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     sub-float v3, v2, v3
 
     .line 452
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 454
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, 0x1
 
@@ -1300,28 +1300,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 455
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1329,23 +1329,23 @@
 
     .line 457
     :cond_5
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x2
 
     if-ge v0, v7, :cond_6
 
     .line 458
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x2
 
     .line 460
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v10
 
@@ -1353,27 +1353,27 @@
 
     sub-float/2addr v2, v3
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v4, v4, v9
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     sub-float v3, v2, v3
 
     .line 462
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 464
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, 0x2
 
@@ -1381,28 +1381,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 465
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1410,23 +1410,23 @@
 
     .line 468
     :cond_6
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x3
 
     if-ge v0, v7, :cond_7
 
     .line 469
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x3
 
     .line 471
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     aget v4, v4, v11
 
@@ -1434,27 +1434,27 @@
 
     sub-float/2addr v2, v3
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v4, v4, v10
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     sub-float v3, v2, v3
 
     .line 473
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 475
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, 0x3
 
@@ -1462,28 +1462,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 476
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1491,23 +1491,23 @@
 
     .line 479
     :cond_7
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x4
 
     if-ge v0, v7, :cond_8
 
     .line 480
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x4
 
     .line 482
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
-    iget-object v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->W:[F
 
     const/4 v5, 0x4
 
@@ -1517,27 +1517,27 @@
 
     sub-float/2addr v2, v3
 
-    iget-object v3, v12, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->V:[F
 
     aget v3, v3, v11
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->d:F
 
     mul-float/2addr v3, v4
 
-    iget v4, v12, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     mul-float/2addr v3, v4
 
     add-float/2addr v3, v2
 
     .line 484
-    invoke-virtual {v12, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 486
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v2, 0x4
 
@@ -1545,28 +1545,28 @@
 
     mul-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v2, v8
 
     add-float/2addr v0, v2
 
-    iget v2, v12, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
     add-float/2addr v2, v0
 
     .line 487
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     div-float/2addr v0, v8
 
     add-float/2addr v3, v0
 
-    iget-object v5, v12, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    move-object v0, v13
+    move-object v0, p1
 
     move v4, v2
 
@@ -1574,17 +1574,17 @@
 
     .line 490
     :cond_8
-    iget v1, v12, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     .line 491
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     const/4 v2, 0x4
 
     if-le v0, v2, :cond_9
 
     .line 492
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v0, -0x4
 
@@ -1595,7 +1595,7 @@
     if-ge v0, v2, :cond_9
 
     .line 494
-    invoke-virtual {v12, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 493
     add-int/lit8 v0, v0, 0x1
@@ -1604,14 +1604,14 @@
 
     .line 498
     :cond_9
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v7, -0x4
 
     if-ge v0, v2, :cond_a
 
     .line 499
-    iget v0, v12, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x4
 
@@ -1622,7 +1622,7 @@
     if-ge v0, v7, :cond_a
 
     .line 501
-    invoke-virtual {v12, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
+    invoke-virtual {p0, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(IF)V
 
     .line 500
     add-int/lit8 v0, v0, 0x1
@@ -1639,14 +1639,14 @@
 
     .prologue
     .line 603
-    iget v0, v2, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
+    iget v0, p1, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
-    iput v0, v2, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
+    iput v0, p1, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
 
     .line 604
-    iget v0, v2, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
+    iget v0, p1, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iput v0, v2, Lcom/yulong/android/contacts/ui/base/view/f;->c:F
+    iput v0, p1, Lcom/yulong/android/contacts/ui/base/view/f;->c:F
 
     .line 605
     return-void
@@ -1657,31 +1657,31 @@
 
     .prologue
     .line 535
-    iget-object v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v0
 
     .line 536
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x1
 
     if-ltz v0, :cond_0
 
     .line 537
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v2, v0, -0x1
 
     .line 538
-    invoke-virtual {v5, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 539
-    iget v3, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v4, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget-object v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1693,7 +1693,7 @@
 
     sub-float v0, v4, v0
 
-    iget v4, v5, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     mul-float/2addr v0, v4
 
@@ -1712,7 +1712,7 @@
 
     move-result-object v4
 
-    iget-object v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1734,73 +1734,73 @@
 
     .line 544
     :cond_0
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x2
 
     if-ltz v0, :cond_1
 
     .line 545
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x2
 
     .line 546
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 549
     :cond_1
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x3
 
     if-ltz v0, :cond_2
 
     .line 550
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x3
 
     .line 551
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 554
     :cond_2
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x4
 
     if-ltz v0, :cond_3
 
     .line 555
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x4
 
     .line 556
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 559
     :cond_3
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x5
 
     if-ltz v0, :cond_4
 
     .line 560
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, -0x5
 
     .line 561
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 564
     :cond_4
-    iget-object v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1809,19 +1809,19 @@
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 565
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    iget v3, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     int-to-float v3, v3
 
     mul-float/2addr v2, v3
 
-    iget v3, v5, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v2, v3
 
-    iget v3, v5, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v3, v3
 
@@ -1830,15 +1830,15 @@
     iput v2, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 566
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v3, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iget v4, v0, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
 
     sub-float/2addr v3, v4
 
-    iget v4, v5, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     mul-float/2addr v3, v4
 
@@ -1847,7 +1847,7 @@
     iput v2, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 567
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     const/4 v3, 0x0
 
@@ -1856,87 +1856,87 @@
     if-nez v2, :cond_5
 
     .line 568
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iput v2, v0, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
 
     .line 571
     :cond_5
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x1
 
     if-ge v0, v1, :cond_6
 
     .line 572
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x1
 
     .line 573
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 575
     :cond_6
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x2
 
     if-ge v0, v1, :cond_7
 
     .line 576
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x2
 
     .line 577
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 579
     :cond_7
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x3
 
     if-ge v0, v1, :cond_8
 
     .line 580
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x3
 
     .line 581
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 583
     :cond_8
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x4
 
     if-ge v0, v1, :cond_9
 
     .line 584
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x4
 
     .line 585
-    invoke-virtual {v5, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
+    invoke-virtual {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(I)V
 
     .line 587
     :cond_9
-    iget v2, v5, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     .line 588
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     const/4 v3, 0x5
 
     if-le v0, v3, :cond_a
 
     .line 589
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v3, v0, -0x5
 
@@ -1947,7 +1947,7 @@
     if-ge v0, v3, :cond_a
 
     .line 591
-    invoke-virtual {v5, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->b(IF)V
+    invoke-virtual {p0, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->b(IF)V
 
     .line 590
     add-int/lit8 v0, v0, 0x1
@@ -1956,14 +1956,14 @@
 
     .line 594
     :cond_a
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v3, v1, -0x5
 
     if-ge v0, v3, :cond_b
 
     .line 595
-    iget v0, v5, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     add-int/lit8 v0, v0, 0x5
 
@@ -1972,7 +1972,7 @@
     if-ge v0, v1, :cond_b
 
     .line 597
-    invoke-virtual {v5, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->b(IF)V
+    invoke-virtual {p0, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->b(IF)V
 
     .line 596
     add-int/lit8 v0, v0, 0x1
@@ -1991,7 +1991,7 @@
 
     .prologue
     .line 717
-    iget-object v0, v2, Lcom/yulong/android/contacts/ui/base/view/c;->s:Landroid/content/Context;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->s:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -2004,7 +2004,7 @@
     iget v0, v0, Landroid/util/DisplayMetrics;->density:F
 
     .line 718
-    mul-float/2addr v0, v3
+    mul-float/2addr v0, p1
 
     const/high16 v1, 0x3f000000    # 0.5f
 
@@ -2020,7 +2020,7 @@
 
     .prologue
     .line 135
-    iget-object v0, v4, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
@@ -2028,7 +2028,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    iget-object v1, v4, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v1
 
@@ -2037,39 +2037,39 @@
     .line 138
     new-instance v1, Lcom/yulong/android/contacts/ui/base/view/f;
 
-    invoke-direct {v1, v4}, Lcom/yulong/android/contacts/ui/base/view/f;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;)V
+    invoke-direct {v1, p0}, Lcom/yulong/android/contacts/ui/base/view/f;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;)V
 
     .line 139
-    iget-object v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     aget-object v2, v2, v0
 
     iput-object v2, v1, Lcom/yulong/android/contacts/ui/base/view/f;->a:Ljava/lang/String;
 
     .line 140
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     int-to-float v2, v2
 
     iput v2, v1, Lcom/yulong/android/contacts/ui/base/view/f;->f:F
 
     .line 141
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iput v2, v1, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 142
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     int-to-float v3, v0
 
     mul-float/2addr v2, v3
 
-    iget v3, v4, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v2, v3
 
-    iget v3, v4, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v3, v3
 
@@ -2078,10 +2078,10 @@
     iput v2, v1, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 143
-    invoke-direct {v4, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
+    invoke-direct {p0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
 
     .line 144
-    iget-object v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -2100,26 +2100,26 @@
 
     .prologue
     .line 817
-    iget-object v0, v4, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 818
-    iget v1, v4, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    int-to-float v2, v5
+    int-to-float v2, p1
 
     mul-float/2addr v1, v2
 
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v1, v2
 
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
@@ -2128,15 +2128,15 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 819
-    iget v1, v4, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
-    iget v2, v4, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iget v3, v0, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
 
     sub-float/2addr v2, v3
 
-    iget v3, v4, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     mul-float/2addr v2, v3
 
@@ -2145,7 +2145,7 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 820
-    iget v1, v4, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     const/4 v2, 0x0
 
@@ -2154,7 +2154,7 @@
     if-nez v1, :cond_0
 
     .line 821
-    iget v1, v4, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->b:F
 
@@ -2168,29 +2168,29 @@
 
     .prologue
     .line 800
-    iget-object v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 801
-    invoke-direct {v3, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
+    invoke-direct {p0, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Lcom/yulong/android/contacts/ui/base/view/f;)V
 
     .line 802
-    iget v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    int-to-float v2, v4
+    int-to-float v2, p1
 
     mul-float/2addr v1, v2
 
-    iget v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v1, v2
 
-    iget v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
@@ -2199,7 +2199,7 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 803
-    iput v5, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
+    iput p2, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 805
     return-void
@@ -2228,14 +2228,14 @@
     .line 741
     new-instance v1, Lcom/yulong/android/contacts/ui/base/view/d;
 
-    invoke-direct {v1, v4}, Lcom/yulong/android/contacts/ui/base/view/d;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;)V
+    invoke-direct {v1, p0}, Lcom/yulong/android/contacts/ui/base/view/d;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 752
     new-instance v1, Lcom/yulong/android/contacts/ui/base/view/e;
 
-    invoke-direct {v1, v4, v5, v6}, Lcom/yulong/android/contacts/ui/base/view/e;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;ZZ)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/yulong/android/contacts/ui/base/view/e;-><init>(Lcom/yulong/android/contacts/ui/base/view/c;ZZ)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -2260,26 +2260,26 @@
 
     .prologue
     .line 828
-    iget-object v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
-    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 829
-    iget v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
-    int-to-float v2, v4
+    int-to-float v2, p1
 
     mul-float/2addr v1, v2
 
-    iget v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v1, v2
 
-    iget v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v2, v2
 
@@ -2288,7 +2288,7 @@
     iput v1, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
     .line 830
-    iput v5, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
+    iput p2, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     .line 832
     return-void
@@ -2299,14 +2299,14 @@
 
     .prologue
     .line 190
-    invoke-super {v10, v11}, Landroid/widget/Button;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/widget/Button;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 191
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v0, v0
 
-    iget-object v1, v10, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -2320,43 +2320,43 @@
 
     .line 197
     :cond_1
-    iget-boolean v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
+    iget-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
 
     if-nez v0, :cond_2
 
-    iget-boolean v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
+    iget-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
 
     if-nez v0, :cond_2
 
-    iget-boolean v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
+    iget-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
 
     if-eqz v0, :cond_3
 
     .line 198
     :cond_2
-    iget v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
-    iget v1, v10, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
 
-    invoke-direct {v10, v11, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Landroid/graphics/Canvas;II)V
+    invoke-direct {p0, p1, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->a(Landroid/graphics/Canvas;II)V
 
     .line 200
     :cond_3
-    iget-boolean v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
+    iget-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
 
     if-eqz v0, :cond_5
 
     .line 201
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iget v1, v10, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     sub-float/2addr v0, v1
 
-    iput v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     .line 202
-    iget v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     const v1, 0x3db851ec    # 0.09f
 
@@ -2367,15 +2367,15 @@
     .line 203
     const/4 v0, 0x0
 
-    iput v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->r:F
 
     .line 206
     :cond_4
-    iget v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
-    iget v1, v10, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
 
-    invoke-direct {v10, v11, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->b(Landroid/graphics/Canvas;II)V
+    invoke-direct {p0, p1, v0, v1}, Lcom/yulong/android/contacts/ui/base/view/c;->b(Landroid/graphics/Canvas;II)V
 
     .line 208
     :cond_5
@@ -2384,14 +2384,14 @@
     move v1, v0
 
     :goto_0
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v0, v0
 
     if-ge v1, v0, :cond_0
 
     .line 209
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->Q:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -2400,15 +2400,15 @@
     check-cast v0, Lcom/yulong/android/contacts/ui/base/view/f;
 
     .line 210
-    iget v2, v10, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     iget v3, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
     sub-float/2addr v2, v3
 
-    iget v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->a:F
 
-    iget v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     add-float/2addr v3, v4
 
@@ -2419,7 +2419,7 @@
 
     const/high16 v4, 0x437f0000    # 255.0f
 
-    iget v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->y:F
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->y:F
 
     sub-float/2addr v4, v5
 
@@ -2430,12 +2430,12 @@
     float-to-int v2, v2
 
     .line 212
-    iget v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     int-to-float v4, v4
 
     .line 213
-    iget v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     if-ne v1, v5, :cond_8
 
@@ -2443,14 +2443,14 @@
     const/16 v2, 0xff
 
     .line 216
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 217
-    iget v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->z:I
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->z:I
 
     int-to-float v5, v5
 
@@ -2466,21 +2466,21 @@
 
     iget v7, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget v8, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v8, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v8, v8
 
     sub-float/2addr v7, v8
 
-    iget-object v8, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v8, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v6, v7, v5, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
+    invoke-virtual {p1, v6, v7, v5, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 224
     :goto_1
-    iget-object v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v7, v10, Lcom/yulong/android/contacts/ui/base/view/c;->C:I
+    iget v7, p0, Lcom/yulong/android/contacts/ui/base/view/c;->C:I
 
     invoke-virtual {v6, v7}, Landroid/graphics/Paint;->setColor(I)V
 
@@ -2494,38 +2494,38 @@
     if-gtz v5, :cond_6
 
     .line 227
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     const/4 v6, 0x1
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->setFakeBoldText(Z)V
 
     .line 228
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->B:I
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 235
     :cond_6
     :goto_2
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     invoke-virtual {v5, v4}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 236
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     invoke-virtual {v4, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 237
-    invoke-virtual {v11}, Landroid/graphics/Canvas;->save()I
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
     .line 238
     const/high16 v2, 0x3f800000    # 1.0f
 
-    iget v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->x:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->x:F
 
     mul-float/2addr v4, v3
 
@@ -2536,23 +2536,23 @@
 
     iget v5, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v6, v6
 
     sub-float/2addr v5, v6
 
-    invoke-virtual {v11, v2, v2, v4, v5}, Landroid/graphics/Canvas;->scale(FFFF)V
+    invoke-virtual {p1, v2, v2, v4, v5}, Landroid/graphics/Canvas;->scale(FFFF)V
 
     .line 245
     if-nez v1, :cond_b
 
     .line 246
-    iget-object v2, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
     iget v4, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
-    iget v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v5, v5
 
@@ -2560,7 +2560,7 @@
 
     iget v5, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     int-to-float v6, v6
 
@@ -2568,7 +2568,7 @@
 
     iget v6, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
-    iget v7, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v7, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v7, v7
 
@@ -2579,7 +2579,7 @@
     invoke-virtual {v2, v4, v5, v6, v0}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 248
-    iget v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     if-nez v0, :cond_a
 
@@ -2593,19 +2593,19 @@
     if-lez v0, :cond_9
 
     .line 250
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->M:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->M:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     .line 273
     :goto_3
-    invoke-virtual {v11}, Landroid/graphics/Canvas;->restore()V
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
     .line 208
     add-int/lit8 v0, v1, 0x1
@@ -2620,7 +2620,7 @@
 
     iget v7, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget v8, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v8, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v8, v8
 
@@ -2630,24 +2630,24 @@
 
     sub-float/2addr v7, v8
 
-    iget-object v8, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v8, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v6, v7, v5, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
+    invoke-virtual {p1, v6, v7, v5, v8}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     goto/16 :goto_1
 
     .line 232
     :cond_8
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
     const/4 v6, 0x0
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->setFakeBoldText(Z)V
 
     .line 233
-    iget-object v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->A:I
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->setColor(I)V
 
@@ -2655,29 +2655,29 @@
 
     .line 252
     :cond_9
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->K:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->K:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     goto :goto_3
 
     .line 255
     :cond_a
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->I:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->I:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     goto :goto_3
 
@@ -2688,11 +2688,11 @@
     if-ne v1, v2, :cond_e
 
     .line 258
-    iget-object v2, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
     iget v4, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
-    iget v5, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v5, v5
 
@@ -2700,7 +2700,7 @@
 
     iget v5, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget v6, v10, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->v:I
 
     int-to-float v6, v6
 
@@ -2708,7 +2708,7 @@
 
     iget v6, v0, Lcom/yulong/android/contacts/ui/base/view/f;->d:F
 
-    iget v7, v10, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
+    iget v7, p0, Lcom/yulong/android/contacts/ui/base/view/c;->w:I
 
     int-to-float v7, v7
 
@@ -2719,7 +2719,7 @@
     invoke-virtual {v2, v4, v5, v6, v0}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 260
-    iget v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     const/4 v2, 0x1
 
@@ -2735,43 +2735,43 @@
     if-lez v0, :cond_c
 
     .line 262
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->N:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->N:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     goto :goto_3
 
     .line 264
     :cond_c
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->L:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->L:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     goto :goto_3
 
     .line 267
     :cond_d
-    iget-object v0, v10, Lcom/yulong/android/contacts/ui/base/view/c;->J:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->J:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    iget-object v3, v10, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->O:Landroid/graphics/RectF;
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+    invoke-virtual {p1, v0, v2, v3, v4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     goto/16 :goto_3
 
@@ -2783,9 +2783,9 @@
 
     iget v0, v0, Lcom/yulong/android/contacts/ui/base/view/f;->e:F
 
-    iget-object v4, v10, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->R:Landroid/graphics/Paint;
 
-    invoke-virtual {v11, v2, v3, v0, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+    invoke-virtual {p1, v2, v3, v0, v4}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     goto/16 :goto_3
 .end method
@@ -2795,48 +2795,48 @@
 
     .prologue
     .line 177
-    invoke-super {v3, v4, v5, v6, v7}, Landroid/widget/Button;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/Button;->onSizeChanged(IIII)V
 
     .line 180
-    invoke-virtual {v3}, Lcom/yulong/android/contacts/ui/base/view/c;->getWidth()I
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getWidth()I
 
     move-result v0
 
-    iput v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
 
     .line 181
-    invoke-virtual {v3}, Lcom/yulong/android/contacts/ui/base/view/c;->getHeight()I
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->getHeight()I
 
     move-result v0
 
-    iget v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     sub-int/2addr v0, v1
 
-    iget v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->H:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->H:I
 
     sub-int/2addr v0, v1
 
-    iput v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
     .line 182
-    iget v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
     int-to-float v0, v0
 
     .line 183
-    iget v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
+    iget v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->t:I
 
-    iget v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->F:I
+    iget v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->F:I
 
     sub-int/2addr v1, v2
 
     int-to-float v1, v1
 
-    iput v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iput v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     .line 184
-    iget-object v1, v3, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v1
 
@@ -2844,10 +2844,10 @@
 
     div-float/2addr v0, v1
 
-    iput v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->e:F
 
     .line 185
-    invoke-virtual {v3}, Lcom/yulong/android/contacts/ui/base/view/c;->a()V
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->a()V
 
     .line 186
     return-void
@@ -2866,60 +2866,60 @@
     const/4 v0, 0x0
 
     .line 617
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
 
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->h:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->h:F
 
     .line 618
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
 
     .line 619
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v3
 
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
 
     .line 620
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getY()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v3
 
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->G:I
 
     int-to-float v4, v4
 
     sub-float/2addr v3, v4
 
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
     .line 621
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getAction()I
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v3
 
     if-nez v3, :cond_0
 
     .line 622
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
 
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
 
     .line 624
     :cond_0
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
 
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     cmpl-float v3, v3, v4
 
     if-gez v3, :cond_1
 
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
 
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->c:F
 
     cmpl-float v3, v3, v4
 
@@ -2927,21 +2927,21 @@
 
     .line 625
     :cond_1
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
 
     .line 626
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
 
     .line 627
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
     int-to-float v4, v4
 
     div-float/2addr v3, v4
 
-    iget-object v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v4, v4
 
@@ -2954,18 +2954,18 @@
     .line 628
     if-ltz v3, :cond_a
 
-    iget-object v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v4, v4
 
     if-ge v3, v4, :cond_a
 
     .line 629
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     int-to-float v4, v4
 
-    iget-object v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v5, v5
 
@@ -2973,14 +2973,14 @@
 
     div-float/2addr v4, v5
 
-    iget v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
     int-to-float v5, v5
 
     mul-float/2addr v4, v5
 
     .line 630
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getAction()I
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v5
 
@@ -2989,7 +2989,7 @@
     .line 708
     :cond_2
     :goto_0
-    invoke-virtual {v8}, Lcom/yulong/android/contacts/ui/base/view/c;->invalidate()V
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->invalidate()V
 
     move v0, v2
 
@@ -3006,28 +3006,28 @@
     invoke-static {v5, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 633
-    iget-boolean v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->q:Z
+    iget-boolean v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->q:Z
 
     if-eqz v5, :cond_2
 
     .line 634
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v5
 
-    iput v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
+    iput v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->f:F
 
     .line 635
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getY()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v5
 
-    iput v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iput v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
     .line 636
-    iget v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
-    iget v6, v8, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
 
     sub-float/2addr v5, v6
 
@@ -3036,16 +3036,16 @@
     if-lez v5, :cond_4
 
     .line 637
-    iput-boolean v2, v8, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
+    iput-boolean v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
 
     .line 638
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
 
     .line 640
     :cond_4
-    iget v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iget v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
-    iget v6, v8, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
+    iget v6, p0, Lcom/yulong/android/contacts/ui/base/view/c;->i:F
 
     sub-float/2addr v5, v6
 
@@ -3054,25 +3054,25 @@
     if-gez v5, :cond_5
 
     .line 641
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->j:Z
 
     .line 642
-    iput-boolean v2, v8, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
+    iput-boolean v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->k:Z
 
     .line 644
     :cond_5
-    iget v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->g:F
 
     sub-float/2addr v0, v4
 
     .line 645
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->u:I
 
     int-to-float v4, v4
 
     mul-float/2addr v4, v7
 
-    iget-object v5, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v5, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v5, v5
 
@@ -3089,38 +3089,38 @@
     if-gez v4, :cond_7
 
     :goto_1
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     .line 648
-    iget v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     cmpg-float v0, v0, v1
 
     if-gez v0, :cond_6
 
     .line 649
-    iput v7, v8, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
+    iput v7, p0, Lcom/yulong/android/contacts/ui/base/view/c;->p:F
 
     .line 651
     :cond_6
-    iget v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     if-eq v0, v3, :cond_2
 
     .line 652
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 653
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
 
     if-eqz v0, :cond_2
 
     .line 654
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
 
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
-    iget v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     aget-object v1, v1, v3
 
@@ -3136,43 +3136,43 @@
 
     .line 660
     :pswitch_1
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 661
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getX()F
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    iput v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
+    iput v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->n:F
 
     .line 662
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
 
     .line 663
-    iput-boolean v2, v8, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
+    iput-boolean v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
 
     .line 665
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     if-eqz v1, :cond_8
 
     .line 666
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     invoke-interface {v1}, Lcom/yulong/android/contacts/ui/base/view/g;->a()V
 
     .line 669
     :cond_8
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
 
     if-eqz v1, :cond_9
 
     .line 670
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
 
-    iget-object v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
-    iget v4, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iget v4, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     aget-object v3, v3, v4
 
@@ -3180,30 +3180,30 @@
 
     .line 672
     :cond_9
-    invoke-virtual {v8, v2, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
+    invoke-virtual {p0, v2, v0}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
 
     goto/16 :goto_0
 
     .line 679
     :pswitch_2
-    iput v3, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v3, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 680
-    iput-boolean v2, v8, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
+    iput-boolean v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->l:Z
 
     .line 681
-    iput-boolean v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
+    iput-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
 
     .line 682
-    invoke-virtual {v8, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
+    invoke-virtual {p0, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
 
     .line 684
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     if-eqz v0, :cond_2
 
     .line 685
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     invoke-interface {v0}, Lcom/yulong/android/contacts/ui/base/view/g;->b()V
 
@@ -3211,7 +3211,7 @@
 
     .line 691
     :cond_a
-    invoke-virtual {v9}, Landroid/view/MotionEvent;->getAction()I
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
@@ -3225,36 +3225,36 @@
     if-gez v3, :cond_b
 
     .line 695
-    iput v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 697
     :cond_b
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v1
 
     if-lt v3, v1, :cond_c
 
     .line 698
-    iget-object v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v1, v1
 
     add-int/lit8 v1, v1, -0x1
 
-    iput v1, v8, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 700
     :cond_c
-    invoke-virtual {v8, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
+    invoke-virtual {p0, v0, v2}, Lcom/yulong/android/contacts/ui/base/view/c;->a(ZZ)V
 
     .line 702
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     if-eqz v0, :cond_2
 
     .line 703
-    iget-object v0, v8, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iget-object v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     invoke-interface {v0}, Lcom/yulong/android/contacts/ui/base/view/g;->b()V
 
@@ -3285,7 +3285,7 @@
     const/4 v1, 0x0
 
     .line 158
-    iget-boolean v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
+    iget-boolean v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->m:Z
 
     if-eqz v0, :cond_1
 
@@ -3296,24 +3296,24 @@
 
     .line 161
     :cond_1
-    if-eqz v4, :cond_0
+    if-eqz p1, :cond_0
 
     move v0, v1
 
     .line 165
     :goto_1
-    iget-object v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     array-length v2, v2
 
     if-ge v0, v2, :cond_3
 
     .line 166
-    iget-object v2, v3, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
+    iget-object v2, p0, Lcom/yulong/android/contacts/ui/base/view/c;->P:[Ljava/lang/String;
 
     aget-object v2, v2, v0
 
-    invoke-virtual {v4, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -3321,10 +3321,10 @@
 
     .line 171
     :goto_2
-    iput v0, v3, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
+    iput v0, p0, Lcom/yulong/android/contacts/ui/base/view/c;->S:I
 
     .line 172
-    invoke-virtual {v3}, Lcom/yulong/android/contacts/ui/base/view/c;->invalidate()V
+    invoke-virtual {p0}, Lcom/yulong/android/contacts/ui/base/view/c;->invalidate()V
 
     goto :goto_0
 
@@ -3345,7 +3345,7 @@
 
     .prologue
     .line 154
-    iput-object v1, v0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
+    iput-object p1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->U:Lcom/yulong/android/contacts/ui/base/view/g;
 
     .line 155
     return-void
@@ -3356,7 +3356,7 @@
 
     .prologue
     .line 150
-    iput-object v1, v0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
+    iput-object p1, p0, Lcom/yulong/android/contacts/ui/base/view/c;->T:Lcom/yulong/android/contacts/ui/base/view/h;
 
     .line 151
     return-void

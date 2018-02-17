@@ -3,7 +3,7 @@ title Tools 360 N4S SD
 COLOR 0E
 mode con:cols=90 lines=28
 chcp 1251>nul
-set FW_DIR=d:\055
+set FW_DIR=d:\070
 set TR_DIR=D:\BatchApkTool\_INPUT_APK
 set RA_DIR=D:\BatchApkTool\_OUT_APK
 set ruxmlfile=D:\360\1system\A1505-02\main
@@ -66,9 +66,10 @@ rd /S /Q %FW_DIR%\priv-app\BY_3RD_GameCenter >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\CP_OTA >NUL: 2>&1
 rd /S /Q %FW_DIR%\priv-app\BY_3RD_360MobileSafe\oat >NUL: 2>&1
 copy /Y D:\360\Soft\BY_3RD_360MobileSafe.apk %FW_DIR%\priv-app\BY_3RD_360MobileSafe >NUL: 2>&1
+copy /Y D:\360\fonts\*.* %FW_DIR%\fonts >NUL: 2>&1
 copy /Y D:\360\Soft\supersu\install-recovery.sh %FW_DIR%\bin >NUL: 2>&1
-xcopy /Y /E /I /R D:\360\Soft\RE %FW_DIR%\app\RE >NUL: 2>&1
-xcopy /Y /E /I /R D:\360\Soft\TB %FW_DIR%\app\TB >NUL: 2>&1
+xcopy /Y /E /I /R D:\360\Soft\RE %FW_DIR%\priv-app\RE >NUL: 2>&1
+xcopy /Y /E /I /R D:\360\Soft\TB %FW_DIR%\priv-app\TB >NUL: 2>&1
 xcopy /Y /E /I /R D:\360\Soft\srec %FW_DIR%\usr\srec >NUL: 2>&1
 copy /Y D:\360\xbin\*.* %FW_DIR%\xbin >NUL: 2>&1
 ECHO.
@@ -125,7 +126,6 @@ rem copy /Y %FW_DIR%\APP\OmaDrmEngine\OmaDrmEngine.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\PhotoTable\PhotoTable.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\PicoTts\PicoTts.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\PrintSpooler\PrintSpooler.apk %TR_DIR% >NUL: 2>&1
-copy /Y %FW_DIR%\APP\QK_Cleaner\QK_Cleaner.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\QK_ColorEnhance\QK_ColorEnhance.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\QK_ConfigCenterProxy\QK_ConfigCenterProxy.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\APP\QK_EyeMode\QK_EyeMode.apk %TR_DIR% >NUL: 2>&1
@@ -140,6 +140,7 @@ ECHO  Файлы скопированы из APP. Нажмите любую клавишу чтобы скопировать файлы пе
 ECHO.
 pause
 for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\app\%%~nA %TR_DIR%\%%~nA >NUL: 2>&1
+rem for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\app\%%~nA %TA_DIR%\%%~nxA >NUL: 2>&1
 ECHO.
 ECHO  Файлы скопированы.
 ECHO.
@@ -158,7 +159,7 @@ del /Q /F %TR_DIR%\*.*
 for /d %%i in ("%RA_DIR%\*") do rd /S /Q "%%i" >NUL: 2>&1
 del /Q /F %RA_DIR%\*.*
 copy /Y %FW_DIR%\PRIV-APP\BackupRestoreConfirmation\BackupRestoreConfirmation.apk %TR_DIR% >NUL: 2>&1
-rem copy /Y %FW_DIR%\PRIV-APP\BY_3RD_AvatarMaster\BY_3RD_AvatarMaster.apk %TR_DIR% >NUL: 2>&1
+copy /Y %FW_DIR%\PRIV-APP\BY_3RD_AvatarMaster\BY_3RD_AvatarMaster.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\CalendarProvider\CalendarProvider.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\CallLogBackup\CallLogBackup.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\CellBroadcastReceiver\CellBroadcastReceiver.apk %TR_DIR% >NUL: 2>&1
@@ -194,7 +195,8 @@ copy /Y %FW_DIR%\PRIV-APP\QK_Demo\QK_Demo.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_HealthGuard\QK_HealthGuard.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_Magazine\QK_Magazine.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_MagicBall\QK_MagicBall.apk %TR_DIR% >NUL: 2>&1
-rem copy /Y %FW_DIR%\PRIV-APP\QK_Music\QK_Music.apk %TR_DIR% >NUL: 2>&1
+copy /Y %FW_DIR%\PRIV-APP\QK_MultiTask\QK_MultiTask.apk %TR_DIR% >NUL: 2>&1
+copy /Y %FW_DIR%\PRIV-APP\QK_Music\QK_Music.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_NoDisturb\QK_NoDisturb.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_PowerEngine\QK_PowerEngine.apk %TR_DIR% >NUL: 2>&1
 copy /Y %FW_DIR%\PRIV-APP\QK_SafetySpace\QK_SafetySpace.apk %TR_DIR% >NUL: 2>&1
@@ -211,6 +213,7 @@ ECHO  Файлы скорированы из PRIV-APP. Нажмите любую клавишу чтобы скопировать фай
 ECHO.
 pause
 for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\priv-app\%%~nA %TR_DIR%\%%~nA >NUL: 2>&1
+rem for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\priv-app\%%~nA %TA_DIR%\%%~nxA >NUL: 2>&1
 ECHO.
 ECHO  Файлы скопированы.
 ECHO.
@@ -235,7 +238,7 @@ ECHO  Файлы скорированы из FRAMEWORK. Нажмите любую клавишу чтобы скопировать фа
 ECHO.
 pause
 for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\framework\%%~nA %TR_DIR%\%%~nA >NUL: 2>&1
-ECHO.
+rem for /F "delims=" %%A in ('dir %TR_DIR%\*.apk /b /s') do xcopy /Y /E /I /R %ruxmlfile%\framework\%%~nA %TA_DIR%\%%~nxA >NUL: 2>&1)ECHO.
 ECHO  Файлы скопированы.
 ECHO.
 pause
